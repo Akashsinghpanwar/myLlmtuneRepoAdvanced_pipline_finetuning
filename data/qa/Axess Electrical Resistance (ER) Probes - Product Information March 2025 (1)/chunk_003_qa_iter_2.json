@@ -1,0 +1,14 @@
+{
+  "chunk_id": 3,
+  "chunk_filename": "chunk_003.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [],
+  "raw_response": "[\n  {\n    \"answer\": \"A1\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"The answer must be exactly 'A1' as listed in Table 1 for Pipe Grade CS.\",\n    \"question\": \"According to Table 1, what is the code for Pipe Grade CS?\"\n  },\n  {\n    \"answer\": \"C1\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"The answer must be exactly 'C1' as listed in Table 1 for Pipe Grade 304 SS.\",\n    \"question\": \"According to Table 1, what is the code for Pipe Grade 304 SS?\"\n  },\n  {\n    \"answer\": \"A3\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"The answer must be exactly 'A3' as listed in Table 1 for Pipe Grade 316L SS.\",\n    \"question\": \"According to Table 1, what is the code for Pipe Grade 316L SS?\"\n  },\n  {\n    \"answer\": \"A7\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"The answer must be exactly 'A7' as listed in Table 1 for Pipe Grade S2205.\",\n    \"question\": \"According to Table 1, what is the code for Pipe Grade S2205?\"\n  },\n  {\n    \"answer\": \"B4\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"The answer must be exactly 'B4' as listed in Table 1 for Pipe Grade C276.\",\n    \"question\": \"According to Table 1, what is the code for Pipe Grade C276?\"\n  },\n  {\n    \"answer\": \"B5\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"The answer must be exactly 'B5' as listed in Table 1 for Pipe Grade Alloy 625.\",\n    \"question\": \"According to Table 1, what is the code for Pipe Grade Alloy 625?\"\n  },\n  {\n    \"answer\": \"B6\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"The answer must be exactly 'B6' as listed in Table 1 for Pipe Grade Alloy 825.\",\n    \"question\": \"According to Table 1, what is the code for Pipe Grade Alloy 825?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

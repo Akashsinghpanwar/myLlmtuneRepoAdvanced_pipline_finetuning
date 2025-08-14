@@ -1,0 +1,78 @@
+{
+  "chunk_id": 1,
+  "chunk_filename": "chunk_001.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "According to Axess Corrosion, what is the difference in the number of potential leak paths between mechanical and hydraulic access fittings, and where are these leak paths located?",
+      "evaluation_criteria": "Correctly identifies the number of leak paths for each system. Mechanical: 1, Hydraulic: 5. Mentions the location of the leak paths (plug seals for mechanical, locking pins and plug for hydraulic).",
+      "answer": "Mechanical fittings have one potential leak path (seals on the plug), while hydraulic systems have five (four locking pins and the plug).",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "According to Axess Corrosion, what are the causes of galling in mechanical versus hydraulic access fittings?",
+      "evaluation_criteria": "Accurately identifies the causes of galling for both mechanical and hydraulic fittings. Mechanical: poor material selection and sand ingress. Hydraulic: 4 external locking pins.",
+      "answer": "Mechanical fittings' galling is due to poor material selection and ingress of sand, while hydraulic fittings' galling can occur with the 4 external locking pins.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "According to Axess Corrosion, what specific hydraulic access system design minimizes galling risk?",
+      "evaluation_criteria": "Correctly identifies the specific hydraulic access system (2-Piece) that prevents galling.",
+      "answer": "The latest 2-Piece Hydraulic access system prevents galling risk.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "According to Axess Corrosion, what technique can eliminate the risk of galling in mechanical fittings?",
+      "evaluation_criteria": "Identifies the correct technique (positive pressure balancing) and the fitting type (mechanical).",
+      "answer": "Positive pressure balancing techniques can be used to eliminate the risk of galling on mechanical fittings.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "According to Axess Corrosion, what is the function of the Axess 'Saturn' coupon holders during installation and monitoring?",
+      "evaluation_criteria": "Accurately describes the function of the Saturn coupon holders during both installation and monitoring.",
+      "answer": "Axess 'Saturn' coupon holders sweep the access fitting of debris during installation and prevent debris from entering the fittings while the monitoring device is installed.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "According to Axess Corrosion, how does using the Axess 'Saturn' coupon holders reduce the risk of corrosion and galling, and prolong seal life?",
+      "evaluation_criteria": "Lists all three benefits: reduced galling risk, reduced corrosion, prolonged seal life. Mentions the mechanism for prolonged seal life (reducing abrasive particle ingress).",
+      "answer": "Using the Axess 'Saturn' coupon holders reduces the risk of galling, reduces corrosion inside the access fitting body, and prolongs seal life by reducing the risk of ingress of abrasive particles that could damage seals and sealing surfaces.",
+      "difficulty": 6,
+      "category": "factual"
+    },
+    {
+      "question": "According to Axess Corrosion, why are spares readily available and competitively priced for mechanical access fitting equipment?",
+      "evaluation_criteria": "Correctly states the reason for spares availability and competitive pricing: interchangeability of mechanical equipment.",
+      "answer": "Spares are readily available and competitively priced for mechanical access fitting equipment because all mechanical equipment available on the market is interchangeable.",
+      "difficulty": 5,
+      "category": "reasoning"
+    },
+    {
+      "question": "According to Axess Corrosion, why should drilling out locking pins on hydraulic access systems be avoided?",
+      "evaluation_criteria": "Identifies the negative consequence of drilling locking pins: integrity issues with fitting and pipeline.",
+      "answer": "Drilling out locking pins on hydraulic access systems can lead to integrity issues with the fitting and the pipeline.",
+      "difficulty": 6,
+      "category": "reasoning"
+    },
+    {
+      "question": "According to Axess Corrosion, how does the containment of seal failures differ between mechanical and hydraulic access fittings?",
+      "evaluation_criteria": "Accurately describes the containment differences: mechanical failure contained by cover, hydraulic failure not contained.",
+      "answer": "Plug seal failure in mechanical fittings can be contained by a pressure retaining cover, but failure of pin seals in hydraulic systems cannot be contained by the cover.",
+      "difficulty": 7,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"Mechanical fittings have one potential leak path (seals on the plug), while hydraulic systems have five (four locking pins and the plug).\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Correctly identifies the number of leak paths for each system. Mechanical: 1, Hydraulic: 5. Mentions the location of the leak paths (plug seals for mechanical, locking pins and plug for hydraulic).\",\n    \"question\": \"According to Axess Corrosion, what is the difference in the number of potential leak paths between mechanical and hydraulic access fittings, and where are these leak paths located?\"\n  },\n  {\n    \"answer\": \"Mechanical fittings' galling is due to poor material selection and ingress of sand, while hydraulic fittings' galling can occur with the 4 external locking pins.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Accurately identifies the causes of galling for both mechanical and hydraulic fittings. Mechanical: poor material selection and sand ingress. Hydraulic: 4 external locking pins.\",\n    \"question\": \"According to Axess Corrosion, what are the causes of galling in mechanical versus hydraulic access fittings?\"\n  },\n  {\n    \"answer\": \"The latest 2-Piece Hydraulic access system prevents galling risk.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Correctly identifies the specific hydraulic access system (2-Piece) that prevents galling.\",\n    \"question\": \"According to Axess Corrosion, what specific hydraulic access system design minimizes galling risk?\"\n  },\n  {\n    \"answer\": \"Positive pressure balancing techniques can be used to eliminate the risk of galling on mechanical fittings.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Identifies the correct technique (positive pressure balancing) and the fitting type (mechanical).\",\n    \"question\": \"According to Axess Corrosion, what technique can eliminate the risk of galling in mechanical fittings?\"\n  },\n  {\n    \"answer\": \"Axess 'Saturn' coupon holders sweep the access fitting of debris during installation and prevent debris from entering the fittings while the monitoring device is installed.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Accurately describes the function of the Saturn coupon holders during both installation and monitoring.\",\n    \"question\": \"According to Axess Corrosion, what is the function of the Axess 'Saturn' coupon holders during installation and monitoring?\"\n  },\n  {\n    \"answer\": \"Using the Axess 'Saturn' coupon holders reduces the risk of galling, reduces corrosion inside the access fitting body, and prolongs seal life by reducing the risk of ingress of abrasive particles that could damage seals and sealing surfaces.\",\n    \"category\": \"factual\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"Lists all three benefits: reduced galling risk, reduced corrosion, prolonged seal life. Mentions the mechanism for prolonged seal life (reducing abrasive particle ingress).\",\n    \"question\": \"According to Axess Corrosion, how does using the Axess 'Saturn' coupon holders reduce the risk of corrosion and galling, and prolong seal life?\"\n  },\n  {\n    \"answer\": \"Spares are readily available and competitively priced for mechanical access fitting equipment because all mechanical equipment available on the market is interchangeable.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Correctly states the reason for spares availability and competitive pricing: interchangeability of mechanical equipment.\",\n    \"question\": \"According to Axess Corrosion, why are spares readily available and competitively priced for mechanical access fitting equipment?\"\n  },\n  {\n    \"answer\": \"Drilling out locking pins on hydraulic access systems can lead to integrity issues with the fitting and the pipeline.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"Identifies the negative consequence of drilling locking pins: integrity issues with fitting and pipeline.\",\n    \"question\": \"According to Axess Corrosion, why should drilling out locking pins on hydraulic access systems be avoided?\"\n  },\n  {\n    \"answer\": \"Plug seal failure in mechanical fittings can be contained by a pressure retaining cover, but failure of pin seals in hydraulic systems cannot be contained by the cover.\",\n    \"category\": \"factual\",\n    \"difficulty\": 7,\n    \"evaluation_criteria\": \"Accurately describes the containment differences: mechanical failure contained by cover, hydraulic failure not contained.\",\n    \"question\": \"According to Axess Corrosion, how does the containment of seal failures differ between mechanical and hydraulic access fittings?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

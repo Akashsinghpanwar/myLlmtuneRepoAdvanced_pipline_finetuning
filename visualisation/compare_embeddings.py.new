@@ -1,0 +1,502 @@
+#!/usr/bin/env python
+"""
+Compare embeddings between datasets and visualize their similarity.
+"""
+import argparse
+import os
+import subprocess
+import sys
+from pathlib import Path
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+import plotly.express as px
+import plotly.graph_objects as go
+from sklearn.manifold import TSNE
+import umap
+from sklearn.metrics.pairwise import cosine_similarity
+
+from embed_utils import (
+    load_embeddings,
+    compute_pairwise_similarities,
+    find_closest_embeddings,
+)
+
+
+def plot_similarity_histogram(
+    similarities,
+    title="Distribution of Cosine Similarities",
+    output_file=None,
+    figsize=(10, 6),
+):
+    """
+    Plot a histogram of similarity scores.
+    
+    Args:
+        similarities: Array of similarity scores
+        title: Plot title
+        output_file: Output file path (if None, display the plot)
+        figsize: Figure size
+    """
+    plt.figure(figsize=figsize)
+    
+    # Plot histogram
+    plt.hist(similarities, bins=50, alpha=0.7)
+    
+    # Add mean and median lines
+    mean_sim = np.mean(similarities)
+    median_sim = np.median(similarities)
+    plt.axvline(mean_sim, color='r', linestyle='--', label=f'Mean: {mean_sim:.3f}')
+    plt.axvline(median_sim, color='g', linestyle='--', label=f'Median: {median_sim:.3f}')
+    
+    plt.title(title)
+    plt.xlabel("Cosine Similarity")
+    plt.ylabel("Frequency")
+    plt.legend()
+    plt.grid(alpha=0.3)
+    plt.tight_layout()
+    
+    if output_file:
+        plt.savefig(output_file, dpi=300, bbox_inches="tight")
+        print(f"Plot saved to {output_file}")
+    else:
+        plt.show()
+
+
+def plot_combined_embeddings(
+    embeddings_list,
+    df_list,
+    text_columns,
+    dataset_labels,
+    method="umap",
+    n_components=2,
+    title="Combined Embedding Visualization",
+    output_file=None,
+    interactive=False,
+):
+    """
+    Plot combined embeddings from multiple datasets.
+    
+    Args:
+        embeddings_list: List of embeddings arrays from each dataset
+        df_list: List of DataFrames containing data from each dataset
+        text_columns: List of column names for text in each dataset
+        dataset_labels: List of labels for each dataset
+        method: Dimension reduction method ('tsne' or 'umap')
+        n_components: Number of components to reduce to
+        title: Plot title
+        output_file: Output file path (if None, display the plot)
+        interactive: Whether to use interactive Plotly visualization
+    """
+    # Combine embeddings
+    combined_embeddings = np.vstack(embeddings_list)
+    
+    # Handle potential NaN or infinite values in vectors
+    combined_embeddings = np.nan_to_num(combined_embeddings, nan=0.0, posinf=0.0, neginf=0.0)
+    
+    # Reduce dimensions
+    if method.lower() == "tsne":
+        reducer = TSNE(n_components=n_components, perplexity=30, max_iter=1000, random_state=42)
+    else:  # umap
+        reducer = umap.UMAP(n_components=n_components, n_neighbors=15, min_dist=0.1, random_state=42)
+    
+    reduced_embeddings = reducer.fit_transform(combined_embeddings)
+    
+    # Split back into original datasets
+    start_idx = 0
+    reduced_list = []
+    for embeddings in embeddings_list:
+        end_idx = start_idx + len(embeddings)
+        reduced_list.append(reduced_embeddings[start_idx:end_idx])
+        start_idx = end_idx
+    
+    if interactive:
+        # Create DataFrames for plotting
+        plot_df_list = []
+        
+        for i, (reduced, df, text_column, label) in enumerate(zip(reduced_list, df_list, text_columns, dataset_labels)):
+            plot_df = pd.DataFrame(
+                reduced, 
+                columns=[f"Dimension {i+1}" for i in range(n_components)]
+            )
+            plot_df["text"] = df[text_column].values
+            plot_df["dataset"] = label
+            plot_df_list.append(plot_df)
+        
+        # Combine for plotting
+        plot_df = pd.concat(plot_df_list, ignore_index=True)
+        
+        # Create the plot
+        if n_components == 3:
+            fig = px.scatter_3d(
+                plot_df,
+                x="Dimension 1",
+                y="Dimension 2",
+                z="Dimension 3",
+                color="dataset",
+                hover_data=["text", "dataset"],
+                title=title,
+                color_discrete_sequence=px.colors.qualitative.Bold,
+            )
+        else:
+            fig = px.scatter(
+                plot_df,
+                x="Dimension 1",
+                y="Dimension 2",
+                color="dataset",
+                hover_data=["text", "dataset"],
+                title=title,
+                color_discrete_sequence=px.colors.qualitative.Bold,
+            )
+        
+        # Update layout
+        fig.update_layout(
+            title=title,
+            height=800,
+            width=1000,
+        )
+        
+        # Update hover template to make it more readable and fix the customdata issue
+        fig.update_traces(
+            hovertemplate=(
+                "<b>Dataset:</b> %{customdata[1]}<br>"
+                "<b>Text:</b> %{customdata[0]}<br>"
+                "<extra></extra>"
+            )
+        )
+        
+        # Save or display
+        if output_file:
+            fig.write_html(output_file)
+            print(f"Interactive plot saved to {output_file}")
+        else:
+            fig.show()
+    else:
+        # Matplotlib visualization
+        plt.figure(figsize=(12, 10))
+        
+        # Plot each dataset with a different color
+        colors = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd']  # Colors for up to 5 datasets
+        
+        for i, (reduced, label) in enumerate(zip(reduced_list, dataset_labels)):
+            plt.scatter(
+                reduced[:, 0], 
+                reduced[:, 1], 
+                alpha=0.7, 
+                label=label,
+                color=colors[i % len(colors)]
+            )
+        
+        plt.title(title)
+        plt.xlabel("Dimension 1")
+        plt.ylabel("Dimension 2")
+        plt.legend()
+        plt.tight_layout()
+        
+        if output_file:
+            plt.savefig(output_file, dpi=300, bbox_inches="tight")
+            print(f"Plot saved to {output_file}")
+        else:
+            plt.show()
+
+
+def create_similarity_report(
+    df_a,
+    df_b,
+    text_column_a,
+    text_column_b,
+    closest_indices,
+    similarity_scores,
+    label_a,
+    label_b,
+    output_file=None,
+):
+    """
+    Create a report of closest questions between datasets.
+    
+    Args:
+        df_a: DataFrame containing data from first dataset
+        df_b: DataFrame containing data from second dataset
+        text_column_a: Column name for text in first dataset
+        text_column_b: Column name for text in second dataset
+        closest_indices: Indices of closest questions in dataset B for each question in dataset A
+        similarity_scores: Similarity scores for closest questions
+        label_a: Label for the first dataset
+        label_b: Label for the second dataset
+        output_file: Output file path (if None, return DataFrame)
+        
+    Returns:
+        DataFrame with similarity report if output_file is None
+    """
+    # Create report DataFrame
+    report_data = []
+    
+    for i, (idx, score) in enumerate(zip(closest_indices, similarity_scores)):
+        report_data.append({
+            f"{label_a}_text": df_a[text_column_a].iloc[i],
+            f"{label_b}_text": df_b[text_column_b].iloc[idx],
+            "similarity_score": score
+        })
+    
+    report_df = pd.DataFrame(report_data)
+    
+    # Sort by similarity score (descending)
+    report_df = report_df.sort_values("similarity_score", ascending=False)
+    
+    # Save to file if specified
+    if output_file:
+        report_df.to_csv(output_file, index=False)
+        print(f"Similarity report saved to {output_file}")
+    
+    return report_df
+
+
+def get_or_generate_embeddings(
+    dataset_path, 
+    model_name="nomic-ai/modernbert-embed-base", 
+    text_column="question"
+):
+    """
+    Get embeddings for a dataset, generating them if they don't exist.
+    
+    Args:
+        dataset_path: Path to the dataset
+        model_name: Model to use for embeddings
+        text_column: Column containing the text to embed
+        
+    Returns:
+        Tuple of (embeddings, metadata, dataframe)
+    """
+    # Determine the expected embeddings directory
+    dataset_name = dataset_path.split("/")[-1]
+    embeddings_dir = Path("embeddings") / dataset_name
+    
+    # Check if embeddings already exist
+    if embeddings_dir.exists() and (embeddings_dir / "embeddings.npy").exists():
+        print(f"Found existing embeddings for {dataset_name} at {embeddings_dir}")
+        return load_embeddings(str(embeddings_dir))
+    
+    # Embeddings don't exist, need to generate them
+    print(f"Generating embeddings for {dataset_name}...")
+    
+    # Run the generate_embeddings.py script
+    cmd = [
+        sys.executable,
+        str(Path(__file__).parent / "generate_embeddings.py"),
+        "--dataset", dataset_path,
+        "--text-column", text_column,
+        "--model", model_name
+    ]
+    
+    try:
+        result = subprocess.run(cmd, check=True)
+        
+        # Load the generated embeddings
+        return load_embeddings(str(embeddings_dir))
+    except subprocess.CalledProcessError as e:
+        print(f"Error generating embeddings: {e}")
+        sys.exit(1)
+
+
+def compare_dataset_pair(
+    dataset_a, 
+    dataset_b, 
+    output_dir, 
+    interactive=False,
+    model_name=None
+):
+    """
+    Compare a pair of datasets and generate similarity reports and visualizations.
+    
+    Args:
+        dataset_a: Tuple of (embeddings, metadata, df) for first dataset
+        dataset_b: Tuple of (embeddings, metadata, df) for second dataset
+        output_dir: Directory to save outputs
+        interactive: Whether to use interactive Plotly visualization
+        model_name: Model name used for embeddings (for display)
+        
+    Returns:
+        DataFrame with similarity report
+    """
+    embeddings_a, meta_a, df_a = dataset_a
+    embeddings_b, meta_b, df_b = dataset_b
+    
+    # Get dataset labels
+    label_a = meta_a.get("dataset_name", "Dataset A")
+    label_b = meta_b.get("dataset_name", "Dataset B")
+    
+    # Get text column names
+    text_column_a = meta_a.get("text_column", "question")
+    text_column_b = meta_b.get("text_column", "question")
+    
+    # Find closest questions
+    print(f"Finding closest questions between {label_a} and {label_b}...")
+    
+    # Handle potential NaN or infinite values in vectors
+    embeddings_a = np.nan_to_num(embeddings_a, nan=0.0, posinf=0.0, neginf=0.0)
+    embeddings_b = np.nan_to_num(embeddings_b, nan=0.0, posinf=0.0, neginf=0.0)
+    
+    closest_indices, similarity_scores = find_closest_embeddings(
+        embeddings_a, embeddings_b, top_k=1
+    )
+    closest_indices = closest_indices.flatten()
+    similarity_scores = similarity_scores.flatten()
+    
+    # Create similarity report
+    print("Creating similarity report...")
+    report_file = output_dir / f"similarity_report_{label_a}_vs_{label_b}.csv"
+    report_df = create_similarity_report(
+        df_a, df_b, 
+        text_column_a, text_column_b,
+        closest_indices, similarity_scores,
+        label_a, label_b,
+        output_file=str(report_file)
+    )
+    
+    # Plot similarity distribution
+    print("Plotting similarity distribution...")
+    hist_file = output_dir / f"similarity_histogram_{label_a}_vs_{label_b}.png"
+    plot_similarity_histogram(
+        similarity_scores,
+        title=f"Similarity Distribution: {label_a} vs {label_b}",
+        output_file=str(hist_file)
+    )
+    
+    return report_df
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Compare embeddings between datasets")
+    parser.add_argument(
+        "--datasets", 
+        "-d", 
+        required=True,
+        nargs="+",
+        help="Paths to the datasets to compare (1-5 datasets)"
+    )
+    parser.add_argument(
+        "--labels",
+        "-l",
+        nargs="+",
+        default=None,
+        help="Optional labels for the datasets (defaults to last component of dataset path)"
+    )
+    parser.add_argument(
+        "--output-dir", 
+        "-o", 
+        default="embedding_comparison_results",
+        help="Output directory for results (default: embedding_comparison_results)"
+    )
+    parser.add_argument(
+        "--interactive", 
+        "-i", 
+        action="store_true",
+        help="Use interactive Plotly visualization"
+    )
+    parser.add_argument(
+        "--text-column",
+        "-t",
+        default="question",
+        help="Column name containing the text to compare (default: question)"
+    )
+    parser.add_argument(
+        "--model",
+        "-m",
+        default="nomic-ai/modernbert-embed-base",
+        help="Model to use for embeddings (default: nomic-ai/modernbert-embed-base)"
+    )
+    args = parser.parse_args()
+    
+    # Validate number of datasets
+    if len(args.datasets) > 5:
+        print("Warning: Only up to 5 datasets are supported for visualization. Using the first 5.")
+        args.datasets = args.datasets[:5]
+    
+    # Create output directory
+    output_dir = Path(args.output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
+    
+    # Generate or load embeddings for each dataset
+    datasets = []
+    for dataset_path in args.datasets:
+        print(f"Processing dataset: {dataset_path}")
+        embeddings, metadata, df = get_or_generate_embeddings(
+            dataset_path, 
+            model_name=args.model,
+            text_column=args.text_column
+        )
+        
+        # Add dataset name to metadata for later use
+        metadata["dataset_name"] = dataset_path.split("/")[-1]
+        datasets.append((embeddings, metadata, df))
+    
+    # Create labels for datasets
+    if args.labels:
+        if len(args.labels) < len(args.datasets):
+            # Extend labels with default values if needed
+            args.labels.extend([f"Dataset {i+1+len(args.labels)}" for i in range(len(args.datasets) - len(args.labels))])
+        labels = args.labels[:len(args.datasets)]
+    else:
+        # Use last component of dataset path as label
+        labels = [path.split("/")[-1] for path in args.datasets]
+    
+    # Update dataset metadata with custom labels
+    for i, (embeddings, metadata, df) in enumerate(datasets):
+        metadata["dataset_name"] = labels[i]
+    
+    # Compare all pairs of datasets
+    if len(datasets) >= 2:
+        for i in range(len(datasets)):
+            for j in range(i+1, len(datasets)):
+                compare_dataset_pair(
+                    datasets[i], 
+                    datasets[j], 
+                    output_dir, 
+                    interactive=args.interactive,
+                    model_name=args.model.split("/")[-1]
+                )
+    
+    # Plot combined embeddings for all datasets
+    print("Plotting combined embeddings for all datasets...")
+    embeddings_list = [data[0] for data in datasets]
+    df_list = [data[2] for data in datasets]
+    text_columns = [data[1].get("text_column", "question") for data in datasets]
+    
+    model_name = args.model.split("/")[-1]
+    
+    # Create combined visualization
+    plot_combined_embeddings(
+        embeddings_list=embeddings_list,
+        df_list=df_list,
+        text_columns=text_columns,
+        dataset_labels=labels,
+        method="umap" if len(datasets) > 2 else "tsne",  # UMAP scales better for more datasets
+        n_components=2,
+        title=f"Combined Embedding Visualization ({model_name})",
+        output_file=str(output_dir / "combined_embeddings.html") if args.interactive else str(output_dir / "combined_embeddings.png"),
+        interactive=args.interactive
+    )
+    
+    # Print similarity statistics
+    print("\nSimilarity Statistics:")
+    for i in range(len(datasets)):
+        for j in range(i+1, len(datasets)):
+            # Handle potential NaN or infinite values in vectors
+            embeddings_a = np.nan_to_num(datasets[i][0], nan=0.0, posinf=0.0, neginf=0.0)
+            embeddings_b = np.nan_to_num(datasets[j][0], nan=0.0, posinf=0.0, neginf=0.0)
+            
+            similarities = cosine_similarity(embeddings_a, embeddings_b)
+            closest_indices = np.argmax(similarities, axis=1)
+            closest_similarities = np.array([similarities[i, closest_indices[i]] for i in range(len(closest_indices))])
+            
+            print(f"\n{labels[i]} vs {labels[j]}:")
+            print(f"Mean similarity: {np.mean(closest_similarities):.4f}")
+            print(f"Median similarity: {np.median(closest_similarities):.4f}")
+            print(f"Min similarity: {np.min(closest_similarities):.4f}")
+            print(f"Max similarity: {np.max(closest_similarities):.4f}")
+    
+    print(f"\nAll results saved to {args.output_dir}")
+
+
+if __name__ == "__main__":
+    main()

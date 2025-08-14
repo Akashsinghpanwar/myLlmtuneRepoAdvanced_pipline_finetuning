@@ -1,0 +1,22 @@
+{
+  "chunk_id": 1,
+  "chunk_filename": "chunk_001.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "What are the keys listed in the key/value pairs table within the Axess Electrical Resistance (ER) Probes product information document?",
+      "evaluation_criteria": "The answer must list all the keys exactly as they appear in the key/value pairs table: Element Thickness, Cable Length, ERUN, Element Type, and Element Material. Missing or incorrect keys are unacceptable.",
+      "answer": "The keys listed in the key/value pairs table are: Element Thickness, Cable Length, ERUN, Element Type, and Element Material.",
+      "difficulty": 2,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"The keys listed in the key/value pairs table are: Element Thickness, Cable Length, ERUN, Element Type, and Element Material.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"The answer must list all the keys exactly as they appear in the key/value pairs table: Element Thickness, Cable Length, ERUN, Element Type, and Element Material. Missing or incorrect keys are unacceptable.\",\n    \"question\": \"What are the keys listed in the key/value pairs table within the Axess Electrical Resistance (ER) Probes product information document?\"\n  },\n  {\n    \"answer\": \"According to the key/value pairs table, the value associated with 'Cable Length' for Axess Electrical Resistance (ER) Probes is 'Lead'.\",\n    \"category\": \"factual\",\n    \"difficulty\": 1,\n    \"evaluation_criteria\": \"The answer must state 'Lead' exactly as it appears in the key/value pairs table for the 'Cable Length' key. Any other value is incorrect.\",\n    \"question\": \"According to the key/value pairs table, what is the value associated with 'Cable Length' for Axess Electrical Resistance (ER) Probes?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

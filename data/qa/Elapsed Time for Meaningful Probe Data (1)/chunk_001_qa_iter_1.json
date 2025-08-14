@@ -1,0 +1,22 @@
+{
+  "chunk_id": 1,
+  "chunk_filename": "chunk_001.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "What corrosion rate (mpy) values are provided in the table?",
+      "evaluation_criteria": "Answer must list the corrosion rate values (mpy) provided in the table. Missing any value or unit is incorrect.",
+      "answer": "The table provides corrosion rates (mpy) for values of 0.1, 2, 4, 5, 10, 20, and 25.",
+      "difficulty": 2,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"The table provides corrosion rates (mpy) for values of 0.1, 2, 4, 5, 10, 20, and 25.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"Answer must list the corrosion rate values (mpy) provided in the table. Missing any value or unit is incorrect.\",\n    \"question\": \"What corrosion rate (mpy) values are provided in the table?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

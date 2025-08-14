@@ -1,0 +1,29 @@
+# Axess HIVE Brochure (1).pdf
+
+- **Pages detected:** 12
+- **Tables detected:** 3
+- **Key/Value pairs detected:** yes
+
+## Key–Value Pairs
+
+| Key | Value |
+| --- | --- |
+| Recolected Data |  |
+| Campaigns | 2 |
+| Montaring | 25 |
+| Pictures | 75 |
+| Progress |  |
+| Locations | Hess / Tubular Bells |
+| Monitoring Locations | 45% |
+| Corrosion Monitoring | SOW Q2-2024 |
+| Coupons | 95% |
+| Monitoring Locations | 19 |
+| Pictures | 57 |
+| Pictures | 95% |
+| Corrosion Monitoring | SOW Q2-2024 |
+| Password |  |
+| Monitoring Locations | 6 |
+| Pictures | 18 |
+| Projest Delet's | :selected: |
+| Server Ordet | :unselected: |
+| Magrinis & Sapples | :unselected: |

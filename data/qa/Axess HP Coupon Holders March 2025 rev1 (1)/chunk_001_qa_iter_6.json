@@ -1,0 +1,22 @@
+{
+  "chunk_id": 1,
+  "chunk_filename": "chunk_001.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "What is the name of the product described in the document?",
+      "evaluation_criteria": "The answer must be 'Axess HP Coupon Holders'.",
+      "answer": "Axess HP Coupon Holders",
+      "difficulty": 1,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"Axess HP Coupon Holders\",\n    \"category\": \"factual\",\n    \"difficulty\": 1,\n    \"evaluation_criteria\": \"The answer must be 'Axess HP Coupon Holders'.\",\n    \"question\": \"What is the name of the product described in the document?\"\n  },\n  {\n    \"answer\": \"March 2025 rev1\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"The answer must be 'March 2025 rev1'.\",\n    \"question\": \"What is the revision date of the Axess HP Coupon Holders document?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

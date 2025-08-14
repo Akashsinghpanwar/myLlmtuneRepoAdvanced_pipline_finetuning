@@ -1,0 +1,218 @@
+{
+  "chunk_id": 2,
+  "chunk_filename": "chunk_002.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "What types of probes is the Axess DCU (Data Collection Unit) capable of reading?",
+      "evaluation_criteria": "Verifies the ability to identify the types of probes compatible with the Axess DCU. Answer must include all three probe types: ER, LPR, and galvanic.",
+      "answer": "The Axess DCU is capable of reading all types of electrical resistance (ER), linear polarization resistance (LPR) and galvanic probes.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "How many data points can the Axess DCU preserve in its internal memory?",
+      "evaluation_criteria": "Verifies the memory capacity of the Axess DCU. The answer must state '7,200 data points'.",
+      "answer": "The Axess DCU can preserve up to 7,200 data points in its internal memory.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What are the dimensions of the Axess Data Collection Unit?",
+      "evaluation_criteria": "Verifies the ability to extract dimensional information. Must include both imperial and metric units.",
+      "answer": "The dimensions of the Axess Data Collection Unit are 6.5\" x 6.5\" x 4.25\" (165mm x 165mm x 108mm).",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What communication protocol does the Axess DCU use?",
+      "evaluation_criteria": "Verifies the communication protocol of the Axess DCU. Answer must include RS-232 Serial ASCII Bus 9600, 8, N, 1.",
+      "answer": "The Axess DCU uses a RS-232 Serial ASCII Bus 9600, 8, N, 1 for communication.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "Why can the Axess DCU be used with electrical resistance (ER), linear polarization resistance (LPR), and galvanic probes?",
+      "evaluation_criteria": "Tests understanding of probe compatibility and measurement types. Must include all three probe types and their corresponding measurements.",
+      "answer": "The Axess DCU can be used with electrical resistance (ER), linear polarization resistance (LPR), and galvanic probes because it is designed to read metal loss, corrosion rate, and current/potential respectively.",
+      "difficulty": 6,
+      "category": "reasoning"
+    },
+    {
+      "question": "What type of battery powers the Axess DCU, and what are its specifications?",
+      "evaluation_criteria": "Verifies the power supply specifications of the Axess DCU. Answer must include '7.2V 5Ah Lithium Battery Pack'.",
+      "answer": "The Axess DCU is powered by a 7.2V 5Ah Lithium Battery Pack.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What is the operating temperature range for the Axess DCU?",
+      "evaluation_criteria": "Verifies the operating temperature range of the Axess DCU. Must include both Celsius and Fahrenheit ranges.",
+      "answer": "The temperature range for the Axess DCU is -20°C to +70℃ (-4°F to +158°F).",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What is the part number for the Axess Data Collection Unit?",
+      "evaluation_criteria": "Verifies the ability to identify the part number for the Axess Data Collection Unit. The answer must state 'AXDCUHB'.",
+      "answer": "The part number for the Axess Data Collection Unit is AXDCUHB.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What are the benefits of the GRP enclosure used for the Axess DCU?",
+      "evaluation_criteria": "Tests understanding of the GRP enclosure's benefits. Must mention lightweight construction and mounting options.",
+      "answer": "The GRP enclosure of the Axess DCU allows for lightweight construction and optional mounting to site structures or Axess low and high pressure access systems.",
+      "difficulty": 5,
+      "category": "reasoning"
+    },
+    {
+      "question": "What is the Ingress Protection rating of the Axess DCU?",
+      "evaluation_criteria": "Verifies the ingress protection rating of the Axess DCU. The answer must state 'IP66'.",
+      "answer": "The Axess DCU is rated IP66 for Ingress Protection.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What are the two methods for configuring the Axess DCU (Data Collection Unit)?",
+      "evaluation_criteria": "Verifies the correct methods for configuring the Axess DCU are identified. Answer must mention both HHU and LED panel.",
+      "answer": "The Axess DCU can be configured either with the Axess HHU or on the DCU LED panel.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What is the part number for the Axess DCU (Data Collection Unit) Mounting Bracket Kit?",
+      "evaluation_criteria": "Correct part number for the DCU Mounting Bracket Kit.",
+      "answer": "The Axess DCU mounting bracket kit has part number AXDCUBRKT.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What are the specifications for the communication bus used by the Axess DCU (Data Collection Unit)?",
+      "evaluation_criteria": "Verifies the correct communication protocol. Must include RS-232 Serial ASCII Bus 9600, 8, N, 1.",
+      "answer": "The Axess DCU uses a RS-232 Serial ASCII Bus 9600, 8, N, 1 for communication.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "What are the IECEx and ATEX certifications for the Axess DCU (Data Collection Unit)?",
+      "evaluation_criteria": "Verifies the correct IECEx and ATEX certifications. Must include both certification codes.",
+      "answer": "The Axess DCU has IECEx Ex ia IIC T4 Ga/Gb and ATEX Ex II 1/2 G Ex ia IIC T4 Ga/Gb certifications.",
+      "difficulty": 6,
+      "category": "factual"
+    },
+    {
+      "question": "What is the voltage and capacity of the Lithium Battery Pack used in the Axess DCU (Data Collection Unit)?",
+      "evaluation_criteria": "Verifies the correct voltage and capacity of the battery pack. Answer must include 7.2V and 5Ah.",
+      "answer": "The Axess DCU uses a 7.2V 5Ah Lithium Battery Pack.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What is the expected battery life of the Axess DCU (Data Collection Unit) when taking readings every 6 hours?",
+      "evaluation_criteria": "Verifies the battery life and reading frequency. Answer must include '5 years' and 'every 6 hours'.",
+      "answer": "The battery life of the Axess DCU is up to 5 years when taking readings every 6 hours.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What is the benefit of the Axess DCU (Data Collection Unit) being compatible with electrical resistance (ER), linear polarization resistance (LPR), and galvanic probes?",
+      "evaluation_criteria": "Answer must mention ER, LPR, and galvanic probes, and explain that this capability allows changing probe technology without hardware changes.",
+      "answer": "The Axess DCU can be used with electrical resistance (ER), linear polarization resistance (LPR), and galvanic probes, allowing users to change probe technology without changing hardware.",
+      "difficulty": 6,
+      "category": "reasoning"
+    },
+    {
+      "question": "How does the Axess DCU (Data Collection Unit) transfer data to the Axess HHU?",
+      "evaluation_criteria": "Answer must state RS-232 Serial ASCII connection.",
+      "answer": "The Axess DCU (Data Collection Unit) can download data to the Axess HHU via the RS-232 Serial ASCII connection.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "Why is the Axess DCU capable of reading all types of electrical resistance (ER), linear polarization resistance (LPR) and galvanic probes?",
+      "evaluation_criteria": "Answer must mention high resolution, battery powered, and corrosion monitoring instrument.",
+      "answer": "The Axess DCU is capable of reading all types of electrical resistance (ER), linear polarization resistance (LPR) and galvanic probes because it is a high resolution, battery powered, corrosion monitoring instrument designed for this purpose.",
+      "difficulty": 6,
+      "category": "reasoning"
+    },
+    {
+      "question": "Where can the Axess DCU be mounted, and what is required for mounting to these locations?",
+      "evaluation_criteria": "Answer must mention site structure and Axess low and high pressure access systems, and an optional mounting bracket kit.",
+      "answer": "The Axess DCU can be directly mounted to site structure or Axess low and high pressure access systems using an optional mounting bracket kit.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What are the key functions of the CDAS software used with the Axess DCU (Data Collection Unit)?",
+      "evaluation_criteria": "Answer must mention graphing metal loss trends, calculating corrosion rates, and exporting data in csv format, and CDAS software.",
+      "answer": "The Axess DCU's software, CDAS, is used to graph metal loss trends, calculate corrosion rates, and export data in csv (comma separated value) format.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "What is the part number for the battery pack used in the Axess Data Collection Unit?",
+      "evaluation_criteria": "Answer must state the correct part number: AXDCUHBBAT.",
+      "answer": "The part number for the 7.2V 5Ah Lithium Battery Pack for the Axess Data Collection Unit is AXDCUHBBAT.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What is the resolution of the Axess DCU (Data Collection Unit)?",
+      "evaluation_criteria": "Answer must state the correct resolution: 20 bits.",
+      "answer": "The resolution of the Axess DCU is 20 bits.",
+      "difficulty": 1,
+      "category": "factual"
+    },
+    {
+      "question": "Where can the Axess DCU (Data Collection Unit) be mounted, and what is required for mounting to these locations?",
+      "evaluation_criteria": "Correctly identifies the two mounting locations and the need for the optional bracket. Incorrect if it misses either location or the bracket requirement.",
+      "answer": "The Axess DCU can be directly mounted to site structures or Axess low and high pressure access systems using an optional mounting bracket kit.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What are the communication specifications for the RS-232 Serial ASCII bus used by the Axess DCU?",
+      "evaluation_criteria": "Verifies the correct communication protocol and specifications (9600, 8, N, 1) for the RS-232 Serial ASCII bus.",
+      "answer": "The Axess DCU utilizes an RS-232 Serial ASCII bus with specifications of 9600, 8, N, 1 for communication.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "Why is the Axess DCU compatible with electrical resistance (ER), linear polarization resistance (LPR), and galvanic probes?",
+      "evaluation_criteria": "Checks for understanding of why the Axess DCU is compatible with different probe types due to its design as a corrosion monitoring instrument capable of reading all types of electrical resistance (ER), linear polarization resistance (LPR) and galvanic probes.",
+      "answer": "The Axess DCU can be used with electrical resistance (ER), linear polarization resistance (LPR), and galvanic probes because it is a high resolution, battery powered, corrosion monitoring instrument capable of reading all types of these probes.",
+      "difficulty": 6,
+      "category": "reasoning"
+    },
+    {
+      "question": "Where can the Axess DCU be mounted, and what is the part number of the kit required for mounting to these locations?",
+      "evaluation_criteria": "Confirms the mounting options (site structure, Axess low and high pressure access systems) and the requirement of the optional mounting bracket kit (AXDCUBRKT).",
+      "answer": "The Axess DCU can be mounted directly to site structure or Axess low and high pressure access systems using an optional mounting bracket kit (AXDCUBRKT).",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What are the key functions of the CDAS software used with the Axess DCU?",
+      "evaluation_criteria": "Verifies the functions of the CDAS software: graphing metal loss trends, calculating corrosion rates, and exporting data in csv format.",
+      "answer": "The CDAS software is used to graph metal loss trends, calculate corrosion rates, and export data in csv (comma separated value) format for import into excel and other applications.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "Where can the Axess DCU (Data Collection Unit) be configured?",
+      "evaluation_criteria": "The answer must contain both methods: Axess HHU and DCU LED panel.",
+      "answer": "The Axess DCU (Data Collection Unit) can be configured with the Axess HHU or on the DCU LED panel.",
+      "difficulty": 4,
+      "category": "factual"
+    }
+  ],
+  "iterations": 6,
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

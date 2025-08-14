@@ -1,0 +1,29 @@
+{
+  "chunk_id": 1,
+  "chunk_filename": "chunk_001.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "What are all of the keys listed in the key/value pairs table for Axess Electrical Resistance (ER) Probes?",
+      "evaluation_criteria": "The answer must list all five keys exactly as they appear in the document. Missing or misspelled keys are incorrect.",
+      "answer": "The keys listed are: Element Thickness, Cable Length, ERUN, Element Type, and Element Material.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "According to the key/value pairs table, what is the value associated with the key 'Cable Length' for Axess Electrical Resistance (ER) Probes?",
+      "evaluation_criteria": "The answer must state 'Lead' exactly. Case sensitivity matters.",
+      "answer": "The value associated with 'Cable Length' is 'Lead'.",
+      "difficulty": 2,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"The keys listed are: Element Thickness, Cable Length, ERUN, Element Type, and Element Material.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"The answer must list all five keys exactly as they appear in the document. Missing or misspelled keys are incorrect.\",\n    \"question\": \"What are all of the keys listed in the key/value pairs table for Axess Electrical Resistance (ER) Probes?\"\n  },\n  {\n    \"answer\": \"The value associated with 'Cable Length' is 'Lead'.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"The answer must state 'Lead' exactly. Case sensitivity matters.\",\n    \"question\": \"According to the key/value pairs table, what is the value associated with the key 'Cable Length' for Axess Electrical Resistance (ER) Probes?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

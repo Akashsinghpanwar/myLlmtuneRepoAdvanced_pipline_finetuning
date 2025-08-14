@@ -1,0 +1,53 @@
+{
+  "abstract": "This document compares hydraulic and mechanical access fitting systems, highlighting key considerations such as safety (leak paths and galling), logistics, time-saving aspects during servicing, and pressure ratings.",
+  "key_points": [
+    "Mechanical fittings have 1 potential leak path.",
+    "The hydraulic system has 5 potential leak paths.",
+    "Mechanical and hydraulic access fittings can both be rated to 10'000psi and above, but the mechanical tools are only rated to 6000psi."
+  ],
+  "numbers_and_units": [
+    "9001-2015",
+    "1",
+    "5",
+    "4",
+    "2",
+    "4",
+    "2-Piece",
+    "500",
+    "77380",
+    "+1 (832) 990 6754",
+    "6",
+    "2",
+    "5",
+    "3",
+    "10,000psi",
+    "6000psi",
+    "10,000psi"
+  ],
+  "entities": [
+    {
+      "type": "ORGANIZATION",
+      "value": "AXESS"
+    },
+    {
+      "type": "ORGANIZATION",
+      "value": "Qualitas Veritas ISO"
+    },
+    {
+      "type": "ORGANIZATION",
+      "value": "AXHP & AXHPH"
+    },
+    {
+      "type": "ORGANIZATION",
+      "value": "AXESS CORROSION"
+    },
+    {
+      "type": "ORGANIZATION",
+      "value": "JANUSGUARD"
+    }
+  ],
+  "tables_index": [],
+  "_validation": {
+    "numbers_found_in_text": 17
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "bullets": [
+    "Axess designs and manufactures systems based on the client's application.",
+    "Axess was formed with clear principles that must resonate across the business.",
+    "Axess offers a full range of hardware for the insertion and retrieval of monitoring, injection and sampling devices."
+  ],
+  "numbers_and_units": [
+    "2023",
+    "EN10204-3.1",
+    "ISO:9001:2015"
+  ],
+  "title": "Axess corrosion and erosion monitoring systems",
+  "keywords": [
+    "corrosion",
+    "erosion",
+    "monitoring",
+    "axess",
+    "systems",
+    "hardware"
+  ],
+  "_validation": {
+    "numbers_found_in_text": 3,
+    "source_chunk": "chunk_002.txt"
+  }
+}

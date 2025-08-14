@@ -1,0 +1,85 @@
+{
+  "chunk_id": 3,
+  "chunk_filename": "chunk_003.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "What is the formula for calculating the coupon holder length (L) for top of the line monitoring when using standard mechanical flare-weld access fitting assemblies?",
+      "evaluation_criteria": "Correct formula for top of the line monitoring is provided. Must include all variables and the correct constant.",
+      "answer": "The coupon holder length (L) for top of the line monitoring is calculated as L = (A + PW + WG) - 2.5\".",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "How is the coupon holder length (L) calculated for flush monitoring, and what type of coupon is this formula intended for?",
+      "evaluation_criteria": "Correct formula for flush monitoring is provided. Must include all variables and the correct constant. Mention of flush disc coupon.",
+      "answer": "The coupon holder length (L) for flush monitoring is calculated as L = (A + PW + WG) - 2.815\". This positions the coupon face flush to the pipe inner wall at the entry point, and is for flush disc coupons only.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "What is the formula for calculating coupon holder length (L) for middle of the line monitoring, and when else is this formula used?",
+      "evaluation_criteria": "Correct formula for middle of the line monitoring is provided. Must include all variables and the correct constants. Mention of multiple disc coupon holder.",
+      "answer": "The coupon holder length (L) for middle of the line monitoring is calculated as L = (A + '/2PD + WG) - (2.5\" + 1/2EL). This formula is also used for top and center of the line monitoring in the case of a multiple disc coupon holder.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "How is the coupon holder length (L) calculated for bottom of the line monitoring, and in what other scenarios is this formula applicable?",
+      "evaluation_criteria": "Correct formula for bottom of the line monitoring is provided. Must include all variables and the correct constants. Mention of ladder and multiple disc coupon holders.",
+      "answer": "The coupon holder length (L) for bottom of the line monitoring is calculated as L = (A + PD + WG) - (2.75\" + PW + EL). This formula is also used for top, center and bottom of the line monitoring in the case of ladder and multiple disc coupon holders.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "In the coupon holder sizing formulas, what do the variables A, PW, PD, EL, and WG represent?",
+      "evaluation_criteria": "All variables are defined correctly.",
+      "answer": "A = Length of Flare-weld Access fitting body\nPW = Pipe wall (wall thickness of pipe)\nPD = Pipe diameter (outside diameter of pipe)\nEL = Effective length of coupon (the portion of the coupon exposed to the environment, i.e. 3\" coupon = 1-5\", 6\" coupon = 4-3/4\")\nWG = Weld gap (as per weld procedures, 1/16\" is normal per ANSI B31.1 1973)",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What should be done if the calculated coupon holder length is not an even '/.\" increment?",
+      "evaluation_criteria": "Correct rounding direction and increment.",
+      "answer": "If the calculated coupon holder length is not an even '/.\" increment, it should be rounded back to the previous '/.\" increment.",
+      "difficulty": 6,
+      "category": "factual"
+    },
+    {
+      "question": "What should you do if you need to calculate coupon holder lengths for applications other than standard mechanical flare-weld access fitting assemblies?",
+      "evaluation_criteria": "Correctly identifies the action to take for non-standard applications.",
+      "answer": "For coupon holder length calculations for applications other than standard mechanical flare-weld access fitting assemblies, contact Axess or log in to Kickstarter via the Axess website.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "According to the formulas, what are the effective lengths (EL) for a 3\" coupon and a 6\" coupon?",
+      "evaluation_criteria": "Correct effective lengths for both coupon sizes.",
+      "answer": "The effective length of a 3\" coupon is 1-5\", while the effective length of a 6\" coupon is 4-3/4\".",
+      "difficulty": 6,
+      "category": "factual"
+    },
+    {
+      "question": "What is the normal weld gap (WG) according to ANSI B31.1 1973?",
+      "evaluation_criteria": "Correct weld gap and standard.",
+      "answer": "The weld gap (WG) is normally 1/16\" as per ANSI B31.1 1973.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "For what coupon position and coupon holder types is the formula L = (A + PD + WG) - (2.75\" + PW + EL) used?",
+      "evaluation_criteria": "Correctly identifies the coupon position and the specific coupon holder types for which the formula is applicable.",
+      "answer": "The formula L = (A + PD + WG) - (2.75\" + PW + EL) is used to position the coupon approximately '/.\" off the bottom of the line. It is also used for top, center, and bottom of the line monitoring when using ladder and multiple disc coupon holders.",
+      "difficulty": 7,
+      "category": "reasoning"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"The coupon holder length (L) for top of the line monitoring is calculated as L = (A + PW + WG) - 2.5\\\".\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Correct formula for top of the line monitoring is provided. Must include all variables and the correct constant.\",\n    \"question\": \"What is the formula for calculating the coupon holder length (L) for top of the line monitoring when using standard mechanical flare-weld access fitting assemblies?\"\n  },\n  {\n    \"answer\": \"The coupon holder length (L) for flush monitoring is calculated as L = (A + PW + WG) - 2.815\\\". This positions the coupon face flush to the pipe inner wall at the entry point, and is for flush disc coupons only.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Correct formula for flush monitoring is provided. Must include all variables and the correct constant. Mention of flush disc coupon.\",\n    \"question\": \"How is the coupon holder length (L) calculated for flush monitoring, and what type of coupon is this formula intended for?\"\n  },\n  {\n    \"answer\": \"The coupon holder length (L) for middle of the line monitoring is calculated as L = (A + '/2PD + WG) - (2.5\\\" + 1/2EL). This formula is also used for top and center of the line monitoring in the case of a multiple disc coupon holder.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Correct formula for middle of the line monitoring is provided. Must include all variables and the correct constants. Mention of multiple disc coupon holder.\",\n    \"question\": \"What is the formula for calculating coupon holder length (L) for middle of the line monitoring, and when else is this formula used?\"\n  },\n  {\n    \"answer\": \"The coupon holder length (L) for bottom of the line monitoring is calculated as L = (A + PD + WG) - (2.75\\\" + PW + EL). This formula is also used for top, center and bottom of the line monitoring in the case of ladder and multiple disc coupon holders.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Correct formula for bottom of the line monitoring is provided. Must include all variables and the correct constants. Mention of ladder and multiple disc coupon holders.\",\n    \"question\": \"How is the coupon holder length (L) calculated for bottom of the line monitoring, and in what other scenarios is this formula applicable?\"\n  },\n  {\n    \"answer\": \"A = Length of Flare-weld Access fitting body\\nPW = Pipe wall (wall thickness of pipe)\\nPD = Pipe diameter (outside diameter of pipe)\\nEL = Effective length of coupon (the portion of the coupon exposed to the environment, i.e. 3\\\" coupon = 1-5\\\", 6\\\" coupon = 4-3/4\\\")\\nWG = Weld gap (as per weld procedures, 1/16\\\" is normal per ANSI B31.1 1973)\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"All variables are defined correctly.\",\n    \"question\": \"In the coupon holder sizing formulas, what do the variables A, PW, PD, EL, and WG represent?\"\n  },\n  {\n    \"answer\": \"If the calculated coupon holder length is not an even '/.\\\" increment, it should be rounded back to the previous '/.\\\" increment.\",\n    \"category\": \"factual\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"Correct rounding direction and increment.\",\n    \"question\": \"What should be done if the calculated coupon holder length is not an even '/.\\\" increment?\"\n  },\n  {\n    \"answer\": \"For coupon holder length calculations for applications other than standard mechanical flare-weld access fitting assemblies, contact Axess or log in to Kickstarter via the Axess website.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Correctly identifies the action to take for non-standard applications.\",\n    \"question\": \"What should you do if you need to calculate coupon holder lengths for applications other than standard mechanical flare-weld access fitting assemblies?\"\n  },\n  {\n    \"answer\": \"The effective length of a 3\\\" coupon is 1-5\\\", while the effective length of a 6\\\" coupon is 4-3/4\\\".\",\n    \"category\": \"factual\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"Correct effective lengths for both coupon sizes.\",\n    \"question\": \"According to the formulas, what are the effective lengths (EL) for a 3\\\" coupon and a 6\\\" coupon?\"\n  },\n  {\n    \"answer\": \"The weld gap (WG) is normally 1/16\\\" as per ANSI B31.1 1973.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Correct weld gap and standard.\",\n    \"question\": \"What is the normal weld gap (WG) according to ANSI B31.1 1973?\"\n  },\n  {\n    \"answer\": \"The formula L = (A + PD + WG) - (2.75\\\" + PW + EL) is used to position the coupon approximately '/.\\\" off the bottom of the line. It is also used for top, center, and bottom of the line monitoring when using ladder and multiple disc coupon holders.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 7,\n    \"evaluation_criteria\": \"Correctly identifies the coupon position and the specific coupon holder types for which the formula is applicable.\",\n    \"question\": \"For what coupon position and coupon holder types is the formula L = (A + PD + WG) - (2.75\\\" + PW + EL) used?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

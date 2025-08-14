@@ -1,0 +1,31 @@
+{
+  "bullets": [
+    "Mechanical fittings have 1 potential leak path; hydraulic systems have 5 (4 locking pins and the plug).",
+    "Mechanical and hydraulic access fittings can both be rated to 10’000psi and above, but the mechanical tools are only rated to 6000psi.",
+    "Servicing hydraulic fittings is generally accepted as being a longer process than the mechanical system (6 against 2 leak paths, 5 against 3 mechanical threads)."
+  ],
+  "numbers_and_units": [
+    "1",
+    "5",
+    "4",
+    "10’000psi",
+    "6000psi",
+    "6",
+    "2",
+    "5",
+    "3"
+  ],
+  "title": "Hydraulic vs. Mechanical Access Systems",
+  "keywords": [
+    "hydraulic",
+    "mechanical",
+    "access system",
+    "fittings",
+    "pressure rating",
+    "leak paths"
+  ],
+  "_validation": {
+    "numbers_found_in_text": 9,
+    "source_chunk": "chunk_001.txt"
+  }
+}

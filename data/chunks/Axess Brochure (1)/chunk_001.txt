@@ -1,0 +1,10 @@
+# Axess Brochure (1).pdf
+
+- **Pages detected:** 16
+- **Tables detected:** 1
+- **Key/Value pairs detected:** yes
+
+## Key–Value Pairs
+
+| Key | Value |
+| --- | --- |

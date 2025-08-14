@@ -1,0 +1,78 @@
+{
+  "chunk_id": 1,
+  "chunk_filename": "chunk_001.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "What is the difference in the number of potential leak paths between mechanical and hydraulic access fittings?",
+      "evaluation_criteria": "Counts the number of leak paths for each fitting type.  Incorrect answers may miscount the number of leak paths or confuse the fitting types.",
+      "answer": "Mechanical fittings have 1 potential leak path (the seals on the plug), while hydraulic systems have 5 potential leak paths (4 locking pins and the plug).",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "How does the containment of seal failures differ between mechanical and hydraulic access fittings?",
+      "evaluation_criteria": "Identifies the containment capability for each fitting type.  Incorrect answers may confuse which fitting type can contain failures or state that neither can contain failures.",
+      "answer": "Plug seal failure in mechanical fittings can be contained by a pressure retaining cover, but failure of pin seals in hydraulic systems cannot be contained by the cover.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "What are the causes of galling in mechanical versus hydraulic access fittings?",
+      "evaluation_criteria": "Accurately identifies the causes of galling for each fitting type. Incorrect answers may confuse the causes or the fitting types.",
+      "answer": "Galling in mechanical fittings is due to poor material selection and ingress of sand, while galling in hydraulic systems can occur with the 4 external locking pins.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "What technique can be used to eliminate the risk of galling in mechanical fittings?",
+      "evaluation_criteria": "Identifies the correct technique and fitting type. Incorrect answers may suggest the technique is used for hydraulic fittings or suggest an incorrect technique.",
+      "answer": "Positive pressure balancing techniques can be used to eliminate the risk of galling in mechanical fittings.",
+      "difficulty": 6,
+      "category": "factual"
+    },
+    {
+      "question": "What is the function of the Axess 'Saturn' coupon holders during installation and monitoring?",
+      "evaluation_criteria": "Identifies the function of the Saturn coupon holders. Incorrect answers may describe incorrect functions or benefits.",
+      "answer": "The Axess 'Saturn' coupon holders sweep the access fitting of debris during installation and prevent debris from entering the fittings whilst the monitoring device is installed.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "How does using the Axess 'Saturn' coupon holders reduce the risk of corrosion and galling?",
+      "evaluation_criteria": "Lists all three benefits. Incorrect answers may omit one or more benefits or include incorrect benefits.",
+      "answer": "Using the Axess 'Saturn' coupon holders will reduce the risk of galling, reduce corrosion inside the access fitting body, and prolong seal life by reducing the risk of ingress of abrasive particles that could damage seals and sealing surfaces.",
+      "difficulty": 7,
+      "category": "reasoning"
+    },
+    {
+      "question": "Why are spares readily available and competitively priced for mechanical access fitting equipment?",
+      "evaluation_criteria": "Connects the interchangeability of mechanical equipment to the availability and pricing of spares. Incorrect answers may fail to make this connection or incorrectly attribute the benefits to hydraulic equipment.",
+      "answer": "Spares for mechanical equipment are readily available and prices are very competitive because all mechanical equipment available on the market is interchangeable.",
+      "difficulty": 6,
+      "category": "reasoning"
+    },
+    {
+      "question": "What design feature minimizes galling risk in the latest hydraulic access systems?",
+      "evaluation_criteria": "Mentions the '2-Piece Hydraulic access system' and the 'risk of galling'.",
+      "answer": "The latest 2-Piece Hydraulic access system further prevents the risk of galling.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "Why should drilling out locking pins on hydraulic access systems be avoided?",
+      "evaluation_criteria": "Correctly identifies the consequence of drilling out locking pins. Incorrect answers may suggest this action has no consequences or that it improves integrity.",
+      "answer": "Drilling out locking pins on hydraulic systems can lead to integrity issues with the fitting and the pipeline.",
+      "difficulty": 7,
+      "category": "reasoning"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"Mechanical fittings have 1 potential leak path (the seals on the plug), while hydraulic systems have 5 potential leak paths (4 locking pins and the plug).\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Counts the number of leak paths for each fitting type.  Incorrect answers may miscount the number of leak paths or confuse the fitting types.\",\n    \"question\": \"What is the difference in the number of potential leak paths between mechanical and hydraulic access fittings?\"\n  },\n  {\n    \"answer\": \"Plug seal failure in mechanical fittings can be contained by a pressure retaining cover, but failure of pin seals in hydraulic systems cannot be contained by the cover.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Identifies the containment capability for each fitting type.  Incorrect answers may confuse which fitting type can contain failures or state that neither can contain failures.\",\n    \"question\": \"How does the containment of seal failures differ between mechanical and hydraulic access fittings?\"\n  },\n  {\n    \"answer\": \"Galling in mechanical fittings is due to poor material selection and ingress of sand, while galling in hydraulic systems can occur with the 4 external locking pins.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Accurately identifies the causes of galling for each fitting type. Incorrect answers may confuse the causes or the fitting types.\",\n    \"question\": \"What are the causes of galling in mechanical versus hydraulic access fittings?\"\n  },\n  {\n    \"answer\": \"Positive pressure balancing techniques can be used to eliminate the risk of galling in mechanical fittings.\",\n    \"category\": \"factual\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"Identifies the correct technique and fitting type. Incorrect answers may suggest the technique is used for hydraulic fittings or suggest an incorrect technique.\",\n    \"question\": \"What technique can be used to eliminate the risk of galling in mechanical fittings?\"\n  },\n  {\n    \"answer\": \"The Axess 'Saturn' coupon holders sweep the access fitting of debris during installation and prevent debris from entering the fittings whilst the monitoring device is installed.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Identifies the function of the Saturn coupon holders. Incorrect answers may describe incorrect functions or benefits.\",\n    \"question\": \"What is the function of the Axess 'Saturn' coupon holders during installation and monitoring?\"\n  },\n  {\n    \"answer\": \"Using the Axess 'Saturn' coupon holders will reduce the risk of galling, reduce corrosion inside the access fitting body, and prolong seal life by reducing the risk of ingress of abrasive particles that could damage seals and sealing surfaces.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 7,\n    \"evaluation_criteria\": \"Lists all three benefits. Incorrect answers may omit one or more benefits or include incorrect benefits.\",\n    \"question\": \"How does using the Axess 'Saturn' coupon holders reduce the risk of corrosion and galling?\"\n  },\n  {\n    \"answer\": \"Spares for mechanical equipment are readily available and prices are very competitive because all mechanical equipment available on the market is interchangeable.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"Connects the interchangeability of mechanical equipment to the availability and pricing of spares. Incorrect answers may fail to make this connection or incorrectly attribute the benefits to hydraulic equipment.\",\n    \"question\": \"Why are spares readily available and competitively priced for mechanical access fitting equipment?\"\n  },\n  {\n    \"answer\": \"The latest 2-Piece Hydraulic access system further prevents the risk of galling.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Mentions the '2-Piece Hydraulic access system' and the 'risk of galling'.\",\n    \"question\": \"What design feature minimizes galling risk in the latest hydraulic access systems?\"\n  },\n  {\n    \"answer\": \"Drilling out locking pins on hydraulic systems can lead to integrity issues with the fitting and the pipeline.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 7,\n    \"evaluation_criteria\": \"Correctly identifies the consequence of drilling out locking pins. Incorrect answers may suggest this action has no consequences or that it improves integrity.\",\n    \"question\": \"Why should drilling out locking pins on hydraulic access systems be avoided?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

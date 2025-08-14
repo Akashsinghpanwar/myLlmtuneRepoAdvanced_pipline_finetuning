@@ -1,0 +1,41 @@
+{
+  "summary": {
+    "model": "google/gemini-2.0-flash-001",
+    "temperature": 0.25,
+    "max_tokens": 5000,
+    "top_p": 0.9,
+    "top_k": 40,
+    "min_p": 0.05
+  },
+  "chunk": {
+    "min_length": 900,
+    "max_length": 2200,
+    "length_unit": "tokens",  
+    "soft_min_ratio": 0.6
+  },
+  "qa": {
+  "model": "google/gemini-2.0-flash-001",
+  "temperature": 0.35,
+  "max_tokens": 16384,
+  "top_p": 0.95,
+  "top_k": 40,
+  "min_p": 0.05,
+  "context": "You are generating Q&A for Axess corrosion/control product PDFs. Your goal is MAXIMUM COVERAGE of each chunk and the overall document across iterations. Rules:\n\n1) Diversity quotas per chunk: ~60% factual lookup, ~40% reasoning/cause→effect. Difficulty mix: ~25% easy (1–3), ~50% medium (4–7), ~25% hard (8–10).\n2) If the chunk contains tables, units or part numbers, include AT LEAST ONE question that requires reading specific values from the table (e.g., sizes, materials, pressure ratings, O‑rings, thread types, part‑number codes). Preserve exact units and numbers.\n3) Prefer questions that test RULES and COMPATIBILITY (e.g., which plug types fit which access fittings, hydraulic vs mechanical access selection, when to use a particular probe/coupon holder, installation constraints). Add cross‑section or multi‑hop questions if the chunk references other sections.\n4) NO duplicates across iterations: do not create a question that tests the same fact, number, or wording as any previously generated question for this chunk. If you must cover a similar fact, change the angle (numeric boundary, exception case, or why/when to choose option A vs B).\n5) Questions must be self‑contained: NEVER say “in the document” or rely on hidden context. Include the product/component names explicitly (Axess ER probe, AX2HP injection fitting, etc.).\n6) Answers must be fully supported by the chunk; copy exact numbers/units/specs. If a value is not present in the chunk, do not invent it.\n7) Include at least one edge‑case or boundary question (e.g., highest/lowest rated size, incompatible thread/pressure, material exceptions).\n8) Keep evaluation_criteria concrete: list attributes required, reasoning steps, and incorrect‑answer traps (wrong unit, wrong material, wrong pressure class).",
+  "use_batching": true,
+  "batch_size": 16,
+  "skip_tables": false,
+  "max_iterations": 6
+},
+
+  "tagging": {
+    "model": "openai/gpt-4o-mini",
+    "temperature": 0.2,
+    "max_tokens": 200
+  },
+  "dataset": {
+    "name": "long-tech-pdfs-default",
+    "organization": "Axess",
+    "public": false,
+    "seed": 42
+  }
+}

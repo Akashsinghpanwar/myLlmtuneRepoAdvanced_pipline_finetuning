@@ -1,0 +1,92 @@
+{
+  "chunk_id": 1,
+  "chunk_filename": "chunk_001.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "What pressure rating do the Axess AXHP coupon holders support, and which access systems are they designed for use with?",
+      "evaluation_criteria": "Correctly identifies the pressure rating and compatible access system.",
+      "answer": "The Axess AXHP range of coupon holders are designed for use with AXHP access systems and allow insertion/removal in pressurized piping systems up to 10,000psi.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What is the standard material used in the manufacturing of Axess coupon holders?",
+      "evaluation_criteria": "The answer correctly identifies the standard material as 316SS.",
+      "answer": "Coupon holders are manufactured in 316SS material as standard.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What are the two main styles of Axess coupon holders?",
+      "evaluation_criteria": "The answer correctly identifies both styles: 3\" strip and flush disc.",
+      "answer": "The two main styles of coupon holder are 3\" strip and flush disc.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What is the difference in application between strip and flush disc coupon holders?",
+      "evaluation_criteria": "Correctly differentiates the application of strip vs. flush disc coupon holders.",
+      "answer": "Strip coupon holders can be used for monitoring at a pre-selected area within the pipe, while flush disc coupon holders are ideal for monitoring inline with the pipe wall.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What formula is used to calculate the coupon holder length for top of the line monitoring?",
+      "evaluation_criteria": "Correctly states the formula for top of the line monitoring coupon holder length calculation.",
+      "answer": "To calculate the coupon holder length for top of the line monitoring, use the formula: (A + Pw + Wg) - 2.5\".",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "What formula is used to calculate the coupon holder length for middle of the line monitoring?",
+      "evaluation_criteria": "Correctly states the formula for middle of the line monitoring coupon holder length calculation.",
+      "answer": "To calculate the coupon holder length for middle of the line monitoring, use the formula: (A + 1/2Pd+ Wg) - (2.5\" + 1/2EI).",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "What formula is used to calculate the coupon holder length for bottom of the line monitoring?",
+      "evaluation_criteria": "Correctly states the formula for bottom of the line monitoring coupon holder length calculation.",
+      "answer": "To calculate the coupon holder length for bottom of the line monitoring, use the formula: (A + Pd + Wg) - (2.75\" + Pw + El).",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "In the formulas for calculating coupon holder length, what do the variables A, Pw, Pd, El, and Wg represent?",
+      "evaluation_criteria": "Correctly defines all variables in the formulas.",
+      "answer": "A = Length of Access fitting body, Pw = Pipe wall (wall thickness of pipe), Pd = Pipe diameter (outside diameter of pipe), El = Effective length of coupon (the portion of the coupon exposed to the environment, i.e. 3\" coupon = 1-5/8\", 6\" coupon = 4-3/4\"), Wg = Weld gap (per weld procedures, 1/16\" is normal per ANSI B31.1 1973).",
+      "difficulty": 7,
+      "category": "factual"
+    },
+    {
+      "question": "When calculating coupon holder length, what should you do if the result is not an even 0.25\" increment?",
+      "evaluation_criteria": "Understands the rounding rule for coupon holder length.",
+      "answer": "If the calculated length is not an even 0.25\" increment, select the next shortest to the nearest 0.25\".",
+      "difficulty": 6,
+      "category": "reasoning"
+    },
+    {
+      "question": "According to ANSI B31.1 1973, what is the normal weld gap (Wg) used in the coupon holder length calculation formulas?",
+      "evaluation_criteria": "Correctly states the normal weld gap and the ANSI standard.",
+      "answer": "The weld gap (Wg) is normally 1/16\" per ANSI B31.1 1973.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "Besides strip and flush disc coupon holders, what other types are available for specialist monitoring in multiphase lines?",
+      "evaluation_criteria": "Correctly identifies the additional coupon holder types and their application.",
+      "answer": "Additional coupon holder types including ladder coupons and multidisc are available for specialist monitoring within multiphase lines.",
+      "difficulty": 4,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"The Axess AXHP range of coupon holders are designed for use with AXHP access systems and allow insertion/removal in pressurized piping systems up to 10,000psi.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Correctly identifies the pressure rating and compatible access system.\",\n    \"question\": \"What pressure rating do the Axess AXHP coupon holders support, and which access systems are they designed for use with?\"\n  },\n  {\n    \"answer\": \"Coupon holders are manufactured in 316SS material as standard.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"The answer correctly identifies the standard material as 316SS.\",\n    \"question\": \"What is the standard material used in the manufacturing of Axess coupon holders?\"\n  },\n  {\n    \"answer\": \"The two main styles of coupon holder are 3\\\" strip and flush disc.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"The answer correctly identifies both styles: 3\\\" strip and flush disc.\",\n    \"question\": \"What are the two main styles of Axess coupon holders?\"\n  },\n  {\n    \"answer\": \"Strip coupon holders can be used for monitoring at a pre-selected area within the pipe, while flush disc coupon holders are ideal for monitoring inline with the pipe wall.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Correctly differentiates the application of strip vs. flush disc coupon holders.\",\n    \"question\": \"What is the difference in application between strip and flush disc coupon holders?\"\n  },\n  {\n    \"answer\": \"To calculate the coupon holder length for top of the line monitoring, use the formula: (A + Pw + Wg) - 2.5\\\".\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Correctly states the formula for top of the line monitoring coupon holder length calculation.\",\n    \"question\": \"What formula is used to calculate the coupon holder length for top of the line monitoring?\"\n  },\n  {\n    \"answer\": \"To calculate the coupon holder length for middle of the line monitoring, use the formula: (A + 1/2Pd+ Wg) - (2.5\\\" + 1/2EI).\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Correctly states the formula for middle of the line monitoring coupon holder length calculation.\",\n    \"question\": \"What formula is used to calculate the coupon holder length for middle of the line monitoring?\"\n  },\n  {\n    \"answer\": \"To calculate the coupon holder length for bottom of the line monitoring, use the formula: (A + Pd + Wg) - (2.75\\\" + Pw + El).\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Correctly states the formula for bottom of the line monitoring coupon holder length calculation.\",\n    \"question\": \"What formula is used to calculate the coupon holder length for bottom of the line monitoring?\"\n  },\n  {\n    \"answer\": \"A = Length of Access fitting body, Pw = Pipe wall (wall thickness of pipe), Pd = Pipe diameter (outside diameter of pipe), El = Effective length of coupon (the portion of the coupon exposed to the environment, i.e. 3\\\" coupon = 1-5/8\\\", 6\\\" coupon = 4-3/4\\\"), Wg = Weld gap (per weld procedures, 1/16\\\" is normal per ANSI B31.1 1973).\",\n    \"category\": \"factual\",\n    \"difficulty\": 7,\n    \"evaluation_criteria\": \"Correctly defines all variables in the formulas.\",\n    \"question\": \"In the formulas for calculating coupon holder length, what do the variables A, Pw, Pd, El, and Wg represent?\"\n  },\n  {\n    \"answer\": \"If the calculated length is not an even 0.25\\\" increment, select the next shortest to the nearest 0.25\\\".\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"Understands the rounding rule for coupon holder length.\",\n    \"question\": \"When calculating coupon holder length, what should you do if the result is not an even 0.25\\\" increment?\"\n  },\n  {\n    \"answer\": \"The weld gap (Wg) is normally 1/16\\\" per ANSI B31.1 1973.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Correctly states the normal weld gap and the ANSI standard.\",\n    \"question\": \"According to ANSI B31.1 1973, what is the normal weld gap (Wg) used in the coupon holder length calculation formulas?\"\n  },\n  {\n    \"answer\": \"Additional coupon holder types including ladder coupons and multidisc are available for specialist monitoring within multiphase lines.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Correctly identifies the additional coupon holder types and their application.\",\n    \"question\": \"Besides strip and flush disc coupon holders, what other types are available for specialist monitoring in multiphase lines?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

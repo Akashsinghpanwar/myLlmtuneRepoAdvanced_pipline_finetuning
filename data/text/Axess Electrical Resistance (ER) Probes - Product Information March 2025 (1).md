@@ -1,0 +1,237 @@
+# Axess Electrical Resistance (ER) Probes - Product Information March 2025 (1).pdf
+
+- **Pages detected:** 4
+- **Tables detected:** 3
+- **Key/Value pairs detected:** yes
+
+## Key–Value Pairs
+
+| Key | Value |
+| --- | --- |
+| Element Thickness |  |
+| Cable Length | Lead |
+| ERUN |  |
+| Element Type |  |
+| Element Material |  |
+
+## Extracted Text
+
+AXESS
+Qualitas Veritas
+ISO 9001-2015
+ELECTRICAL RESISTANCE (ER) PROBES
+ER Technique & Configuration
+Early detection of changes in corrosion is key to implementing and optimizing a robust corrosion control program. The Axess range of HR ER probes are designed and compatible with High Resolution Instrumentation providing a highly sensitive method of detecting corrosion and erosion events by monitoring small changes in the electrical resistance of a metal element directly exposed to the process.
+The use of HR ER (electrical resistance) probes is a proven, established industry technique which operates on the principle that the electrical resistance of a metal element will increase as the cross-sectional area decreases due to corrosion or erosion. Axess HR ER probes utilize a second element, called the reference element. Manufactured from the same material as the measurement element, the reference element is stored inside the body of the probe, where it is shielded from the process and used to auto-compensate for changes in electrical resistance due to other factors such as temperature.
+Unlike some other technologies, Axess HR ER probes operate independently of the process properties and can therefore be used in almost any environment.
+READ DIRECTLY WITH HHU OR DATALOG
+WIRED, WIRELESS OR CELLULAR COMMS
+NPT, 1" INSERTS AND 2" HP FITTING OPTIONS
+EXTENSIVE MATERIAL OPTIONS
+PRESSURE AND TEMPERATURE RATED TO 6000PSI & 260C
+Where to Monitor What to Monitor
+Axess offers ER probes in a variety of configurations to suit almost all monitoring locations and processes. Tubular element probes are more robust, have longer lifespans and are ideally suited to monitoring center of line. Flush probes can be installed with the element positioned in line with the pipe wall and are therefore suited to monitoring top and bottom of the line where localized corrosion may occur. Multiple mounting options are offered for both high- and low- pressure systems with many of these being retrievable for maintenance and replacement under normal operating conditions using Axess retrieval equipment.
+Monitoring by Exception
+x +
+X
++ + C @ dashboard.axess-corrosion.com/conocophillips/devices
+Q À *
+:
+AZ
+ESS CORROSION
+DEVICES
+MAP
+ConocoPhilips 3 1 alarm
+Devions
+Add device
+Main Crude Oil Export
+Metal Loss
+Map
+:
+LP
+4
+-
+-
+3:23:2020 1:06-00 8-3-2008 11:06:00
+1.89 mils
+Corrosion Rate
+Temperature
+3
+-
+-
+35.0 °C 9%.0 **
+0
+1:2720H 5:06:00 1/ 03-2008 19:06:00
+19.1 mpy
+Incorporating Axess HR ER probes and High-Resolution instrumentation into an integrity management program provides early, reliable detection of changes in corrosion/erosion rates allowing operators, integrity, and maintenance teams to optimize corrosion control programs, increase safety and extend asset life.
+The Axess online dashboard allows you set multiple thresholds for alarms that will send you email or SMS alerts, enabling you to monitor by exception.
+High Pressure Retrievable ER Probe Part Numbering System
+ERHP
+Element Type
+Element Thickness
+Order Length
+-
+Element Material
+-
+-
+Probe Body Material
+-
+Element Shield **
+Electrical Resistance Probe, High Pressure Retrievable
+-
+Tubular / Cylindrical
+T
+5mil
+5
+-
+Rounded to previous 1/8"
+No* Standard ES High Velocity ESHV
+Tubular / Cylindrical, 2"
+2T
+10mil
+10
+Flush
+FL
+20mil
+20
+40mil
+40
+50mil
+50
+Pipe Grade CS
+A1
+304 SS
+C1
+316L SS
+A3
+S2205
+A7
+C276
+B4
+Alloy 625
+B5
+Alloy 825
+B6
+316/316L SS (standard)*
+A3
+F51 DSS
+A7
+F60 DSS
+A8
+F53 SDSS
+A9
+F55 SDSS
+B1
+C276
+B4
+Alloy 625
+B5
+Alloy 825
+B6
+* Standard, please leave blank
+** Element Shield is only available for use with tubular/cylindrical element
+Underground ER Probes
+Model ERUG corrosion probes are designed for heavy duty service conditions such as underground and structural monitoring of pipelines, vessels, above and below ground storage tanks and structures, whether cathodically protected or not.
+The surface strip element assembly is suited to the "construction site" environment.
+The cylindrical element is economical and durable. Its slim profile is convenient for locations with restricted access such as concrete bridge structures and other infrastructure applications.
+Both probes provide good sealing of the reference element. The check element provides reliability in the continued performance of the corrosion sensor.
+Either probe may be connected to a cathodically protected structure using the attached grounding lead.
+This allows the probe to measure the effectiveness of the Cathodic Protection (C.P.) System under operating conditions.
+If left unconnected from the structure, the probe monitors the direct corrosivity of the soil or environment.
+The grounding lead is installed at the connector end, unless otherwise specified. This enables connection to the C.P. System to be made as required even after probe installation.
+Available in Cylindrical and Surface Strip Element from 10mil element thickness to 40mil on the Surface Strip and 10mil to 50mil thickness on the cylindrical option.
+Standard cable lengths of 10-20feet. Longer lengths available upon request.
+Consult with Axess Corrosion for additional information.
+READ DIRECTLY WITH HHU OR DATALOG
+TEMPERATURE RATED TO 176°F (80℃) SURFACE STRIP AND 392°F (200℃) CYLINDRICAL
+EXTENSIVE MATERIAL OPTIONS
+ELEMENT THICKNESS 10- 50 MIL AVAILABILITY
+CUSTOM CABLE LENGTHS AVAILABLE UPON REQUEST
+Underground ER Probes
+Underground ER Probe Part Numbering System
+ERUN
+-
+Element Type
+Element Thickness
+Element Material
+-
+Cable Length
+-
+Ground Lead
+Electrical
+Tubular / Cylindrical C
+10mil
+10
+Pipe Grade CS
+A1
+-
+10 foot
+-
+No Ground Lead --
+Resistance
+Surface Strip ("Flush") SS
+20mil
+20
+304 SS
+C1
+increments
+Ground Lead GNDL
+Probe, For
+40mil
+40
+316L SS
+A3
+Use
+50mil
+50
+S2205
+A7
+Underground
+C276
+B4
+Alloy 625
+B5
+Alloy 825
+B6
+Please consult with Axess Corrosion for additional information and / or for any options not mentioned above.
+AXESS
+Innovating Safety ...
+JANUSGUARD
+2001 Timberloch Place, Suite 500, The Woodlands Texas 77380, USA, www.axess-corrosion.com, +1 (832) 990 6754 info@axess-corrosion.com WhatsApp
+
+## Tables
+
+### Table 1
+
+| Pipe Grade CS | A1 |
+| --- | --- |
+| 304 SS | C1 |
+| 316L SS | A3 |
+| S2205 | A7 |
+| C276 | B4 |
+| Alloy 625 | B5 |
+| Alloy 825 | B6 |
+
+### Table 2
+
+| 316/316L SS (standard)* | A3 |
+| --- | --- |
+| F51 DSS | A7 |
+| F60 DSS | A8 |
+| F53 SDSS | A9 |
+| F55 SDSS | B1 |
+| C276 | B4 |
+| Alloy 625 | B5 |
+| Alloy 825 | B6 |
+
+### Table 3
+
+| ERUN | - | Element Type |  | Element Thickness |  |  | Element Material |  | - | Cable Length | - | Ground Lead |
+| --- | --- | --- | --- | --- | ---: | --- | --- | --- | --- | --- | --- | --- |
+| Electrical |  | Tubular / Cylindrical C |  | 10mil | 10 |  | Pipe Grade CS | A1 | - | 10 foot | - | No Ground Lead -- |
+| Resistance |  | Surface Strip ("Flush") SS |  | 20mil | 20 |  | 304 SS | C1 |  | increments |  | Ground Lead GNDL |
+| Probe, For |  |  |  | 40mil | 40 |  | 316L SS | A3 |  |  |  |  |
+| Use |  |  |  | 50mil | 50 |  | S2205 | A7 |  |  |  |  |
+| Underground |  |  |  |  |  |  | C276 | B4 |  |  |  |  |
+|  |  |  |  |  |  |  | Alloy 625 | B5 |  |  |  |  |
+|  |  |  |  |  |  |  | Alloy 825 | B6 |  |  |  |  |

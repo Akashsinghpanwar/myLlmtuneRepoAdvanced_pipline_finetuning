@@ -1,0 +1,22 @@
+{
+  "bullets": [
+    "Pages detected: 3",
+    "Tables detected: 2",
+    "Key/Value pairs detected: yes"
+  ],
+  "numbers_and_units": [
+    "3",
+    "2",
+    "04/30/2024"
+  ],
+  "title": "Horizon Technology Overview",
+  "keywords": [
+    "horizon",
+    "tables",
+    "key-value pairs"
+  ],
+  "_validation": {
+    "numbers_found_in_text": 3,
+    "source_chunk": "chunk_001.txt"
+  }
+}

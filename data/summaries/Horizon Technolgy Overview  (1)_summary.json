@@ -1,0 +1,182 @@
+{
+  "abstract": "The document is a technology overview of Horizon Access Fittings by Axess Corrosion Control. It discusses the Horizon system as an alternative to T trap assemblies for internal monitoring and chemical injection systems, highlighting cost savings, safety improvements, and more representative monitoring. The Janus access fitting is also introduced as a means to enhance end user confidence.",
+  "key_points": [
+    "Axess was awarded an innovation of the year award for our Janus Guard product designed to make online retrieval safer.",
+    "Axess were approached by Aramco engineers and set with the challenge to design a system to satisfy an issue which exists throughout Aramco facilities both onshore and onshore, upstream, and downstream - access to the bottom 10-20% of the pipe without access to the 6 o'clock position for retrieval equipment.",
+    "The number of flanged connections and valves and the materials spec itself means we recently reduced a project cost on access fittings alone by 85% through offering A105/LF2 Horizon fittings in place of 1500# RJ flanged fitting in 825.",
+    "Cost Comparison: 300 x $1400 = $420,000. 12 Weeks",
+    "Cost Comparison: 300 x $9166.35 = $2,749,905. 28 Weeks",
+    "For 12 o'clock monitoring the Horizon fitting reduce the risk of working at heights, manual handling, and all the human factoring.",
+    "By using Horizon fittings, device lengths will be no longer than 8\", meaning shorter and lighter retrievers and an easily managed stock inventory of replacement probes and coupon holders.",
+    "Initial field installation is taking place during May 2024 and Aramco will assess the change in their data due to more representative monitoring using the Horizon access fitting."
+  ],
+  "numbers_and_units": [
+    "10-20%",
+    "85%",
+    "1500#",
+    "300 x $1400 = $420,000",
+    "12 Weeks",
+    "300 x $9166.35 = $2,749,905",
+    "28 Weeks",
+    "8\"",
+    "04/30/2024",
+    "9/12/2023",
+    "4/18/2024"
+  ],
+  "entities": [
+    {
+      "type": "Product",
+      "value": "Horizon Access Fittings"
+    },
+    {
+      "type": "Client",
+      "value": "Worley"
+    },
+    {
+      "type": "Client",
+      "value": "Aramco"
+    },
+    {
+      "type": "Client",
+      "value": "AFIC"
+    },
+    {
+      "type": "Company",
+      "value": "Axess"
+    },
+    {
+      "type": "Product",
+      "value": "Janus Guard"
+    },
+    {
+      "type": "Material",
+      "value": "A105/LF2"
+    },
+    {
+      "type": "Material",
+      "value": "825"
+    },
+    {
+      "type": "Material",
+      "value": "A10SN CARBON STEEL"
+    },
+    {
+      "type": "Part Number",
+      "value": "CCFD-HZ-G10180-B-A"
+    },
+    {
+      "type": "Material",
+      "value": "1018 CARBON STEEL"
+    },
+    {
+      "type": "Part Number",
+      "value": "2PRCJA"
+    },
+    {
+      "type": "Material",
+      "value": "A350-LF2 CARBON STEEL"
+    },
+    {
+      "type": "Material",
+      "value": "VITON"
+    },
+    {
+      "type": "Part Number",
+      "value": "HPHZCH-12-4.25"
+    },
+    {
+      "type": "Material",
+      "value": "316L SS"
+    },
+    {
+      "type": "Material",
+      "value": "PTFE"
+    },
+    {
+      "type": "Standard",
+      "value": "NACE MR0175"
+    },
+    {
+      "type": "Part Number",
+      "value": "ADD23091201_Rav"
+    },
+    {
+      "type": "Material",
+      "value": "API 5L GR. X65"
+    },
+    {
+      "type": "Material",
+      "value": "ALLOY 825"
+    },
+    {
+      "type": "Material",
+      "value": "A105/A350 LF2"
+    },
+    {
+      "type": "Part Number",
+      "value": "GAD24041801"
+    },
+    {
+      "type": "Part Number",
+      "value": "HORIZON16-NTA4/HP/3PRC-A3"
+    },
+    {
+      "type": "Material",
+      "value": "A105 CS"
+    },
+    {
+      "type": "Material",
+      "value": "A182.316L SS"
+    },
+    {
+      "type": "Material",
+      "value": "Teflon"
+    },
+    {
+      "type": "Part Number",
+      "value": "AX2HPJA-RJ1500-NT- B4/HP-B5-1/3PRCJA- A3-1"
+    },
+    {
+      "type": "Material",
+      "value": "Hastelloy C276"
+    },
+    {
+      "type": "Material",
+      "value": "Inconel 625"
+    },
+    {
+      "type": "Standard",
+      "value": "Saudi Aramco 6239-ENG (11/2010)"
+    },
+    {
+      "type": "Standard",
+      "value": "NACE MRD175"
+    },
+    {
+      "type": "Standard",
+      "value": "ANSI 806.5"
+    }
+  ],
+  "tables_index": [
+    {
+      "columns": [
+        "Product",
+        "Horizon Access Fittings"
+      ],
+      "title": "Table 1"
+    },
+    {
+      "columns": [
+        "",
+        "CONTROL STANDARDS NACE MR0175",
+        "SIZE C :unselected:",
+        "GA - HORIZON SIDE ENTRY BOL ACCESS FITTING, WITH ANGLED FLUSH DISC HOLDER",
+        "DRAWING NO. ADD23091201_Rav"
+      ],
+      "title": "Table 2"
+    }
+  ],
+  "_validation": {
+    "numbers_found_in_text": 11
+  }
+}

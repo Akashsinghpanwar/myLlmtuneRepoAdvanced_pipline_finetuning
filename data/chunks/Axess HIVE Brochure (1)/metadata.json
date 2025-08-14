@@ -1,0 +1,29 @@
+{
+  "original_file": "Axess HIVE Brochure (1).txt",
+  "source_used": "md",
+  "length_unit": "tokens",
+  "min_length": 900,
+  "max_length": 2200,
+  "segments_detected": 16,
+  "num_chunks": 3,
+  "chunks": [
+    {
+      "id": 1,
+      "filename": "chunk_001.txt",
+      "length": 179,
+      "is_tableish": true
+    },
+    {
+      "id": 2,
+      "filename": "chunk_002.txt",
+      "length": 1866,
+      "is_tableish": true
+    },
+    {
+      "id": 3,
+      "filename": "chunk_003.txt",
+      "length": 443,
+      "is_tableish": true
+    }
+  ]
+}

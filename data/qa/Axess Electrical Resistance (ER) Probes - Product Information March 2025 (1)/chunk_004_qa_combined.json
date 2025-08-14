@@ -1,0 +1,309 @@
+{
+  "chunk_id": 4,
+  "chunk_filename": "chunk_004.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "According to Table 2, what is the material code for F51 DSS?",
+      "evaluation_criteria": "Verifies the correct material code is given. Incorrect answers would provide the code for a different material (e.g., A3, B4).",
+      "answer": "The material code for F51 DSS is A7.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "According to Table 2, what is the material code for Alloy 625?",
+      "evaluation_criteria": "Verifies the correct material code is given. Incorrect answers would provide the code for a different material (e.g., A3, B4).",
+      "answer": "The material code for Alloy 625 is B5.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What is the element thickness for a Surface Strip (\"Flush\") SS ER element?",
+      "evaluation_criteria": "Verifies the correct element thickness is given. Incorrect answers would provide the thickness for a different element type (e.g., 10mil, 40mil).",
+      "answer": "The element thickness for a Surface Strip (\"Flush\") SS ER element is 20mil.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What material code is associated with Pipe Grade CS when used as an ER element material?",
+      "evaluation_criteria": "Verifies the correct material code is given. Incorrect answers would provide the code for a different material (e.g., A3, B4).",
+      "answer": "Pipe Grade CS uses material code A1.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What material code is associated with the ER element material S2205?",
+      "evaluation_criteria": "Verifies the correct material code is given. Incorrect answers would provide the code for a different material (e.g., A3, B4).",
+      "answer": "The element material S2205 uses the material code A7.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What material code is associated with the ER element material Alloy 825?",
+      "evaluation_criteria": "Verifies the correct material code is given. Incorrect answers would provide the code for a different material (e.g., A3, B4).",
+      "answer": "The element material Alloy 825 uses the material code B6.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What is the element thickness and material for a Tubular / Cylindrical C ER element?",
+      "evaluation_criteria": "Verifies the correct element thickness and material are given for the specified element type. Incorrect answers would provide the thickness/material for a different element type.",
+      "answer": "A Tubular / Cylindrical C ER element has a thickness of 10mil and is made of Pipe Grade CS.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "What material code is associated with an ER probe made of 316L SS?",
+      "evaluation_criteria": "Verifies the correct material code is given. Incorrect answers would provide the code for a different material (e.g., A1, B4).",
+      "answer": "An ER probe made of 316L SS has a material code of A3.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What is the cable length for a Resistance ER probe?",
+      "evaluation_criteria": "Verifies the correct cable length is given. Incorrect answers would provide a different cable length or omit the unit.",
+      "answer": "The cable length for a Resistance ER probe is 10 foot.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What type of ground lead is used with a Resistance ER probe?",
+      "evaluation_criteria": "Verifies the correct ground lead is given. Incorrect answers would state 'No Ground Lead'.",
+      "answer": "A Resistance ER probe uses a Ground Lead GNDL.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "According to Table 2, what is the material code for F53 SDSS?",
+      "evaluation_criteria": "Verifies the correct material code (A9) is identified for F53 SDSS from Table 2.",
+      "answer": "The material code for F53 SDSS is A9.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "According to Table 2, what is the material code for F60 DSS?",
+      "evaluation_criteria": "Verifies the correct material code (A8) is identified for F60 DSS from Table 2.",
+      "answer": "The material code for F60 DSS is A8.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "According to Table 2, what is the material code for F55 SDSS?",
+      "evaluation_criteria": "Verifies the correct material code (B1) is identified for F55 SDSS from Table 2.",
+      "answer": "The material code for F55 SDSS is B1.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "According to Table 2, what is the material code for the standard material 316/316L SS?",
+      "evaluation_criteria": "Verifies the correct material code (A3) is identified for 316/316L SS from Table 2.",
+      "answer": "The standard material, 316/316L SS, has a material code of A3.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "According to Table 2, what is the material code for C276?",
+      "evaluation_criteria": "Verifies the correct material code (B4) is identified for C276 from Table 2.",
+      "answer": "The material code for C276 is B4.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What is the element thickness for a 316L SS ER probe?",
+      "evaluation_criteria": "Verifies the correct element thickness (40mil) is identified for 316L SS ER probe from Table 3.",
+      "answer": "The element thickness for a 316L SS ER probe is 40mil.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What is the element thickness for an ER element made of C276?",
+      "evaluation_criteria": "Verifies the correct element thickness (50mil) is identified for C276 ER element from Table 3.",
+      "answer": "The element thickness for an ER element made of C276 is 50mil.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What is the element thickness for an ER element made of Pipe Grade CS?",
+      "evaluation_criteria": "Verifies the correct element thickness (10mil) for Pipe Grade CS.",
+      "answer": "The element thickness for a Pipe Grade CS ER element is 10mil.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What material code is associated with an ER element made of Alloy 625?",
+      "evaluation_criteria": "Verifies the correct material code (B5) for Alloy 625.",
+      "answer": "The material code for an ER element made of Alloy 625 is B5.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What material code is associated with an ER element made of C276?",
+      "evaluation_criteria": "Verifies the correct material code (B4) for C276.",
+      "answer": "The material code for an ER element made of C276 is B4.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What is the element thickness for an ER probe made of S2205?",
+      "evaluation_criteria": "Verifies the correct element thickness (50mil) for S2205.",
+      "answer": "The element thickness for a S2205 ER probe is 50mil.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What material code is associated with an ER element made of Alloy 825?",
+      "evaluation_criteria": "Verifies the correct material code (B6) for Alloy 825.",
+      "answer": "The material code for an ER element made of Alloy 825 is B6.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What is the element thickness for an ER element made of 304 SS?",
+      "evaluation_criteria": "Verifies the correct element thickness (20mil) for 304 SS.",
+      "answer": "The element thickness for a 304 SS ER element is 20mil.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What is the material code for F51 DSS?",
+      "evaluation_criteria": "Verifies the correct material code (A7) for F51 DSS.",
+      "answer": "The material code for F51 DSS is A7.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What is the material code for F60 DSS?",
+      "evaluation_criteria": "Verifies the correct material code (A8) for F60 DSS.",
+      "answer": "The material code for F60 DSS is A8.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What is the material code for F53 SDSS?",
+      "evaluation_criteria": "Verifies the correct material code (A9) for F53 SDSS.",
+      "answer": "The material code for F53 SDSS is A9.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What is the material code for F55 SDSS?",
+      "evaluation_criteria": "Verifies the correct material code (B1) for F55 SDSS.",
+      "answer": "The material code for F55 SDSS is B1.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What is the material code for C276?",
+      "evaluation_criteria": "Verifies the correct material code (B4) for C276.",
+      "answer": "The material code for C276 is B4.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What is the material code for Alloy 625?",
+      "evaluation_criteria": "Verifies the correct material code (B5) for Alloy 625.",
+      "answer": "The material code for Alloy 625 is B5.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What is the material code for Alloy 825?",
+      "evaluation_criteria": "Verifies the correct material code (B6) for Alloy 825.",
+      "answer": "The material code for Alloy 825 is B6.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What is the material code for 316/316L SS?",
+      "evaluation_criteria": "Verifies the correct material code (A3) for 316/316L SS.",
+      "answer": "The material code for 316/316L SS is A3.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What element type is associated with a Tubular / Cylindrical C ER element?",
+      "evaluation_criteria": "The answer must state the correct element type for a Tubular / Cylindrical C ER element, which is 'Electrical Resistance'.",
+      "answer": "A Tubular / Cylindrical C ER element has an element type of Electrical Resistance.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What element type is associated with a Surface Strip (\"Flush\") SS ER element?",
+      "evaluation_criteria": "The answer must state the correct element type for a Surface Strip (\"Flush\") SS ER element, which is 'Probe, For Use Underground'.",
+      "answer": "A Surface Strip (\"Flush\") SS ER element has an element type of 'Probe, For Use Underground'.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What is the cable length for an Electrical Resistance ER probe?",
+      "evaluation_criteria": "The answer must state the correct cable length, which is '10 foot'.",
+      "answer": "The cable length for an Electrical Resistance ER probe is 10 foot.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What type of ground lead is used with an Electrical Resistance ER probe?",
+      "evaluation_criteria": "The answer must state the correct ground lead, which is 'No Ground Lead --'.",
+      "answer": "The ground lead for an Electrical Resistance ER probe is No Ground Lead --.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What is the element thickness for a Pipe Grade CS ER element?",
+      "evaluation_criteria": "The answer must state '10mil' exactly.",
+      "answer": "The element thickness for a Pipe Grade CS ER element is 10mil.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What is the element thickness for a 304 SS Surface Strip (\"Flush\") ER element?",
+      "evaluation_criteria": "The answer must state the correct element thickness (20mil) and material (304 SS) and element type (Surface Strip).",
+      "answer": "The element thickness for a 304 SS Surface Strip (\"Flush\") ER element is 20mil.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What element type is associated with an Electrical Resistance ER probe?",
+      "evaluation_criteria": "The answer must state the correct element type (Surface Strip) and material (SS).",
+      "answer": "The element type for an Electrical Resistance ER probe is Surface Strip (\"Flush\") SS.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What is the element thickness for an ER probe made of Alloy 625?",
+      "evaluation_criteria": "The answer must state the correct element thickness (50mil) and material (Alloy 625).",
+      "answer": "The element thickness for an ER probe made of Alloy 625 is 50mil.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What is the element thickness for an ER probe made of Alloy 825?",
+      "evaluation_criteria": "The answer must state the correct element thickness (50mil) and material (Alloy 825).",
+      "answer": "The element thickness for an ER probe made of Alloy 825 is 50mil.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What is the element thickness for an ER probe made of F51 DSS?",
+      "evaluation_criteria": "The answer must state the correct element thickness (40mil) and material (F51 DSS).",
+      "answer": "The element thickness for an ER probe made of F51 DSS is 40mil.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What is the element thickness for an ER probe made of C276?",
+      "evaluation_criteria": "The answer must state the correct element thickness (50mil) and material (C276).",
+      "answer": "The element thickness for an ER probe made of C276 is 50mil.",
+      "difficulty": 4,
+      "category": "factual"
+    }
+  ],
+  "iterations": 6,
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

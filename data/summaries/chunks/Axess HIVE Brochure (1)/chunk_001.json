@@ -1,0 +1,34 @@
+{
+  "bullets": [
+    "Pages detected: 12",
+    "Tables detected: 3",
+    "Monitoring Locations: 45%",
+    "Coupons: 95%"
+  ],
+  "numbers_and_units": [
+    "12",
+    "3",
+    "2",
+    "25",
+    "75",
+    "45%",
+    "95%",
+    "19",
+    "57",
+    "95%",
+    "6",
+    "18"
+  ],
+  "title": "Axess HIVE Brochure PDF Metadata",
+  "keywords": [
+    "pages",
+    "tables",
+    "key-value pairs",
+    "monitoring",
+    "locations"
+  ],
+  "_validation": {
+    "numbers_found_in_text": 12,
+    "source_chunk": "chunk_001.txt"
+  }
+}

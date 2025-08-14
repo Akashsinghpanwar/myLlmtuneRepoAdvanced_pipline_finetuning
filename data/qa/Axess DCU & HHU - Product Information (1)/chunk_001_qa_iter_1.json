@@ -1,0 +1,71 @@
+{
+  "chunk_id": 1,
+  "chunk_filename": "chunk_001.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "What is the resolution of the Axess DCU & HHU?",
+      "evaluation_criteria": "Verifies the ability to extract a specific technical specification from the provided key-value pairs. Answer must state '20 bits'.",
+      "answer": "The Axess DCU & HHU has a resolution of 20 bits.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What is the memory capacity (in number of readings) of the Axess DCU & HHU?",
+      "evaluation_criteria": "Verifies the ability to extract a specific technical specification from the provided key-value pairs. Answer must state '7,200 readings'.",
+      "answer": "The Axess DCU & HHU can store 7,200 readings.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What is the operating temperature range of the Axess DCU & HHU?",
+      "evaluation_criteria": "Verifies the ability to extract a specific technical specification from the provided key-value pairs. Answer must include both Celsius and Fahrenheit ranges.",
+      "answer": "The Axess DCU & HHU can operate in temperatures ranging from -20°C to +70℃ (-4°F to +158°F).",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What type of power supply does the Axess DCU & HHU use, and what are its specifications?",
+      "evaluation_criteria": "Verifies the ability to extract a specific technical specification from the provided key-value pairs. Answer must state 'Lithium Battery Pack (7.2V 5Ah)'.",
+      "answer": "The Axess DCU & HHU uses a Lithium Battery Pack (7.2V 5Ah) as its power supply.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What IECEx and ATEX certifications does the Axess DCU & HHU have?",
+      "evaluation_criteria": "Verifies the ability to extract specific certification information from the provided key-value pairs. Answer must include both IECEx and ATEX certifications exactly as written.",
+      "answer": "The Axess DCU & HHU is certified to IECEx Ex ia IIC T4 Ga/Gb and ATEX Ex II 1/2 G Ex ia IIC T4 Ga/Gb.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "What is the Ingress Protection rating of the Axess DCU & HHU?",
+      "evaluation_criteria": "Verifies the ability to extract a specific rating from the provided key-value pairs. Answer must state 'IP66'.",
+      "answer": "The Axess DCU & HHU has an ingress protection rating of IP66.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What communication protocol does the Axess DCU & HHU use, and what are its parameters?",
+      "evaluation_criteria": "Verifies the ability to extract specific communication protocol details from the provided key-value pairs. Answer must include all parameters: 'RS-232 Serial ASCII Bus 9600, 8, N, 1'.",
+      "answer": "The Axess DCU & HHU communicates via RS-232 Serial ASCII Bus 9600, 8, N, 1.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What is the weight of the Axess DCU & HHU?",
+      "evaluation_criteria": "Verifies the ability to extract a specific measurement from the provided key-value pairs. Answer must include both kg and lb values.",
+      "answer": "The Axess DCU & HHU weighs 1.7kg (3.8lb).",
+      "difficulty": 2,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"The Axess DCU & HHU has a resolution of 20 bits.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"Verifies the ability to extract a specific technical specification from the provided key-value pairs. Answer must state '20 bits'.\",\n    \"question\": \"What is the resolution of the Axess DCU & HHU?\"\n  },\n  {\n    \"answer\": \"The Axess DCU & HHU can store 7,200 readings.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"Verifies the ability to extract a specific technical specification from the provided key-value pairs. Answer must state '7,200 readings'.\",\n    \"question\": \"What is the memory capacity (in number of readings) of the Axess DCU & HHU?\"\n  },\n  {\n    \"answer\": \"The Axess DCU & HHU can operate in temperatures ranging from -20°C to +70℃ (-4°F to +158°F).\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Verifies the ability to extract a specific technical specification from the provided key-value pairs. Answer must include both Celsius and Fahrenheit ranges.\",\n    \"question\": \"What is the operating temperature range of the Axess DCU & HHU?\"\n  },\n  {\n    \"answer\": \"The Axess DCU & HHU uses a Lithium Battery Pack (7.2V 5Ah) as its power supply.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Verifies the ability to extract a specific technical specification from the provided key-value pairs. Answer must state 'Lithium Battery Pack (7.2V 5Ah)'.\",\n    \"question\": \"What type of power supply does the Axess DCU & HHU use, and what are its specifications?\"\n  },\n  {\n    \"answer\": \"The Axess DCU & HHU is certified to IECEx Ex ia IIC T4 Ga/Gb and ATEX Ex II 1/2 G Ex ia IIC T4 Ga/Gb.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Verifies the ability to extract specific certification information from the provided key-value pairs. Answer must include both IECEx and ATEX certifications exactly as written.\",\n    \"question\": \"What IECEx and ATEX certifications does the Axess DCU & HHU have?\"\n  },\n  {\n    \"answer\": \"The Axess DCU & HHU has an ingress protection rating of IP66.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"Verifies the ability to extract a specific rating from the provided key-value pairs. Answer must state 'IP66'.\",\n    \"question\": \"What is the Ingress Protection rating of the Axess DCU & HHU?\"\n  },\n  {\n    \"answer\": \"The Axess DCU & HHU communicates via RS-232 Serial ASCII Bus 9600, 8, N, 1.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Verifies the ability to extract specific communication protocol details from the provided key-value pairs. Answer must include all parameters: 'RS-232 Serial ASCII Bus 9600, 8, N, 1'.\",\n    \"question\": \"What communication protocol does the Axess DCU & HHU use, and what are its parameters?\"\n  },\n  {\n    \"answer\": \"The Axess DCU & HHU weighs 1.7kg (3.8lb).\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"Verifies the ability to extract a specific measurement from the provided key-value pairs. Answer must include both kg and lb values.\",\n    \"question\": \"What is the weight of the Axess DCU & HHU?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

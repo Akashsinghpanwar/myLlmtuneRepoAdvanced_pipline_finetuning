@@ -1,0 +1,23 @@
+Coupon Holder Sizing
+Once the access fitting type, and pipe dimensions are known, the style of holder and desired location of the coupons can be selected. The below formulas can then be used to position the coupons in the correct position within the line.
+The example formulas below are for calculating coupon holder length (L) for use with standard mechanical flare-weld access fitting assemblies. Please contact Axess for other applications, or log in to Kickstarter via our website and let it calculate the lengths and generate part numbers for you.
+Top of the Line Monitoring:
+Coupon holder positions the effective length of strip coupon into pipe / vessel. L = (A + PW + WG) - 2.5"
+Flush Monitoring:
+Coupon holder positions the coupon face flush to the pipe inner wall at the entry point (flush disc coupon only). L = (A + PW + WG) - 2.815"
+Middle of the Line Monitoring:
+Coupon holder positions '/2 of the coupon on either side of pipe centerline. In the case of a multiple disc coupon holder use this formula for top and center of the line monitoring. L = (A + '/2PD + WG) - (2.5" + 1/2EL)
+Bottom of the Line Monitoring:
+Coupon holder positions coupon approximately '/." off bottom of line. In the case of ladder and multiple disc coupon holder use this formula for top, center and bottom of the line monitoring. L = (A + PD + WG) - (2.75" + PW + EL)
+Where:
+A = Length of Flare-weld Access fitting body
+PW = Pipe wall (wall thickness of pipe)
+PD = Pipe diameter (outside diameter of pipe)
+EL = Effective length of coupon (the portion of the coupon exposed to the environment, i.e. 3" coupon = 1-5%", 6" coupon = 4-3/4")
+WG = Weld gap (as per weld procedures, 1/16" is normal per ANSI B31.1 1973)
+NOTE: If calculated length is not an even '/." increment, please round back to the previous '/." increment.
+AXESS
+Innovating Safety ...
+JANUSGUARD
+
+2001 Timberloch Place, Suite 500, The Woodlands Texas 77380, USA, www.axess-corrosion.com, +1 (832) 990 6754_info@axess-corrosion.com WhatsApp

@@ -1,0 +1,85 @@
+{
+  "chunk_id": 2,
+  "chunk_filename": "chunk_002.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "What types of probes is the Axess DCU (Data Collection Unit) capable of reading?",
+      "evaluation_criteria": "Verifies the ability to identify the types of probes compatible with the Axess DCU. Answer must include all three probe types: ER, LPR, and galvanic.",
+      "answer": "The Axess DCU is capable of reading all types of electrical resistance (ER), linear polarization resistance (LPR) and galvanic probes.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "How many data points can the Axess DCU preserve in its internal memory?",
+      "evaluation_criteria": "Verifies the memory capacity of the Axess DCU. The answer must state '7,200 data points'.",
+      "answer": "The Axess DCU can preserve up to 7,200 data points in its internal memory.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What are the dimensions of the Axess Data Collection Unit?",
+      "evaluation_criteria": "Verifies the ability to extract dimensional information. Must include both imperial and metric units.",
+      "answer": "The dimensions of the Axess Data Collection Unit are 6.5\" x 6.5\" x 4.25\" (165mm x 165mm x 108mm).",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What communication protocol does the Axess DCU use?",
+      "evaluation_criteria": "Verifies the communication protocol of the Axess DCU. Answer must include RS-232 Serial ASCII Bus 9600, 8, N, 1.",
+      "answer": "The Axess DCU uses a RS-232 Serial ASCII Bus 9600, 8, N, 1 for communication.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "Why can the Axess DCU be used with electrical resistance (ER), linear polarization resistance (LPR), and galvanic probes?",
+      "evaluation_criteria": "Tests understanding of probe compatibility and measurement types. Must include all three probe types and their corresponding measurements.",
+      "answer": "The Axess DCU can be used with electrical resistance (ER), linear polarization resistance (LPR), and galvanic probes because it is designed to read metal loss, corrosion rate, and current/potential respectively.",
+      "difficulty": 6,
+      "category": "reasoning"
+    },
+    {
+      "question": "What type of battery powers the Axess DCU, and what are its specifications?",
+      "evaluation_criteria": "Verifies the power supply specifications of the Axess DCU. Answer must include '7.2V 5Ah Lithium Battery Pack'.",
+      "answer": "The Axess DCU is powered by a 7.2V 5Ah Lithium Battery Pack.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What is the operating temperature range for the Axess DCU?",
+      "evaluation_criteria": "Verifies the operating temperature range of the Axess DCU. Must include both Celsius and Fahrenheit ranges.",
+      "answer": "The temperature range for the Axess DCU is -20°C to +70℃ (-4°F to +158°F).",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What is the part number for the Axess Data Collection Unit?",
+      "evaluation_criteria": "Verifies the ability to identify the part number for the Axess Data Collection Unit. The answer must state 'AXDCUHB'.",
+      "answer": "The part number for the Axess Data Collection Unit is AXDCUHB.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What are the benefits of the GRP enclosure used for the Axess DCU?",
+      "evaluation_criteria": "Tests understanding of the GRP enclosure's benefits. Must mention lightweight construction and mounting options.",
+      "answer": "The GRP enclosure of the Axess DCU allows for lightweight construction and optional mounting to site structures or Axess low and high pressure access systems.",
+      "difficulty": 5,
+      "category": "reasoning"
+    },
+    {
+      "question": "What is the Ingress Protection rating of the Axess DCU?",
+      "evaluation_criteria": "Verifies the ingress protection rating of the Axess DCU. The answer must state 'IP66'.",
+      "answer": "The Axess DCU is rated IP66 for Ingress Protection.",
+      "difficulty": 3,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"The Axess DCU is capable of reading all types of electrical resistance (ER), linear polarization resistance (LPR) and galvanic probes.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Verifies the ability to identify the types of probes compatible with the Axess DCU. Answer must include all three probe types: ER, LPR, and galvanic.\",\n    \"question\": \"What types of probes is the Axess DCU (Data Collection Unit) capable of reading?\"\n  },\n  {\n    \"answer\": \"The Axess DCU can preserve up to 7,200 data points in its internal memory.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"Verifies the memory capacity of the Axess DCU. The answer must state '7,200 data points'.\",\n    \"question\": \"How many data points can the Axess DCU preserve in its internal memory?\"\n  },\n  {\n    \"answer\": \"The dimensions of the Axess Data Collection Unit are 6.5\\\" x 6.5\\\" x 4.25\\\" (165mm x 165mm x 108mm).\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Verifies the ability to extract dimensional information. Must include both imperial and metric units.\",\n    \"question\": \"What are the dimensions of the Axess Data Collection Unit?\"\n  },\n  {\n    \"answer\": \"The Axess DCU uses a RS-232 Serial ASCII Bus 9600, 8, N, 1 for communication.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Verifies the communication protocol of the Axess DCU. Answer must include RS-232 Serial ASCII Bus 9600, 8, N, 1.\",\n    \"question\": \"What communication protocol does the Axess DCU use?\"\n  },\n  {\n    \"answer\": \"The Axess DCU can be used with electrical resistance (ER), linear polarization resistance (LPR), and galvanic probes because it is designed to read metal loss, corrosion rate, and current/potential respectively.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"Tests understanding of probe compatibility and measurement types. Must include all three probe types and their corresponding measurements.\",\n    \"question\": \"Why can the Axess DCU be used with electrical resistance (ER), linear polarization resistance (LPR), and galvanic probes?\"\n  },\n  {\n    \"answer\": \"The Axess DCU is powered by a 7.2V 5Ah Lithium Battery Pack.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Verifies the power supply specifications of the Axess DCU. Answer must include '7.2V 5Ah Lithium Battery Pack'.\",\n    \"question\": \"What type of battery powers the Axess DCU, and what are its specifications?\"\n  },\n  {\n    \"answer\": \"The temperature range for the Axess DCU is -20°C to +70℃ (-4°F to +158°F).\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Verifies the operating temperature range of the Axess DCU. Must include both Celsius and Fahrenheit ranges.\",\n    \"question\": \"What is the operating temperature range for the Axess DCU?\"\n  },\n  {\n    \"answer\": \"The part number for the Axess Data Collection Unit is AXDCUHB.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"Verifies the ability to identify the part number for the Axess Data Collection Unit. The answer must state 'AXDCUHB'.\",\n    \"question\": \"What is the part number for the Axess Data Collection Unit?\"\n  },\n  {\n    \"answer\": \"The GRP enclosure of the Axess DCU allows for lightweight construction and optional mounting to site structures or Axess low and high pressure access systems.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Tests understanding of the GRP enclosure's benefits. Must mention lightweight construction and mounting options.\",\n    \"question\": \"What are the benefits of the GRP enclosure used for the Axess DCU?\"\n  },\n  {\n    \"answer\": \"The Axess DCU is rated IP66 for Ingress Protection.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Verifies the ingress protection rating of the Axess DCU. The answer must state 'IP66'.\",\n    \"question\": \"What is the Ingress Protection rating of the Axess DCU?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

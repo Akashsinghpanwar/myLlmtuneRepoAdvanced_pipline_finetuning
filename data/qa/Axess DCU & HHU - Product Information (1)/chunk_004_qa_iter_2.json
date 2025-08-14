@@ -1,0 +1,36 @@
+{
+  "chunk_id": 4,
+  "chunk_filename": "chunk_004.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "Which probe types is the Axess Data Collection Unit (AXDCUHB) compatible with?",
+      "evaluation_criteria": "Verifies the probe types compatible with the Axess Data Collection Unit (AXDCUHB). Incorrect if it lists incompatible probe types or omits any of the compatible types.",
+      "answer": "The Axess Data Collection Unit (AXDCUHB) is suitable for Electrical Resistance (ER), Linear Polarization Resistance (LPR), and Galvanic Potential probe types.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What are the dimensions of the Axess Data Collection Unit (AXDCUHB) in both inches and millimeters?",
+      "evaluation_criteria": "The answer must provide the correct dimensions in both inches and millimeters. Incorrect if only one unit is provided or if the dimensions are incorrect.",
+      "answer": "The dimensions of the Axess Data Collection Unit (AXDCUHB) are 6.5\" x 6.5\" x 4.25\" (165mm x 165mm x 108mm).",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What is the part number for the Axess Data Collection Unit?",
+      "evaluation_criteria": "The answer must provide the correct part number, AXDCUHB. Incorrect if the part number is misspelled or incorrect.",
+      "answer": "The part number for the Axess Data Collection Unit is AXDCUHB.",
+      "difficulty": 2,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"The Axess Data Collection Unit (AXDCUHB) is suitable for Electrical Resistance (ER), Linear Polarization Resistance (LPR), and Galvanic Potential probe types.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Verifies the probe types compatible with the Axess Data Collection Unit (AXDCUHB). Incorrect if it lists incompatible probe types or omits any of the compatible types.\",\n    \"question\": \"Which probe types is the Axess Data Collection Unit (AXDCUHB) compatible with?\"\n  },\n  {\n    \"answer\": \"The dimensions of the Axess Data Collection Unit (AXDCUHB) are 6.5\\\" x 6.5\\\" x 4.25\\\" (165mm x 165mm x 108mm).\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"The answer must provide the correct dimensions in both inches and millimeters. Incorrect if only one unit is provided or if the dimensions are incorrect.\",\n    \"question\": \"What are the dimensions of the Axess Data Collection Unit (AXDCUHB) in both inches and millimeters?\"\n  },\n  {\n    \"answer\": \"The part number for the Axess Data Collection Unit is AXDCUHB.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"The answer must provide the correct part number, AXDCUHB. Incorrect if the part number is misspelled or incorrect.\",\n    \"question\": \"What is the part number for the Axess Data Collection Unit?\"\n  },\n  {\n    \"answer\": \"The Axess Data Collection Unit (AXDCUHB) has an ingress protection rating of IP66.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"The answer must state the correct ingress protection rating, IP66. Incorrect if the rating is different or missing.\",\n    \"question\": \"What is the ingress protection rating of the Axess Data Collection Unit (AXDCUHB)?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

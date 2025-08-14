@@ -1,0 +1,17 @@
+{
+  "original_file": "Choosing an Access System (1).txt",
+  "source_used": "txt",
+  "length_unit": "tokens",
+  "min_length": 900,
+  "max_length": 2200,
+  "segments_detected": 1,
+  "num_chunks": 1,
+  "chunks": [
+    {
+      "id": 1,
+      "filename": "chunk_001.txt",
+      "length": 378,
+      "is_tableish": false
+    }
+  ]
+}

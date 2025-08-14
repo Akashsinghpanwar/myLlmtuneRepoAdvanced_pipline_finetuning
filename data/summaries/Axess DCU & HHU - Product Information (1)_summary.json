@@ -1,0 +1,132 @@
+{
+  "abstract": "The Axess DCU is a high resolution, battery powered, corrosion monitoring instrument capable of reading all types of electrical resistance (ER), linear polarization resistance (LPR) and galvanic probes. Up to 7,200 data points are preserved in the internal memory which can be downloaded to the Axess HHU via the RS-232 Serial ASCII connection.",
+  "key_points": [
+    "\"The Axess DCU is a high resolution, battery powered, corrosion monitoring instrument capable of reading all types of electrical resistance (ER), linear polarization resistance (LPR) and galvanic probes.\"",
+    "\"Up to 7,200 data points are preserved in the internal memory which can be downloaded to the Axess HHU via the RS-232 Serial ASCII connection\"",
+    "Temperature range: -20°C to +70℃ (-4°F to +158°F)",
+    "Power Supply: Lithium Battery Pack (7.2V 5Ah)",
+    "Weight: 1.7kg (3.8lb)",
+    "Dimensions: 6.5\" x 6.5\" x 4.25\" (165mm x 165mm x 108mm)"
+  ],
+  "numbers_and_units": [
+    "-20°C",
+    "+70℃",
+    "-4°F",
+    "+158°F",
+    "7,200",
+    "RS-232",
+    "9600",
+    "1.7kg",
+    "3.8lb",
+    "6.5\"",
+    "6.5\"",
+    "4.25\"",
+    "165mm",
+    "165mm",
+    "108mm",
+    "+1 (832) 990 6754"
+  ],
+  "entities": [
+    {
+      "type": "ORGANIZATION",
+      "value": "AXESS"
+    },
+    {
+      "type": "PRODUCT",
+      "value": "DCU-HR"
+    },
+    {
+      "type": "PRODUCT",
+      "value": "Data Collection Unit"
+    },
+    {
+      "type": "PRODUCT",
+      "value": "High Resolution ER"
+    },
+    {
+      "type": "PRODUCT",
+      "value": "AX-HHU"
+    },
+    {
+      "type": "ORGANIZATION",
+      "value": "AXESS CORROSION"
+    },
+    {
+      "type": "PRODUCT",
+      "value": "Axess DCU"
+    },
+    {
+      "type": "PRODUCT",
+      "value": "ER"
+    },
+    {
+      "type": "PRODUCT",
+      "value": "LPR"
+    },
+    {
+      "type": "PRODUCT",
+      "value": "Axess HHU"
+    },
+    {
+      "type": "PRODUCT",
+      "value": "CDAS"
+    },
+    {
+      "type": "PRODUCT",
+      "value": "DCU"
+    },
+    {
+      "type": "PRODUCT",
+      "value": "HIGH PRESSURE PROBE ADAPTER AND CABLE"
+    },
+    {
+      "type": "PRODUCT",
+      "value": "HIGH PRESSURE, RETRIEVABLE ER PROBE WITH CYLINDRICAL ELEMENT"
+    },
+    {
+      "type": "PRODUCT",
+      "value": "AXDCUHB"
+    },
+    {
+      "type": "PRODUCT",
+      "value": "Axess Data Collection Unit"
+    },
+    {
+      "type": "PRODUCT",
+      "value": "AXDCUHBBAT"
+    },
+    {
+      "type": "PRODUCT",
+      "value": "AXDCUBRKT"
+    },
+    {
+      "type": "PRODUCT",
+      "value": "DCU Mounting Bracket Kit"
+    },
+    {
+      "type": "ORGANIZATION",
+      "value": "AXESS CORROSION"
+    },
+    {
+      "type": "ORGANIZATION",
+      "value": "JANUSGUARD"
+    }
+  ],
+  "tables_index": [
+    {
+      "columns": [
+        "Electrical Resistance (ER) Linear Polarization Resistance (LPR) Galvanic Potential"
+      ],
+      "title": "Table 1"
+    },
+    {
+      "columns": [
+        ""
+      ],
+      "title": "Table 2"
+    }
+  ],
+  "_validation": {
+    "numbers_found_in_text": 16
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "chunk_id": 1,
+  "chunk_filename": "chunk_001.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "What type of probes are discussed in the document?",
+      "evaluation_criteria": "The answer must state 'Axess Electrical Resistance (ER) Probes' exactly.",
+      "answer": "Axess Electrical Resistance (ER) Probes",
+      "difficulty": 1,
+      "category": "factual"
+    },
+    {
+      "question": "According to the document, what is the product information date for Axess Electrical Resistance (ER) Probes?",
+      "evaluation_criteria": "The answer must state 'March 2025' exactly.",
+      "answer": "March 2025",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "How many pages are detected in the 'Axess Electrical Resistance (ER) Probes - Product Information March 2025 (1).pdf' document?",
+      "evaluation_criteria": "The answer must state '4' exactly.",
+      "answer": "4",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "How many tables are detected in the 'Axess Electrical Resistance (ER) Probes - Product Information March 2025 (1).pdf' document?",
+      "evaluation_criteria": "The answer must state '3' exactly.",
+      "answer": "3",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "Does the 'Axess Electrical Resistance (ER) Probes - Product Information March 2025 (1).pdf' document contain key/value pairs?",
+      "evaluation_criteria": "The answer must state 'Yes' exactly.",
+      "answer": "Yes",
+      "difficulty": 1,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"Axess Electrical Resistance (ER) Probes\",\n    \"category\": \"factual\",\n    \"difficulty\": 1,\n    \"evaluation_criteria\": \"The answer must state 'Axess Electrical Resistance (ER) Probes' exactly.\",\n    \"question\": \"What type of probes are discussed in the document?\"\n  },\n  {\n    \"answer\": \"March 2025\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"The answer must state 'March 2025' exactly.\",\n    \"question\": \"According to the document, what is the product information date for Axess Electrical Resistance (ER) Probes?\"\n  },\n  {\n    \"answer\": \"4\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"The answer must state '4' exactly.\",\n    \"question\": \"How many pages are detected in the 'Axess Electrical Resistance (ER) Probes - Product Information March 2025 (1).pdf' document?\"\n  },\n  {\n    \"answer\": \"3\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"The answer must state '3' exactly.\",\n    \"question\": \"How many tables are detected in the 'Axess Electrical Resistance (ER) Probes - Product Information March 2025 (1).pdf' document?\"\n  },\n  {\n    \"answer\": \"Yes\",\n    \"category\": \"factual\",\n    \"difficulty\": 1,\n    \"evaluation_criteria\": \"The answer must state 'Yes' exactly.\",\n    \"question\": \"Does the 'Axess Electrical Resistance (ER) Probes - Product Information March 2025 (1).pdf' document contain key/value pairs?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

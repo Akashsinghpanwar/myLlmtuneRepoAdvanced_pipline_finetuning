@@ -1,0 +1,23 @@
+{
+  "bullets": [
+    "Pages detected: 16",
+    "Tables detected: 1",
+    "Key/Value pairs detected: yes"
+  ],
+  "numbers_and_units": [
+    "16",
+    "1"
+  ],
+  "title": "Axess Brochure (1).pdf Metadata",
+  "keywords": [
+    "axess",
+    "brochure",
+    "pages",
+    "tables",
+    "key-value pairs"
+  ],
+  "_validation": {
+    "numbers_found_in_text": 2,
+    "source_chunk": "chunk_001.txt"
+  }
+}

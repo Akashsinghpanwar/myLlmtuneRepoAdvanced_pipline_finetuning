@@ -1,0 +1,23 @@
+{
+  "bullets": [
+    "Coupon holder part numbers are generated using a specific system.",
+    "Welded construction is available for 316/316L S/S only; other materials are non-welded.",
+    "Axess offers product tailoring for specific customer requirements."
+  ],
+  "numbers_and_units": [
+    "316/316L",
+    "+1 (832) 990 6754"
+  ],
+  "title": "Coupon Holder Part Numbers and Types",
+  "keywords": [
+    "coupon holder",
+    "part numbers",
+    "axess",
+    "material",
+    "construction"
+  ],
+  "_validation": {
+    "numbers_found_in_text": 2,
+    "source_chunk": "chunk_004.txt"
+  }
+}

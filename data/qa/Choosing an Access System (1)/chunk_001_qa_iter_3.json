@@ -1,0 +1,57 @@
+{
+  "chunk_id": 1,
+  "chunk_filename": "chunk_001.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "When choosing an access system, what is the difference in the number of potential leak paths between mechanical fittings and hydraulic systems?",
+      "evaluation_criteria": "Counts the number of leak paths for each fitting type. Deduct if the numbers are reversed or incorrect.",
+      "answer": "Mechanical fittings have one potential leak path, while hydraulic systems have five (four locking pins and the plug).",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "Besides material selection, what specific techniques or products can prevent galling in mechanical fittings?",
+      "evaluation_criteria": "Must mention both techniques. Partial credit if only one is mentioned.",
+      "answer": "Positive pressure balancing techniques and the Axess ‘Saturn’ coupon holders.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "Which specific hydraulic access system design minimizes the risk of galling?",
+      "evaluation_criteria": "Must specify the 'latest 2-Piece Hydraulic access system'.",
+      "answer": "The latest 2-Piece Hydraulic access system.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What is the pressure rating difference between mechanical and hydraulic tools used with access fittings?",
+      "evaluation_criteria": "Must specify the pressure ratings for both mechanical and hydraulic tools. Deduct if the values are reversed or incorrect.",
+      "answer": "Mechanical tools are rated to 6000psi, while hydraulic tools can be offered at 10,000psi.",
+      "difficulty": 6,
+      "category": "factual"
+    },
+    {
+      "question": "Why does servicing a hydraulic fitting take longer than a mechanical system?",
+      "evaluation_criteria": "Must mention all three reasons: leak path interfaces, mechanical threads, and pressurization process. Partial credit if only some are mentioned.",
+      "answer": "More leak path interfaces to check/seals to renew (6 against 2), more mechanical threads to inspect (5 against 3), and the pressurization of the hydraulic action of the tool can be a much longer process.",
+      "difficulty": 7,
+      "category": "reasoning"
+    },
+    {
+      "question": "Besides positive pressure balancing, what are the causes of galling in mechanical fittings?",
+      "evaluation_criteria": "Must include both material selection and ingress of sand. Partial credit if only one is mentioned.",
+      "answer": "Poor material selection and ingress of sand etc.",
+      "difficulty": 5,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"Mechanical fittings have one potential leak path, while hydraulic systems have five (four locking pins and the plug).\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Counts the number of leak paths for each fitting type. Deduct if the numbers are reversed or incorrect.\",\n    \"question\": \"When choosing an access system, what is the difference in the number of potential leak paths between mechanical fittings and hydraulic systems?\"\n  },\n  {\n    \"answer\": \"Positive pressure balancing techniques and the Axess ‘Saturn’ coupon holders.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Must mention both techniques. Partial credit if only one is mentioned.\",\n    \"question\": \"Besides material selection, what specific techniques or products can prevent galling in mechanical fittings?\"\n  },\n  {\n    \"answer\": \"The latest 2-Piece Hydraulic access system.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Must specify the 'latest 2-Piece Hydraulic access system'.\",\n    \"question\": \"Which specific hydraulic access system design minimizes the risk of galling?\"\n  },\n  {\n    \"answer\": \"Drilling out locking pins can lead to integrity issues with the fitting and the pipeline.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Must mention integrity issues with both the fitting and the pipeline. Partial credit if only one is mentioned.\",\n    \"question\": \"What integrity issues can arise from drilling out the locking pins on a hydraulic access system due to galling?\"\n  },\n  {\n    \"answer\": \"Mechanical tools are rated to 6000psi, while hydraulic tools can be offered at 10,000psi.\",\n    \"category\": \"factual\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"Must specify the pressure ratings for both mechanical and hydraulic tools. Deduct if the values are reversed or incorrect.\",\n    \"question\": \"What is the pressure rating difference between mechanical and hydraulic tools used with access fittings?\"\n  },\n  {\n    \"answer\": \"More leak path interfaces to check/seals to renew (6 against 2), more mechanical threads to inspect (5 against 3), and the pressurization of the hydraulic action of the tool can be a much longer process.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 7,\n    \"evaluation_criteria\": \"Must mention all three reasons: leak path interfaces, mechanical threads, and pressurization process. Partial credit if only some are mentioned.\",\n    \"question\": \"Why does servicing a hydraulic fitting take longer than a mechanical system?\"\n  },\n  {\n    \"answer\": \"Poor material selection and ingress of sand etc.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Must include both material selection and ingress of sand. Partial credit if only one is mentioned.\",\n    \"question\": \"Besides positive pressure balancing, what are the causes of galling in mechanical fittings?\"\n  },\n  {\n    \"answer\": \"Mechanical and hydraulic access fittings can both be rated to 10’000psi and above.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Must specify the 10,000psi rating and indicate 'and above'.\",\n    \"question\": \"What is the maximum pressure rating for both mechanical and hydraulic access fittings?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "chunk_id": 1,
+  "chunk_filename": "chunk_001.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "According to the Axess HIVE brochure, how many campaigns are indicated?",
+      "evaluation_criteria": "Verifies the correct number of campaigns from the key-value pair.",
+      "answer": "The brochure indicates 2 campaigns.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "According to the Axess HIVE brochure, how many monitoring locations are indicated under 'Montaring'?",
+      "evaluation_criteria": "Verifies the correct number of monitoring locations from the key-value pair.",
+      "answer": "The brochure indicates 25 monitoring locations.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "According to the Axess HIVE brochure, how many pictures are indicated?",
+      "evaluation_criteria": "Verifies the correct number of pictures from the key-value pair.",
+      "answer": "The brochure indicates 75 pictures.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "According to the Axess HIVE brochure, what locations are listed?",
+      "evaluation_criteria": "Verifies the locations are 'Hess / Tubular Bells'.",
+      "answer": "Hess / Tubular Bells",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "According to the Axess HIVE brochure, what is the percentage listed for 'Monitoring Locations' under 'Progress'?",
+      "evaluation_criteria": "Verifies the percentage of monitoring locations is 45%.",
+      "answer": "45%",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "According to the Axess HIVE brochure, what is the date listed for 'Corrosion Monitoring' under 'Progress'?",
+      "evaluation_criteria": "Verifies the corrosion monitoring date is 'SOW Q2-2024'.",
+      "answer": "SOW Q2-2024",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "According to the Axess HIVE brochure, what is the percentage listed for 'Coupons' under 'Progress'?",
+      "evaluation_criteria": "Verifies the percentage of coupons is 95%.",
+      "answer": "95%",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "According to the Axess HIVE brochure, what number is listed for 'Monitoring Locations' under 'Password'?",
+      "evaluation_criteria": "Verifies the number of monitoring locations is 19.",
+      "answer": "19",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "According to the Axess HIVE brochure, what number is listed for 'Pictures' under 'Password'?",
+      "evaluation_criteria": "Verifies the number of pictures is 57.",
+      "answer": "57",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "According to the Axess HIVE brochure, what percentage is listed for 'Pictures' under 'Progress'?",
+      "evaluation_criteria": "Verifies the percentage of pictures is 95%.",
+      "answer": "95%",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "According to the Axess HIVE brochure, what is the date listed for 'Corrosion Monitoring' under 'Password'?",
+      "evaluation_criteria": "Verifies the corrosion monitoring date is 'SOW Q2-2024'.",
+      "answer": "SOW Q2-2024",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "According to the Axess HIVE brochure, what number is listed for 'Monitoring Locations' under 'Projest Delet's'?",
+      "evaluation_criteria": "Verifies the number of monitoring locations is 6.",
+      "answer": "6",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "According to the Axess HIVE brochure, what number is listed for 'Pictures' under 'Projest Delet's'?",
+      "evaluation_criteria": "Verifies the number of pictures is 18.",
+      "answer": "18",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "According to the Axess HIVE brochure, is the 'Server Ordet' option selected or unselected?",
+      "evaluation_criteria": "Verifies the correct selection status of 'Server Ordet'. Incorrect if it states 'selected' or provides a different status.",
+      "answer": "The 'Server Ordet' option is unselected.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "According to the Axess HIVE brochure, is the 'Magrinis & Sapples' option selected or unselected?",
+      "evaluation_criteria": "Verifies the correct selection status of 'Magrinis & Sapples'. Incorrect if it states 'selected' or provides a different status.",
+      "answer": "The 'Magrinis & Sapples' option is unselected.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "According to the Axess HIVE brochure, is the 'Projest Delet's' option selected or unselected?",
+      "evaluation_criteria": "The answer must state that the 'Projest Delet's' option is selected, not unselected.",
+      "answer": "The 'Projest Delet's' option is selected.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "According to the Axess HIVE brochure, is the 'Server Ordet' option selected or unselected under 'Projest Delet's'?",
+      "evaluation_criteria": "The answer must state that the 'Server Ordet' option is unselected, based on the key-value pair in the provided text.",
+      "answer": "The 'Server Ordet' option is unselected.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "According to the Axess HIVE brochure, is the 'Magrinis & Sapples' option selected or unselected under 'Projest Delet's'?",
+      "evaluation_criteria": "The answer must state that the 'Magrinis & Sapples' option is unselected, based on the key-value pair in the provided text.",
+      "answer": "The 'Magrinis & Sapples' option is unselected.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "According to the Axess HIVE brochure, is the 'Projest Delet's' option selected or unselected under 'Projest Delet's'?",
+      "evaluation_criteria": "The answer must state that the 'Projest Delet's' option is selected, based on the key-value pair in the provided text.",
+      "answer": "The 'Projest Delet's' option is selected.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "According to the Axess HIVE brochure, what is the number of 'Monitoring Locations' listed under the 'Recolected Data' section?",
+      "evaluation_criteria": "The answer must state the exact number of 'Monitoring Locations' listed under the 'Recolected Data' section, which is 19. Any other number or a missing unit is incorrect.",
+      "answer": "Under the 'Recolected Data' section, the 'Monitoring Locations' value is 19.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "According to the Axess HIVE brochure, what is the selection status of the 'Server Ordet' option?",
+      "evaluation_criteria": "The answer must state that the 'Server Ordet' option is unselected. Any other answer is incorrect.",
+      "answer": "The 'Server Ordet' option is unselected.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "According to the Axess HIVE brochure, what is the selection status of the 'Magrinis & Sapples' option?",
+      "evaluation_criteria": "The answer must state that the 'Magrinis & Sapples' option is unselected. Any other answer is incorrect.",
+      "answer": "The 'Magrinis & Sapples' option is unselected.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "According to the Axess HIVE brochure, what is the selection status of the 'Projest Delet's' option?",
+      "evaluation_criteria": "The answer must state that the 'Projest Delet's' option is selected. Any other answer is incorrect.",
+      "answer": "The 'Projest Delet's' option is selected.",
+      "difficulty": 2,
+      "category": "factual"
+    }
+  ],
+  "iterations": 6,
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

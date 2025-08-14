@@ -1,0 +1,71 @@
+{
+  "chunk_id": 1,
+  "chunk_filename": "chunk_001.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "What type of corrosion monitoring is the Axess Horizon access fitting designed to provide, and what are its key advantages?",
+      "evaluation_criteria": "Answer must state 'bottom of the line corrosion monitoring' and mention 'safety and operational advantages of a side of the line access fitting'.",
+      "answer": "The Axess Horizon access fitting is designed to provide bottom of the line corrosion monitoring with the safety and operational advantages of a side of the line access fitting.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What is the immediate next step after welding the Axess Horizon fitting to the pipe?",
+      "evaluation_criteria": "Answer must mention 'hot-tapped', 'Axess supplied hot-tap tool', and 'temporary service valve'.",
+      "answer": "After welding the Axess Horizon fitting to the pipe, it can be hot-tapped using an Axess supplied hot-tap tool and temporary service valve.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What steps are taken immediately following the hot-tapping of the Axess Horizon fitting?",
+      "evaluation_criteria": "Answer must include closing the service valve, bleeding down and removing the hot-tap tool, and using a retrieval tool to install the monitoring device.",
+      "answer": "After hot-tapping the Axess Horizon fitting, the service valve is closed, the hot-tap tool pressure is bled down and removed, and a retrieval tool can then be used to install the monitoring device.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "What components are used to seal the Axess Horizon access fitting if the monitoring device is not installed immediately?",
+      "evaluation_criteria": "Answer must mention sealing with a 'solid plug' and 'secondary pressure retaining cover'.",
+      "answer": "If the monitoring device is not immediately installed, the Axess Horizon access fitting can be sealed with a solid plug and secondary pressure retaining cover until required.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "How is the Axess Horizon fitting prepared for installation and hot-tapping?",
+      "evaluation_criteria": "Answer must mention 'contoured end' and 'partially bored through' to facilitate hot-tapping.",
+      "answer": "The Horizon fitting is supplied with one end contoured to the size of pipe it is to be installed onto and is partially bored through from the opposite end so it can be hot-tapped following installation.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What happens to the weld metal backing and root during the hot-tapping process of the Axess Horizon fitting, and what type of weld is achieved?",
+      "evaluation_criteria": "Answer must mention removal of 'weld metal backing and root' during 'hot tapping' and resulting in a 'full penetration weld'.",
+      "answer": "The weld metal backing and root are removed during the hot tapping process leaving a full penetration weld.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "What specific guidelines should be followed when welding the Axess Horizon access fitting onto a pipe, and why is this important?",
+      "evaluation_criteria": "Answer must state that welding must follow 'site specific procedures'.",
+      "answer": "Welding should be carried out in accordance with site specific procedures.",
+      "difficulty": 6,
+      "category": "reasoning"
+    },
+    {
+      "question": "Why is the Axess Horizon access fitting suitable for locating the ER probe element in the water phase?",
+      "evaluation_criteria": "Answer must mention 'bottom of the line corrosion monitoring' and 'ER probe element located in the water phase'.",
+      "answer": "The Horizon fitting is designed to provide bottom of the line corrosion monitoring, which means the ER probe element is located in the water phase.",
+      "difficulty": 7,
+      "category": "reasoning"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"The Axess Horizon access fitting is designed to provide bottom of the line corrosion monitoring with the safety and operational advantages of a side of the line access fitting.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Answer must state 'bottom of the line corrosion monitoring' and mention 'safety and operational advantages of a side of the line access fitting'.\",\n    \"question\": \"What type of corrosion monitoring is the Axess Horizon access fitting designed to provide, and what are its key advantages?\"\n  },\n  {\n    \"answer\": \"After welding the Axess Horizon fitting to the pipe, it can be hot-tapped using an Axess supplied hot-tap tool and temporary service valve.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Answer must mention 'hot-tapped', 'Axess supplied hot-tap tool', and 'temporary service valve'.\",\n    \"question\": \"What is the immediate next step after welding the Axess Horizon fitting to the pipe?\"\n  },\n  {\n    \"answer\": \"After hot-tapping the Axess Horizon fitting, the service valve is closed, the hot-tap tool pressure is bled down and removed, and a retrieval tool can then be used to install the monitoring device.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Answer must include closing the service valve, bleeding down and removing the hot-tap tool, and using a retrieval tool to install the monitoring device.\",\n    \"question\": \"What steps are taken immediately following the hot-tapping of the Axess Horizon fitting?\"\n  },\n  {\n    \"answer\": \"If the monitoring device is not immediately installed, the Axess Horizon access fitting can be sealed with a solid plug and secondary pressure retaining cover until required.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Answer must mention sealing with a 'solid plug' and 'secondary pressure retaining cover'.\",\n    \"question\": \"What components are used to seal the Axess Horizon access fitting if the monitoring device is not installed immediately?\"\n  },\n  {\n    \"answer\": \"The Horizon fitting is supplied with one end contoured to the size of pipe it is to be installed onto and is partially bored through from the opposite end so it can be hot-tapped following installation.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Answer must mention 'contoured end' and 'partially bored through' to facilitate hot-tapping.\",\n    \"question\": \"How is the Axess Horizon fitting prepared for installation and hot-tapping?\"\n  },\n  {\n    \"answer\": \"The weld metal backing and root are removed during the hot tapping process leaving a full penetration weld.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Answer must mention removal of 'weld metal backing and root' during 'hot tapping' and resulting in a 'full penetration weld'.\",\n    \"question\": \"What happens to the weld metal backing and root during the hot-tapping process of the Axess Horizon fitting, and what type of weld is achieved?\"\n  },\n  {\n    \"answer\": \"Welding should be carried out in accordance with site specific procedures.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"Answer must state that welding must follow 'site specific procedures'.\",\n    \"question\": \"What specific guidelines should be followed when welding the Axess Horizon access fitting onto a pipe, and why is this important?\"\n  },\n  {\n    \"answer\": \"The Horizon fitting is designed to provide bottom of the line corrosion monitoring, which means the ER probe element is located in the water phase.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 7,\n    \"evaluation_criteria\": \"Answer must mention 'bottom of the line corrosion monitoring' and 'ER probe element located in the water phase'.\",\n    \"question\": \"Why is the Axess Horizon access fitting suitable for locating the ER probe element in the water phase?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

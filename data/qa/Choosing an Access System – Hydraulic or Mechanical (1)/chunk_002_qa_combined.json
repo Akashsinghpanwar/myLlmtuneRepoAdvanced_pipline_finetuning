@@ -1,0 +1,57 @@
+{
+  "chunk_id": 2,
+  "chunk_filename": "chunk_002.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "Why is servicing of hydraulic access fittings generally a longer process compared to mechanical systems, according to Axess Corrosion?",
+      "evaluation_criteria": "Correctly identifies the reasons for longer hydraulic fitting servicing: leak path interfaces (6 vs 2), mechanical threads (5 vs 3), and pressurization time.",
+      "answer": "Hydraulic access fitting servicing generally takes longer than mechanical systems due to more leak path interfaces to check/seals to renew (6 vs 2), more mechanical threads to inspect (5 vs 3), and the longer pressurization of the hydraulic action of the tool.",
+      "difficulty": 6,
+      "category": "reasoning"
+    },
+    {
+      "question": "What are the pressure ratings for mechanical and hydraulic access fitting tools from Axess Corrosion?",
+      "evaluation_criteria": "Correctly states the pressure rating for mechanical tools (6000psi) and hydraulic tools (10,000psi).",
+      "answer": "Mechanical access fitting tools are rated to 6000psi, while hydraulic access fitting tools can be offered at 10,000psi.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What is the maximum pressure rating for both mechanical and hydraulic access fittings according to Axess Corrosion?",
+      "evaluation_criteria": "Confirms the pressure rating of both types of access fittings.",
+      "answer": "Both mechanical and hydraulic access fittings can be rated to 10,000psi and above.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "When servicing Axess Corrosion access fittings, how many leak path interfaces/seals need to be checked/renewed in hydraulic systems compared to mechanical systems?",
+      "evaluation_criteria": "Accurately states the number of leak path interfaces/seals for hydraulic (6) and mechanical (2) systems.",
+      "answer": "Hydraulic systems have 6 leak path interfaces to check/seals to renew, while mechanical systems have 2.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "When servicing Axess Corrosion access fittings, how many mechanical threads need to be inspected in hydraulic systems compared to mechanical systems?",
+      "evaluation_criteria": "Accurately states the number of mechanical threads for hydraulic (5) and mechanical (3) systems.",
+      "answer": "Hydraulic systems have 5 mechanical threads to inspect, while mechanical systems have 3.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "According to Axess Corrosion, which type of access fitting system, mechanical or hydraulic, is generally faster to make the job site safe?",
+      "evaluation_criteria": "Correctly identifies that mechanical systems are faster for job site safety.",
+      "answer": "Mechanical systems are generally faster to make the job site safe.",
+      "difficulty": 3,
+      "category": "factual"
+    }
+  ],
+  "iterations": 2,
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

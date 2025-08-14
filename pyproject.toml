@@ -1,0 +1,21 @@
+[project]
+name = "reasoning"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "datasets>=3.5.0",
+    "huggingface-hub>=0.30.2",
+    "kneed>=0.8.5",
+    "litellm>=1.66.1",
+    "marker-pdf>=1.6.2",
+    "matplotlib>=3.10.1",
+    "pandas>=2.2.3",
+    "plotly>=6.0.1",
+    "pypandoc>=1.15",
+    "python-dotenv>=1.1.0",
+    "scikit-learn>=1.6.1",
+    "sentence-transformers>=4.1.0",
+    "umap-learn>=0.5.7",
+]

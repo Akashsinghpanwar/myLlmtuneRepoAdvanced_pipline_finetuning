@@ -1,0 +1,36 @@
+{
+  "chunk_id": 1,
+  "chunk_filename": "chunk_001.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "According to the Axess HIVE brochure, what is the selection status of the 'Server Ordet' option?",
+      "evaluation_criteria": "The answer must state that the 'Server Ordet' option is unselected. Any other answer is incorrect.",
+      "answer": "The 'Server Ordet' option is unselected.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "According to the Axess HIVE brochure, what is the selection status of the 'Magrinis & Sapples' option?",
+      "evaluation_criteria": "The answer must state that the 'Magrinis & Sapples' option is unselected. Any other answer is incorrect.",
+      "answer": "The 'Magrinis & Sapples' option is unselected.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "According to the Axess HIVE brochure, what is the selection status of the 'Projest Delet's' option?",
+      "evaluation_criteria": "The answer must state that the 'Projest Delet's' option is selected. Any other answer is incorrect.",
+      "answer": "The 'Projest Delet's' option is selected.",
+      "difficulty": 2,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"The 'Server Ordet' option is unselected.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"The answer must state that the 'Server Ordet' option is unselected. Any other answer is incorrect.\",\n    \"question\": \"According to the Axess HIVE brochure, what is the selection status of the 'Server Ordet' option?\"\n  },\n  {\n    \"answer\": \"The 'Magrinis & Sapples' option is unselected.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"The answer must state that the 'Magrinis & Sapples' option is unselected. Any other answer is incorrect.\",\n    \"question\": \"According to the Axess HIVE brochure, what is the selection status of the 'Magrinis & Sapples' option?\"\n  },\n  {\n    \"answer\": \"The 'Projest Delet's' option is selected.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"The answer must state that the 'Projest Delet's' option is selected. Any other answer is incorrect.\",\n    \"question\": \"According to the Axess HIVE brochure, what is the selection status of the 'Projest Delet's' option?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

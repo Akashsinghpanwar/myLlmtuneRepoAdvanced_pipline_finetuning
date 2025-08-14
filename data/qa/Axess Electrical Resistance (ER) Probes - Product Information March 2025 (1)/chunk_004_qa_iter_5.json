@@ -1,0 +1,22 @@
+{
+  "chunk_id": 4,
+  "chunk_filename": "chunk_004.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "What is the element thickness for a Pipe Grade CS ER element?",
+      "evaluation_criteria": "The answer must state '10mil' exactly.",
+      "answer": "The element thickness for a Pipe Grade CS ER element is 10mil.",
+      "difficulty": 2,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"The element thickness for a Pipe Grade CS ER element is 10mil.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"The answer must state '10mil' exactly.\",\n    \"question\": \"What is the element thickness for a Pipe Grade CS ER element?\"\n  },\n  {\n    \"answer\": \"The element type for a Surface Strip (\\\"Flush\\\") SS ER element is Resistance.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"The answer must state 'Resistance' exactly.\",\n    \"question\": \"What element type is associated with a Surface Strip (\\\"Flush\\\") SS ER element?\"\n  },\n  {\n    \"answer\": \"The element type for a Tubular / Cylindrical C ER element is Electrical.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"The answer must state 'Electrical' exactly.\",\n    \"question\": \"What element type is associated with a Tubular / Cylindrical C ER element?\"\n  },\n  {\n    \"answer\": \"The cable length for an Electrical Resistance ER probe is 10 foot.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"The answer must state '10 foot' exactly.\",\n    \"question\": \"What is the cable length for an Electrical Resistance ER probe?\"\n  },\n  {\n    \"answer\": \"The ground lead for an Electrical Resistance ER probe is No Ground Lead --.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"The answer must state 'No Ground Lead --' exactly.\",\n    \"question\": \"What type of ground lead is used with an Electrical Resistance ER probe?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

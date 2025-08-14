@@ -1,0 +1,64 @@
+{
+  "chunk_id": 1,
+  "chunk_filename": "chunk_001.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "What type of corrosion monitoring does the Axess Horizon access fitting provide, and what advantages does it offer?",
+      "evaluation_criteria": "Answer accurately describes the purpose of the Axess Horizon access fitting, mentioning both bottom of the line corrosion monitoring and the advantages of a side of the line fitting.",
+      "answer": "The Axess Horizon access fitting provides bottom of the line corrosion monitoring with the safety and operational advantages of a side of the line access fitting.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "How is the Axess Horizon access fitting designed for installation and hot-tapping?",
+      "evaluation_criteria": "Answer accurately describes the Horizon fitting's design, mentioning the contoured end and partial bore for hot-tapping.",
+      "answer": "The Horizon fitting is supplied with one end contoured to the size of the pipe it is to be installed onto and is partially bored through from the opposite end so it can be hot-tapped following installation.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What happens to the weld metal backing and root during the hot-tapping process of an Axess Horizon access fitting, and what type of weld is achieved?",
+      "evaluation_criteria": "Answer accurately states that the weld metal backing and root are removed during hot tapping, resulting in a full penetration weld.",
+      "answer": "The weld metal backing and root are removed during the hot tapping process leaving a full penetration weld.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What steps are taken after hot-tapping an Axess Horizon access fitting to prepare for monitoring device installation?",
+      "evaluation_criteria": "Answer accurately describes the steps following hot-tapping: closing the service valve, bleeding down and removing the hot-tap tool, and using a retrieval tool for monitoring device installation.",
+      "answer": "After hot-tapping, the service valve is closed, the hot-tap tool pressure is bled down and removed, and a retrieval tool can be used to install the monitoring device.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "How can the Axess Horizon access fitting be sealed if the monitoring device is not immediately installed?",
+      "evaluation_criteria": "Answer accurately describes the method for sealing the access fitting for later monitoring device installation, mentioning the solid plug and secondary pressure retaining cover.",
+      "answer": "In instances where the monitoring device is to be installed at a later date the access fitting can be sealed with a solid plug and secondary pressure retaining cover until required.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "Explain how the design of the Axess Horizon access fitting ensures a full penetration weld after hot-tapping.",
+      "evaluation_criteria": "Answer correctly explains that the partial bore allows for hot-tapping, the 'metal backed' root ensures a secure weld initially, and its removal during hot-tapping leads to a full penetration weld.",
+      "answer": "The Horizon fitting is partially bored through from the opposite end so it can be hot-tapped following installation. This design provides a 'metal backed' root which is then removed post- welding during hot-tapping to provide a full penetration weld.",
+      "difficulty": 6,
+      "category": "reasoning"
+    },
+    {
+      "question": "Why is it important to follow site-specific procedures when welding the Axess Horizon access fitting onto a pipe?",
+      "evaluation_criteria": "Answer correctly states that welding must follow site-specific procedures, acknowledging the variability and importance of adhering to local safety and quality standards.",
+      "answer": "Welding should be carried out in accordance with site specific procedures.",
+      "difficulty": 7,
+      "category": "reasoning"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"The Axess Horizon access fitting provides bottom of the line corrosion monitoring with the safety and operational advantages of a side of the line access fitting.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"Answer accurately describes the purpose of the Axess Horizon access fitting, mentioning both bottom of the line corrosion monitoring and the advantages of a side of the line fitting.\",\n    \"question\": \"What type of corrosion monitoring does the Axess Horizon access fitting provide, and what advantages does it offer?\"\n  },\n  {\n    \"answer\": \"The Horizon fitting is supplied with one end contoured to the size of the pipe it is to be installed onto and is partially bored through from the opposite end so it can be hot-tapped following installation.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Answer accurately describes the Horizon fitting's design, mentioning the contoured end and partial bore for hot-tapping.\",\n    \"question\": \"How is the Axess Horizon access fitting designed for installation and hot-tapping?\"\n  },\n  {\n    \"answer\": \"The weld metal backing and root are removed during the hot tapping process leaving a full penetration weld.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Answer accurately states that the weld metal backing and root are removed during hot tapping, resulting in a full penetration weld.\",\n    \"question\": \"What happens to the weld metal backing and root during the hot-tapping process of an Axess Horizon access fitting, and what type of weld is achieved?\"\n  },\n  {\n    \"answer\": \"After hot-tapping, the service valve is closed, the hot-tap tool pressure is bled down and removed, and a retrieval tool can be used to install the monitoring device.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Answer accurately describes the steps following hot-tapping: closing the service valve, bleeding down and removing the hot-tap tool, and using a retrieval tool for monitoring device installation.\",\n    \"question\": \"What steps are taken after hot-tapping an Axess Horizon access fitting to prepare for monitoring device installation?\"\n  },\n  {\n    \"answer\": \"In instances where the monitoring device is to be installed at a later date the access fitting can be sealed with a solid plug and secondary pressure retaining cover until required.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Answer accurately describes the method for sealing the access fitting for later monitoring device installation, mentioning the solid plug and secondary pressure retaining cover.\",\n    \"question\": \"How can the Axess Horizon access fitting be sealed if the monitoring device is not immediately installed?\"\n  },\n  {\n    \"answer\": \"The Horizon fitting is partially bored through from the opposite end so it can be hot-tapped following installation. This design provides a 'metal backed' root which is then removed post- welding during hot-tapping to provide a full penetration weld.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"Answer correctly explains that the partial bore allows for hot-tapping, the 'metal backed' root ensures a secure weld initially, and its removal during hot-tapping leads to a full penetration weld.\",\n    \"question\": \"Explain how the design of the Axess Horizon access fitting ensures a full penetration weld after hot-tapping.\"\n  },\n  {\n    \"answer\": \"Welding should be carried out in accordance with site specific procedures.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 7,\n    \"evaluation_criteria\": \"Answer correctly states that welding must follow site-specific procedures, acknowledging the variability and importance of adhering to local safety and quality standards.\",\n    \"question\": \"Why is it important to follow site-specific procedures when welding the Axess Horizon access fitting onto a pipe?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

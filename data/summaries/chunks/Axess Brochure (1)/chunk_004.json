@@ -1,0 +1,33 @@
+{
+  "bullets": [
+    "Straight length upstream: minimum of 3-5 pipe diameters.",
+    "Straight length downstream: 5-10 pipe diameters.",
+    "Axess provides training and certification programs for safe use of online retrieval tools."
+  ],
+  "numbers_and_units": [
+    "3-5 pipe diameters",
+    "5-10 pipe diameters",
+    "1\\\"",
+    "2\\\"",
+    "2000psi",
+    "90 days",
+    "1000psi",
+    "10'000psi",
+    "0.0102 MILS",
+    "+1 (832) 990-6754",
+    "+44 (0) 1224 042111"
+  ],
+  "title": "Axess corrosion monitoring, chemical injection, and field services",
+  "keywords": [
+    "retrieval tools",
+    "corrosion monitoring",
+    "chemical injection",
+    "field services",
+    "training",
+    "certification"
+  ],
+  "_validation": {
+    "numbers_found_in_text": 9,
+    "source_chunk": "chunk_004.txt"
+  }
+}

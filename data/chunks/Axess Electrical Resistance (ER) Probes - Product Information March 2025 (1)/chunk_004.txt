@@ -1,0 +1,23 @@
+### Table 2
+
+| 316/316L SS (standard)* | A3 |
+| --- | --- |
+| F51 DSS | A7 |
+| F60 DSS | A8 |
+| F53 SDSS | A9 |
+| F55 SDSS | B1 |
+| C276 | B4 |
+| Alloy 625 | B5 |
+| Alloy 825 | B6 |
+
+### Table 3
+
+| ERUN | - | Element Type |  | Element Thickness |  |  | Element Material |  | - | Cable Length | - | Ground Lead |
+| --- | --- | --- | --- | --- | ---: | --- | --- | --- | --- | --- | --- | --- |
+| Electrical |  | Tubular / Cylindrical C |  | 10mil | 10 |  | Pipe Grade CS | A1 | - | 10 foot | - | No Ground Lead -- |
+| Resistance |  | Surface Strip ("Flush") SS |  | 20mil | 20 |  | 304 SS | C1 |  | increments |  | Ground Lead GNDL |
+| Probe, For |  |  |  | 40mil | 40 |  | 316L SS | A3 |  |  |  |  |
+| Use |  |  |  | 50mil | 50 |  | S2205 | A7 |  |  |  |  |
+| Underground |  |  |  |  |  |  | C276 | B4 |  |  |  |  |
+|  |  |  |  |  |  |  | Alloy 625 | B5 |  |  |  |  |
+|  |  |  |  |  |  |  | Alloy 825 | B6 |  |  |  |  |

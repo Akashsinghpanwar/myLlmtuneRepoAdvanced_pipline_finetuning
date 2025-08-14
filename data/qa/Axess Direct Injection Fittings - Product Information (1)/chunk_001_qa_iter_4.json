@@ -1,0 +1,43 @@
+{
+  "chunk_id": 1,
+  "chunk_filename": "chunk_001.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "What are the pressure and temperature ratings for Axess Direct Injection fittings?",
+      "evaluation_criteria": "Verifies the pressure and temperature ratings are correctly stated. Checks for correct units (PSI/BAR and ℃/°F).",
+      "answer": "Axess Direct Injection fittings are pressure rated up to 10,000 PSI / 689 BAR and temperatures up to 204℃ / 400°F.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "How does the hollow plug in the Axess Direct Injection system prevent backflow during chemical injection?",
+      "evaluation_criteria": "Checks that the answer identifies the two check valves, the purpose of injecting chemical through the plug, and the prevention of flowback. Confirms understanding of the system's function.",
+      "answer": "The Direct Injection system uses a special version of the hollow plug incorporating two internal one way check valves, which allows chemical to be injected into the line through the center of the plug and prevents flowback of process into the injection line.",
+      "difficulty": 6,
+      "category": "reasoning"
+    },
+    {
+      "question": "What ASTM materials are Axess access fittings manufactured in as standard?",
+      "evaluation_criteria": "Verifies the listed ASTM materials. Confirms the mention of other versions and materials being available upon request.",
+      "answer": "Axess access fittings are manufactured in ASTM A105, ASTM A350 Gr.LF2 and Duplex steel as standard materials. Other versions (e.g. HUB fittings) and materials are available upon request.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "What are the features of the 3-hole pressure retaining cover used with the Axess Direct Injection fitting?",
+      "evaluation_criteria": "Checks for the correct hole size (3/4\" NPT) and the inclusion of a pressure gauge and bleed plug.",
+      "answer": "The 3-hole pressure retaining cover has a 3/4\" NPT center hole and includes a pressure gauge and bleed plug.",
+      "difficulty": 3,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"Axess Direct Injection fittings are pressure rated up to 10,000 PSI / 689 BAR and temperatures up to 204℃ / 400°F.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Verifies the pressure and temperature ratings are correctly stated. Checks for correct units (PSI/BAR and ℃/°F).\",\n    \"question\": \"What are the pressure and temperature ratings for Axess Direct Injection fittings?\"\n  },\n  {\n    \"answer\": \"The Direct Injection system uses a special version of the hollow plug incorporating two internal one way check valves, which allows chemical to be injected into the line through the center of the plug and prevents flowback of process into the injection line.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"Checks that the answer identifies the two check valves, the purpose of injecting chemical through the plug, and the prevention of flowback. Confirms understanding of the system's function.\",\n    \"question\": \"How does the hollow plug in the Axess Direct Injection system prevent backflow during chemical injection?\"\n  },\n  {\n    \"answer\": \"Axess access fittings are manufactured in ASTM A105, ASTM A350 Gr.LF2 and Duplex steel as standard materials. Other versions (e.g. HUB fittings) and materials are available upon request.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Verifies the listed ASTM materials. Confirms the mention of other versions and materials being available upon request.\",\n    \"question\": \"What ASTM materials are Axess access fittings manufactured in as standard?\"\n  },\n  {\n    \"answer\": \"The 3-hole pressure retaining cover has a 3/4\\\" NPT center hole and includes a pressure gauge and bleed plug.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Checks for the correct hole size (3/4\\\" NPT) and the inclusion of a pressure gauge and bleed plug.\",\n    \"question\": \"What are the features of the 3-hole pressure retaining cover used with the Axess Direct Injection fitting?\"\n  },\n  {\n    \"answer\": \"For perpendicular drip feeds, an open end tube is used. This method relies on the natural turbulence in the flow to disperse the chemical feed.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Confirms the use of an open end tube and the reliance on natural turbulence for dispersion.\",\n    \"question\": \"How does the chemical feed disperse in perpendicular drip feeds using Axess injection systems?\"\n  },\n  {\n    \"answer\": \"Parallel injection uses a notched quill design at the center of the line which creates an artificial turbulence in the fluid flow to disperse the treatment chemical more effectively.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"Verifies the mention of the notched quill design, its location at the center of the line, and the creation of artificial turbulence for chemical dispersion.\",\n    \"question\": \"How does the quill design in parallel injection contribute to the dispersion of treatment chemicals?\"\n  },\n  {\n    \"answer\": \"Atomization is useful for injection into gas filled spaces or treating gas systems.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Checks for the correct conditions (gas filled spaces or gas systems).\",\n    \"question\": \"Under what conditions is atomization a useful method for chemical injection?\"\n  },\n  {\n    \"answer\": \"Axess experts can assist with material selection to reduce or eliminate galling risks related to plug threads.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Confirms the mention of material selection assistance and the context of reducing galling risks.\",\n    \"question\": \"For what specific issue related to plug threads can Axess experts provide assistance?\"\n  },\n  {\n    \"answer\": \"Standard sizes for drip feed tubes and quills range between 1/4\\\" and 3/4\\\".\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Verifies the correct size range (1/4\\\" to 3/4\\\") for drip feed tubes and quills.\",\n    \"question\": \"What is the standard size range for drip feed tubes and quills offered by Axess?\"\n  },\n  {\n    \"answer\": \"The primary packing in Axess plugs is made from PTFE (15% glass filled) as standard, but are available in a range of materials including metal seals for high temperature service.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Checks for the correct standard material (PTFE, 15% glass filled) and the availability of metal seals for high-temperature applications.\",\n    \"question\": \"What material is the primary packing in Axess plugs made from, and what alternative materials are available for high-temperature applications?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

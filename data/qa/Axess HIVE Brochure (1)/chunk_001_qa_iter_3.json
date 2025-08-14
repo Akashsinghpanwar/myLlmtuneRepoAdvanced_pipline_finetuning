@@ -1,0 +1,22 @@
+{
+  "chunk_id": 1,
+  "chunk_filename": "chunk_001.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "According to the Axess HIVE brochure, is the 'Projest Delet's' option selected or unselected?",
+      "evaluation_criteria": "The answer must state that the 'Projest Delet's' option is selected, not unselected.",
+      "answer": "The 'Projest Delet's' option is selected.",
+      "difficulty": 2,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"The 'Projest Delet's' option is selected.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"The answer must state that the 'Projest Delet's' option is selected, not unselected.\",\n    \"question\": \"According to the Axess HIVE brochure, is the 'Projest Delet's' option selected or unselected?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "chunk_id": 4,
+  "chunk_filename": "chunk_004.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "In general process piping applications, what straight length upstream and downstream is recommended to ensure spray dispersion for chemical injection and sampling?",
+      "evaluation_criteria": "Verifies the correct pipe diameter ranges upstream and downstream are stated. Incorrect answers: reverses the order, omits the units, gives a different range.",
+      "answer": "A minimum of 3-5 pipe diameters of straight length upstream and 5-10 pipe diameters of straight length downstream are recommended to ensure spray dispersion in general process piping applications.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What causes an Axess retrieval tool to piston?",
+      "evaluation_criteria": "The answer must include the following:\n- Retrieval tools are designed for pressure balance.\n- Equalization ports can be blocked with scale or solids.\n- Lack of equalization can cause pistoning.",
+      "answer": "Retrieval tools are designed for pressure balance between the tool and the process. Equalization can be achieved through the carrier plug design, but over time the equalization ports can be blocked with scale or solids, especially at bottom of the line orientation. If equalization is not achieved prior to the disengagement of the carrier plug, there is a risk of pistoning.",
+      "difficulty": 7,
+      "category": "reasoning"
+    },
+    {
+      "question": "What are the dangers associated with using non-telescoping retrieval tools?",
+      "evaluation_criteria": "The answer must include the following:\n- Non-telescoping tools have external handles that can whip violently.\n- Whipping occurs when pressure surges and the plug unseats without equalization.\n- These tools have been linked to increased operator injuries in the past 10 years.",
+      "answer": "Non-telescoping retrieval tools have external handles that can violently whip when pressure surges as the plug completely unseats from the fitting without pressure equalization. Recent research suggests this type of retriever has been responsible for an increase in operator injuries over the past 10 years.",
+      "difficulty": 7,
+      "category": "reasoning"
+    },
+    {
+      "question": "What is the advantage of the Axess Janus™ Guard?",
+      "evaluation_criteria": "The answer must include the following:\n- Janus Guard prevents pistoning.\n- Janus Guard prevents handle whipping.\n- Janus Guard removes the 'line of fire'.",
+      "answer": "The Janus™ Guard can save lives by preventing retrieval tool barrels from pistoning and handles from whipping, thereby removing the 'line of fire'.",
+      "difficulty": 5,
+      "category": "reasoning"
+    },
+    {
+      "question": "What sizes of access fittings is the Axess hot-tapping equipment designed for online installation compatible with?",
+      "evaluation_criteria": "The answer must include the following:\n- Axess provides hot-tapping equipment.\n- The equipment is designed for online installation.\n- The equipment supports 1\" and 2\" access fittings.",
+      "answer": "Axess provides the safest hot-tapping equipment designed for the online installation of both 1\" and 2\" access fittings.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What does the Axess patented design for 'Plug & Abandon' allow operators to do with redundant welded access fittings?",
+      "evaluation_criteria": "The answer must include the following:\n- Axess has a patented design.\n- The design allows purging of voids.\n- The design allows sealing with corrosion-resistant sealants.",
+      "answer": "Axess patented design allows operators to purge the voids within the fittings and seal the cavities with corrosion resistant sealants.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What is the pressure rating of the standard Axess four cell manifold, and what is the maximum pressure rating available for well testing applications?",
+      "evaluation_criteria": "The answer must include the following:\n- Axess standard manifold has four cells.\n- Standard options are rated to 1000psi.\n- Manifolds up to 10'000psi are available for well testing.",
+      "answer": "Axess standard four cell manifold is designed to provide the ability to monitor with multiple sensor types and easily connect to process outlets or sample points. Standard options are rated to 1000psi and manifolds up to 10'000psi are available for well testing applications.",
+      "difficulty": 6,
+      "category": "factual"
+    },
+    {
+      "question": "When using mechanical retrieval equipment during Axess training, what pressure can be achieved on the custom flow loop?",
+      "evaluation_criteria": "The answer must include the following:\n- Janus Guards fitted to retrievers when using mechanical equipment.\n- Hundreds of retrievals can be performed on a custom flow loop.\n- The flow loop can operate at pressures up to 2000psi.",
+      "answer": "When using the mechanical equipment, Janus™ guards will be fitted to the retrievers and we can perform hundreds of retrievals on our custom flow loop at pressure up to 2000psi.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "According to Axess, what measurements are included in coupon analysis and reporting?",
+      "evaluation_criteria": "The answer must include the following:\n- Weight loss is the central measurement.\n- Two cleaning methods minimize metal loss.\n- Average weight loss during cleaning is factored in.\n- White light, pit depth, and microbial data are measurement options.",
+      "answer": "Weight loss is the central measurement and the two methods of cleaning ensures very little metal loss occurs during that process. An average weight loss during cleaning is factored in to the final weights to improve accuracy of the data. White light and pit depth are measurement options as well as microbial data results from swabs taken immediately after coupon retrieval.",
+      "difficulty": 6,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"A minimum of 3-5 pipe diameters of straight length upstream and 5-10 pipe diameters of straight length downstream are recommended to ensure spray dispersion in general process piping applications.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Verifies the correct pipe diameter ranges upstream and downstream are stated. Incorrect answers: reverses the order, omits the units, gives a different range.\",\n    \"question\": \"In general process piping applications, what straight length upstream and downstream is recommended to ensure spray dispersion for chemical injection and sampling?\"\n  },\n  {\n    \"answer\": \"Retrieval tools are designed for pressure balance between the tool and the process. Equalization can be achieved through the carrier plug design, but over time the equalization ports can be blocked with scale or solids, especially at bottom of the line orientation. If equalization is not achieved prior to the disengagement of the carrier plug, there is a risk of pistoning.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 7,\n    \"evaluation_criteria\": \"The answer must include the following:\\n- Retrieval tools are designed for pressure balance.\\n- Equalization ports can be blocked with scale or solids.\\n- Lack of equalization can cause pistoning.\",\n    \"question\": \"What causes an Axess retrieval tool to piston?\"\n  },\n  {\n    \"answer\": \"Non-telescoping retrieval tools have external handles that can violently whip when pressure surges as the plug completely unseats from the fitting without pressure equalization. Recent research suggests this type of retriever has been responsible for an increase in operator injuries over the past 10 years.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 7,\n    \"evaluation_criteria\": \"The answer must include the following:\\n- Non-telescoping tools have external handles that can whip violently.\\n- Whipping occurs when pressure surges and the plug unseats without equalization.\\n- These tools have been linked to increased operator injuries in the past 10 years.\",\n    \"question\": \"What are the dangers associated with using non-telescoping retrieval tools?\"\n  },\n  {\n    \"answer\": \"The Janus™ Guard can save lives by preventing retrieval tool barrels from pistoning and handles from whipping, thereby removing the 'line of fire'.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"The answer must include the following:\\n- Janus Guard prevents pistoning.\\n- Janus Guard prevents handle whipping.\\n- Janus Guard removes the 'line of fire'.\",\n    \"question\": \"What is the advantage of the Axess Janus™ Guard?\"\n  },\n  {\n    \"answer\": \"Axess provides the safest hot-tapping equipment designed for the online installation of both 1\\\" and 2\\\" access fittings.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"The answer must include the following:\\n- Axess provides hot-tapping equipment.\\n- The equipment is designed for online installation.\\n- The equipment supports 1\\\" and 2\\\" access fittings.\",\n    \"question\": \"What sizes of access fittings is the Axess hot-tapping equipment designed for online installation compatible with?\"\n  },\n  {\n    \"answer\": \"Axess patented design allows operators to purge the voids within the fittings and seal the cavities with corrosion resistant sealants.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"The answer must include the following:\\n- Axess has a patented design.\\n- The design allows purging of voids.\\n- The design allows sealing with corrosion-resistant sealants.\",\n    \"question\": \"What does the Axess patented design for 'Plug & Abandon' allow operators to do with redundant welded access fittings?\"\n  },\n  {\n    \"answer\": \"Axess standard four cell manifold is designed to provide the ability to monitor with multiple sensor types and easily connect to process outlets or sample points. Standard options are rated to 1000psi and manifolds up to 10'000psi are available for well testing applications.\",\n    \"category\": \"factual\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"The answer must include the following:\\n- Axess standard manifold has four cells.\\n- Standard options are rated to 1000psi.\\n- Manifolds up to 10'000psi are available for well testing.\",\n    \"question\": \"What is the pressure rating of the standard Axess four cell manifold, and what is the maximum pressure rating available for well testing applications?\"\n  },\n  {\n    \"answer\": \"When using the mechanical equipment, Janus™ guards will be fitted to the retrievers and we can perform hundreds of retrievals on our custom flow loop at pressure up to 2000psi.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"The answer must include the following:\\n- Janus Guards fitted to retrievers when using mechanical equipment.\\n- Hundreds of retrievals can be performed on a custom flow loop.\\n- The flow loop can operate at pressures up to 2000psi.\",\n    \"question\": \"When using mechanical retrieval equipment during Axess training, what pressure can be achieved on the custom flow loop?\"\n  },\n  {\n    \"answer\": \"Weight loss is the central measurement and the two methods of cleaning ensures very little metal loss occurs during that process. An average weight loss during cleaning is factored in to the final weights to improve accuracy of the data. White light and pit depth are measurement options as well as microbial data results from swabs taken immediately after coupon retrieval.\",\n    \"category\": \"factual\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"The answer must include the following:\\n- Weight loss is the central measurement.\\n- Two cleaning methods minimize metal loss.\\n- Average weight loss during cleaning is factored in.\\n- White light, pit depth, and microbial data are measurement options.\",\n    \"question\": \"According to Axess, what measurements are included in coupon analysis and reporting?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

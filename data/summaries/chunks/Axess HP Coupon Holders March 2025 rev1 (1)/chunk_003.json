@@ -1,0 +1,32 @@
+{
+  "bullets": [
+    "Coupon holder length (L) for standard mechanical flare-weld access fitting assemblies:",
+    "Flush Monitoring: L = (A + PW + WG) - 2.815\"",
+    "Middle of the Line Monitoring: L = (A + '/2PD + WG) - (2.5\" + 1/2EL)"
+  ],
+  "numbers_and_units": [
+    "2.5\"",
+    "2.815\"",
+    "1/16\"",
+    "3\"",
+    "1-5/8\"",
+    "6\"",
+    "4-3/4\"",
+    "2.75\"",
+    "832",
+    "990",
+    "6754"
+  ],
+  "title": "Coupon Holder Sizing Formulas",
+  "keywords": [
+    "coupon",
+    "holder",
+    "length",
+    "flare-weld",
+    "monitoring"
+  ],
+  "_validation": {
+    "numbers_found_in_text": 10,
+    "source_chunk": "chunk_003.txt"
+  }
+}

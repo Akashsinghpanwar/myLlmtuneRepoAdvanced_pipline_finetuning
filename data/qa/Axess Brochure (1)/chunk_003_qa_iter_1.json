@@ -1,0 +1,64 @@
+{
+  "chunk_id": 3,
+  "chunk_filename": "chunk_003.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "What does Axess offer for non-intrusive corrosion and erosion monitoring of process pipework and vessels, and what temperature range can the ultrasonic transducers withstand?",
+      "evaluation_criteria": "Answer accurately describes the non-intrusive wall thickness monitoring system, including the use of ultrasonic transducers, temperature rating (550℃), and monitoring options (spot reading, online, wireless using WirelessHART/ISA100 or cellular networks).",
+      "answer": "Non-intrusive wall thickness solutions provide in-service corrosion and erosion monitoring using ultrasonic transducers, up to 550℃ permanently mounted to process pipework, vessels and other structures coupled with a range of instrumentation options from spot reading, through to online, real-time wireless monitoring using industry standards WirelessHART/ISA100 protocols, or cellular networks.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What factor determines the rate of chemical injection, measured in gallons per day, in an Axess corrosion control system?",
+      "evaluation_criteria": "The answer correctly states that the rate of chemical injection in gallons/day is determined by the min/max capacity of the injection pump. Incorrect answers may omit the units (gallons/day) or misattribute the determining factor.",
+      "answer": "The rate of chemical injection (gallons/day) is determined by the min/max capacity of the injection pump.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "When injecting chemicals in a piping system where there is a change of material, how far upstream should the injection point ideally be located, according to Axess Corrosion?",
+      "evaluation_criteria": "Answer must state the 10 x pipe ID rule. Incorrect answers may specify the wrong distance (e.g., 5x pipe ID) or the wrong location (downstream).",
+      "answer": "The injection point should ideally be located a minimum of 10 x pipe ID upstream of the change in material.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "According to Axess Corrosion, what are the important factors to consider when selecting a chemical injection point?",
+      "evaluation_criteria": "Answer must include all listed factors: chemical density and viscosity, process pipe/vessel size, velocity, pressure, temperature, and fluid composition. Omitting any factor constitutes an incorrect answer.",
+      "answer": "Chemical density and viscosity, process pipe/vessel size, velocity, pressure, temperature, and fluid composition.",
+      "difficulty": 6,
+      "category": "factual"
+    },
+    {
+      "question": "What are the differences between using an atomiser and an open quill for chemical injection, and what is the preferred method for pulse injection according to Axess Corrosion?",
+      "evaluation_criteria": "Answer must accurately compare atomiser vs open quill injection methods, including the control mechanism for atomisers (injection differential pressure) and the pulse nature of open quill injection (stroke rate). The answer must also mention the preference for low stroke volume and high stroke frequency.",
+      "answer": "Using an atomiser in a gas system can help with fine volume control by adjusting the injection differential pressure and maintaining a constant application of the chemical. Chemicals injected using an open quill are applied in a pulse method with the frequency determined by the stroke rate of the chemical injection pump. The preferred method is a low stroke volume with a high stroke frequency to minimise the time between each pulse injection of chemical.",
+      "difficulty": 7,
+      "category": "reasoning"
+    },
+    {
+      "question": "Where should chemical injection points be located relative to the equipment and pipework requiring protection, according to Axess Corrosion guidelines?",
+      "evaluation_criteria": "Answer must state that the injection point should be upstream. Incorrect answers will state downstream or not specify a location relative to the equipment requiring protection.",
+      "answer": "Chemical injection points should always be located upstream of the equipment and pipework requiring protection.",
+      "difficulty": 4,
+      "category": "reasoning"
+    },
+    {
+      "question": "When should wake frequency and drag calculations be considered for chemical injection, and what is their purpose according to Axess Corrosion?",
+      "evaluation_criteria": "Answer must mention wake frequency/drag calculations and their purpose in determining maximum length while maintaining integrity. Omitting either the calculations or the purpose constitutes an incorrect answer.",
+      "answer": "For higher velocity processes, wake frequency / drag calculations should be considered to determine maximum length whilst maintaining the integrity of the injection device.",
+      "difficulty": 8,
+      "category": "reasoning"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"Non-intrusive wall thickness solutions provide in-service corrosion and erosion monitoring using ultrasonic transducers, up to 550℃ permanently mounted to process pipework, vessels and other structures coupled with a range of instrumentation options from spot reading, through to online, real-time wireless monitoring using industry standards WirelessHART/ISA100 protocols, or cellular networks.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Answer accurately describes the non-intrusive wall thickness monitoring system, including the use of ultrasonic transducers, temperature rating (550℃), and monitoring options (spot reading, online, wireless using WirelessHART/ISA100 or cellular networks).\",\n    \"question\": \"What does Axess offer for non-intrusive corrosion and erosion monitoring of process pipework and vessels, and what temperature range can the ultrasonic transducers withstand?\"\n  },\n  {\n    \"answer\": \"The rate of chemical injection (gallons/day) is determined by the min/max capacity of the injection pump.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"The answer correctly states that the rate of chemical injection in gallons/day is determined by the min/max capacity of the injection pump. Incorrect answers may omit the units (gallons/day) or misattribute the determining factor.\",\n    \"question\": \"What factor determines the rate of chemical injection, measured in gallons per day, in an Axess corrosion control system?\"\n  },\n  {\n    \"answer\": \"The injection point should ideally be located a minimum of 10 x pipe ID upstream of the change in material.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Answer must state the 10 x pipe ID rule. Incorrect answers may specify the wrong distance (e.g., 5x pipe ID) or the wrong location (downstream).\",\n    \"question\": \"When injecting chemicals in a piping system where there is a change of material, how far upstream should the injection point ideally be located, according to Axess Corrosion?\"\n  },\n  {\n    \"answer\": \"Chemical density and viscosity, process pipe/vessel size, velocity, pressure, temperature, and fluid composition.\",\n    \"category\": \"factual\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"Answer must include all listed factors: chemical density and viscosity, process pipe/vessel size, velocity, pressure, temperature, and fluid composition. Omitting any factor constitutes an incorrect answer.\",\n    \"question\": \"According to Axess Corrosion, what are the important factors to consider when selecting a chemical injection point?\"\n  },\n  {\n    \"answer\": \"Using an atomiser in a gas system can help with fine volume control by adjusting the injection differential pressure and maintaining a constant application of the chemical. Chemicals injected using an open quill are applied in a pulse method with the frequency determined by the stroke rate of the chemical injection pump. The preferred method is a low stroke volume with a high stroke frequency to minimise the time between each pulse injection of chemical.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 7,\n    \"evaluation_criteria\": \"Answer must accurately compare atomiser vs open quill injection methods, including the control mechanism for atomisers (injection differential pressure) and the pulse nature of open quill injection (stroke rate). The answer must also mention the preference for low stroke volume and high stroke frequency.\",\n    \"question\": \"What are the differences between using an atomiser and an open quill for chemical injection, and what is the preferred method for pulse injection according to Axess Corrosion?\"\n  },\n  {\n    \"answer\": \"Chemical injection points should always be located upstream of the equipment and pipework requiring protection.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Answer must state that the injection point should be upstream. Incorrect answers will state downstream or not specify a location relative to the equipment requiring protection.\",\n    \"question\": \"Where should chemical injection points be located relative to the equipment and pipework requiring protection, according to Axess Corrosion guidelines?\"\n  },\n  {\n    \"answer\": \"For higher velocity processes, wake frequency / drag calculations should be considered to determine maximum length whilst maintaining the integrity of the injection device.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 8,\n    \"evaluation_criteria\": \"Answer must mention wake frequency/drag calculations and their purpose in determining maximum length while maintaining integrity. Omitting either the calculations or the purpose constitutes an incorrect answer.\",\n    \"question\": \"When should wake frequency and drag calculations be considered for chemical injection, and what is their purpose according to Axess Corrosion?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

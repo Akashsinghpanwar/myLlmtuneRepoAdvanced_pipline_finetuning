@@ -1,0 +1,27 @@
+{
+  "bullets": [
+    "Mechanical fittings have 1 potential leak path; hydraulic systems have 5.",
+    "Galling in mechanical fittings is due to poor material selection; in hydraulic systems, it can occur with the 4 external locking pins.",
+    "All mechanical equipment is interchangeable, making spares readily available."
+  ],
+  "numbers_and_units": [
+    "9001-2015",
+    "1",
+    "5",
+    "4",
+    "4"
+  ],
+  "title": "Hydraulic vs. Mechanical Access Systems",
+  "keywords": [
+    "access fitting",
+    "hydraulic",
+    "mechanical",
+    "leak paths",
+    "galling",
+    "safety"
+  ],
+  "_validation": {
+    "numbers_found_in_text": 5,
+    "source_chunk": "chunk_001.txt"
+  }
+}

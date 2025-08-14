@@ -1,0 +1,379 @@
+{
+  "chunk_id": 2,
+  "chunk_filename": "chunk_002.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "According to the document, what core value underpins Axess's operations, technically and commercially? What is at its core operationally, technically, and commercially, according to the document?",
+      "evaluation_criteria": "Answer must mention 'Integrity' and its role operationally, technically, and commercially.",
+      "answer": "Axess was formed with clear principles that put Integrity at its core operationally, technically, and commercially.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What types of hardware does Axess offer for the insertion and retrieval of monitoring, injection, and sampling devices?",
+      "evaluation_criteria": "Answer must list at least three of the hardware types offered by Axess for monitoring, injection, and sampling.",
+      "answer": "Axess offers hardware for monitoring, injection, and sampling devices, including Mechanical & Hydraulic High-Pressure Access systems, Low Pressure Access Systems, Corrosion Coupons, Erosion/Sand Detection Probes, Retrieval Tools and Service Valves.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What factors can influence the occurrence and development rate of corrosion and erosion, as well as the rate at which chemicals mix and disperse within a process?",
+      "evaluation_criteria": "Answer must identify at least two of the factors that influence corrosion/erosion and chemical behavior. Incorrect answers include material types or pressure ratings.",
+      "answer": "Pipe geometry, flow conditions, and process fluid can influence corrosion and erosion development, as well as chemical mixing and dispersion rates.",
+      "difficulty": 6,
+      "category": "reasoning"
+    },
+    {
+      "question": "Where can corrosion monitoring points be located to effectively monitor corrosion and chemical effectiveness?",
+      "evaluation_criteria": "Answer must mention both downstream of process changes and the end of the line as potential locations. Incorrect answers include specific equipment types.",
+      "answer": "Corrosion monitoring points can be located downstream of process changes and at the end of the line to ensure chemical effectiveness.",
+      "difficulty": 5,
+      "category": "reasoning"
+    },
+    {
+      "question": "Where are the areas at high risk for erosion in a piping system, according to the document?",
+      "evaluation_criteria": "Answer must identify at least two high-risk erosion locations. Incorrect answers include general pipe sections or material types.",
+      "answer": "Erosion risk is higher downstream of chokes, at locations with rapid changes in direction (small radius bends, T-sections), and where sand is present.",
+      "difficulty": 7,
+      "category": "reasoning"
+    },
+    {
+      "question": "To which industry standards is Axess's hardware manufactured?",
+      "evaluation_criteria": "Answer must list at least three of the industry standards. Incorrect answers include material types or pressure ratings.",
+      "answer": "Axess's hardware is manufactured to meet industry standards such as NACE MR0175, ASME B31.3, EN10204-3.1, and ISO:9001:2015.",
+      "difficulty": 6,
+      "category": "factual"
+    },
+    {
+      "question": "What is the address of Axess Corporate HQ?",
+      "evaluation_criteria": "The answer must contain the full address: '2001 Timberloch Place The Woodlands, Texas USA 77380'.",
+      "answer": "Axess-Corrosion, Inc. is located at 2001 Timberloch Place The Woodlands, Texas USA 77380.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What is the address of Axess's Service & Innovation Centre?",
+      "evaluation_criteria": "The answer must contain the full address: 'H1 Hill of Rubislaw Anderson Drive Aberdeen AB15 6BL'.",
+      "answer": "Axess-Corrosion LTD is located at H1 Hill of Rubislaw Anderson Drive Aberdeen AB15 6BL.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What is the phone number for Axess Corporate HQ?",
+      "evaluation_criteria": "The answer must contain the full phone number: '+1 (832) 990-6754'.",
+      "answer": "The phone number for Axess Corporate HQ is +1 (832) 990-6754.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What is the phone number for Axess's Service & Innovation Centre?",
+      "evaluation_criteria": "The answer must contain the full phone number: '+44 (0) 1224 042111'.",
+      "answer": "The phone number for Axess's Service & Innovation Centre is +44 (0) 1224 042111.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What types of hardware does Axess offer for the insertion and retrieval of monitoring, injection, and sampling devices, according to the document?",
+      "evaluation_criteria": "Answer must list the hardware types offered by Axess for insertion/retrieval of monitoring, injection, and sampling devices. Correct hardware types must be mentioned: Mechanical & Hydraulic High-Pressure Access systems, Low Pressure Access Systems, Corrosion Coupons, Erosion/Sand Detection Probes, Retrieval Tools, and Service Valves. Any missing or incorrect hardware type is a deduction.",
+      "answer": "Axess offers a full range of hardware for the insertion and retrieval of monitoring, injection, and sampling devices, including Mechanical & Hydraulic High-Pressure Access systems, Low Pressure Access Systems, Corrosion Coupons, Erosion/Sand Detection Probes, Retrieval Tools, and Service Valves.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "Where can corrosion monitoring points be located to effectively monitor corrosion and chemical effectiveness in a piping system, according to the document?",
+      "evaluation_criteria": "Answer must state the two locations for corrosion monitoring points. Correct locations must be mentioned: downstream of any process change including branch connections where additional process streams are introduced, and at the end of the line. Any missing or incorrect location is a deduction.",
+      "answer": "Corrosion monitoring points can be located downstream of any process change including branch connections where additional process streams are introduced, and at the end of the line to ensure that chemicals are still effective throughout the piping system.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "To which industry standards is Axess's hardware manufactured, according to the document?",
+      "evaluation_criteria": "Answer must list the industry standards to which Axess's hardware is manufactured. Correct standards must be mentioned: NACE MR0175, ASME B31.3, EN10204-3.1, and ISO:9001:2015. Any missing or incorrect standard is a deduction.",
+      "answer": "Axess's hardware is manufactured to meet industry standards such as NACE MR0175, ASME B31.3, EN10204-3.1 as standard, and ISO:9001:2015.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What is the address of Axess Corporate HQ, according to the document?",
+      "evaluation_criteria": "The answer must provide the full and correct address for Axess Corporate HQ. The address must exactly match: Axess-Corrosion, Inc. 2001 Timberloch Place The Woodlands, Texas USA 77380. Any deviation is incorrect.",
+      "answer": "The address of Axess Corporate HQ is Axess-Corrosion, Inc. 2001 Timberloch Place The Woodlands, Texas USA 77380.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What is the address of Axess's Center of Excellence, according to the document?",
+      "evaluation_criteria": "The answer must provide the full and correct address for Axess's Center of Excellence. The address must exactly match: Axess-Corrosion 22632 Kuykendahl Rd Spring, Texas USA 77389. Any deviation is incorrect.",
+      "answer": "The address of Axess's Center of Excellence is Axess-Corrosion 22632 Kuykendahl Rd Spring, Texas USA 77389.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What is the address of Axess's Service & Innovation Centre, according to the document?",
+      "evaluation_criteria": "The answer must provide the full and correct address for Axess's Service & Innovation Centre. The address must exactly match: Axess-Corrosion LTD H1 Hill of Rubislaw Anderson Drive Aberdeen AB15 6BL. Any deviation is incorrect.",
+      "answer": "The address of Axess's Service & Innovation Centre is Axess-Corrosion LTD H1 Hill of Rubislaw Anderson Drive Aberdeen AB15 6BL.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What is the phone number for Axess Corporate HQ, according to the document?",
+      "evaluation_criteria": "The answer must provide the correct phone number for Axess Corporate HQ. The phone number must exactly match: +1 (832) 990-6754. Any deviation is incorrect.",
+      "answer": "The phone number for Axess Corporate HQ is +1 (832) 990-6754.",
+      "difficulty": 1,
+      "category": "factual"
+    },
+    {
+      "question": "What is the phone number for Axess's Service & Innovation Centre, according to the document?",
+      "evaluation_criteria": "The answer must provide the correct phone number for Axess's Service & Innovation Centre. The phone number must exactly match: +44 (0) 1224 042111. Any deviation is incorrect.",
+      "answer": "The phone number for Axess's Service & Innovation Centre is +44 (0) 1224 042111.",
+      "difficulty": 1,
+      "category": "factual"
+    },
+    {
+      "question": "Where does Axess source the materials for their hardware used in monitoring, injection, and sampling devices?",
+      "evaluation_criteria": "The answer must state where Axess sources the materials for their hardware. The answer must include both N. America and W. Europe. Failure to mention both regions is incorrect.",
+      "answer": "Axess offers a full range of hardware for the insertion and retrieval of monitoring, injection and sampling devices. We supply many different materials, all of which are sourced from N. America and W. Europe, in compliance with end user standards.",
+      "difficulty": 6,
+      "category": "factual"
+    },
+    {
+      "question": "According to the table, what is the monitoring location for CDO PYTHON?",
+      "evaluation_criteria": "The answer must state the correct monitoring location for CDO PYTHON, which is CC+1. Any other answer is incorrect.",
+      "answer": "The monitoring location for CDO PYTHON is CC+1.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "According to the document, on what basis does Axess design and manufacture systems?",
+      "evaluation_criteria": "The answer must state that Axess designs and manufactures systems based on the client's application. Any deviation from this is incorrect.",
+      "answer": "Axess design and manufacture systems based on the client's application.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "Why is erosion a particular risk downstream of a choke, according to the document?",
+      "evaluation_criteria": "The answer must correctly identify that erosion risk increases with higher velocities and the presence of sand. It should mention the downstream of the choke as a specific location. Failure to mention both velocity and sand is incorrect.",
+      "answer": "Erosion is a risk at higher velocities such as downstream of the choke, particularly where the presence of sand has been detected previously or may be suspected/expected.",
+      "difficulty": 6,
+      "category": "reasoning"
+    },
+    {
+      "question": "According to the document, what core value underpins Axess's operations, technically and commercially?",
+      "evaluation_criteria": "The answer must state that Axess was formed with clear principles and that Integrity is at its core operationally, technically, and commercially.",
+      "answer": "Axess was formed with clear principles that put Integrity at its core operationally, technically, and commercially.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "According to the document, what monitoring techniques does Axess offer for Flow Lines?",
+      "evaluation_criteria": "The answer must include ER (Corrosion), ER (Erosion) Coupons, Non-Intrusive (Erosion), and Biofilm as monitoring techniques for Flow Lines.",
+      "answer": "Axess offers ER (Corrosion) / ER (Erosion) Coupons / Non-Intrusive (Erosion) / Biofilm monitoring techniques for Flow Lines.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "According to the document, what monitoring techniques does Axess offer for Separator Vessels?",
+      "evaluation_criteria": "The answer must include ER, Non-Intrusive, and Coupons as monitoring techniques for Separator Vessels.",
+      "answer": "Axess offers ER / Non-Intrusive / Coupons monitoring techniques for Separator Vessels.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "According to the document, what monitoring techniques does Axess offer for KO Drums?",
+      "evaluation_criteria": "The answer must include ER, Non-Intrusive, and Hydrogen as monitoring techniques for KO Drums.",
+      "answer": "Axess offers ER / Non-Intrusive / Hydrogen monitoring techniques for KO Drums.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "According to the document, what monitoring techniques does Axess offer for Product Water / Injection?",
+      "evaluation_criteria": "The answer must include ER, LPR, Galvanic Non-Intrusive, and Biofilm as monitoring techniques for Product Water / Injection.",
+      "answer": "Axess offers ER / LPR / Galvanic Non-Intrusive / Biofilm monitoring techniques for Product Water / Injection.",
+      "difficulty": 6,
+      "category": "factual"
+    },
+    {
+      "question": "According to the document, what monitoring techniques does Axess offer for Drain Lines?",
+      "evaluation_criteria": "The answer must include ER, Non-Intrusive, and Coupons as monitoring techniques for Drain Lines.",
+      "answer": "Axess offers ER / Non-Intrusive / Coupons monitoring techniques for Drain Lines.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "According to the document, what monitoring techniques does Axess offer for Water Injection?",
+      "evaluation_criteria": "The answer must include ER, LPR, Galvanic Non-Intrusive, and Biofilm as monitoring techniques for Water Injection.",
+      "answer": "Axess offers ER / LPR / Galvanic Non-Intrusive / Biofilm monitoring techniques for Water Injection.",
+      "difficulty": 6,
+      "category": "factual"
+    },
+    {
+      "question": "According to the document, what monitoring techniques does Axess offer for Glycol Units?",
+      "evaluation_criteria": "The answer must include ER, Non-Intrusive, and Coupons as monitoring techniques for Glycol Units.",
+      "answer": "Axess offers ER / Non-Intrusive / Coupons monitoring techniques for Glycol Units.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "According to the document, what monitoring techniques does Axess offer for Compression?",
+      "evaluation_criteria": "The answer must include ER, Non-Intrusive, and Coupons as monitoring techniques for Compression.",
+      "answer": "Axess offers ER / Non-Intrusive / Coupons monitoring techniques for Compression.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "According to the document, what monitoring techniques does Axess offer for Flare Lines?",
+      "evaluation_criteria": "The answer must include ER, Non-Intrusive, and Coupons as monitoring techniques for Flare Lines.",
+      "answer": "Axess offers ER / Non-Intrusive / Coupons monitoring techniques for Flare Lines.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "According to the document, what monitoring techniques does Axess offer for Export Lines?",
+      "evaluation_criteria": "The answer must include ER, Non-Intrusive, and Coupons as monitoring techniques for Export Lines.",
+      "answer": "Axess offers ER / Non-Intrusive / Coupons monitoring techniques for Export Lines.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What are some examples of intrusive monitoring techniques hardware offered by Axess?",
+      "evaluation_criteria": "The answer must include all of the following hardware types: Mechanical & Hydraulic High-Pressure Access systems, Low Pressure Access Systems, Corrosion Coupons, Erosion/Sand Detection Probes, Retrieval Tools and Service Valves. Any omission makes the answer incorrect.",
+      "answer": "Axess offers Mechanical & Hydraulic High-Pressure Access systems, Low Pressure Access Systems, Corrosion Coupons, Erosion/Sand Detection Probes, Retrieval Tools and Service Valves.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "According to the document, what are the principles that resonate across Axess's business?",
+      "evaluation_criteria": "The answer must list all six principles: Provocative, Searching, Influencers, Creative, Ambitious, and True. Any omission or incorrect principle makes the answer wrong.",
+      "answer": "Axess's principles are Provocative, Searching, Influencers, Creative, Ambitious, and True.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What types of hardware does Axess offer for intrusive monitoring, injection, and sampling, and what are some examples of these hardware types?",
+      "evaluation_criteria": "The answer must state that Axess offers a full range of hardware for insertion/retrieval of monitoring, injection, and sampling devices AND list at least three examples of hardware types (e.g., Mechanical & Hydraulic High-Pressure Access systems, Low Pressure Access Systems, Corrosion Coupons, Erosion/Sand Detection Probes, Retrieval Tools, Service Valves). Omission of either the general statement or the specific examples makes the answer incorrect.",
+      "answer": "Axess offers a full range of hardware for the insertion and retrieval of monitoring, injection and sampling devices. This includes Mechanical & Hydraulic High-Pressure Access systems, Low Pressure Access Systems, Corrosion Coupons, Erosion/Sand Detection Probes, Retrieval Tools and Service Valves.",
+      "difficulty": 6,
+      "category": "factual"
+    },
+    {
+      "question": "According to the document, what makes Axess uniquely positioned in the market?",
+      "evaluation_criteria": "The answer must state that Axess can supply products/services that complement, integrate, and support projects from design to maintenance, data retrieval, and analysis. Omitting any of these stages or capabilities makes the answer incorrect.",
+      "answer": "Axess is uniquely positioned to supply products and services that can complement, integrate and support projects from the design stage, through to maintenance and data retrieval and analysis.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "According to the document, what type of hardware does Axess offer for monitoring, injection, and sampling, and where are these materials sourced from?",
+      "evaluation_criteria": "The answer must state that Axess offers hardware for insertion/retrieval of monitoring, injection, and sampling devices AND that these are sourced from N. America and W. Europe. Omitting either the hardware offering or the sourcing location makes the answer incorrect.",
+      "answer": "Axess offers a full range of hardware for the insertion and retrieval of monitoring, injection and sampling devices. These are sourced from N. America and W. Europe.",
+      "difficulty": 6,
+      "category": "factual"
+    },
+    {
+      "question": "According to the document, what type of hardware does Axess offer for monitoring, injection, and sampling, and to which industry standards is it manufactured?",
+      "evaluation_criteria": "The answer must state that Axess offers hardware for insertion/retrieval of monitoring, injection, and sampling devices AND list at least three of the industry standards (NACE MR0175, ASME B31.3, EN10204-3.1, ISO:9001:2015). Omission of either the hardware offering or listing fewer than three standards makes the answer incorrect.",
+      "answer": "Axess offers a full range of hardware for the insertion and retrieval of monitoring, injection and sampling devices. These are manufactured to meet industry standards such as NACE MR0175, ASME B31.3, EN10204-3.1 as standard, and ISO:9001:2015.",
+      "difficulty": 7,
+      "category": "factual"
+    },
+    {
+      "question": "According to the document, what core value underpins Axess's operations, and what are the principles that embody this value?",
+      "evaluation_criteria": "The answer must state that Axess was formed with clear principles and that Integrity is at its core AND list all six principles (Provocative, Searching, Influencers, Creative, Ambitious, True). Omission of either the core value statement or listing fewer than six principles makes the answer incorrect.",
+      "answer": "Axess was formed with clear principles that put Integrity at its core operationally, technically, and commercially. These principles are Provocative, Searching, Influencers, Creative, Ambitious, and True.",
+      "difficulty": 8,
+      "category": "factual"
+    },
+    {
+      "question": "According to the document, what types of hardware does Axess offer for intrusive monitoring, injection, and sampling, what are some examples of these hardware types, and to which industry standards are they manufactured?",
+      "evaluation_criteria": "The answer must state that Axess offers hardware for insertion/retrieval of monitoring, injection, and sampling devices, list at least three examples of hardware types (e.g., Mechanical & Hydraulic High-Pressure Access systems, Low Pressure Access Systems, Corrosion Coupons, Erosion/Sand Detection Probes, Retrieval Tools, Service Valves), AND list at least three of the industry standards (NACE MR0175, ASME B31.3, EN10204-3.1, ISO:9001:2015). Omission of the general hardware statement, listing fewer than three hardware examples, or listing fewer than three standards makes the answer incorrect.",
+      "answer": "Axess offers a full range of hardware for the insertion and retrieval of monitoring, injection and sampling devices. These include Mechanical & Hydraulic High-Pressure Access systems, Low Pressure Access Systems, Corrosion Coupons, Erosion/Sand Detection Probes, Retrieval Tools and Service Valves manufactured to meet industry standards such as NACE MR0175, ASME B31.3, EN10204-3.1 as standard, and ISO:9001:2015.",
+      "difficulty": 9,
+      "category": "factual"
+    },
+    {
+      "question": "According to the document, what types of hardware does Axess offer for intrusive monitoring, injection, and sampling, where are these materials sourced from, and to which industry standards are they manufactured?",
+      "evaluation_criteria": "The answer must state that Axess offers hardware for insertion/retrieval of monitoring, injection, and sampling devices, state that these are sourced from N. America and W. Europe, AND list at least three of the industry standards (NACE MR0175, ASME B31.3, EN10204-3.1, ISO:9001:2015). Omission of the hardware statement, the sourcing location, or listing fewer than three standards makes the answer incorrect.",
+      "answer": "Axess offers a full range of hardware for the insertion and retrieval of monitoring, injection and sampling devices. These are sourced from N. America and W. Europe and are manufactured to meet industry standards such as NACE MR0175, ASME B31.3, EN10204-3.1 as standard, and ISO:9001:2015.",
+      "difficulty": 10,
+      "category": "factual"
+    },
+    {
+      "question": "According to the table, what is the monitoring location for the CDO PYTHON system?",
+      "evaluation_criteria": "The answer must state 'CC+1' as the monitoring location for 'CDO PYTHON'.",
+      "answer": "The monitoring location for CDO PYTHON is CC+1.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "According to the document, what are the six principles upon which Axess was formed?",
+      "evaluation_criteria": "The answer must list all six principles: Provocative, Searching, Influencers, Creative, Ambitious, and True. Missing any principle is incorrect.",
+      "answer": "Axess was formed with clear principles: Provocative, Searching, Influencers, Creative, Ambitious, and True.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "According to the document, where does Axess source the materials for its monitoring, injection, and sampling devices?",
+      "evaluation_criteria": "The answer must state that Axess sources materials from both 'N. America' and 'W. Europe'.",
+      "answer": "Axess sources materials from N. America and W. Europe.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "According to the document, what are some examples of hardware that Axess offers for intrusive monitoring techniques?",
+      "evaluation_criteria": "The answer must list the hardware types offered by Axess: Mechanical & Hydraulic High-Pressure Access systems, Low Pressure Access Systems, Corrosion Coupons, Erosion/Sand Detection Probes, Retrieval Tools and Service Valves.",
+      "answer": "Axess offers Mechanical & Hydraulic High-Pressure Access systems, Low Pressure Access Systems, Corrosion Coupons, Erosion/Sand Detection Probes, Retrieval Tools and Service Valves.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "According to the document, where is erosion a risk due to rapid changes in direction?",
+      "evaluation_criteria": "The answer must mention 'small radius bends' and 'T-sections' as locations with rapid changes in direction where erosion is a risk.",
+      "answer": "Erosion is a risk at locations with rapid changes in direction such as small radius bends, and T-sections.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "According to the document, where can corrosion monitoring points be located in relation to process changes and the end of the line?",
+      "evaluation_criteria": "The answer must mention both 'downstream of any process change including branch connections where additional process streams are introduced' and 'at the end of the line' as locations for corrosion monitoring points.",
+      "answer": "Corrosion monitoring points can be located downstream of any process change including branch connections where additional process streams are introduced, and at the end of the line.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "According to the document, what is the basis for Axess's system design and manufacturing?",
+      "evaluation_criteria": "The answer must state that Axess designs and manufactures systems based on 'the client's application'.",
+      "answer": "Axess designs and manufactures systems based on the client's application.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "According to the document, to which industry standards is Axess's hardware manufactured?",
+      "evaluation_criteria": "The answer must include all the listed standards: NACE MR0175, ASME B31.3, EN10204-3.1, and ISO:9001:2015.",
+      "answer": "Axess's hardware is manufactured to meet industry standards such as NACE MR0175, ASME B31.3, EN10204-3.1 as standard, and ISO:9001:2015",
+      "difficulty": 6,
+      "category": "factual"
+    },
+    {
+      "question": "According to the document, what factors influence the occurrence and development rate of corrosion and erosion within a facility?",
+      "evaluation_criteria": "The answer must include 'Pipe geometry', 'flow conditions', and 'process fluid' as factors influencing corrosion and erosion.",
+      "answer": "Pipe geometry, flow conditions and process fluid can all influence the occurrence and the development rate of corrosion and erosion within a facility as well as effecting the rate at which chemicals mix and disperse within the process.",
+      "difficulty": 6,
+      "category": "factual"
+    },
+    {
+      "question": "According to the document, where does Axess source the materials for their monitoring, injection, and sampling devices?",
+      "evaluation_criteria": "The answer correctly states the source locations for materials: 'N. America' and 'W. Europe'.",
+      "answer": "Axess sources materials from N. America and W. Europe.",
+      "difficulty": 3,
+      "category": "factual"
+    }
+  ],
+  "iterations": 6,
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

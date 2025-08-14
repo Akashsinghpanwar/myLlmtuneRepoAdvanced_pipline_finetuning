@@ -1,0 +1,141 @@
+{
+  "chunk_id": 2,
+  "chunk_filename": "chunk_002.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "How do Axess HR ER probes compensate for changes in electrical resistance due to factors like temperature?",
+      "evaluation_criteria": "Answer must mention the reference element, its material, its location inside the probe, and its function in compensating for temperature changes. Incorrect answers may omit one or more of these details.",
+      "answer": "Axess HR ER probes utilize a second element, called the reference element, which is manufactured from the same material as the measurement element. The reference element is stored inside the body of the probe, where it is shielded from the process and used to auto-compensate for changes in electrical resistance due to other factors such as temperature.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What are the pressure and temperature ratings of Axess ER probes?",
+      "evaluation_criteria": "Answer must state both the pressure and temperature ratings, including units. Incorrect answers may provide incorrect values or omit units.",
+      "answer": "Axess ER probes are pressure and temperature rated to 6000PSI and 260°C.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What range of element thicknesses are available for cylindrical and Surface Strip Underground ER Probes?",
+      "evaluation_criteria": "Answer must specify the element thickness ranges for both Surface Strip and cylindrical elements, including units (mil). Incorrect answers may provide incorrect ranges or omit units.",
+      "answer": "The available element thicknesses for Underground ER Probes range from 10mil to 40mil for the Surface Strip element, and 10mil to 50mil for the cylindrical option.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "What options are available when configuring the part number for Axess High Pressure Retrievable ER Probes?",
+      "evaluation_criteria": "Answer must list the categories of options available in the part numbering system and some examples of each. Incorrect answers may omit categories or provide inaccurate examples.",
+      "answer": "The part numbering system for High Pressure Retrievable ER Probes includes options for element type (Tubular/Cylindrical, Flush), element thickness (5mil, 10mil, 20mil, 40mil, 50mil), element material (Pipe Grade CS, 304 SS, 316L SS, S2205, C276, Alloy 625, Alloy 825, F51 DSS, F60 DSS, F53 SDSS, F55 SDSS), and probe body material (316/316L SS, C276, Alloy 625, Alloy 825).",
+      "difficulty": 6,
+      "category": "factual"
+    },
+    {
+      "question": "Where is the grounding lead installed on Axess Underground ER probes, and under what condition is this different?",
+      "evaluation_criteria": "Answer must state the default location of the grounding lead and the condition under which it may be different. Incorrect answers may omit the default location or the exception.",
+      "answer": "The grounding lead for Underground ER probes is installed at the connector end, unless otherwise specified.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "Why can Axess HR ER probes be used in almost any environment?",
+      "evaluation_criteria": "Answer must correctly state that Axess ER probes operate independently of process properties. Incorrect answers may state that the probes are dependent on process properties or fail to mention the independence.",
+      "answer": "Axess ER probes can be used in almost any environment because they operate independently of the process properties.",
+      "difficulty": 6,
+      "category": "reasoning"
+    },
+    {
+      "question": "What are the key differences between tubular element probes and flush probes in Axess ER probe configurations, and where is each best suited for monitoring?",
+      "evaluation_criteria": "Answer must correctly differentiate between tubular and flush probes, including their ideal monitoring locations and the reasons for those locations. Incorrect answers may confuse the probe types or their applications.",
+      "answer": "Tubular element probes are more robust and have longer lifespans, making them ideally suited for monitoring the center of the line. Flush probes are suited for monitoring the top and bottom of the line where localized corrosion may occur because they can be installed with the element positioned in line with the pipe wall.",
+      "difficulty": 7,
+      "category": "reasoning"
+    },
+    {
+      "question": "How does incorporating Axess HR ER probes and High-Resolution instrumentation into an integrity management program benefit operators, integrity, and maintenance teams?",
+      "evaluation_criteria": "Answer must include the benefits of early detection of corrosion/erosion rates, and the resulting improvements in corrosion control, safety, and asset life. Incorrect answers may omit key benefits or provide unrelated information.",
+      "answer": "By incorporating Axess HR ER probes and High-Resolution instrumentation into an integrity management program, operators, integrity, and maintenance teams can achieve early, reliable detection of changes in corrosion/erosion rates, allowing them to optimize corrosion control programs, increase safety, and extend asset life.",
+      "difficulty": 7,
+      "category": "reasoning"
+    },
+    {
+      "question": "What does an Axess Underground ER probe measure when its grounding lead is left unconnected from the structure?",
+      "evaluation_criteria": "Answer must correctly state that an unconnected grounding lead allows the probe to monitor the direct corrosivity of the soil or environment. Incorrect answers may describe the function of a connected grounding lead or provide unrelated information.",
+      "answer": "If the grounding lead is left unconnected from the structure, the probe monitors the direct corrosivity of the soil or environment.",
+      "difficulty": 5,
+      "category": "reasoning"
+    },
+    {
+      "question": "For Axess High Pressure Retrievable ER Probes, which element type is compatible with the 'ES' element shield?",
+      "evaluation_criteria": "Answer must specify that the element shield is only available for tubular/cylindrical elements and mention that this is regarding High Pressure Retrievable ER Probes. Incorrect answers may omit the element type or the probe type.",
+      "answer": "The 'ES' element shield is only available for use with tubular/cylindrical elements in High Pressure Retrievable ER Probes.",
+      "difficulty": 8,
+      "category": "factual"
+    },
+    {
+      "question": "What are the temperature ratings for the surface strip and cylindrical elements of Axess Underground ER Probes?",
+      "evaluation_criteria": "Answer must provide the correct temperature ratings for both the surface strip and cylindrical elements. Incorrect answers may provide incorrect temperature values or omit one of the element types.",
+      "answer": "The temperature rating for Axess Underground ER Probes is 176°F (80℃) for the surface strip element and 392°F (200℃) for the cylindrical element.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "How should the 'Standard' element shield be indicated in the part numbering system for Axess High Pressure Retrievable ER Probes?",
+      "evaluation_criteria": "Answer must state that the 'Standard' element shield option should be left blank. Incorrect answers may state that the option should be filled with a specific value or omit the instruction.",
+      "answer": "The 'Standard' element shield option for Axess High Pressure Retrievable ER Probes should be left blank in the part numbering system.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "According to the Axess online dashboard, what parameters can be monitored using Axess ER probes?",
+      "evaluation_criteria": "Answer must list metal loss, corrosion rate, and temperature as the parameters that can be monitored. Incorrect answers may omit one or more of the parameters or provide incorrect parameters.",
+      "answer": "Axess ER probes can be used to monitor metal loss, corrosion rate, and temperature, as displayed on the Axess online dashboard.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "How does the Axess online dashboard facilitate monitoring by exception?",
+      "evaluation_criteria": "Answer must accurately describe the function of the Axess online dashboard in setting alarm thresholds and enabling monitoring by exception. Incorrect answers may misattribute the function of the dashboard or provide an incorrect explanation.",
+      "answer": "The Axess online dashboard allows users to set multiple thresholds for alarms that will send email or SMS alerts, enabling monitoring by exception.",
+      "difficulty": 5,
+      "category": "reasoning"
+    },
+    {
+      "question": "What fitting options are available for Axess ER probes?",
+      "evaluation_criteria": "Answer must list NPT, 1\" inserts, and 2\" HP fitting options. Incorrect answers may omit one or more of the options or provide incorrect options.",
+      "answer": "Axess ER probes are available with NPT, 1\" inserts, and 2\" HP fitting options.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What are the advantages of using the cylindrical element in the Axess ERUG corrosion probe, and where is it best applied?",
+      "evaluation_criteria": "Answer must accurately describe the advantages of the cylindrical element of the Axess ERUG corrosion probe, including its economical nature, durability, slim profile, and suitability for locations with restricted access. Incorrect answers may misattribute the characteristics or applications of the probe.",
+      "answer": "The cylindrical element of the Axess ERUG corrosion probe is economical and durable, and its slim profile is convenient for locations with restricted access such as concrete bridge structures and other infrastructure applications.",
+      "difficulty": 6,
+      "category": "reasoning"
+    },
+    {
+      "question": "What element materials are available for Axess Underground ER Probes?",
+      "evaluation_criteria": "Answer must list all the element materials available for Axess Underground ER Probes. Incorrect answers may omit one or more of the materials or provide incorrect materials.",
+      "answer": "The available element materials for Axess Underground ER Probes include Pipe Grade CS, 304 SS, 316L SS, S2205, C276, Alloy 625 and Alloy 825.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "What are the standard cable lengths for Axess Underground ER Probes, and are custom lengths available?",
+      "evaluation_criteria": "Answer must state the standard cable lengths as 10-20 feet and mention that longer lengths are available upon request. Incorrect answers may provide incorrect cable lengths or omit the availability of longer lengths.",
+      "answer": "Standard cable lengths for Axess Underground ER Probes are 10-20 feet, with longer lengths available upon request.",
+      "difficulty": 3,
+      "category": "factual"
+    }
+  ],
+  "iterations": 3,
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

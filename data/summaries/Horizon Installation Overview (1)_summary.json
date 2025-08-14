@@ -1,0 +1,47 @@
+{
+  "abstract": "This document provides an overview of the steps required to install a Horizon Access Fitting onto a pipe, designed for bottom of the line corrosion monitoring.",
+  "key_points": [
+    "\"Welding should be carried out in accordance with site specific procedures.\"",
+    "\"The Horizon fitting is supplied with one end contoured to the size of pipe it is to be installed onto and is partially bored through from the opposite end so it can be hot-tapped following installation\"",
+    "\"Tack weld the Horizon fitting at several spots around the circumference of the mating face to secure in place then proceed to weld to the pipe by layering several beads around the circumference of the end profile\"",
+    "\"After the fitting has been welded to the pipe the end profile nearest the pipe can then be hot-tapped using an Axess supplied hot-tap tool and accompanying temporary service valve\"",
+    "\"The weld metal backing and root are removed during the hot tapping process leaving a full penetration weld.\"",
+    "\"Following hot tapping the service valve is closed, the hot-tap tool pressure bled down and removed and a retrieval tool can then be used to install the monitoring device.\""
+  ],
+  "numbers_and_units": [
+    "22632",
+    "77389",
+    "-186617",
+    "A3500627"
+  ],
+  "entities": [
+    {
+      "type": "ORGANIZATION",
+      "value": "AXESS"
+    },
+    {
+      "type": "PLACE",
+      "value": "Spring, TX 77389 USA"
+    },
+    {
+      "type": "ORGANIZATION",
+      "value": "Axess"
+    },
+    {
+      "type": "PERSON",
+      "value": "Scott"
+    },
+    {
+      "type": "PERSON",
+      "value": "Hop"
+    },
+    {
+      "type": "ORGANIZATION",
+      "value": "Axess"
+    }
+  ],
+  "tables_index": [],
+  "_validation": {
+    "numbers_found_in_text": 4
+  }
+}

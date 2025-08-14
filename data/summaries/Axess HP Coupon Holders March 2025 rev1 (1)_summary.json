@@ -1,0 +1,120 @@
+{
+  "abstract": "The document describes Axess AXHP range of coupon holders designed for use with AXHP access systems, allowing insertion and removal of corrosion coupons in pressurized piping systems up to 10,000psi. It details various coupon holder types like strip, flush disc, ladder, and multiple disc, along with their applications and part numbering system.",
+  "key_points": [
+    "\"Axess AXHP range of coupon holders are designed for use with our AXHP access systems and allow the insertion and removal of corrosion coupons in pressurized piping systems up to 10,000psi.\"",
+    "Coupon holders are manufactured in 316SS material as standard.",
+    "\"The two main styles of coupon holder are 3\" strip and flush disc.\"",
+    "\"Ladder coupons are strip coupons with 2\" nominal length.\"",
+    "\"L = (A + PW + WG) - 2.5\\\"\""
+  ],
+  "numbers_and_units": [
+    "10,000psi",
+    "3\"",
+    "6\"",
+    "2\"",
+    "1/16\"",
+    "3\"",
+    "1-5%\"",
+    "6\"",
+    "4-3/4\"",
+    "+1 (832) 990 6754"
+  ],
+  "entities": [
+    {
+      "type": "ORGANIZATION",
+      "value": "AXESS"
+    },
+    {
+      "type": "ORGANIZATION",
+      "value": "Qualitas Veritas"
+    },
+    {
+      "type": "OTHER",
+      "value": "ISO 9001-2015"
+    },
+    {
+      "type": "PRODUCT",
+      "value": "AX123"
+    },
+    {
+      "type": "OTHER",
+      "value": "AXHP Access Systems"
+    },
+    {
+      "type": "MATERIAL",
+      "value": "316SS material"
+    },
+    {
+      "type": "OTHER",
+      "value": "NACE MR0175 & MR0103 STANDARDS"
+    },
+    {
+      "type": "ORGANIZATION",
+      "value": "JANUSGUARD"
+    },
+    {
+      "type": "GPE",
+      "value": "USA"
+    },
+    {
+      "type": "ORGANIZATION",
+      "value": "ANSI B31.1 1973"
+    },
+    {
+      "type": "MATERIAL",
+      "value": "316/316L"
+    },
+    {
+      "type": "MATERIAL",
+      "value": "F51 DSS"
+    },
+    {
+      "type": "MATERIAL",
+      "value": "F60 DSS"
+    },
+    {
+      "type": "MATERIAL",
+      "value": "F53 SDSS"
+    },
+    {
+      "type": "MATERIAL",
+      "value": "F55 SDSS"
+    },
+    {
+      "type": "MATERIAL",
+      "value": "Hastelloy / C276"
+    },
+    {
+      "type": "MATERIAL",
+      "value": "Inconel 625"
+    },
+    {
+      "type": "MATERIAL",
+      "value": "Incoloy 825"
+    }
+  ],
+  "tables_index": [
+    {
+      "columns": [
+        "HP",
+        "Coupon Type",
+        "",
+        "",
+        "",
+        "Construction",
+        "",
+        "-",
+        "Material",
+        "",
+        "-",
+        "Order Length",
+        "-",
+        "Special"
+      ],
+      "title": "Table 1"
+    }
+  ],
+  "_validation": {
+    "numbers_found_in_text": 10
+  }
+}

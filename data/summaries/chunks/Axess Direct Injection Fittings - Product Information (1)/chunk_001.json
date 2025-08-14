@@ -1,0 +1,31 @@
+{
+  "bullets": [
+    "Direct injection fittings can be serviced safely online at pressures up to 6,000 PSI / 413 Bar and temperatures up to 232°C / 450°F.",
+    "Pressure rated up to 10,000 PSI / 689 BAR and temperature up to 204℃ / 400°F.",
+    "Standard sizes range between 1/4\" and 3/4\"."
+  ],
+  "numbers_and_units": [
+    "6,000 PSI",
+    "413 Bar",
+    "232°C",
+    "450°F",
+    "10,000 PSI",
+    "689 BAR",
+    "204℃",
+    "400°F",
+    "1/4\"",
+    "3/4\""
+  ],
+  "title": "Axess Direct Injection Fittings",
+  "keywords": [
+    "injection",
+    "fittings",
+    "pressure",
+    "temperature",
+    "chemical"
+  ],
+  "_validation": {
+    "numbers_found_in_text": 10,
+    "source_chunk": "chunk_001.txt"
+  }
+}

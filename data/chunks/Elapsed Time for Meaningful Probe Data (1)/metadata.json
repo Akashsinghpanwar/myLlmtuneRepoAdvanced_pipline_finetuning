@@ -1,0 +1,23 @@
+{
+  "original_file": "Elapsed Time for Meaningful Probe Data (1).txt",
+  "source_used": "md",
+  "length_unit": "tokens",
+  "min_length": 900,
+  "max_length": 2200,
+  "segments_detected": 9,
+  "num_chunks": 2,
+  "chunks": [
+    {
+      "id": 1,
+      "filename": "chunk_001.txt",
+      "length": 84,
+      "is_tableish": true
+    },
+    {
+      "id": 2,
+      "filename": "chunk_002.txt",
+      "length": 497,
+      "is_tableish": true
+    }
+  ]
+}

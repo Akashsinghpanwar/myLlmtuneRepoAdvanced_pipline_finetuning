@@ -1,0 +1,29 @@
+{
+  "chunk_id": 1,
+  "chunk_filename": "chunk_001.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "What type of product does the document provide information for?",
+      "evaluation_criteria": "Answer correctly identifies the product type discussed in the document. Must mention 'Axess Electrical Resistance (ER) Probes'.",
+      "answer": "The document provides product information for Axess Electrical Resistance (ER) Probes.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What keys are listed in the key/value pairs table within the Axess Electrical Resistance (ER) Probes product information document?",
+      "evaluation_criteria": "Answer correctly lists all the keys present in the key/value pairs table. Must include all five keys: 'Element Thickness', 'Cable Length', 'ERUN', 'Element Type', and 'Element Material'.",
+      "answer": "The document includes key/value pairs for Element Thickness, Cable Length, ERUN, Element Type, and Element Material.",
+      "difficulty": 4,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"The document provides product information for Axess Electrical Resistance (ER) Probes.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"Answer correctly identifies the product type discussed in the document. Must mention 'Axess Electrical Resistance (ER) Probes'.\",\n    \"question\": \"What type of product does the document provide information for?\"\n  },\n  {\n    \"answer\": \"The document includes key/value pairs for Element Thickness, Cable Length, ERUN, Element Type, and Element Material.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Answer correctly lists all the keys present in the key/value pairs table. Must include all five keys: 'Element Thickness', 'Cable Length', 'ERUN', 'Element Type', and 'Element Material'.\",\n    \"question\": \"What keys are listed in the key/value pairs table within the Axess Electrical Resistance (ER) Probes product information document?\"\n  },\n  {\n    \"answer\": \"According to the key/value pairs table, the 'Cable Length' for Axess Electrical Resistance (ER) Probes is 'Lead'.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Answer correctly identifies the value associated with 'Cable Length' in the key/value pairs table. Must state 'Lead'.\",\n    \"question\": \"According to the key/value pairs table, what is the value associated with 'Cable Length' for Axess Electrical Resistance (ER) Probes?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

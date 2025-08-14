@@ -1,0 +1,177 @@
+AXESS
+D
+innovating safety ...
+axess-corrosion.com
+AXESS
+Axess design and manufacture systems based on the client's application.
+We are uniquely positioned to supply products and services that can complement, integrate and support projects from the design stage, through to maintenance and data retrieval and analysis. We are a team of experts that have redefined industry standards through our innovation which has been fueled by our desire to enhance safety.
+AMPP®
+Innovation Award WINNERS 2023
+Our Principles
+Axess was formed with very clear principles that must resonate across our business and echo throughout everything we do. These are our benchmarks in all aspects of our business and put Integrity at its core operationally, technically, and commercially.
+Provocative We will seek and ask challenging questions
+Searching
+We will continually seek to see the next step
+Influencers
+We will influence the direction of our markets
+Creative
+We will develop methods to realize innovation
+Ambitious
+We will constantly seek to be the best in the field
+True
+We will remain true to our purpose and principles
+About Axess
+Corrosion & Erosion
+There are many factors to consider when selecting suitable locations for the installation of Corrosion and Erosion monitoring points.
+Pipe geometry, flow conditions and process fluid can all influence the occurrence and the development rate of corrosion and erosion within a facility as well as effecting the rate at which chemicals mix and disperse within the process.
+Corrosion monitoring points can be located downstream of any process change including branch connections where additional process streams are introduced, and at the end of the line to ensure that chemicals are still effective throughout the piping system.
+Erosion is a risk at higher velocities such as downstream of the choke, particularly where the presence of sand has been detected previously or may be suspected/expected. Other areas at high risk for erosion may include locations with rapid changes in direction such as small radius bends, and T-sections.
+Flow Lines ER (Corrosion) / ER (Erosion) Coupons / Non-Intrusive (Erosion) / Biofilm
+Separator Vessels ER / Non-Intrusive / Coupons
+KO Drums ER / Non-Intrusive / Hydrogen
+Product Water / Injection ER / LPR / Galvanic Non-Intrusive / Biofilm
+Drain Lines ER / Non-Intrusive / Coupons
+Water Injection ER / LPR / Galvanic Non-Intrusive / Biofilm
+Glycol Units ER / Non-Intrusive / Coupons Compression ER / Non-Intrusive / Coupons Flare Lines ER / Non-Intrusive / Coupons
+Export Lines ER / Non-Intrusive / Coupons
+www.axess-corrosion.com
+Intrusive Monitoring Techniques
+Axess offers a full range of hardware for the insertion and retrieval of monitoring, injection and sampling devices. We supply many different materials, all of which are sourced from N. America and W. Europe, in compliance with end user standards. Our range includes but is not limited to: Mechanical & Hydraulic High-Pressure Access systems, Low Pressure Access Systems, Corrosion Coupons, Erosion/Sand Detection Probes, Retrieval Tools and Service Valves manufactured to meet industry standards such as NACE MR0175, ASME B31.3, EN10204-3.1 as standard, and ISO:9001:2015
+Non-intrusive Sensors
+Non-intrusive wall thickness solutions provide in-service corrosion and erosion monitoring. The system compromises of ultrasonic transducers, up to 550℃ permanently mounted to process pipework, vessels and other structures coupled with a range of instrumentation options from spot reading, through to online, real-time wireless monitoring using industry standards WirelessHART/ISA100 protocols, or cellular networks.
+AX
+Access Systems
+CC
+Corrosion Coupon
+ER
+LPR
+SP
+UT
+H
+Electrical Resistance
+Linear Polarisation Resistance
+Sand Probe
+Non Intrusive
+Hydrogen Probe
+Corrosion & Erosion
+Chemical Injection & Sampling
+The rate of chemical injection (gallons/day) is determined by the min/max capacity of the injection pump.
+Using an atomiser, in a gas system where appropriate, can certainly help with fine volume control by adjusting the injection differential pressure and maintaining a constant application of the chemical. Chemicals that are injected using an open quill are applied in a pulse method with the frequency determined by the stroke rate of the chemical injection pump. In most cases the preferred method is to have a low stroke volume with a high stroke frequency to minimise the time between each pulse injection of chemical.
+Chemical injection points should always be located upstream of the equipment and pipework requiring protection.
+In piping systems where there is a change of material (e.g. duplex at the well heads and carbon steel further down line), the injection point should ideally be located a minimum of 10 x pipe ID upstream of the change in material. The ideal injection location is normally centre line however for higher velocity processes, wake frequency / drag calculations should be considered to determine maximum length whilst maintaining the integrity of the injection device.
+www.axess-corrosion.com
+Important factors to consider
+Chemical density and viscosity
+Process pipe/vessel size, velocity, pressure, temperature, and fluid composition
+Available installation ports and required clearance diameters
+In general process piping applications, a minimum of 3-5 pipe diameters of straight length upstream and 5-10 pipe diameters of straight length downstream are recommended to ensure spray dispersion
+Required materials of construction for corrosive environments
+Ease of maintenance/replacement
+Retractable lances allow for quill/lance removal while leaving the process online
+Required chemical flow rate
+Pressure differential
+Availability of steam, compressed air, nitrogen, or other carrier/atomization gases.
+Axess will help you specify the correct nozzle and ensure the devices supplied pass wake frequency / drag force calculations.
+Chemical Injection & Sampling
+Janus' TM
+Reduce Risk
+Axess retrieval tools, service valves and fittings are the safest in the business. We developed the Janus™ system to eliminate the life threatening problems with the original designs and in doing so we have introduced the first innovations in over half a century.
+What causes Retrieval Tool to piston?
+Retrieval tools are designed for pressure balance between the tool and the process. Equalization can be achieved through the carrier plug design, but over time the equalization ports can be blocked with scale or solids, especially at bottom of the line orientation. If equalization is not achieved prior to the disengagement of the carrier plug, there is a risk of pistoning.
+What is the danger with Non-telescoping Retrievers?
+Non-telescoping retrieval tools have external handles that can violently whip when pressure surges as the plug completely unseats from the fitting without pressure equalization. Recent research suggests this type of retriever has been responsible for an increase in operator injuries over the past 10 years. The risk is less obvious and a lack of knowledge and training on basic tool functionality has driven the misconception that non-telescoping tools are safer.
+Se
+think you're
+safe? think again ...
+JANUSGUARD
+JANUS QUARD
+The risks with Back Pressure Tools
+Back pressuring provides benefits to the retrieval process, especially on bottom of the line fittings and so we do not aim to remove or replace this practice. The risks stem from equipment availability, calibration and the practicalities with using the equipment during every retrieval. Accurate pressure verification is critical and not always possible.
+What is the advantage of Janus™ Guard? The advantage is simple, the Janus™ Guard can save lives. It can do this by preventing retrieval tool barrels from pistoning, and handles from whipping, therefore removing the 'line of fire'.
+Retrieval tools have been in use for over 70 years. The design is relatively unchanged and until now there has been no innovation related to the tools or the access system itself. It's estimated that hundreds of online retrievals are performed every day without incident, yet many do lead to incidents and a number of those have led to fatalities.
+All Axess retrieval tools are supplied with Janus™ technology and our innovations extend to Retrokit, Janus™ Service Valves and Access Fittings.
+For more information about our Janus™ Guard product range, visit online at: www.axess-corrosion.com/janus
+Digital
+Axess instruments are designed to deliver your data in the simplest and most cost-effective method for your needs.
+Offline
+For areas where basic historical information is good enough, data collection units are available. When the current metal loss or wall thickness value is all that is required, and monitoring is not, then spot measurement handheld units are also available.
+Online
+Multiple communications options are available using industry standard protocols ranging from wired RS485 Modbus, 4-20mA, and HART to wireless protocols including WirelessHART/ISA100.
+For remote locations we offer flexible cellular and satellite options and in instances where power is not available onsite these can be paired with energy harvesting options such as solar panels with battery backup to ensure uninterrupted, round the clock monitoring.
+Data can be delivered from our range of instruments directly to your networked DCS, a cloud hosted dashboard with alarm settings for email and SMS notifications and GPS coordinates, or hosted by Axess and reported through a data subscription package.
+Axess Cloud Dashboard
+Data
+Data to Axess Cloud
+Data to Cloud
+Siren Cellular Transmitter
+Siren Cellular Transmitter
+View Data on Axess Secure Dashboard via any Device with Internet Browser
+Injection Quill x 5
+Swarm Non-Intrusive Wall Thickness Monitors x 6
+ER Probes x 2
+Corrosion Coupons x 2
+AXESS
+DEVICES
+MAP
+MANAGE
+to o alarms e
+CDO
+PYTHON 54-1-37-48
+--
+-
+-
+---
+0.0102 MILS
+Online Monitors Enable Integrity Management by Exception
+Digital
+Coupon Retrievals
+Installed for a period of time, usually changed out every 90 days, coupons are a basic form of monitoring and the correct handling of coupons ensures that the data you've been waiting for is not compromised. Retrieval work is more than adhering to work instructions. It demands that the tools are function tested and pressure certified, and that the operators value their role in delivering accurate and vital data.
+AXESS
+Coupon Analysis:
+0
+0
+AXESS -
+CC-15-610100AAAA
+Model No
+Serial No Weurt
+AAAH 37.2115#
+Hval Code
+AXESS
+Moot Coom
+01230%
+Analysis & Reporting
+Analysis can include various measurements. Weight loss is the central measurement and the two methods of cleaning ensures very little metal loss occurs during that process. An average weight loss during cleaning is factored in to the final weights to improve accuracy of the data. White light and pit depth are measurement options as well as microbial data results from swabs taken immediately after coupon retrieval.
+Field Services
+Site Surveys
+Capturing critical monitoring location data is paramount to a successful monitoring campaign. Fittings and seal materials should be captured to ensure that there is no potential for galling or seal failures. Device lengths and types assist with preparing the scope of work and information around orientation and process conditions all contribute to managing risk and ensuring the safe execution of the scope.
+AX
+KESS
+Monitoring Location:
+CC+1
+Sidestream
+Where there are no permanent access fittings in place the side stream offers a temporary monitoring solution ideal for chemical evaluation or optimization trials. Axess standard four cell manifold is designed to provide the ability to monitor with multiple sensor types and easily connect to process outlets or sample points. The units are customizable and portable. Standard options are rated to 1000psi and manifolds up to 10'000psi are available for well testing applications.
+Field Services
+Hot-tapping
+Axess provide the safest hot-tapping equipment designed for the online installation of both 1" and 2" access fittings. The Janus™ service valve kit provides a genuine double seal of the fitting connection and double isolation of the process. Available as twist drills or trepan cutters, the Axess hot-tap kit stands alone in it's versatility. The legacy carrier plug HTK is also supported and Axess supply the kits, cutters, spare parts and training.
+Plug & Abandon
+An innovative solution to a growing problem enables engineers to remove "Dead-leg" from the conversation. As life extension of existing assets continue and intrusive monitoring fittings become unfit for purpose, there is a need for a cost-effective solution for making redundant welded access fittings safe and as free from future degradation as is possible. Axess patented design allows operators to purge the voids within the fittings and seal the cavities with corrosion resistant sealants.
+Field Services
+Training & Certification
+Axess provide the most complete training and certification programs for the safe use of online retrieval tools.
+Our third party certified trainers not only deliver safety awareness, but work with you through risk assessments and the competency management of trainees. We are your partner in ensuring your people have a solid foundation of knowledge and understanding before we begin the practical sessions. The training can be conducted using either hydraulic or mechanical retrieval tool kits and we can use single or double isolation valves. When using the mechanical equipment, Janus™ guards will be fitted to the retrievers and we can perform hundreds of retrievals on our custom flow loop at pressure up to 2000psi.
+U3-1270
+www.axess-corrosion.com
+Great to work with this team on all of our corrosion monitoring and chemical injection needs. They provide very prompt feedback to all of our questions. They are well versed in the equipment they manufacture and supply. Looking forward to the continued support from Axess.
+" H.E - Baker Hughes
+AXESS
+Axess Corporate HQ
+Axess-Corrosion, Inc. 2001 Timberloch Place The Woodlands, Texas USA 77380
+info@axess-corrosion.com +1 (832) 990-6754
+Center of Excellence
+Axess-Corrosion 22632 Kuykendahl Rd Spring, Texas USA 77389
+info@axess-corrosion.com +1 (832) 990-6754
+Service & Innovation Centre
+Axess-Corrosion LTD H1 Hill of Rubislaw Anderson Drive Aberdeen AB15 6BL
+info@axess-corrosion.com +44 (0) 1224 042111
+fin O & D
+www.axess-corrosion.com

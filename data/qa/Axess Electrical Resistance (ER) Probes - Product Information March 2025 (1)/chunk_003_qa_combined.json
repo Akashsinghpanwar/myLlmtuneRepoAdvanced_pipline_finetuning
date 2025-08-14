@@ -1,0 +1,64 @@
+{
+  "chunk_id": 3,
+  "chunk_filename": "chunk_003.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "According to Table 1, what is the code for Pipe Grade CS?",
+      "evaluation_criteria": "The answer must be exactly 'A1'.",
+      "answer": "A1",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "According to Table 1, what is the code for Pipe Grade 304 SS?",
+      "evaluation_criteria": "The answer must be exactly 'C1'.",
+      "answer": "C1",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "According to Table 1, what is the code for Pipe Grade 316L SS?",
+      "evaluation_criteria": "The answer must be exactly 'A3'.",
+      "answer": "A3",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "According to Table 1, what is the code for Pipe Grade S2205?",
+      "evaluation_criteria": "The answer must be exactly 'A7'.",
+      "answer": "A7",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "According to Table 1, what is the code for Pipe Grade C276?",
+      "evaluation_criteria": "The answer must be exactly 'B4'.",
+      "answer": "B4",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "According to Table 1, what is the code for Pipe Grade Alloy 625?",
+      "evaluation_criteria": "The answer must be exactly 'B5'.",
+      "answer": "B5",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "According to Table 1, what is the code for Pipe Grade Alloy 825?",
+      "evaluation_criteria": "The answer must be exactly 'B6'.",
+      "answer": "B6",
+      "difficulty": 2,
+      "category": "factual"
+    }
+  ],
+  "iterations": 2,
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

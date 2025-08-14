@@ -1,0 +1,138 @@
+# Horizon Technolgy Overview  (1).pdf
+
+- **Pages detected:** 3
+- **Tables detected:** 2
+- **Key/Value pairs detected:** yes
+
+## Key–Value Pairs
+
+| Key | Value |
+| --- | --- |
+| Product | Horizon Access Fittings |
+| Client | Worley / Aramco / AFIC |
+| Date of Issue | 04/30/2024 |
+
+## Extracted Text
+
+AXESS CORROSION
+Technology Overview
+Product
+Horizon Access Fittings
+Client
+Worley / Aramco / AFIC
+Date of Issue
+04/30/2024
+Overview
+During the AMPP 2023 conference and exhibition, Axess was awarded an innovation of the year award for our Janus Guard product designed to make online retrieval safer. The Janus guard product is one of a product line designed to reduce the risks associated with intrusive internal monitoring and chemical injection systems.
+At the same event, Axess were approached by Aramco engineers and set with the challenge to design a system to satisfy an issue which exists throughout Aramco facilities both onshore and onshore, upstream, and downstream - access to the bottom 10-20% of the pipe without access to the 6 o'clock position for retrieval equipment.
+New capital projects call out for T trap assemblies which are an integrity and piping engineers concern as well as being unrepresentative of the process conditions. The justification for using T trap assemblies is due to Aramco no longer digging pits for access and the usual space constraints offshore.
+See attached GA's showing the T trap system we are proposing to replace. The number of flanged connections and valves and the materials spec itself means we recently reduced a project cost on access fittings alone by 85% through offering A105/LF2 Horizon fittings in place of 1500# RJ flanged fitting in 825. The further cost reduction for all the other flange joints and valves is probably saving the same amount again.
+DO NOT SCALE
+REV
+DESCRIPTION
+DATE 9/12/2023
+DESIGNER
+APPROVE
+A
+INITIAL RELEASE
+TonyA RolandA
+12" SCH 30 PIPE
+AX2HPJA-HZ12-NT-A4
+2" HORIZON JANUS ACCESS FITTING FOR 12" NB PIPE, IN A10SN CARBON STEEL
+CCFD-HZ-G10180-B-A RETRIEVABLE FLUSH DISC HORIZONTAL COUPON IN 1018 CARBON STEEL
+4.25 ORDER LENGTH
+2PRCJA
+2 HOLE JANUS PRESSURE RETAINING COVER IN A350-LF2 CARBON STEEL WITH VITON O-RINGS, PRESSURE INDICATOR AND BLEED PORT
+HPHZCH-12-4.25 RETRIEVABLE FLUSH DISC COUPON HOLDER FOR 12" HORIZON ACCESS FITTING, 4.25" ORDER LENGTH
+SP
+SOLID PLUG IN 316L SS WITH PTFE PRIMARY PACKING AND VITON O-RING
+UNLESS OTHERWISE SPECIFIED
+TOLERANCES:
+ANGLES
+AXESS
+±
+±
+SURFACE ROUGHNESS: :selected:
+UNITS:
+INCHES
+CORROSION
+CONTROL STANDARDS NACE MR0175
+SIZE C :unselected:
+GA - HORIZON SIDE ENTRY BOL ACCESS FITTING, WITH ANGLED FLUSH DISC HOLDER
+DRAWING NO. ADD23091201_Rav
+2/3
+MATERIAL
+1 of 1
+DO NOT SCALE
+REV
+DESCRIPTION
+DATE DESIGNER JAPPROVED
+:unselected: GENERAL ARRANGMENT
+A
+4/18/2024
+TonyA RolandA
+-PROCESS LINE MATERIAL: API 5L GR. X65
+INVERTED T-SECTION MATERIAL: ALLOY 825-
+HORIZON ACCESS FITTING MATERIAL: A105/A350 LF2-
+ER PROBE
+CORROSION COUPONS
+SAMPLING POINT
+ER PROBE
+SAMPLING POINT
+CORROSION COUPONS
+EXAMPLE TRAP SYSTEM
+HORIZON ACCESS SYSTEM
+UNLESS OTHERWISE SPECIFIED
+TOLERANCES:
+ANGLES
+AXESS
+±
+±
+±
+SURFACE ROUGHNESS:
+UNITS:
+INCHES
+CONTROL STANDARDS
+SIZE
+TITCORROSION MONITORING AND SAMPLING TRAP SYSTEM VS HORIZON ACCESS SYSTEM
+DRAWING NO.
+NACE MRD175 ANSI 806.5
+D
+GAD24041801
+MATERIAL
+SEE PART DESCRIPTIONS
+1 of 4
+Cost Comparison
+P/N: HORIZON16-NTA4/HP/3PRC-A3.
+Description: Axess® Horizon® 2" HP Flareweld 16" Run, Access Fitting Assembly, Non-Tee, A105 CS Material, with Hollow Plug in A182.316L SS, Primary Packer in Teflon, 3 Hole Pressure Retaining Cover in A182.316L SS, with O-Ring in Viton, with Bleed Plug, Pressure Gauge and NPT Pipe Plug.
+300 x $1400 = $420,000. 12 Weeks
+As per Saudi Aramco 6239-ENG (11/2010)
+P/N: AX2HPJA-RJ1500-NT- B4/HP-B5-1/3PRCJA- A3-1
+Description: Axess ® 2" HP Janus Ring Joint, ANSI 1500# Access Fitting Assembly, Non-Tee, Hastelloy C276 Material, with Hollow Plug in Inconel 625, Primary Packer in Teflon, 3 Hole Janus Pressure Retaining cover in A182.316L SS with O-Ring in Viton and Back Up ring in Teflon, with Bleed Plug, Pressure Gauge and NPT Pipe Plug.
+300 x $9166.35 = $2,749,905. 28 Weeks
+Further Benefits
+The benefits are not purely about costs and the accuracy of data. From a safety perspective we know most incidents (personal injury, galled threads, damaged tools) take place on fittings at the 6 o'clock position. Mechanical or Hydraulic, same issues due to them acting as traps for debris. Gravity plays its part, and we have the Janus guard to prevent retrievers from pistoning due sudden pressure equalization after thread disengagement of the plug in the fitting. Pits have also been notorious for gathering toxic gases which have led to corrosion monitoring technician fatalities over the years. For 12 o'clock monitoring the Horizon fitting reduce the risk of working at heights, manual handling, and all the human factoring. During the concept design we consulted design engineers and field technicians, and, in every case, they all preferred side entry access points and handling equipment at waist height rather than above head (which is true for 6 o'clock or 12 o'clock).
+By using Horizon fittings, device lengths will be no longer than 8", meaning shorter and lighter retrievers and an easily managed stock inventory of replacement probes and coupon holders. In most cases wake frequency issues can be a thing of the past as we no longer install from the top to monitor the bottom. Pigging operations can be carried out with reduced concern if flush pitch and adjust devices are installed.
+About Janus™ Access Fittings
+The Janus access fitting is designed to enhance end user confidence by adding a secondary radial sealing surface to the access fitting. In doing so we can describe the sealing between the service valve and the access fitting as a double seal helping to prevent process entering the environment. A third sealing profile has been added below the threads which allows the pressure retaining cover to environmentally seal the external fitting threads and the sealing surfaces.
+The Janus™ access fitting design applies to mechanical RC, ACME, Horizon, and Hydraulic fitting designs. A simple back-end conversion of the service valves allows for the benefit's to be realized and yet still functions with legacy fittings. Axess recommend the Janus™ fitting for all new applications.
+The retrieval process remains the same and the carrier plugs are no different from the conventional, but risk is greatly reduced.
+Axess is working with several major operators as well as AMPP and the Energy Institute to develop the Janus™ access fittings and retrievers as a standard best practice as we drive to deliver innovation to the internal corrosion monitoring industry.
+Initial field installation is taking place during May 2024 and Aramco will assess the change in their data due to more representative monitoring using the Horizon access fitting.
+Watch Video Overview
+HORIZON
+
+## Tables
+
+### Table 1
+
+| Product | Horizon Access Fittings |
+| --- | --- |
+| Client | Worley / Aramco / AFIC |
+| Date of Issue | 04/30/2024 |
+
+### Table 2
+
+|  | CONTROL STANDARDS NACE MR0175 | SIZE C :unselected: | GA - HORIZON SIDE ENTRY BOL ACCESS FITTING, WITH ANGLED FLUSH DISC HOLDER | DRAWING NO. ADD23091201_Rav |
+| --- | --- | --- | --- | --- |
+|  |  | 2/3 | MATERIAL | 1 of 1 |

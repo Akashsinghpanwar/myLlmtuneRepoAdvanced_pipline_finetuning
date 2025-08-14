@@ -1,0 +1,17 @@
+# Elapsed Time for Meaningful Probe Data (1).pdf
+
+- **Pages detected:** 1
+- **Tables detected:** 1
+- **Key/Value pairs detected:** yes
+
+## Key–Value Pairs
+
+| Key | Value |
+| --- | --- |
+| Corrosion Rate (mpy) | 0.1 |
+| 2 |  |
+| 4 |  |
+| 5 |  |
+| 10 |  |
+| 20 |  |
+| 25 |  |

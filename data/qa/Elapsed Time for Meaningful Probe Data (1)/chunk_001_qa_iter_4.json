@@ -1,0 +1,22 @@
+{
+  "chunk_id": 1,
+  "chunk_filename": "chunk_001.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "What are all the specific corrosion rate values (including units) listed in the table?",
+      "evaluation_criteria": "Answer must list all provided corrosion rate values exactly as they appear in the table, including units (mpy). Missing or incorrect values will be penalized.",
+      "answer": "The table provides corrosion rate values of 0.1, 2, 4, 5, 10, 20, and 25 mpy.",
+      "difficulty": 2,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"The table provides corrosion rate values of 0.1, 2, 4, 5, 10, 20, and 25 mpy.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"Answer must list all provided corrosion rate values exactly as they appear in the table, including units (mpy). Missing or incorrect values will be penalized.\",\n    \"question\": \"What are all the specific corrosion rate values (including units) listed in the table?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

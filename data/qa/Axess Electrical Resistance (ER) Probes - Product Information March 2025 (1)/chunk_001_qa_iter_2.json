@@ -1,0 +1,57 @@
+{
+  "chunk_id": 1,
+  "chunk_filename": "chunk_001.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "What is the product information date for the Axess Electrical Resistance (ER) Probes document?",
+      "evaluation_criteria": "Verifies the document's product information date.",
+      "answer": "March 2025",
+      "difficulty": 1,
+      "category": "factual"
+    },
+    {
+      "question": "How many pages are detected in the Axess Electrical Resistance (ER) Probes document?",
+      "evaluation_criteria": "Verifies the number of pages detected in the document.",
+      "answer": "4",
+      "difficulty": 1,
+      "category": "factual"
+    },
+    {
+      "question": "How many tables are detected in the Axess Electrical Resistance (ER) Probes document?",
+      "evaluation_criteria": "Verifies the number of tables detected in the document.",
+      "answer": "3",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "Does the Axess Electrical Resistance (ER) Probes document contain key/value pairs?",
+      "evaluation_criteria": "Confirms the presence of key/value pairs in the document.",
+      "answer": "Yes",
+      "difficulty": 1,
+      "category": "factual"
+    },
+    {
+      "question": "What are the keys listed in the key/value pairs table within the Axess Electrical Resistance (ER) Probes document?",
+      "evaluation_criteria": "Checks for the correct extraction of all keys from the key/value pairs table.",
+      "answer": "Element Thickness, Cable Length, ERUN, Element Type, Element Material",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "According to the key/value pairs table, what is the value associated with 'Cable Length' for Axess Electrical Resistance (ER) Probes?",
+      "evaluation_criteria": "Checks for the correct extraction of the value associated with 'Cable Length' from the key/value pairs table.",
+      "answer": "Lead",
+      "difficulty": 3,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"March 2025\",\n    \"category\": \"factual\",\n    \"difficulty\": 1,\n    \"evaluation_criteria\": \"Verifies the document's product information date.\",\n    \"question\": \"What is the product information date for the Axess Electrical Resistance (ER) Probes document?\"\n  },\n  {\n    \"answer\": \"4\",\n    \"category\": \"factual\",\n    \"difficulty\": 1,\n    \"evaluation_criteria\": \"Verifies the number of pages detected in the document.\",\n    \"question\": \"How many pages are detected in the Axess Electrical Resistance (ER) Probes document?\"\n  },\n  {\n    \"answer\": \"3\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"Verifies the number of tables detected in the document.\",\n    \"question\": \"How many tables are detected in the Axess Electrical Resistance (ER) Probes document?\"\n  },\n  {\n    \"answer\": \"Yes\",\n    \"category\": \"factual\",\n    \"difficulty\": 1,\n    \"evaluation_criteria\": \"Confirms the presence of key/value pairs in the document.\",\n    \"question\": \"Does the Axess Electrical Resistance (ER) Probes document contain key/value pairs?\"\n  },\n  {\n    \"answer\": \"Element Thickness, Cable Length, ERUN, Element Type, Element Material\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Checks for the correct extraction of all keys from the key/value pairs table.\",\n    \"question\": \"What are the keys listed in the key/value pairs table within the Axess Electrical Resistance (ER) Probes document?\"\n  },\n  {\n    \"answer\": \"Lead\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Checks for the correct extraction of the value associated with 'Cable Length' from the key/value pairs table.\",\n    \"question\": \"According to the key/value pairs table, what is the value associated with 'Cable Length' for Axess Electrical Resistance (ER) Probes?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

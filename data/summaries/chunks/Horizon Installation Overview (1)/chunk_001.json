@@ -1,0 +1,24 @@
+{
+  "bullets": [
+    "Horizon Access Fitting is designed to provide bottom of the line corrosion monitoring.",
+    "Fitting is supplied with one end contoured to the size of pipe it is to be installed onto.",
+    "After fitting is welded to the pipe the end profile nearest the pipe can then be hot-tapped using an Axess supplied hot-tap tool."
+  ],
+  "numbers_and_units": [
+    "4",
+    "0",
+    "22632"
+  ],
+  "title": "Horizon Access Fitting Installation Overview",
+  "keywords": [
+    "horizon",
+    "access fitting",
+    "hot-tap",
+    "corrosion monitoring",
+    "axess"
+  ],
+  "_validation": {
+    "numbers_found_in_text": 3,
+    "source_chunk": "chunk_001.txt"
+  }
+}

@@ -1,0 +1,13 @@
+# Horizon Technolgy Overview  (1).pdf
+
+- **Pages detected:** 3
+- **Tables detected:** 2
+- **Key/Value pairs detected:** yes
+
+## Key–Value Pairs
+
+| Key | Value |
+| --- | --- |
+| Product | Horizon Access Fittings |
+| Client | Worley / Aramco / AFIC |
+| Date of Issue | 04/30/2024 |

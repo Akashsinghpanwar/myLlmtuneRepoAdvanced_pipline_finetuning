@@ -1,0 +1,113 @@
+{
+  "chunk_id": 4,
+  "chunk_filename": "chunk_004.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "What is the element thickness for an ER element made of Pipe Grade CS?",
+      "evaluation_criteria": "Verifies the correct element thickness (10mil) for Pipe Grade CS.",
+      "answer": "The element thickness for a Pipe Grade CS ER element is 10mil.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What material code is associated with an ER element made of Alloy 625?",
+      "evaluation_criteria": "Verifies the correct material code (B5) for Alloy 625.",
+      "answer": "The material code for an ER element made of Alloy 625 is B5.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What material code is associated with an ER element made of C276?",
+      "evaluation_criteria": "Verifies the correct material code (B4) for C276.",
+      "answer": "The material code for an ER element made of C276 is B4.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What is the element thickness for an ER probe made of S2205?",
+      "evaluation_criteria": "Verifies the correct element thickness (50mil) for S2205.",
+      "answer": "The element thickness for a S2205 ER probe is 50mil.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What material code is associated with an ER element made of Alloy 825?",
+      "evaluation_criteria": "Verifies the correct material code (B6) for Alloy 825.",
+      "answer": "The material code for an ER element made of Alloy 825 is B6.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What is the element thickness for an ER element made of 304 SS?",
+      "evaluation_criteria": "Verifies the correct element thickness (20mil) for 304 SS.",
+      "answer": "The element thickness for a 304 SS ER element is 20mil.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What is the material code for F51 DSS?",
+      "evaluation_criteria": "Verifies the correct material code (A7) for F51 DSS.",
+      "answer": "The material code for F51 DSS is A7.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What is the material code for F60 DSS?",
+      "evaluation_criteria": "Verifies the correct material code (A8) for F60 DSS.",
+      "answer": "The material code for F60 DSS is A8.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What is the material code for F53 SDSS?",
+      "evaluation_criteria": "Verifies the correct material code (A9) for F53 SDSS.",
+      "answer": "The material code for F53 SDSS is A9.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What is the material code for F55 SDSS?",
+      "evaluation_criteria": "Verifies the correct material code (B1) for F55 SDSS.",
+      "answer": "The material code for F55 SDSS is B1.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What is the material code for C276?",
+      "evaluation_criteria": "Verifies the correct material code (B4) for C276.",
+      "answer": "The material code for C276 is B4.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What is the material code for Alloy 625?",
+      "evaluation_criteria": "Verifies the correct material code (B5) for Alloy 625.",
+      "answer": "The material code for Alloy 625 is B5.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What is the material code for Alloy 825?",
+      "evaluation_criteria": "Verifies the correct material code (B6) for Alloy 825.",
+      "answer": "The material code for Alloy 825 is B6.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What is the material code for 316/316L SS?",
+      "evaluation_criteria": "Verifies the correct material code (A3) for 316/316L SS.",
+      "answer": "The material code for 316/316L SS is A3.",
+      "difficulty": 2,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"The element thickness for a Pipe Grade CS ER element is 10mil.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Verifies the correct element thickness (10mil) for Pipe Grade CS.\",\n    \"question\": \"What is the element thickness for an ER element made of Pipe Grade CS?\"\n  },\n  {\n    \"answer\": \"The material code for an ER element made of Alloy 625 is B5.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Verifies the correct material code (B5) for Alloy 625.\",\n    \"question\": \"What material code is associated with an ER element made of Alloy 625?\"\n  },\n  {\n    \"answer\": \"The material code for an ER element made of C276 is B4.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Verifies the correct material code (B4) for C276.\",\n    \"question\": \"What material code is associated with an ER element made of C276?\"\n  },\n  {\n    \"answer\": \"The element thickness for a S2205 ER probe is 50mil.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Verifies the correct element thickness (50mil) for S2205.\",\n    \"question\": \"What is the element thickness for an ER probe made of S2205?\"\n  },\n  {\n    \"answer\": \"The material code for an ER element made of Alloy 825 is B6.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Verifies the correct material code (B6) for Alloy 825.\",\n    \"question\": \"What material code is associated with an ER element made of Alloy 825?\"\n  },\n  {\n    \"answer\": \"The element thickness for a 304 SS ER element is 20mil.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Verifies the correct element thickness (20mil) for 304 SS.\",\n    \"question\": \"What is the element thickness for an ER element made of 304 SS?\"\n  },\n  {\n    \"answer\": \"The material code for F51 DSS is A7.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"Verifies the correct material code (A7) for F51 DSS.\",\n    \"question\": \"What is the material code for F51 DSS?\"\n  },\n  {\n    \"answer\": \"The material code for F60 DSS is A8.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"Verifies the correct material code (A8) for F60 DSS.\",\n    \"question\": \"What is the material code for F60 DSS?\"\n  },\n  {\n    \"answer\": \"The material code for F53 SDSS is A9.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"Verifies the correct material code (A9) for F53 SDSS.\",\n    \"question\": \"What is the material code for F53 SDSS?\"\n  },\n  {\n    \"answer\": \"The material code for F55 SDSS is B1.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"Verifies the correct material code (B1) for F55 SDSS.\",\n    \"question\": \"What is the material code for F55 SDSS?\"\n  },\n  {\n    \"answer\": \"The material code for C276 is B4.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"Verifies the correct material code (B4) for C276.\",\n    \"question\": \"What is the material code for C276?\"\n  },\n  {\n    \"answer\": \"The material code for Alloy 625 is B5.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"Verifies the correct material code (B5) for Alloy 625.\",\n    \"question\": \"What is the material code for Alloy 625?\"\n  },\n  {\n    \"answer\": \"The material code for Alloy 825 is B6.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"Verifies the correct material code (B6) for Alloy 825.\",\n    \"question\": \"What is the material code for Alloy 825?\"\n  },\n  {\n    \"answer\": \"The material code for 316/316L SS is A3.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"Verifies the correct material code (A3) for 316/316L SS.\",\n    \"question\": \"What is the material code for 316/316L SS?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

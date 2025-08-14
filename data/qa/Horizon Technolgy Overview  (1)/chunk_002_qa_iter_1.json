@@ -1,0 +1,92 @@
+{
+  "chunk_id": 2,
+  "chunk_filename": "chunk_002.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "Which product won Axess an innovation of the year award at the AMPP 2023 conference and exhibition?",
+      "evaluation_criteria": "The answer must state the award and the product name.",
+      "answer": "Axess was awarded an innovation of the year award for the Janus Guard product.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What material is used for the Horizon access fitting?",
+      "evaluation_criteria": "The answer must state the correct material: A105/A350 LF2.",
+      "answer": "The Horizon access fitting material is A105/A350 LF2.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What is the cost and lead time for 300 Axess® Horizon® 2\" HP Flareweld 16\" Run, Access Fitting Assemblies?",
+      "evaluation_criteria": "The answer must include the correct cost ($420,000) and lead time (12 weeks) for 300 Axess Horizon access fitting assemblies.",
+      "answer": "The cost for 300 Axess® Horizon® 2\" HP Flareweld 16\" Run, Access Fitting Assemblies is $420,000 and the lead time is 12 weeks.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "What is the cost and lead time for 300 Axess ® 2\" HP Janus Ring Joint, ANSI 1500# Access Fitting Assemblies?",
+      "evaluation_criteria": "The answer must include the correct cost ($2,749,905) and lead time (28 weeks) for 300 Axess Janus Ring Joint access fitting assemblies.",
+      "answer": "The cost for 300 Axess ® 2\" HP Janus Ring Joint, ANSI 1500# Access Fitting Assemblies is $2,749,905 and the lead time is 28 weeks.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "What design feature enhances end user confidence in the Janus access fitting?",
+      "evaluation_criteria": "The answer must mention the secondary radial sealing surface.",
+      "answer": "The Janus access fitting is designed to enhance end user confidence by adding a secondary radial sealing surface to the access fitting.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "How does the Horizon fitting improve safety for 12 o'clock monitoring?",
+      "evaluation_criteria": "The answer must mention the reduction of risk related to working at heights, manual handling, and human factoring.",
+      "answer": "The Horizon fitting reduces the risk of working at heights, manual handling, and all the human factoring for 12 o'clock monitoring.",
+      "difficulty": 6,
+      "category": "reasoning"
+    },
+    {
+      "question": "How does the Horizon access fitting affect pigging operations?",
+      "evaluation_criteria": "The answer must mention pigging operations and flush pitch/adjust devices.",
+      "answer": "The Horizon access fitting reduces concerns during pigging operations when flush pitch and adjust devices are installed.",
+      "difficulty": 5,
+      "category": "reasoning"
+    },
+    {
+      "question": "What does drawing ADD23091201_Rav depict?",
+      "evaluation_criteria": "The answer must state the correct drawing number and the description of the drawing.",
+      "answer": "The drawing ADD23091201_Rav shows the GA - HORIZON SIDE ENTRY BOL ACCESS FITTING, WITH ANGLED FLUSH DISC HOLDER.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What does drawing GAD24041801 depict?",
+      "evaluation_criteria": "The answer must state the correct drawing number and the description of the drawing.",
+      "answer": "The drawing GAD24041801 shows the TITCORROSION MONITORING AND SAMPLING TRAP SYSTEM VS HORIZON ACCESS SYSTEM.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What is the description of the part number 2PRCJA?",
+      "evaluation_criteria": "The answer must include the correct part number and the description of the part.",
+      "answer": "The 2PRCJA is a 2 HOLE JANUS PRESSURE RETAINING COVER IN A350-LF2 CARBON STEEL WITH VITON O-RINGS, PRESSURE INDICATOR AND BLEED PORT.",
+      "difficulty": 6,
+      "category": "factual"
+    },
+    {
+      "question": "What is the description of the part number AX2HPJA-HZ12-NT-A4?",
+      "evaluation_criteria": "The answer must include the correct part number and the description of the part.",
+      "answer": "The AX2HPJA-HZ12-NT-A4 is a 2\" HORIZON JANUS ACCESS FITTING FOR 12\" NB PIPE, IN A10SN CARBON STEEL.",
+      "difficulty": 6,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"Axess was awarded an innovation of the year award for the Janus Guard product.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"The answer must state the award and the product name.\",\n    \"question\": \"Which product won Axess an innovation of the year award at the AMPP 2023 conference and exhibition?\"\n  },\n  {\n    \"answer\": \"The Horizon access fitting material is A105/A350 LF2.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"The answer must state the correct material: A105/A350 LF2.\",\n    \"question\": \"What material is used for the Horizon access fitting?\"\n  },\n  {\n    \"answer\": \"The cost for 300 Axess® Horizon® 2\\\" HP Flareweld 16\\\" Run, Access Fitting Assemblies is $420,000 and the lead time is 12 weeks.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"The answer must include the correct cost ($420,000) and lead time (12 weeks) for 300 Axess Horizon access fitting assemblies.\",\n    \"question\": \"What is the cost and lead time for 300 Axess® Horizon® 2\\\" HP Flareweld 16\\\" Run, Access Fitting Assemblies?\"\n  },\n  {\n    \"answer\": \"The cost for 300 Axess ® 2\\\" HP Janus Ring Joint, ANSI 1500# Access Fitting Assemblies is $2,749,905 and the lead time is 28 weeks.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"The answer must include the correct cost ($2,749,905) and lead time (28 weeks) for 300 Axess Janus Ring Joint access fitting assemblies.\",\n    \"question\": \"What is the cost and lead time for 300 Axess ® 2\\\" HP Janus Ring Joint, ANSI 1500# Access Fitting Assemblies?\"\n  },\n  {\n    \"answer\": \"The Janus access fitting is designed to enhance end user confidence by adding a secondary radial sealing surface to the access fitting.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"The answer must mention the secondary radial sealing surface.\",\n    \"question\": \"What design feature enhances end user confidence in the Janus access fitting?\"\n  },\n  {\n    \"answer\": \"The Horizon fitting reduces the risk of working at heights, manual handling, and all the human factoring for 12 o'clock monitoring.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"The answer must mention the reduction of risk related to working at heights, manual handling, and human factoring.\",\n    \"question\": \"How does the Horizon fitting improve safety for 12 o'clock monitoring?\"\n  },\n  {\n    \"answer\": \"The Horizon access fitting reduces concerns during pigging operations when flush pitch and adjust devices are installed.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"The answer must mention pigging operations and flush pitch/adjust devices.\",\n    \"question\": \"How does the Horizon access fitting affect pigging operations?\"\n  },\n  {\n    \"answer\": \"The drawing ADD23091201_Rav shows the GA - HORIZON SIDE ENTRY BOL ACCESS FITTING, WITH ANGLED FLUSH DISC HOLDER.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"The answer must state the correct drawing number and the description of the drawing.\",\n    \"question\": \"What does drawing ADD23091201_Rav depict?\"\n  },\n  {\n    \"answer\": \"The drawing GAD24041801 shows the TITCORROSION MONITORING AND SAMPLING TRAP SYSTEM VS HORIZON ACCESS SYSTEM.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"The answer must state the correct drawing number and the description of the drawing.\",\n    \"question\": \"What does drawing GAD24041801 depict?\"\n  },\n  {\n    \"answer\": \"The 2PRCJA is a 2 HOLE JANUS PRESSURE RETAINING COVER IN A350-LF2 CARBON STEEL WITH VITON O-RINGS, PRESSURE INDICATOR AND BLEED PORT.\",\n    \"category\": \"factual\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"The answer must include the correct part number and the description of the part.\",\n    \"question\": \"What is the description of the part number 2PRCJA?\"\n  },\n  {\n    \"answer\": \"The AX2HPJA-HZ12-NT-A4 is a 2\\\" HORIZON JANUS ACCESS FITTING FOR 12\\\" NB PIPE, IN A10SN CARBON STEEL.\",\n    \"category\": \"factual\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"The answer must include the correct part number and the description of the part.\",\n    \"question\": \"What is the description of the part number AX2HPJA-HZ12-NT-A4?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

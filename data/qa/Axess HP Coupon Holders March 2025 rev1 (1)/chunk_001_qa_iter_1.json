@@ -1,0 +1,29 @@
+{
+  "chunk_id": 1,
+  "chunk_filename": "chunk_001.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "What is the product name of the document?",
+      "evaluation_criteria": "The answer must state the exact product name as it appears in the document title.",
+      "answer": "Axess HP Coupon Holders",
+      "difficulty": 1,
+      "category": "factual"
+    },
+    {
+      "question": "What is the date and revision number of the Axess HP Coupon Holders document?",
+      "evaluation_criteria": "The answer must state the exact date and revision number as it appears in the document title.",
+      "answer": "March 2025 rev1",
+      "difficulty": 2,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"Axess HP Coupon Holders\",\n    \"category\": \"factual\",\n    \"difficulty\": 1,\n    \"evaluation_criteria\": \"The answer must state the exact product name as it appears in the document title.\",\n    \"question\": \"What is the product name of the document?\"\n  },\n  {\n    \"answer\": \"March 2025 rev1\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"The answer must state the exact date and revision number as it appears in the document title.\",\n    \"question\": \"What is the date and revision number of the Axess HP Coupon Holders document?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "chunk_id": 4,
+  "chunk_filename": "chunk_004.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "What communication bus and parameters are used by the Axess Data Collection Unit (AXDCUHB)?",
+      "evaluation_criteria": "Answer must specify the RS-232 Serial ASCII Bus and the correct parameters: 9600, 8, N, 1. Incorrect answers may omit the bus type or have incorrect parameters.",
+      "answer": "The Axess Data Collection Unit (AXDCUHB) uses a RS-232 Serial ASCII Bus with parameters 9600, 8, N, 1 for communication.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "What is the part number for the Axess Data Collection Unit (DCU)?",
+      "evaluation_criteria": "The answer must state the part number as AXDCUHB. Any other part number is incorrect.",
+      "answer": "The part number for the Axess Data Collection Unit is AXDCUHB.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What is the ATEX rating for the Axess Data Collection Unit (AXDCUHB)?",
+      "evaluation_criteria": "The answer must include the full ATEX certification string: Ex II 1/2 G Ex ia IIC T4 Ga/Gb. Partial or incorrect strings are incorrect.",
+      "answer": "The Axess Data Collection Unit (AXDCUHB) is certified to ATEX Ex II 1/2 G Ex ia IIC T4 Ga/Gb.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "What is the IECEx rating for the Axess Data Collection Unit (AXDCUHB)?",
+      "evaluation_criteria": "The answer must include the full IECEx certification string: Ex ia IIC T4 Ga/Gb. Partial or incorrect strings are incorrect.",
+      "answer": "The Axess Data Collection Unit (AXDCUHB) is certified to IECEx Ex ia IIC T4 Ga/Gb.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "Which probe types are compatible with the Axess Data Collection Unit (AXDCUHB)?",
+      "evaluation_criteria": "The answer must list all three probe types: Electrical Resistance (ER), Linear Polarization Resistance (LPR), and Galvanic Potential. Omitting any of these probe types is incorrect.",
+      "answer": "The Axess Data Collection Unit (AXDCUHB) is compatible with Electrical Resistance (ER), Linear Polarization Resistance (LPR), and Galvanic Potential probes.",
+      "difficulty": 4,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"The Axess Data Collection Unit (AXDCUHB) uses a RS-232 Serial ASCII Bus with parameters 9600, 8, N, 1 for communication.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Answer must specify the RS-232 Serial ASCII Bus and the correct parameters: 9600, 8, N, 1. Incorrect answers may omit the bus type or have incorrect parameters.\",\n    \"question\": \"What communication bus and parameters are used by the Axess Data Collection Unit (AXDCUHB)?\"\n  },\n  {\n    \"answer\": \"The part number for the Axess Data Collection Unit is AXDCUHB.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"The answer must state the part number as AXDCUHB. Any other part number is incorrect.\",\n    \"question\": \"What is the part number for the Axess Data Collection Unit (DCU)?\"\n  },\n  {\n    \"answer\": \"The Axess Data Collection Unit (AXDCUHB) is certified to ATEX Ex II 1/2 G Ex ia IIC T4 Ga/Gb.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"The answer must include the full ATEX certification string: Ex II 1/2 G Ex ia IIC T4 Ga/Gb. Partial or incorrect strings are incorrect.\",\n    \"question\": \"What is the ATEX rating for the Axess Data Collection Unit (AXDCUHB)?\"\n  },\n  {\n    \"answer\": \"The Axess Data Collection Unit (AXDCUHB) is certified to IECEx Ex ia IIC T4 Ga/Gb.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"The answer must include the full IECEx certification string: Ex ia IIC T4 Ga/Gb. Partial or incorrect strings are incorrect.\",\n    \"question\": \"What is the IECEx rating for the Axess Data Collection Unit (AXDCUHB)?\"\n  },\n  {\n    \"answer\": \"The Axess Data Collection Unit (AXDCUHB) is compatible with Electrical Resistance (ER), Linear Polarization Resistance (LPR), and Galvanic Potential probes.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"The answer must list all three probe types: Electrical Resistance (ER), Linear Polarization Resistance (LPR), and Galvanic Potential. Omitting any of these probe types is incorrect.\",\n    \"question\": \"Which probe types are compatible with the Axess Data Collection Unit (AXDCUHB)?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

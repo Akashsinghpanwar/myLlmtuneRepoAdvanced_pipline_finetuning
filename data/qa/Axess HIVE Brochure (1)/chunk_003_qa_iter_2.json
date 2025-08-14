@@ -1,0 +1,57 @@
+{
+  "chunk_id": 3,
+  "chunk_filename": "chunk_003.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "According to Table 3, what is the final weight for coupon SN RAK32?",
+      "evaluation_criteria": "The answer must state the final weight for coupon SN RAK32 as found in Table 3, which is 87.3529. Incorrect answers would include values from other rows or columns in the table.",
+      "answer": "According to Table 3, the final weight for coupon SN RAK32 is 87.3529.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "According to Table 3, what is the initial weight for coupon SN BACII?",
+      "evaluation_criteria": "The answer must state the initial weight for coupon SN BACII as found in Table 3, which is 17.3624. Incorrect answers would include values from other rows or columns in the table.",
+      "answer": "According to Table 3, the initial weight for coupon SN BACII is 17.3624.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "According to Table 2, what is the coupon part number?",
+      "evaluation_criteria": "The answer must state the coupon part number exactly as it appears in Table 2: CCST-2.87580 87SKO 125. Any deviation from this string is incorrect.",
+      "answer": "According to Table 2, the coupon part number is CCST-2.87580 87SKO 125.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "According to Table 1, what was the corrosion rate in March n 2021 at location D NED-15-7 Cm?",
+      "evaluation_criteria": "The answer must state the corrosion rate in March n 2021 as found in Table 1, which is 0 28. Incorrect answers would include values from other rows or columns in the table.",
+      "answer": "According to Table 1, the corrosion rate in March n 2021 at location D NED-15-7 Cm is 0 28.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "According to Table 3, what is the weight loss corrosion rate max fit depth for coupon SN BACII in location Tog CC-1?",
+      "evaluation_criteria": "The answer must state the weight loss corrosion rate max fit depth for coupon SN BACII as found in Table 3, which is 0.1172 may. Incorrect answers would include values from other rows or columns in the table or omit the unit.",
+      "answer": "According to Table 3, the weight loss corrosion rate max fit depth for coupon SN BACII in location Tog CC-1 is 0.1172 may.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "According to Table 2, what is the Hank Weight Loss?",
+      "evaluation_criteria": "The answer must state the Hank Weight Loss as found in Table 2, which is UUUSE. Any deviation from this string is incorrect.",
+      "answer": "According to Table 2, the Hank Weight Loss is UUUSE.",
+      "difficulty": 2,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"According to Table 3, the final weight for coupon SN RAK32 is 87.3529.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"The answer must state the final weight for coupon SN RAK32 as found in Table 3, which is 87.3529. Incorrect answers would include values from other rows or columns in the table.\",\n    \"question\": \"According to Table 3, what is the final weight for coupon SN RAK32?\"\n  },\n  {\n    \"answer\": \"According to Table 3, the initial weight for coupon SN BACII is 17.3624.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"The answer must state the initial weight for coupon SN BACII as found in Table 3, which is 17.3624. Incorrect answers would include values from other rows or columns in the table.\",\n    \"question\": \"According to Table 3, what is the initial weight for coupon SN BACII?\"\n  },\n  {\n    \"answer\": \"According to Table 2, the coupon part number is CCST-2.87580 87SKO 125.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"The answer must state the coupon part number exactly as it appears in Table 2: CCST-2.87580 87SKO 125. Any deviation from this string is incorrect.\",\n    \"question\": \"According to Table 2, what is the coupon part number?\"\n  },\n  {\n    \"answer\": \"According to Table 1, the corrosion rate in March n 2021 at location D NED-15-7 Cm is 0 28.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"The answer must state the corrosion rate in March n 2021 as found in Table 1, which is 0 28. Incorrect answers would include values from other rows or columns in the table.\",\n    \"question\": \"According to Table 1, what was the corrosion rate in March n 2021 at location D NED-15-7 Cm?\"\n  },\n  {\n    \"answer\": \"According to Table 3, the weight loss corrosion rate max fit depth for coupon SN BACII in location Tog CC-1 is 0.1172 may.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"The answer must state the weight loss corrosion rate max fit depth for coupon SN BACII as found in Table 3, which is 0.1172 may. Incorrect answers would include values from other rows or columns in the table or omit the unit.\",\n    \"question\": \"According to Table 3, what is the weight loss corrosion rate max fit depth for coupon SN BACII in location Tog CC-1?\"\n  },\n  {\n    \"answer\": \"According to Table 2, the Hank Weight Loss is UUUSE.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"The answer must state the Hank Weight Loss as found in Table 2, which is UUUSE. Any deviation from this string is incorrect.\",\n    \"question\": \"According to Table 2, what is the Hank Weight Loss?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

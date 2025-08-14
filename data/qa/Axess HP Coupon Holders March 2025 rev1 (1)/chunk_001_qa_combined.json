@@ -1,0 +1,78 @@
+{
+  "chunk_id": 1,
+  "chunk_filename": "chunk_001.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "What is the product name of the document?",
+      "evaluation_criteria": "The answer must state the exact product name as it appears in the document title.",
+      "answer": "Axess HP Coupon Holders",
+      "difficulty": 1,
+      "category": "factual"
+    },
+    {
+      "question": "What is the date and revision number of the Axess HP Coupon Holders document?",
+      "evaluation_criteria": "The answer must state the exact date and revision number as it appears in the document title.",
+      "answer": "March 2025 rev1",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What specific product does this document describe?",
+      "evaluation_criteria": "The answer must state 'Axess HP Coupon Holders' exactly.",
+      "answer": "Axess HP Coupon Holders",
+      "difficulty": 1,
+      "category": "factual"
+    },
+    {
+      "question": "According to the document, what is the name of the product being described?",
+      "evaluation_criteria": "The answer must state 'Axess HP Coupon Holders' exactly.",
+      "answer": "Axess HP Coupon Holders",
+      "difficulty": 1,
+      "category": "factual"
+    },
+    {
+      "question": "What is the title of the document?",
+      "evaluation_criteria": "The answer must state 'Axess HP Coupon Holders' exactly.",
+      "answer": "Axess HP Coupon Holders",
+      "difficulty": 1,
+      "category": "factual"
+    },
+    {
+      "question": "What is the revision date of the Axess HP Coupon Holders document?",
+      "evaluation_criteria": "The answer must state 'March 2025 rev1' exactly.",
+      "answer": "March 2025 rev1",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What is the main product family discussed in the document?",
+      "evaluation_criteria": "The answer must be exactly 'Axess HP Coupon Holders'.",
+      "answer": "Axess HP Coupon Holders",
+      "difficulty": 1,
+      "category": "factual"
+    },
+    {
+      "question": "What is the publication date and revision of the Axess HP Coupon Holders document?",
+      "evaluation_criteria": "The answer must be exactly 'March 2025 rev1'.",
+      "answer": "March 2025 rev1",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What is the name of the product described in the document?",
+      "evaluation_criteria": "The answer must be 'Axess HP Coupon Holders'.",
+      "answer": "Axess HP Coupon Holders",
+      "difficulty": 1,
+      "category": "factual"
+    }
+  ],
+  "iterations": 6,
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "chunk_id": 1,
+  "chunk_filename": "chunk_001.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "According to Axess, what is the difference in the number of potential leak paths and their locations in mechanical versus hydraulic access fittings?",
+      "evaluation_criteria": "The answer must correctly state the number of leak paths for both mechanical and hydraulic fittings, and identify the location of the leak paths. Incorrect answers would include incorrect numbers of leak paths or misidentification of leak path locations.",
+      "answer": "Mechanical fittings have one potential leak path (seals on the plug), while hydraulic systems have five potential leak paths (four locking pins and the plug).",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What are the primary causes of galling in mechanical access fittings compared to hydraulic access fittings, according to Axess?",
+      "evaluation_criteria": "The answer must correctly identify the causes of galling in both mechanical and hydraulic fittings. Incorrect answers would include incorrect causes or failure to mention the specific components involved.",
+      "answer": "Galling in mechanical fittings is historically due to poor material selection and ingress of sand, while in hydraulic systems, galling can occur with the four external locking pins.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "According to Axess, which specific hydraulic access system design minimizes the risk of galling?",
+      "evaluation_criteria": "The answer must specifically mention the 'latest 2-Piece Hydraulic access system'. Incorrect answers would include generic hydraulic systems or other types of access systems.",
+      "answer": "The latest 2-Piece Hydraulic access system.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "According to Axess, what specific technique can be used to eliminate the risk of galling in mechanical fittings?",
+      "evaluation_criteria": "The answer must specifically mention 'positive pressure balancing techniques'. Incorrect answers would include other pressure management techniques or generic solutions.",
+      "answer": "Positive pressure balancing techniques.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What is the function of the Axess 'Saturn' coupon holders during the installation and monitoring phases of access fittings?",
+      "evaluation_criteria": "The answer must accurately describe the function of the 'Axess 'Saturn' coupon holders' during both installation and monitoring. Incorrect answers would include incomplete descriptions or incorrect functions.",
+      "answer": "The Axess 'Saturn' coupon holders sweep the access fitting of debris during installation and prevent debris from entering the fittings while the monitoring device is installed.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "According to Axess, how does using the Axess 'Saturn' coupon holders reduce the risk of corrosion and galling, and prolong seal life?",
+      "evaluation_criteria": "The answer must accurately list all three benefits of using the 'Axess 'Saturn' coupon holders': reduced galling risk, reduced corrosion, and prolonged seal life. Incorrect answers would include incomplete lists or incorrect benefits.",
+      "answer": "Using the Axess 'Saturn' coupon holders reduces the risk of galling, reduces corrosion inside the access fitting body, and prolongs seal life by reducing the risk of ingress of abrasive particles that could damage seals and sealing surfaces.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "According to Axess, why are spares readily available and competitively priced for mechanical access fitting equipment?",
+      "evaluation_criteria": "The answer must correctly state that spares are readily available and competitively priced due to the interchangeability of mechanical equipment. Incorrect answers would include incorrect reasons or failure to mention interchangeability.",
+      "answer": "Spares are readily available and prices are very competitive because all mechanical equipment available on the market is interchangeable.",
+      "difficulty": 6,
+      "category": "reasoning"
+    },
+    {
+      "question": "According to Axess, why should drilling out locking pins on hydraulic access systems be avoided?",
+      "evaluation_criteria": "The answer must correctly state that drilling locking pins can cause integrity issues. Incorrect answers would include incorrect consequences or failure to mention integrity issues.",
+      "answer": "Drilling out locking pins can lead to integrity issues with the fitting and the pipeline.",
+      "difficulty": 7,
+      "category": "reasoning"
+    },
+    {
+      "question": "According to Axess, how does the containment of seal failures differ between mechanical and hydraulic access fittings?",
+      "evaluation_criteria": "The answer must accurately describe the containment differences for seal failures in both mechanical and hydraulic fittings. Incorrect answers would include incorrect containment methods or failure to differentiate between the two systems.",
+      "answer": "Plug seal failure in mechanical fittings can be contained by a pressure retaining cover, while failure of pin seals in hydraulic systems cannot be contained by the cover.",
+      "difficulty": 6,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"Mechanical fittings have one potential leak path (seals on the plug), while hydraulic systems have five potential leak paths (four locking pins and the plug).\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"The answer must correctly state the number of leak paths for both mechanical and hydraulic fittings, and identify the location of the leak paths. Incorrect answers would include incorrect numbers of leak paths or misidentification of leak path locations.\",\n    \"question\": \"According to Axess, what is the difference in the number of potential leak paths and their locations in mechanical versus hydraulic access fittings?\"\n  },\n  {\n    \"answer\": \"Galling in mechanical fittings is historically due to poor material selection and ingress of sand, while in hydraulic systems, galling can occur with the four external locking pins.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"The answer must correctly identify the causes of galling in both mechanical and hydraulic fittings. Incorrect answers would include incorrect causes or failure to mention the specific components involved.\",\n    \"question\": \"What are the primary causes of galling in mechanical access fittings compared to hydraulic access fittings, according to Axess?\"\n  },\n  {\n    \"answer\": \"The latest 2-Piece Hydraulic access system.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"The answer must specifically mention the 'latest 2-Piece Hydraulic access system'. Incorrect answers would include generic hydraulic systems or other types of access systems.\",\n    \"question\": \"According to Axess, which specific hydraulic access system design minimizes the risk of galling?\"\n  },\n  {\n    \"answer\": \"Positive pressure balancing techniques.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"The answer must specifically mention 'positive pressure balancing techniques'. Incorrect answers would include other pressure management techniques or generic solutions.\",\n    \"question\": \"According to Axess, what specific technique can be used to eliminate the risk of galling in mechanical fittings?\"\n  },\n  {\n    \"answer\": \"The Axess 'Saturn' coupon holders sweep the access fitting of debris during installation and prevent debris from entering the fittings while the monitoring device is installed.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"The answer must accurately describe the function of the 'Axess 'Saturn' coupon holders' during both installation and monitoring. Incorrect answers would include incomplete descriptions or incorrect functions.\",\n    \"question\": \"What is the function of the Axess 'Saturn' coupon holders during the installation and monitoring phases of access fittings?\"\n  },\n  {\n    \"answer\": \"Using the Axess 'Saturn' coupon holders reduces the risk of galling, reduces corrosion inside the access fitting body, and prolongs seal life by reducing the risk of ingress of abrasive particles that could damage seals and sealing surfaces.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"The answer must accurately list all three benefits of using the 'Axess 'Saturn' coupon holders': reduced galling risk, reduced corrosion, and prolonged seal life. Incorrect answers would include incomplete lists or incorrect benefits.\",\n    \"question\": \"According to Axess, how does using the Axess 'Saturn' coupon holders reduce the risk of corrosion and galling, and prolong seal life?\"\n  },\n  {\n    \"answer\": \"Spares are readily available and prices are very competitive because all mechanical equipment available on the market is interchangeable.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"The answer must correctly state that spares are readily available and competitively priced due to the interchangeability of mechanical equipment. Incorrect answers would include incorrect reasons or failure to mention interchangeability.\",\n    \"question\": \"According to Axess, why are spares readily available and competitively priced for mechanical access fitting equipment?\"\n  },\n  {\n    \"answer\": \"Drilling out locking pins can lead to integrity issues with the fitting and the pipeline.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 7,\n    \"evaluation_criteria\": \"The answer must correctly state that drilling locking pins can cause integrity issues. Incorrect answers would include incorrect consequences or failure to mention integrity issues.\",\n    \"question\": \"According to Axess, why should drilling out locking pins on hydraulic access systems be avoided?\"\n  },\n  {\n    \"answer\": \"Plug seal failure in mechanical fittings can be contained by a pressure retaining cover, while failure of pin seals in hydraulic systems cannot be contained by the cover.\",\n    \"category\": \"factual\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"The answer must accurately describe the containment differences for seal failures in both mechanical and hydraulic fittings. Incorrect answers would include incorrect containment methods or failure to differentiate between the two systems.\",\n    \"question\": \"According to Axess, how does the containment of seal failures differ between mechanical and hydraulic access fittings?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

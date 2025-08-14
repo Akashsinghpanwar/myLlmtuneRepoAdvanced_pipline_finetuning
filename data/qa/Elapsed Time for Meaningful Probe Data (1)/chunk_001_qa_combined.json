@@ -1,0 +1,57 @@
+{
+  "chunk_id": 1,
+  "chunk_filename": "chunk_001.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "What corrosion rate (mpy) values are provided in the table?",
+      "evaluation_criteria": "Answer must list the corrosion rate values (mpy) provided in the table. Missing any value or unit is incorrect.",
+      "answer": "The table provides corrosion rates (mpy) for values of 0.1, 2, 4, 5, 10, 20, and 25.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What specific corrosion rate (mpy) values are explicitly listed in the provided table?",
+      "evaluation_criteria": "Answer must list all corrosion rate values exactly as they appear in the table, including units (mpy). Missing or incorrect values are unacceptable.",
+      "answer": "The table provides corrosion rate values of 0.1, 2, 4, 5, 10, 20, and 25 mpy.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "According to the table, what are the specific corrosion rate (mpy) values provided?",
+      "evaluation_criteria": "Answer must list all corrosion rate values exactly as they appear in the table, including units (mpy). Missing or incorrect values will be penalized.",
+      "answer": "The table provides corrosion rate values of 0.1, 2, 4, 5, 10, 20, and 25 mpy.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What are all the specific corrosion rate values (including units) listed in the table?",
+      "evaluation_criteria": "Answer must list all provided corrosion rate values exactly as they appear in the table, including units (mpy). Missing or incorrect values will be penalized.",
+      "answer": "The table provides corrosion rate values of 0.1, 2, 4, 5, 10, 20, and 25 mpy.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What are all the corrosion rate values (including units) explicitly provided in the table?",
+      "evaluation_criteria": "Answer must list all corrosion rate values exactly as they appear in the table, including units (mpy). Missing or incorrect values will be marked as incorrect.",
+      "answer": "The table provides corrosion rate values of 0.1, 2, 4, 5, 10, 20, and 25 mpy.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What specific corrosion rate (mpy) values are provided in the table?",
+      "evaluation_criteria": "Answer must list all the corrosion rate values exactly as they appear in the table, including the unit 'mpy'. Missing or incorrect values will be penalized.",
+      "answer": "The table provides the following corrosion rate (mpy) values: 0.1, 2, 4, 5, 10, 20, and 25.",
+      "difficulty": 2,
+      "category": "factual"
+    }
+  ],
+  "iterations": 6,
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

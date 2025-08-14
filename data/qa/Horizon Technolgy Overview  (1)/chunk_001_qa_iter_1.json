@@ -1,0 +1,29 @@
+{
+  "chunk_id": 1,
+  "chunk_filename": "chunk_001.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "What is the issue date of the Horizon Access Fittings document?",
+      "evaluation_criteria": "Verifies the date of issue is 04/30/2024.",
+      "answer": "The Horizon Access Fittings document was issued on 04/30/2024.",
+      "difficulty": 1,
+      "category": "factual"
+    },
+    {
+      "question": "For which clients are the Horizon Access Fittings intended?",
+      "evaluation_criteria": "Verifies the client is Worley / Aramco / AFIC.",
+      "answer": "Worley / Aramco / AFIC",
+      "difficulty": 2,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"The Horizon Access Fittings document was issued on 04/30/2024.\",\n    \"category\": \"factual\",\n    \"difficulty\": 1,\n    \"evaluation_criteria\": \"Verifies the date of issue is 04/30/2024.\",\n    \"question\": \"What is the issue date of the Horizon Access Fittings document?\"\n  },\n  {\n    \"answer\": \"Worley / Aramco / AFIC\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"Verifies the client is Worley / Aramco / AFIC.\",\n    \"question\": \"For which clients are the Horizon Access Fittings intended?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

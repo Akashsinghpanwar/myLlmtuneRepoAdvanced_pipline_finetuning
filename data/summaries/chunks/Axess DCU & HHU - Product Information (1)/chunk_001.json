@@ -1,0 +1,28 @@
+{
+  "bullets": [
+    "Pages detected: 2",
+    "Tables detected: 2",
+    "Key/Value pairs detected: yes"
+  ],
+  "numbers_and_units": [
+    "20 bits",
+    "7.200 Readings",
+    "-20°C to +70℃",
+    "-4°F to +158°F",
+    "7.2V 5Ah",
+    "9600, 8, N, 1",
+    "1.7kg",
+    "3.8lb"
+  ],
+  "title": "Axess DCU & HHU Product Information",
+  "keywords": [
+    "axess",
+    "dcu",
+    "hhu",
+    "product information"
+  ],
+  "_validation": {
+    "numbers_found_in_text": 8,
+    "source_chunk": "chunk_001.txt"
+  }
+}

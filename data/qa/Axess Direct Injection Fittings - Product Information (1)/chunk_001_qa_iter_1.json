@@ -1,0 +1,85 @@
+{
+  "chunk_id": 1,
+  "chunk_filename": "chunk_001.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "What are the maximum pressure and temperature ratings at which Axess Direct Injection systems can be serviced safely online?",
+      "evaluation_criteria": "Verifies the maximum pressure and temperature ratings for online servicing of Axess Direct Injection systems. Must include both PSI/Bar and °C/°F values.",
+      "answer": "Axess Direct Injection systems can be serviced safely online at pressures up to 6,000 PSI / 413 Bar and temperatures up to 232°C / 450°F.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What are the key features of the Axess Direct Injection system that differentiate it from systems requiring tee fittings?",
+      "evaluation_criteria": "Confirms the key features of the Axess Direct Injection system, including the use of non-tee fittings, safety, reliability, online servicing, and secondary isolation.",
+      "answer": "The Axess Direct Injection system allows the use of non-tee fittings while maintaining safety, reliability, and online servicing capability, including secondary isolation with a pressure retaining cover.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What are the maximum pressure and temperature ratings of the Axess Direct Injection system?",
+      "evaluation_criteria": "Verifies the maximum pressure and temperature ratings for the Axess Direct Injection system. Must include both PSI/Bar and °C/°F values.",
+      "answer": "The Axess Direct Injection system is pressure rated up to 10,000 PSI / 689 BAR and temperatures up to 204℃ / 400°F.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What is a key design feature of the hollow plug used in the Axess Direct Injection system?",
+      "evaluation_criteria": "Confirms the design of the hollow plug in the Direct Injection system, specifically the inclusion of two internal one-way check valves.",
+      "answer": "The Direct Injection system uses a special version of the hollow plug incorporating two internal one way check valves.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What is the standard size range for drip feed tubes and quills offered by Axess?",
+      "evaluation_criteria": "Verifies the standard size range for drip feed tubes and quills. Must include the correct units (inches).",
+      "answer": "Standard sizes for drip feed tubes and quills range between 1/4\" and 3/4\".",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What material is the primary packing in Axess plugs made from, and what alternative materials are available for high-temperature applications?",
+      "evaluation_criteria": "Verifies the standard material for primary packing in Axess plugs and the availability of alternative materials for high-temperature applications. Must include PTFE (15% glass filled) and metal seals.",
+      "answer": "The primary packing in Axess plugs is made from PTFE (15% glass filled) as standard, but are available in a range of materials including metal seals for high temperature service.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "How does the quill design in parallel injection contribute to the dispersion of treatment chemicals?",
+      "evaluation_criteria": "Confirms the design and function of the quill in parallel injection, specifically the notched design and its role in creating turbulence for chemical dispersion.",
+      "answer": "Parallel injection uses a notched quill design at the center of the line which creates an artificial turbulence in the fluid flow to disperse the treatment chemical more effectively.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "What are the standard materials that Axess plugs are available in?",
+      "evaluation_criteria": "Verifies the standard materials for Axess plugs. Must include both 316 SS and Duplex.",
+      "answer": "Axess plugs are available in 316 SS and Duplex as standard.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What integrity management benefits are realized with the Axess Direct Injection system?",
+      "evaluation_criteria": "The answer must correctly identify that reduced side connections are a benefit to integrity management.",
+      "answer": "Integrity management benefits include reduced side connections that may be threaded or welded.",
+      "difficulty": 6,
+      "category": "reasoning"
+    },
+    {
+      "question": "Under what conditions is atomization a useful method for chemical injection?",
+      "evaluation_criteria": "The answer must correctly identify the conditions under which atomization is useful.",
+      "answer": "Atomization is only useful for injection into gas filled spaces or treating gas systems.",
+      "difficulty": 7,
+      "category": "reasoning"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"Axess Direct Injection systems can be serviced safely online at pressures up to 6,000 PSI / 413 Bar and temperatures up to 232°C / 450°F.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Verifies the maximum pressure and temperature ratings for online servicing of Axess Direct Injection systems. Must include both PSI/Bar and °C/°F values.\",\n    \"question\": \"What are the maximum pressure and temperature ratings at which Axess Direct Injection systems can be serviced safely online?\"\n  },\n  {\n    \"answer\": \"The Axess Direct Injection system allows the use of non-tee fittings while maintaining safety, reliability, and online servicing capability, including secondary isolation with a pressure retaining cover.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Confirms the key features of the Axess Direct Injection system, including the use of non-tee fittings, safety, reliability, online servicing, and secondary isolation.\",\n    \"question\": \"What are the key features of the Axess Direct Injection system that differentiate it from systems requiring tee fittings?\"\n  },\n  {\n    \"answer\": \"The Axess Direct Injection system is pressure rated up to 10,000 PSI / 689 BAR and temperatures up to 204℃ / 400°F.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Verifies the maximum pressure and temperature ratings for the Axess Direct Injection system. Must include both PSI/Bar and °C/°F values.\",\n    \"question\": \"What are the maximum pressure and temperature ratings of the Axess Direct Injection system?\"\n  },\n  {\n    \"answer\": \"The Direct Injection system uses a special version of the hollow plug incorporating two internal one way check valves.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Confirms the design of the hollow plug in the Direct Injection system, specifically the inclusion of two internal one-way check valves.\",\n    \"question\": \"What is a key design feature of the hollow plug used in the Axess Direct Injection system?\"\n  },\n  {\n    \"answer\": \"Standard sizes for drip feed tubes and quills range between 1/4\\\" and 3/4\\\".\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Verifies the standard size range for drip feed tubes and quills. Must include the correct units (inches).\",\n    \"question\": \"What is the standard size range for drip feed tubes and quills offered by Axess?\"\n  },\n  {\n    \"answer\": \"The primary packing in Axess plugs is made from PTFE (15% glass filled) as standard, but are available in a range of materials including metal seals for high temperature service.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Verifies the standard material for primary packing in Axess plugs and the availability of alternative materials for high-temperature applications. Must include PTFE (15% glass filled) and metal seals.\",\n    \"question\": \"What material is the primary packing in Axess plugs made from, and what alternative materials are available for high-temperature applications?\"\n  },\n  {\n    \"answer\": \"Parallel injection uses a notched quill design at the center of the line which creates an artificial turbulence in the fluid flow to disperse the treatment chemical more effectively.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Confirms the design and function of the quill in parallel injection, specifically the notched design and its role in creating turbulence for chemical dispersion.\",\n    \"question\": \"How does the quill design in parallel injection contribute to the dispersion of treatment chemicals?\"\n  },\n  {\n    \"answer\": \"Axess plugs are available in 316 SS and Duplex as standard.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Verifies the standard materials for Axess plugs. Must include both 316 SS and Duplex.\",\n    \"question\": \"What are the standard materials that Axess plugs are available in?\"\n  },\n  {\n    \"answer\": \"Integrity management benefits include reduced side connections that may be threaded or welded.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"The answer must correctly identify that reduced side connections are a benefit to integrity management.\",\n    \"question\": \"What integrity management benefits are realized with the Axess Direct Injection system?\"\n  },\n  {\n    \"answer\": \"Atomization is only useful for injection into gas filled spaces or treating gas systems.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 7,\n    \"evaluation_criteria\": \"The answer must correctly identify the conditions under which atomization is useful.\",\n    \"question\": \"Under what conditions is atomization a useful method for chemical injection?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

@@ -1,0 +1,13 @@
+Choosing an Access System – Hydraulic or Mechanical
+Below are some major points of consideration when selecting an access system.
+Safety - Leak Paths
+Mechanical fittings have one potential leak path. The hydraulic system has 5 (4 locking pins and the plug).
+Safety - Galling
+Where mechanical fittings have galled historically, this has been due to poor material selection and ingress of sand etc. Positive pressure balancing techniques can be used to eliminate this scenario on mechanical fittings and the latest Axess ‘Saturn’ coupon holders sweep the access fitting of debris during installation and prevent debris from entering the fittings whilst the monitoring device is installed.
+On the hydraulic system, the galling can occur with the 4 external locking pins. This can be avoided during materials selection and the latest 2-Piece Hydraulic access system further prevents this from being a risk. In the past, locking pins may have to be drilled out which can lead to integrity issues with the fitting and the pipeline.
+Logistics - Equipment Selection
+Currently all mechanical equipment available on the market is Interchangeable, consequently, spares are readily available, and prices are very competitive.
+Time Saving - Servicing
+Servicing of hydraulic fittings is generally accepted as being a longer process than the mechanical system. There are more leak path interfaces to check / seals to renew (6 against 2), more mechanical threads to inspect (5 against 3) and the pressurization of the hydraulic action of the tool can be a much longer process. To make the job site safe, it can be much faster with mechanical.
+Pressure Rating
+Mechanical and hydraulic access fittings can both be rated to 10’000psi and above, but the mechanical tools are only rated to 6000psi. We can offer hydraulic tools at 10,000psi.

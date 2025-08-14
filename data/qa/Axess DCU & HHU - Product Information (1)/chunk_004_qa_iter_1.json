@@ -1,0 +1,99 @@
+{
+  "chunk_id": 4,
+  "chunk_filename": "chunk_004.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "What is the resolution of the Axess Data Collection Unit (AXDCUHB)?",
+      "evaluation_criteria": "Correctly identifies the resolution of the Axess Data Collection Unit from Table 1.",
+      "answer": "The Axess Data Collection Unit (AXDCUHB) has a resolution of 20 bits.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "How many readings can the Axess Data Collection Unit (AXDCUHB) store in its memory?",
+      "evaluation_criteria": "Correctly identifies the memory capacity of the Axess Data Collection Unit from Table 1.",
+      "answer": "The Axess Data Collection Unit (AXDCUHB) can store 7,200 readings in its memory.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What is the operating temperature range of the Axess Data Collection Unit (AXDCUHB)?",
+      "evaluation_criteria": "Correctly identifies the temperature range of the Axess Data Collection Unit from Table 1, including both Celsius and Fahrenheit values.",
+      "answer": "The Axess Data Collection Unit (AXDCUHB) has a temperature range of -20°C to +70℃ (-4°F to +158°F).",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What type of power supply does the Axess Data Collection Unit (AXDCUHB) use, and what are its specifications?",
+      "evaluation_criteria": "Correctly identifies the power supply type and specifications for the Axess Data Collection Unit from Table 1.",
+      "answer": "The Axess Data Collection Unit (AXDCUHB) is powered by a 7.2V 5Ah Lithium Battery Pack.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What is the IECEx certification of the Axess Data Collection Unit (AXDCUHB)?",
+      "evaluation_criteria": "Correctly identifies the IECEx certification for the Axess Data Collection Unit from Table 1.",
+      "answer": "The Axess Data Collection Unit (AXDCUHB) has IECEx certification of Ex ia IIC T4 Ga/Gb.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "What is the ATEX certification of the Axess Data Collection Unit (AXDCUHB)?",
+      "evaluation_criteria": "Correctly identifies the ATEX certification for the Axess Data Collection Unit from Table 1.",
+      "answer": "The Axess Data Collection Unit (AXDCUHB) has ATEX certification of Ex II 1/2 G Ex ia IIC T4 Ga/Gb.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "What is the ingress protection rating of the Axess Data Collection Unit (AXDCUHB)?",
+      "evaluation_criteria": "Correctly identifies the ingress protection rating of the Axess Data Collection Unit from Table 1.",
+      "answer": "The Axess Data Collection Unit (AXDCUHB) has an ingress protection rating of IP66.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What communication protocol does the Axess Data Collection Unit (AXDCUHB) use?",
+      "evaluation_criteria": "Correctly identifies the communication protocol used by the Axess Data Collection Unit from Table 1.",
+      "answer": "The Axess Data Collection Unit (AXDCUHB) uses RS-232 Serial ASCII Bus 9600, 8, N, 1 for communication.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "What is the weight of the Axess Data Collection Unit (AXDCUHB)?",
+      "evaluation_criteria": "Correctly identifies the weight of the Axess Data Collection Unit from Table 1, including both kg and lb values.",
+      "answer": "The Axess Data Collection Unit (AXDCUHB) weighs 1.7kg (3.8lb).",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What are the dimensions of the Axess Data Collection Unit (AXDCUHB)?",
+      "evaluation_criteria": "Correctly identifies the dimensions of the Axess Data Collection Unit from Table 1, including both inches and mm values.",
+      "answer": "The dimensions of the Axess Data Collection Unit (AXDCUHB) are 6.5\" x 6.5\" x 4.25\" (165mm x 165mm x 108mm).",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What is the part number for the 7.2V 5Ah Lithium Battery Pack used with the Axess Data Collection Unit?",
+      "evaluation_criteria": "Correctly identifies the part number for the 7.2V 5Ah Lithium Battery Pack from Table 2.",
+      "answer": "AXDCUHBBAT is the part number for the 7.2V 5Ah Lithium Battery Pack.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What is the part number for the DCU Mounting Bracket Kit?",
+      "evaluation_criteria": "Correctly identifies the part number for the DCU Mounting Bracket Kit from Table 2.",
+      "answer": "AXDCUBRKT is the part number for the DCU Mounting Bracket Kit.",
+      "difficulty": 3,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"The Axess Data Collection Unit (AXDCUHB) has a resolution of 20 bits.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Correctly identifies the resolution of the Axess Data Collection Unit from Table 1.\",\n    \"question\": \"What is the resolution of the Axess Data Collection Unit (AXDCUHB)?\"\n  },\n  {\n    \"answer\": \"The Axess Data Collection Unit (AXDCUHB) can store 7,200 readings in its memory.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Correctly identifies the memory capacity of the Axess Data Collection Unit from Table 1.\",\n    \"question\": \"How many readings can the Axess Data Collection Unit (AXDCUHB) store in its memory?\"\n  },\n  {\n    \"answer\": \"The Axess Data Collection Unit (AXDCUHB) has a temperature range of -20°C to +70℃ (-4°F to +158°F).\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Correctly identifies the temperature range of the Axess Data Collection Unit from Table 1, including both Celsius and Fahrenheit values.\",\n    \"question\": \"What is the operating temperature range of the Axess Data Collection Unit (AXDCUHB)?\"\n  },\n  {\n    \"answer\": \"The Axess Data Collection Unit (AXDCUHB) is powered by a 7.2V 5Ah Lithium Battery Pack.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Correctly identifies the power supply type and specifications for the Axess Data Collection Unit from Table 1.\",\n    \"question\": \"What type of power supply does the Axess Data Collection Unit (AXDCUHB) use, and what are its specifications?\"\n  },\n  {\n    \"answer\": \"The Axess Data Collection Unit (AXDCUHB) has IECEx certification of Ex ia IIC T4 Ga/Gb.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Correctly identifies the IECEx certification for the Axess Data Collection Unit from Table 1.\",\n    \"question\": \"What is the IECEx certification of the Axess Data Collection Unit (AXDCUHB)?\"\n  },\n  {\n    \"answer\": \"The Axess Data Collection Unit (AXDCUHB) has ATEX certification of Ex II 1/2 G Ex ia IIC T4 Ga/Gb.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Correctly identifies the ATEX certification for the Axess Data Collection Unit from Table 1.\",\n    \"question\": \"What is the ATEX certification of the Axess Data Collection Unit (AXDCUHB)?\"\n  },\n  {\n    \"answer\": \"The Axess Data Collection Unit (AXDCUHB) has an ingress protection rating of IP66.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Correctly identifies the ingress protection rating of the Axess Data Collection Unit from Table 1.\",\n    \"question\": \"What is the ingress protection rating of the Axess Data Collection Unit (AXDCUHB)?\"\n  },\n  {\n    \"answer\": \"The Axess Data Collection Unit (AXDCUHB) uses RS-232 Serial ASCII Bus 9600, 8, N, 1 for communication.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Correctly identifies the communication protocol used by the Axess Data Collection Unit from Table 1.\",\n    \"question\": \"What communication protocol does the Axess Data Collection Unit (AXDCUHB) use?\"\n  },\n  {\n    \"answer\": \"The Axess Data Collection Unit (AXDCUHB) weighs 1.7kg (3.8lb).\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Correctly identifies the weight of the Axess Data Collection Unit from Table 1, including both kg and lb values.\",\n    \"question\": \"What is the weight of the Axess Data Collection Unit (AXDCUHB)?\"\n  },\n  {\n    \"answer\": \"The dimensions of the Axess Data Collection Unit (AXDCUHB) are 6.5\\\" x 6.5\\\" x 4.25\\\" (165mm x 165mm x 108mm).\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Correctly identifies the dimensions of the Axess Data Collection Unit from Table 1, including both inches and mm values.\",\n    \"question\": \"What are the dimensions of the Axess Data Collection Unit (AXDCUHB)?\"\n  },\n  {\n    \"answer\": \"AXDCUHBBAT is the part number for the 7.2V 5Ah Lithium Battery Pack.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Correctly identifies the part number for the 7.2V 5Ah Lithium Battery Pack from Table 2.\",\n    \"question\": \"What is the part number for the 7.2V 5Ah Lithium Battery Pack used with the Axess Data Collection Unit?\"\n  },\n  {\n    \"answer\": \"AXDCUBRKT is the part number for the DCU Mounting Bracket Kit.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Correctly identifies the part number for the DCU Mounting Bracket Kit from Table 2.\",\n    \"question\": \"What is the part number for the DCU Mounting Bracket Kit?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

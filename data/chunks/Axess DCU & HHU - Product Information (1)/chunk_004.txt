@@ -1,0 +1,24 @@
+## Tables
+
+### Table 1
+
+| Probe Type | Electrical Resistance (ER) Linear Polarization Resistance (LPR) Galvanic Potential |
+| --- | --- |
+| Resoultion | 20 bits |
+| Memory | 7.200 Readings |
+| Temperature range | -20°C to +70℃ (-4°F to +158°F) |
+| Power Supply | Lithium Battery Pack (7.2V 5Ah) |
+| IECEx | Ex ia IIC T4 Ga/Gb |
+| ATEX | Ex II 1/2 G Ex ia IIC T4 Ga/Gb |
+| Ingress Protection | IP66 |
+| Communication | RS-232 Serial ASCII Bus 9600, 8, N, 1 |
+| Weight | 1.7kg (3.8lb) |
+| Dimensions | 6.5" x 6.5" x 4.25" (165mm x 165mm x 108mm) |
+
+### Table 2
+
+| Part Numbering |  |
+| --- | --- |
+| AXDCUHB | Axess Data Collection Unit |
+| AXDCUHBBAT | 7.2V 5Ah Lithium Battery Pack |
+| AXDCUBRKT | DCU Mounting Bracket Kit |

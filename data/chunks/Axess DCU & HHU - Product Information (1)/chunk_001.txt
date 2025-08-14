@@ -1,0 +1,21 @@
+# Axess DCU & HHU - Product Information (1).pdf
+
+- **Pages detected:** 2
+- **Tables detected:** 2
+- **Key/Value pairs detected:** yes
+
+## Key–Value Pairs
+
+| Key | Value |
+| --- | --- |
+| Probe Type | Galvanic Potential |
+| Resoultion | 20 bits |
+| Memory | 7.200 Readings |
+| Temperature | -20°C to +70℃ (-4°F to +158°F) |
+| range |  |
+| Power Supply | Lithium Battery Pack (7.2V 5Ah) |
+| IECEx | Ex ia IIC T4 Ga/Gb |
+| ATEX | Ex II 1/2 G Ex ia IIC T4 Ga/Gb |
+| Ingress Protection | IP66 |
+| Communication | RS-232 Serial ASCII Bus 9600, 8, N, 1 |
+| Weight | 1.7kg (3.8lb) |

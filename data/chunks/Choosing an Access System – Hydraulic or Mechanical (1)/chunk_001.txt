@@ -1,0 +1,44 @@
+# Choosing an Access System – Hydraulic or Mechanical (1).pdf
+
+- **Pages detected:** 4
+- **Tables detected:** 0
+
+## Extracted Text
+
+AXESS
+Qualitas Veritas ISO 9001-2015
+HYDRAULIC OR MECHANICAL?
+AXHP & AXHPH Access Systems
+Below are some major points of consideration when selecting the access fitting system.
+1.Safety - Leak Paths
+Mechanical fittings have 1 potential leak path, this is the seals on the plug. Plug seal failure can be contained by a pressure retaining cover.
+The hydraulic system has 5 potential leak paths, these are the 4 locking pins and the plug. Failure of pin seals cannot be contained by the cover.
+Mechanical Access Fitting
+AXESS
+Hydraulic Access Fitting
+CONSIDERATION POINTS
+SAFETY: LEAK PATHS
+SAFETY: RISK OF GALLING
+LOGISTICS
+SAVING TIME
+PRESSURE RATING
+Choosing An Access Fitting System
+
+2. Safety - Galling
+
+Where mechanical fittings have galled historically, this has been due to poor material selection and ingress of sand etc.
+On the hydraulic system, the galling can occur with the 4 external locking pins. This can be avoided during materials selection and the latest 2-Piece Hydraulic access system further prevents this from being a risk. In the past, locking pins may have to be drilled out which can lead to integrity issues with the fitting and the pipeline.
+Positive pressure balancing techniques can be used to eliminate this scenario on mechanical fittings.
+Mechanical Solid Plug
+Hydraulic Solid Plug
+The latest Axess 'Saturn' coupon holders (shown on the left) sweep the access fitting of debris during installation and prevent debris from entering the fittings whilst the monitoring device is installed.
+This will reduce the risk of galling, reduce corrosion inside the access fitting body and prolong seal life by reducing the risk of ingress of abrasive particles that could damage seals and sealing surfaces.
+
+3. Logistics - Equipment Selection
+
+Currently all mechanical equipment available on the market is Interchangeable, consequently, spares are readily available, and prices are very competitive.
+AXESS CORROSION
+Innovating Safety ...
+JANUSGUARD
+
+2001 Timberloch Place, Suite 500, The Woodlands Texas 77380, USA, www.axess-corrosion.com, +1 (832) 990 6754_info@axess-corrosion.com WhatsApp

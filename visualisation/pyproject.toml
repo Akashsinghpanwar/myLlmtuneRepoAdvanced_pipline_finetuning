@@ -1,0 +1,18 @@
+[project]
+name = "visualisation"
+version = "0.1.0"
+description = "Embedding visualization tools for question datasets"
+requires-python = ">=3.9"
+dependencies = [
+    "datasets",
+    "huggingface-hub",
+    "sentence-transformers",
+    "numpy",
+    "matplotlib",
+    "scikit-learn",
+    "plotly",
+    "umap-learn",
+    "pandas",
+    "transformers>=4.48.0",
+    "python-dotenv>=1.1.0",
+]

@@ -1,0 +1,33 @@
+{
+  "bullets": [
+    "HR ER probes detect corrosion/erosion by monitoring electrical resistance changes.",
+    "Reference element auto-compensates for temperature changes.",
+    "Pressure and temperature rated to 6000PSI & 260C."
+  ],
+  "numbers_and_units": [
+    "6000PSI",
+    "260C",
+    "1.89 mils",
+    "35.0 °C",
+    "19.1 mpy",
+    "10mil",
+    "50mil",
+    "176°F",
+    "80℃",
+    "392°F",
+    "200℃",
+    "10-20feet"
+  ],
+  "title": "Electrical Resistance (ER) Probes",
+  "keywords": [
+    "corrosion",
+    "erosion",
+    "electrical resistance",
+    "hr er probes",
+    "integrity management"
+  ],
+  "_validation": {
+    "numbers_found_in_text": 12,
+    "source_chunk": "chunk_002.txt"
+  }
+}

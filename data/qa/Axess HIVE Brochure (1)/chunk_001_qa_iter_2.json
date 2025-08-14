@@ -1,0 +1,29 @@
+{
+  "chunk_id": 1,
+  "chunk_filename": "chunk_001.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "According to the Axess HIVE brochure, is the 'Server Ordet' option selected or unselected?",
+      "evaluation_criteria": "Verifies the correct selection status of 'Server Ordet'. Incorrect if it states 'selected' or provides a different status.",
+      "answer": "The 'Server Ordet' option is unselected.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "According to the Axess HIVE brochure, is the 'Magrinis & Sapples' option selected or unselected?",
+      "evaluation_criteria": "Verifies the correct selection status of 'Magrinis & Sapples'. Incorrect if it states 'selected' or provides a different status.",
+      "answer": "The 'Magrinis & Sapples' option is unselected.",
+      "difficulty": 2,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"The 'Server Ordet' option is unselected.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"Verifies the correct selection status of 'Server Ordet'. Incorrect if it states 'selected' or provides a different status.\",\n    \"question\": \"According to the Axess HIVE brochure, is the 'Server Ordet' option selected or unselected?\"\n  },\n  {\n    \"answer\": \"The 'Magrinis & Sapples' option is unselected.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"Verifies the correct selection status of 'Magrinis & Sapples'. Incorrect if it states 'selected' or provides a different status.\",\n    \"question\": \"According to the Axess HIVE brochure, is the 'Magrinis & Sapples' option selected or unselected?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

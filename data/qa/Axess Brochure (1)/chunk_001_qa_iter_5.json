@@ -1,0 +1,14 @@
+{
+  "chunk_id": 1,
+  "chunk_filename": "chunk_001.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [],
+  "raw_response": "[\n  {\n    \"answer\": \"Yes\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"Check if the answer matches the detected key/value pairs information in the Axess Brochure (1).pdf.\",\n    \"question\": \"Does the Axess Brochure (1).pdf contain detected key/value pairs?\"\n  },\n  {\n    \"answer\": \"16\",\n    \"category\": \"factual\",\n    \"difficulty\": 1,\n    \"evaluation_criteria\": \"Check if the answer matches the number of pages detected in the Axess Brochure (1).pdf.\",\n    \"question\": \"How many pages are in the Axess Brochure (1).pdf document?\"\n  },\n  {\n    \"answer\": \"1\",\n    \"category\": \"factual\",\n    \"difficulty\": 1,\n    \"evaluation_criteria\": \"Check if the answer matches the number of tables detected in the Axess Brochure (1).pdf.\",\n    \"question\": \"How many tables were detected in the Axess Brochure (1).pdf?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

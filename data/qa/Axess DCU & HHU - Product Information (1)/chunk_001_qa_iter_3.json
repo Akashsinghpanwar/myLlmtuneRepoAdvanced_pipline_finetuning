@@ -1,0 +1,43 @@
+{
+  "chunk_id": 1,
+  "chunk_filename": "chunk_001.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "What type of battery and what are the voltage and amperage specifications for the Axess DCU & HHU?",
+      "evaluation_criteria": "The answer must state 'Lithium Battery Pack' and the voltage '7.2V' and amperage '5Ah'.",
+      "answer": "The Axess DCU & HHU uses a Lithium Battery Pack with specifications of 7.2V 5Ah.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What are the IECEx and ATEX certifications for the Axess DCU & HHU?",
+      "evaluation_criteria": "The answer must include both IECEx and ATEX certifications, and each certification must match the exact string provided in the document.",
+      "answer": "The Axess DCU & HHU has IECEx certification Ex ia IIC T4 Ga/Gb and ATEX certification Ex II 1/2 G Ex ia IIC T4 Ga/Gb.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "What communication protocol and parameters are used by the Axess DCU & HHU?",
+      "evaluation_criteria": "The answer must state 'RS-232 Serial ASCII Bus' and the parameters '9600, 8, N, 1' exactly.",
+      "answer": "The Axess DCU & HHU uses RS-232 Serial ASCII Bus with parameters 9600, 8, N, 1 for communication.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "What is the weight of the Axess DCU & HHU in kilograms and pounds?",
+      "evaluation_criteria": "The answer must state the weight in kilograms '1.7kg' and pounds '3.8lb'.",
+      "answer": "The Axess DCU & HHU weighs 1.7kg (3.8lb).",
+      "difficulty": 2,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"The Axess DCU & HHU uses a Lithium Battery Pack with specifications of 7.2V 5Ah.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"The answer must state 'Lithium Battery Pack' and the voltage '7.2V' and amperage '5Ah'.\",\n    \"question\": \"What type of battery and what are the voltage and amperage specifications for the Axess DCU & HHU?\"\n  },\n  {\n    \"answer\": \"The Axess DCU & HHU has IECEx certification Ex ia IIC T4 Ga/Gb and ATEX certification Ex II 1/2 G Ex ia IIC T4 Ga/Gb.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"The answer must include both IECEx and ATEX certifications, and each certification must match the exact string provided in the document.\",\n    \"question\": \"What are the IECEx and ATEX certifications for the Axess DCU & HHU?\"\n  },\n  {\n    \"answer\": \"The Axess DCU & HHU has an Ingress Protection rating of IP66.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"The answer must state 'IP66' exactly.\",\n    \"question\": \"What is the Ingress Protection rating of the Axess DCU & HHU?\"\n  },\n  {\n    \"answer\": \"The Axess DCU & HHU uses RS-232 Serial ASCII Bus with parameters 9600, 8, N, 1 for communication.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"The answer must state 'RS-232 Serial ASCII Bus' and the parameters '9600, 8, N, 1' exactly.\",\n    \"question\": \"What communication protocol and parameters are used by the Axess DCU & HHU?\"\n  },\n  {\n    \"answer\": \"The Axess DCU & HHU weighs 1.7kg (3.8lb).\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"The answer must state the weight in kilograms '1.7kg' and pounds '3.8lb'.\",\n    \"question\": \"What is the weight of the Axess DCU & HHU in kilograms and pounds?\"\n  },\n  {\n    \"answer\": \"The Axess DCU & HHU supports Galvanic Potential probe type.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"The answer must state 'Galvanic Potential'.\",\n    \"question\": \"What type of probe measurement is supported by the Axess DCU & HHU?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

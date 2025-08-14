@@ -1,0 +1,27 @@
+Non-intrusive Sensors
+Non-intrusive wall thickness solutions provide in-service corrosion and erosion monitoring. The system compromises of ultrasonic transducers, up to 550℃ permanently mounted to process pipework, vessels and other structures coupled with a range of instrumentation options from spot reading, through to online, real-time wireless monitoring using industry standards WirelessHART/ISA100 protocols, or cellular networks.
+AX
+Access Systems
+CC
+Corrosion Coupon
+ER
+LPR
+SP
+UT
+H
+Electrical Resistance
+Linear Polarisation Resistance
+Sand Probe
+Non Intrusive
+Hydrogen Probe
+Corrosion & Erosion
+Chemical Injection & Sampling
+The rate of chemical injection (gallons/day) is determined by the min/max capacity of the injection pump.
+Using an atomiser, in a gas system where appropriate, can certainly help with fine volume control by adjusting the injection differential pressure and maintaining a constant application of the chemical. Chemicals that are injected using an open quill are applied in a pulse method with the frequency determined by the stroke rate of the chemical injection pump. In most cases the preferred method is to have a low stroke volume with a high stroke frequency to minimise the time between each pulse injection of chemical.
+Chemical injection points should always be located upstream of the equipment and pipework requiring protection.
+In piping systems where there is a change of material (e.g. duplex at the well heads and carbon steel further down line), the injection point should ideally be located a minimum of 10 x pipe ID upstream of the change in material. The ideal injection location is normally centre line however for higher velocity processes, wake frequency / drag calculations should be considered to determine maximum length whilst maintaining the integrity of the injection device.
+www.axess-corrosion.com
+Important factors to consider
+Chemical density and viscosity
+
+Process pipe/vessel size, velocity, pressure, temperature, and fluid composition

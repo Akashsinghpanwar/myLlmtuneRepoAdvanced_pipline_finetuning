@@ -1,0 +1,21 @@
+{
+  "bullets": [
+    "Table 1: Horizon Access Fittings for Worley / Aramco / AFIC issued 04/30/2024.",
+    "Table 2: CONTROL STANDARDS NACE MR0175, SIZE C, GA - HORIZON SIDE ENTRY BOL ACCESS FITTING, WITH ANGLED FLUSH DISC HOLDER, DRAWING NO. ADD23091201_Rav."
+  ],
+  "numbers_and_units": [
+    "04/30/2024"
+  ],
+  "title": "Table Data",
+  "keywords": [
+    "tables",
+    "horizon",
+    "access",
+    "fittings",
+    "nace"
+  ],
+  "_validation": {
+    "numbers_found_in_text": 1,
+    "source_chunk": "chunk_003.txt"
+  }
+}

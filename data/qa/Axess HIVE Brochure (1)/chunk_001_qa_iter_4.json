@@ -1,0 +1,36 @@
+{
+  "chunk_id": 1,
+  "chunk_filename": "chunk_001.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "According to the Axess HIVE brochure, is the 'Server Ordet' option selected or unselected under 'Projest Delet's'?",
+      "evaluation_criteria": "The answer must state that the 'Server Ordet' option is unselected, based on the key-value pair in the provided text.",
+      "answer": "The 'Server Ordet' option is unselected.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "According to the Axess HIVE brochure, is the 'Magrinis & Sapples' option selected or unselected under 'Projest Delet's'?",
+      "evaluation_criteria": "The answer must state that the 'Magrinis & Sapples' option is unselected, based on the key-value pair in the provided text.",
+      "answer": "The 'Magrinis & Sapples' option is unselected.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "According to the Axess HIVE brochure, is the 'Projest Delet's' option selected or unselected under 'Projest Delet's'?",
+      "evaluation_criteria": "The answer must state that the 'Projest Delet's' option is selected, based on the key-value pair in the provided text.",
+      "answer": "The 'Projest Delet's' option is selected.",
+      "difficulty": 2,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"The 'Server Ordet' option is unselected.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"The answer must state that the 'Server Ordet' option is unselected, based on the key-value pair in the provided text.\",\n    \"question\": \"According to the Axess HIVE brochure, is the 'Server Ordet' option selected or unselected under 'Projest Delet's'?\"\n  },\n  {\n    \"answer\": \"The 'Magrinis & Sapples' option is unselected.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"The answer must state that the 'Magrinis & Sapples' option is unselected, based on the key-value pair in the provided text.\",\n    \"question\": \"According to the Axess HIVE brochure, is the 'Magrinis & Sapples' option selected or unselected under 'Projest Delet's'?\"\n  },\n  {\n    \"answer\": \"The 'Projest Delet's' option is selected.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"The answer must state that the 'Projest Delet's' option is selected, based on the key-value pair in the provided text.\",\n    \"question\": \"According to the Axess HIVE brochure, is the 'Projest Delet's' option selected or unselected under 'Projest Delet's'?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

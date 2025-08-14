@@ -1,0 +1,42 @@
+## Tables
+
+### Table 1
+
+| Location D NED-15-7 Cm |  |
+| --- | ---: |
+| Row laby | Gen. CR MPY |
+| 2013 |  |
+| Jan | 0.03 |
+| May | 0.09 |
+|  | 9.09 |
+| H.2020 |  |
+| Feb | 0.05 |
+| 549 | 0.01 |
+| Der | 022 |
+| n 2021 |  |
+| Mar | 0 28 |
+|  | 0.42 |
+|  | 0.35 |
+| 22022 |  |
+| Feb | 0.35 |
+| May | 0.13 |
+| AANL | 0 17 |
+| Nov | 9.09 |
+| 12023 |  |
+| Mar | 0.0 |
+
+### Table 2
+
+| Location Description | MBI-1330 COOLING MEDIUM EXPANSION TANE |  |  | Blank Initial Weight (x) | 37.5395 |
+| --- | --- | --- | --- | --- | --- |
+| Coupon Part Number | CCST-2.87580 87SKO 125 | Surface Area [in") | 5.032 | Bank Final Weight (x) | 37.5364 |
+| Coupon Material | 1018 LS \|LJUSBU0 | Material Density (e/cm"? | 13% | Hank Weight Loss (e) | UUUSE |
+
+### Table 3
+
+| Location Tog | Coupon SN | Install Dede | Remove Dute | Exposure Time | Initial Weight | Final Weight (x) | Weight Loss In | Weight Loss Corrosion Rata Max Fit Depth |  |  | Pitứng Rate |
+| --- | --- | --- | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- |
+|  |  |  |  | [Deys) |  |  |  | Corrected (E) | (may) | (mi) | [mary] |
+| CC-4 | RAK32 | 5/20/2023 | 8/7/2023 |  | 37.4028 | 87.3529 | 0.0500 | 0.0009 | 0.2967 | 0 | . |
+| CC-1 | BACII | 5/20/2021 | 1/7/2021 |  | 17.3624 | 17.2000 | 0.0564 | 0.0511 | 0.1172 | 0 | 0 |
+|  |  |  |  |  |  |  |  |  |  |  |  |

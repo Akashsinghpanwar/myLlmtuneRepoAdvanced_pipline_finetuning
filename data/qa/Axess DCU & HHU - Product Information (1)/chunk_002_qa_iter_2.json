@@ -1,0 +1,64 @@
+{
+  "chunk_id": 2,
+  "chunk_filename": "chunk_002.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "What are the two methods for configuring the Axess DCU (Data Collection Unit)?",
+      "evaluation_criteria": "Verifies the correct methods for configuring the Axess DCU are identified. Answer must mention both HHU and LED panel.",
+      "answer": "The Axess DCU can be configured either with the Axess HHU or on the DCU LED panel.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What is the part number for the Axess DCU (Data Collection Unit) Mounting Bracket Kit?",
+      "evaluation_criteria": "Correct part number for the DCU Mounting Bracket Kit.",
+      "answer": "The Axess DCU mounting bracket kit has part number AXDCUBRKT.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What are the specifications for the communication bus used by the Axess DCU (Data Collection Unit)?",
+      "evaluation_criteria": "Verifies the correct communication protocol. Must include RS-232 Serial ASCII Bus 9600, 8, N, 1.",
+      "answer": "The Axess DCU uses a RS-232 Serial ASCII Bus 9600, 8, N, 1 for communication.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "What are the IECEx and ATEX certifications for the Axess DCU (Data Collection Unit)?",
+      "evaluation_criteria": "Verifies the correct IECEx and ATEX certifications. Must include both certification codes.",
+      "answer": "The Axess DCU has IECEx Ex ia IIC T4 Ga/Gb and ATEX Ex II 1/2 G Ex ia IIC T4 Ga/Gb certifications.",
+      "difficulty": 6,
+      "category": "factual"
+    },
+    {
+      "question": "What is the voltage and capacity of the Lithium Battery Pack used in the Axess DCU (Data Collection Unit)?",
+      "evaluation_criteria": "Verifies the correct voltage and capacity of the battery pack. Answer must include 7.2V and 5Ah.",
+      "answer": "The Axess DCU uses a 7.2V 5Ah Lithium Battery Pack.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What is the expected battery life of the Axess DCU (Data Collection Unit) when taking readings every 6 hours?",
+      "evaluation_criteria": "Verifies the battery life and reading frequency. Answer must include '5 years' and 'every 6 hours'.",
+      "answer": "The battery life of the Axess DCU is up to 5 years when taking readings every 6 hours.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What is the benefit of the Axess DCU (Data Collection Unit) being compatible with electrical resistance (ER), linear polarization resistance (LPR), and galvanic probes?",
+      "evaluation_criteria": "Answer must mention ER, LPR, and galvanic probes, and explain that this capability allows changing probe technology without hardware changes.",
+      "answer": "The Axess DCU can be used with electrical resistance (ER), linear polarization resistance (LPR), and galvanic probes, allowing users to change probe technology without changing hardware.",
+      "difficulty": 6,
+      "category": "reasoning"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"The Axess DCU can be configured either with the Axess HHU or on the DCU LED panel.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Verifies the correct methods for configuring the Axess DCU are identified. Answer must mention both HHU and LED panel.\",\n    \"question\": \"What are the two methods for configuring the Axess DCU (Data Collection Unit)? \"\n  },\n  {\n    \"answer\": \"The Axess DCU mounting bracket kit has part number AXDCUBRKT.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"Correct part number for the DCU Mounting Bracket Kit.\",\n    \"question\": \"What is the part number for the Axess DCU (Data Collection Unit) Mounting Bracket Kit?\"\n  },\n  {\n    \"answer\": \"The Axess DCU uses a RS-232 Serial ASCII Bus 9600, 8, N, 1 for communication.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Verifies the correct communication protocol. Must include RS-232 Serial ASCII Bus 9600, 8, N, 1.\",\n    \"question\": \"What are the specifications for the communication bus used by the Axess DCU (Data Collection Unit)?\"\n  },\n  {\n    \"answer\": \"The Axess DCU has IECEx Ex ia IIC T4 Ga/Gb and ATEX Ex II 1/2 G Ex ia IIC T4 Ga/Gb certifications.\",\n    \"category\": \"factual\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"Verifies the correct IECEx and ATEX certifications. Must include both certification codes.\",\n    \"question\": \"What are the IECEx and ATEX certifications for the Axess DCU (Data Collection Unit)?\"\n  },\n  {\n    \"answer\": \"The Axess DCU uses a 7.2V 5Ah Lithium Battery Pack.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Verifies the correct voltage and capacity of the battery pack. Answer must include 7.2V and 5Ah.\",\n    \"question\": \"What is the voltage and capacity of the Lithium Battery Pack used in the Axess DCU (Data Collection Unit)?\"\n  },\n  {\n    \"answer\": \"The battery life of the Axess DCU is up to 5 years when taking readings every 6 hours.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Verifies the battery life and reading frequency. Answer must include '5 years' and 'every 6 hours'.\",\n    \"question\": \"What is the expected battery life of the Axess DCU (Data Collection Unit) when taking readings every 6 hours?\"\n  },\n  {\n    \"answer\": \"The Axess DCU can be used with electrical resistance (ER), linear polarization resistance (LPR), and galvanic probes, allowing users to change probe technology without changing hardware.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"Answer must mention ER, LPR, and galvanic probes, and explain that this capability allows changing probe technology without hardware changes.\",\n    \"question\": \"What is the benefit of the Axess DCU (Data Collection Unit) being compatible with electrical resistance (ER), linear polarization resistance (LPR), and galvanic probes?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

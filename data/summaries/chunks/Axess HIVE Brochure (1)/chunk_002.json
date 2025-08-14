@@ -1,0 +1,25 @@
+{
+  "bullets": [
+    "HIVE is designed for Oil and Gas Operators, Asset Managers, Inspection Engineers, Corrosion Engineers, and Production Chemists.",
+    "LiDAR cameras capture details with 2mm accuracy at 60m distance.",
+    "Axess Corporate HQ: 2001 Timberloch Place The Woodlands, Texas USA 77380"
+  ],
+  "numbers_and_units": [
+    "2mm",
+    "60m",
+    "+1(832)990-6754",
+    "+44(0)1224 042111"
+  ],
+  "title": "HIVE Innovation and Axess Locations",
+  "keywords": [
+    "hive",
+    "axess",
+    "lidar",
+    "corrosion",
+    "oil and gas"
+  ],
+  "_validation": {
+    "numbers_found_in_text": 4,
+    "source_chunk": "chunk_002.txt"
+  }
+}

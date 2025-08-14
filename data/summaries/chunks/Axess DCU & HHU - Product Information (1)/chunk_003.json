@@ -1,0 +1,30 @@
+{
+  "bullets": [
+    "Weight: 1.7kg (3.8lb)",
+    "Dimensions: 6.5\" x 6.5\" x 4.25\" (165mm x 165mm x 108mm)",
+    "7.2V 5Ah Lithium Battery Pack"
+  ],
+  "numbers_and_units": [
+    "1.7kg",
+    "3.8lb",
+    "6.5\"",
+    "4.25\"",
+    "165mm",
+    "108mm",
+    "7.2V",
+    "5Ah"
+  ],
+  "title": "Axess DCU Specifications",
+  "keywords": [
+    "axess",
+    "dcu",
+    "weight",
+    "dimensions",
+    "battery",
+    "lithium"
+  ],
+  "_validation": {
+    "numbers_found_in_text": 8,
+    "source_chunk": "chunk_003.txt"
+  }
+}

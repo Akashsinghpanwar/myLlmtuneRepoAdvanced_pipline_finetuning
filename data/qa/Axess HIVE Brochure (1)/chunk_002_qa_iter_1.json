@@ -1,0 +1,113 @@
+{
+  "chunk_id": 2,
+  "chunk_filename": "chunk_002.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "For whom is the Axess Innovation HIVE system designed?",
+      "evaluation_criteria": "Answer accurately lists the intended users of the HIVE system as stated in the document.",
+      "answer": "HIVE is designed for Oil and Gas Operators, Asset Managers, Inspection Engineers, Corrosion Engineers, and Production Chemists.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What technology does the Axess Innovation HIVE system use to create a digital representation of assets?",
+      "evaluation_criteria": "Answer correctly identifies LiDAR technology as the method for digital asset representation.",
+      "answer": "HIVE uses LiDAR technology to create an accurate digital representation of assets.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What is the accuracy of point-to-point measurements in the Axess Innovation HIVE system, and at what distance is this accuracy maintained?",
+      "evaluation_criteria": "Answer correctly states the measurement accuracy and distance: 2mm accuracy at 60m distance. Incorrect if values are swapped or units are omitted.",
+      "answer": "HIVE's built-in point-to-point measurements boast an accuracy of 2mm at 60m distance.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "What functionalities does the Axess Innovation HIVE system offer for engineers regarding tagging locations and uploading reports?",
+      "evaluation_criteria": "Answer accurately lists the capabilities of tagging locations and uploading reports, including the types of reports mentioned (work instructions, HAZIDs, general arrangement drawings).",
+      "answer": "The Axess Innovation HIVE system allows engineers to tag critical locations and upload essential reports, including detailed work instructions, HAZIDs, and general arrangement drawings complete with materials and specifications.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What is the function of the Axess Innovation HIVE field app regarding QR codes and report generation?",
+      "evaluation_criteria": "Answer correctly identifies the QR code scanning functionality and the automated inclusion of coupon weights and serial numbers in reports. Incorrect if either function is omitted.",
+      "answer": "The HIVE field app allows users to scan QR codes on equipment and vials, generating comprehensive reports with automated inclusion of coupon weights and serial numbers.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "What capabilities does the Axess Innovation HIVE system offer for project management of field work?",
+      "evaluation_criteria": "Answer accurately describes the project management capabilities, including CTR planning and final reporting. Incorrect if CTR is misinterpreted or final reporting is omitted.",
+      "answer": "HIVE's project management features allow management of field work, from Cost, Time, and Resource (CTR) planning to final reporting.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What types of real-time data does the Axess Innovation HIVE system provide from connected sensors?",
+      "evaluation_criteria": "Answer accurately lists the types of real-time data provided by HIVE (corrosion/erosion probes, ATP/qPCR results, residual measurements, iron counts, pressure, temperature, vibration).",
+      "answer": "HIVE provides real-time data from connected sensors, including corrosion and erosion monitoring probes, ATP and qPCR microbial results, residual measurements, iron counts, pressure, temperature, and vibration data.",
+      "difficulty": 6,
+      "category": "factual"
+    },
+    {
+      "question": "What is the function of the chemical monitoring module in the Axess Innovation HIVE system?",
+      "evaluation_criteria": "Answer correctly states the function of the chemical monitoring module: live visibility of injection regime and adjustments for KPI compliance. Incorrect if either aspect is missing.",
+      "answer": "The chemical monitoring module in HIVE provides live visibility of the current injection regime and allows adjustments to maintain KPI compliance.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "What is a distinctive feature of the Axess Innovation HIVE system regarding metal loss rates?",
+      "evaluation_criteria": "Answer correctly identifies the system's capability to generate point to point MPY metal loss rates. Incorrect if MPY is misinterpreted or omitted.",
+      "answer": "HIVE can generate point to point MPY metal loss rates.",
+      "difficulty": 6,
+      "category": "factual"
+    },
+    {
+      "question": "Where is the Axess Corporate HQ located?",
+      "evaluation_criteria": "Answer provides the correct address for Axess Corporate HQ as stated in the document.",
+      "answer": "Axess Corporate HQ is located at Axess-Corrosion, Inc. 2001 Timberloch Place The Woodlands, Texas USA 77380.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What is the address of the Axess-Corrosion Center of Excellence?",
+      "evaluation_criteria": "Answer provides the correct address for the Center of Excellence as stated in the document.",
+      "answer": "The Center of Excellence is located at 22632 Kuykendahl Rd Spring, Texas USA 77389.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What is the address of Axess-Corrosion LTD?",
+      "evaluation_criteria": "Answer provides the correct address for Axess-Corrosion LTD as stated in the document.",
+      "answer": "Axess-Corrosion LTD is located at H1 Hill of Rubislaw Anderson Drive Aberdeen AB15 6BL.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What is the email address and what are the phone numbers for Axess?",
+      "evaluation_criteria": "Answer provides the correct email address and phone numbers for Axess as stated in the document. Must include both phone numbers to be correct.",
+      "answer": "The email address for Axess is info@axess.energy, and the phone numbers are +1(832)990-6754 and +44(0)1224 042111.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "According to the coupon analysis table, what coupon material is associated with the coupon part number CCST-2.87580 87SKO 125?",
+      "evaluation_criteria": "Answer correctly associates the coupon part number with the coupon material as found in the table. Must include the full part number and material code.",
+      "answer": "The coupon part number CCST-2.87580 87SKO 125 is associated with coupon material 1018 LS |LJUSBU0.",
+      "difficulty": 7,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"HIVE is designed for Oil and Gas Operators, Asset Managers, Inspection Engineers, Corrosion Engineers, and Production Chemists.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Answer accurately lists the intended users of the HIVE system as stated in the document.\",\n    \"question\": \"For whom is the Axess Innovation HIVE system designed?\"\n  },\n  {\n    \"answer\": \"HIVE uses LiDAR technology to create an accurate digital representation of assets.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Answer correctly identifies LiDAR technology as the method for digital asset representation.\",\n    \"question\": \"What technology does the Axess Innovation HIVE system use to create a digital representation of assets?\"\n  },\n  {\n    \"answer\": \"HIVE's built-in point-to-point measurements boast an accuracy of 2mm at 60m distance.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Answer correctly states the measurement accuracy and distance: 2mm accuracy at 60m distance. Incorrect if values are swapped or units are omitted.\",\n    \"question\": \"What is the accuracy of point-to-point measurements in the Axess Innovation HIVE system, and at what distance is this accuracy maintained?\"\n  },\n  {\n    \"answer\": \"The Axess Innovation HIVE system allows engineers to tag critical locations and upload essential reports, including detailed work instructions, HAZIDs, and general arrangement drawings complete with materials and specifications.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Answer accurately lists the capabilities of tagging locations and uploading reports, including the types of reports mentioned (work instructions, HAZIDs, general arrangement drawings).\",\n    \"question\": \"What functionalities does the Axess Innovation HIVE system offer for engineers regarding tagging locations and uploading reports?\"\n  },\n  {\n    \"answer\": \"The HIVE field app allows users to scan QR codes on equipment and vials, generating comprehensive reports with automated inclusion of coupon weights and serial numbers.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Answer correctly identifies the QR code scanning functionality and the automated inclusion of coupon weights and serial numbers in reports. Incorrect if either function is omitted.\",\n    \"question\": \"What is the function of the Axess Innovation HIVE field app regarding QR codes and report generation?\"\n  },\n  {\n    \"answer\": \"HIVE's project management features allow management of field work, from Cost, Time, and Resource (CTR) planning to final reporting.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Answer accurately describes the project management capabilities, including CTR planning and final reporting. Incorrect if CTR is misinterpreted or final reporting is omitted.\",\n    \"question\": \"What capabilities does the Axess Innovation HIVE system offer for project management of field work?\"\n  },\n  {\n    \"answer\": \"HIVE provides real-time data from connected sensors, including corrosion and erosion monitoring probes, ATP and qPCR microbial results, residual measurements, iron counts, pressure, temperature, and vibration data.\",\n    \"category\": \"factual\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"Answer accurately lists the types of real-time data provided by HIVE (corrosion/erosion probes, ATP/qPCR results, residual measurements, iron counts, pressure, temperature, vibration).\",\n    \"question\": \"What types of real-time data does the Axess Innovation HIVE system provide from connected sensors?\"\n  },\n  {\n    \"answer\": \"The chemical monitoring module in HIVE provides live visibility of the current injection regime and allows adjustments to maintain KPI compliance.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Answer correctly states the function of the chemical monitoring module: live visibility of injection regime and adjustments for KPI compliance. Incorrect if either aspect is missing.\",\n    \"question\": \"What is the function of the chemical monitoring module in the Axess Innovation HIVE system?\"\n  },\n  {\n    \"answer\": \"HIVE can generate point to point MPY metal loss rates.\",\n    \"category\": \"factual\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"Answer correctly identifies the system's capability to generate point to point MPY metal loss rates. Incorrect if MPY is misinterpreted or omitted.\",\n    \"question\": \"What is a distinctive feature of the Axess Innovation HIVE system regarding metal loss rates?\"\n  },\n  {\n    \"answer\": \"Axess Corporate HQ is located at Axess-Corrosion, Inc. 2001 Timberloch Place The Woodlands, Texas USA 77380.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"Answer provides the correct address for Axess Corporate HQ as stated in the document.\",\n    \"question\": \"Where is the Axess Corporate HQ located?\"\n  },\n  {\n    \"answer\": \"The Center of Excellence is located at 22632 Kuykendahl Rd Spring, Texas USA 77389.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Answer provides the correct address for the Center of Excellence as stated in the document.\",\n    \"question\": \"What is the address of the Axess-Corrosion Center of Excellence?\"\n  },\n  {\n    \"answer\": \"Axess-Corrosion LTD is located at H1 Hill of Rubislaw Anderson Drive Aberdeen AB15 6BL.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Answer provides the correct address for Axess-Corrosion LTD as stated in the document.\",\n    \"question\": \"What is the address of Axess-Corrosion LTD?\"\n  },\n  {\n    \"answer\": \"The email address for Axess is info@axess.energy, and the phone numbers are +1(832)990-6754 and +44(0)1224 042111.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Answer provides the correct email address and phone numbers for Axess as stated in the document. Must include both phone numbers to be correct.\",\n    \"question\": \"What is the email address and what are the phone numbers for Axess?\"\n  },\n  {\n    \"answer\": \"The coupon part number CCST-2.87580 87SKO 125 is associated with coupon material 1018 LS |LJUSBU0.\",\n    \"category\": \"factual\",\n    \"difficulty\": 7,\n    \"evaluation_criteria\": \"Answer correctly associates the coupon part number with the coupon material as found in the table. Must include the full part number and material code.\",\n    \"question\": \"According to the coupon analysis table, what coupon material is associated with the coupon part number CCST-2.87580 87SKO 125?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

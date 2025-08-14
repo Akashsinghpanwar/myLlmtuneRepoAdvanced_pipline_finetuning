@@ -1,0 +1,22 @@
+{
+  "bullets": [
+    "Pages detected: 4",
+    "Tables detected: 3",
+    "Key/Value pairs detected: yes"
+  ],
+  "numbers_and_units": [
+    "4",
+    "3"
+  ],
+  "title": "Axess Electrical Resistance (ER) Probes Product Information",
+  "keywords": [
+    "axess",
+    "electrical resistance",
+    "er probes",
+    "product information"
+  ],
+  "_validation": {
+    "numbers_found_in_text": 2,
+    "source_chunk": "chunk_001.txt"
+  }
+}

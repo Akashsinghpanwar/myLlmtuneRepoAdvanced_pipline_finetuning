@@ -1,0 +1,36 @@
+{
+  "chunk_id": 1,
+  "chunk_filename": "chunk_001.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "How many pages are in the Axess Brochure (1).pdf document?",
+      "evaluation_criteria": "The answer must state '16 pages'.",
+      "answer": "The document has 16 pages.",
+      "difficulty": 1,
+      "category": "factual"
+    },
+    {
+      "question": "How many tables were detected in the Axess Brochure (1).pdf document?",
+      "evaluation_criteria": "The answer must state 'one table'.",
+      "answer": "One table was detected in the document.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "Were key/value pairs detected in the Axess Brochure (1).pdf document?",
+      "evaluation_criteria": "The answer must state 'yes'.",
+      "answer": "Yes, key/value pairs were detected.",
+      "difficulty": 1,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"The document has 16 pages.\",\n    \"category\": \"factual\",\n    \"difficulty\": 1,\n    \"evaluation_criteria\": \"The answer must state '16 pages'.\",\n    \"question\": \"How many pages are in the Axess Brochure (1).pdf document?\"\n  },\n  {\n    \"answer\": \"One table was detected in the document.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"The answer must state 'one table'.\",\n    \"question\": \"How many tables were detected in the Axess Brochure (1).pdf document?\"\n  },\n  {\n    \"answer\": \"Yes, key/value pairs were detected.\",\n    \"category\": \"factual\",\n    \"difficulty\": 1,\n    \"evaluation_criteria\": \"The answer must state 'yes'.\",\n    \"question\": \"Were key/value pairs detected in the Axess Brochure (1).pdf document?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

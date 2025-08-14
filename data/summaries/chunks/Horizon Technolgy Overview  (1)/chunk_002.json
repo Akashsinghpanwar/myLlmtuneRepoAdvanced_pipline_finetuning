@@ -1,0 +1,24 @@
+{
+  "bullets": [
+    "Axess was awarded an innovation of the year award for Janus Guard product at AMPP 2023.",
+    "Aramco engineers challenged Axess to design a system for access to the bottom 10-20% of the pipe.",
+    "Project cost on access fittings reduced by 85% through offering A105/LF2 Horizon fittings in place of 1500# RJ flanged fitting in 825."
+  ],
+  "numbers_and_units": [
+    "10-20%",
+    "85%",
+    "1500#"
+  ],
+  "title": "Axess Horizon Access Fittings",
+  "keywords": [
+    "axess",
+    "horizon",
+    "access fitting",
+    "corrosion",
+    "aramco"
+  ],
+  "_validation": {
+    "numbers_found_in_text": 3,
+    "source_chunk": "chunk_002.txt"
+  }
+}

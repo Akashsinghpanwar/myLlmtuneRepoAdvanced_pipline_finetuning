@@ -1,0 +1,22 @@
+{
+  "bullets": [
+    "Pages detected: 1",
+    "Tables detected: 1",
+    "Corrosion Rate (mpy): 0.1"
+  ],
+  "numbers_and_units": [
+    "1",
+    "0.1 mpy"
+  ],
+  "title": "Meaningful Probe Data",
+  "keywords": [
+    "probe",
+    "corrosion",
+    "tables",
+    "pages"
+  ],
+  "_validation": {
+    "numbers_found_in_text": 1,
+    "source_chunk": "chunk_001.txt"
+  }
+}

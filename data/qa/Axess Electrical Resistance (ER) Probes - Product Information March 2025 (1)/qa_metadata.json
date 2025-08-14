@@ -1,0 +1,12 @@
+{
+  "document": "Axess Electrical Resistance (ER) Probes - Product Information March 2025 (1)",
+  "num_chunks_processed": 4,
+  "num_qa_pairs_total": 84,
+  "model": "google/gemini-2.0-flash-001",
+  "temperature": 0.35,
+  "test_mode": false,
+  "parallel_processing": false,
+  "batch_size": 1,
+  "iterative_mode": true,
+  "max_iterations": 6
+}

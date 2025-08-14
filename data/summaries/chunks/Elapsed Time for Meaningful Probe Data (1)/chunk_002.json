@@ -1,0 +1,30 @@
+{
+  "bullets": [
+    "At 0.1 mpy and 2 mils, elapsed time required is 73 days.",
+    "At 50 mpy and 2 mils, elapsed time required is 4 hours.",
+    "At 100 mpy and 25 mils, elapsed time required is 22 hours."
+  ],
+  "numbers_and_units": [
+    "0.1 mpy",
+    "2 mils",
+    "73 days",
+    "50 mpy",
+    "2 mils",
+    "4 hours",
+    "100 mpy",
+    "25 mils",
+    "22 hours"
+  ],
+  "title": "Corrosion Rate Data vs. Time",
+  "keywords": [
+    "corrosion",
+    "rate",
+    "time",
+    "probe",
+    "span"
+  ],
+  "_validation": {
+    "numbers_found_in_text": 3,
+    "source_chunk": "chunk_002.txt"
+  }
+}

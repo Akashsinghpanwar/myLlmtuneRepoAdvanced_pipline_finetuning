@@ -1,0 +1,92 @@
+{
+  "chunk_id": 2,
+  "chunk_filename": "chunk_002.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "According to the document, what core value underpins Axess's operations, technically and commercially?",
+      "evaluation_criteria": "The answer must state that Axess was formed with clear principles and that Integrity is at its core operationally, technically, and commercially.",
+      "answer": "Axess was formed with clear principles that put Integrity at its core operationally, technically, and commercially.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "According to the document, what monitoring techniques does Axess offer for Flow Lines?",
+      "evaluation_criteria": "The answer must include ER (Corrosion), ER (Erosion) Coupons, Non-Intrusive (Erosion), and Biofilm as monitoring techniques for Flow Lines.",
+      "answer": "Axess offers ER (Corrosion) / ER (Erosion) Coupons / Non-Intrusive (Erosion) / Biofilm monitoring techniques for Flow Lines.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "According to the document, what monitoring techniques does Axess offer for Separator Vessels?",
+      "evaluation_criteria": "The answer must include ER, Non-Intrusive, and Coupons as monitoring techniques for Separator Vessels.",
+      "answer": "Axess offers ER / Non-Intrusive / Coupons monitoring techniques for Separator Vessels.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "According to the document, what monitoring techniques does Axess offer for KO Drums?",
+      "evaluation_criteria": "The answer must include ER, Non-Intrusive, and Hydrogen as monitoring techniques for KO Drums.",
+      "answer": "Axess offers ER / Non-Intrusive / Hydrogen monitoring techniques for KO Drums.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "According to the document, what monitoring techniques does Axess offer for Product Water / Injection?",
+      "evaluation_criteria": "The answer must include ER, LPR, Galvanic Non-Intrusive, and Biofilm as monitoring techniques for Product Water / Injection.",
+      "answer": "Axess offers ER / LPR / Galvanic Non-Intrusive / Biofilm monitoring techniques for Product Water / Injection.",
+      "difficulty": 6,
+      "category": "factual"
+    },
+    {
+      "question": "According to the document, what monitoring techniques does Axess offer for Drain Lines?",
+      "evaluation_criteria": "The answer must include ER, Non-Intrusive, and Coupons as monitoring techniques for Drain Lines.",
+      "answer": "Axess offers ER / Non-Intrusive / Coupons monitoring techniques for Drain Lines.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "According to the document, what monitoring techniques does Axess offer for Water Injection?",
+      "evaluation_criteria": "The answer must include ER, LPR, Galvanic Non-Intrusive, and Biofilm as monitoring techniques for Water Injection.",
+      "answer": "Axess offers ER / LPR / Galvanic Non-Intrusive / Biofilm monitoring techniques for Water Injection.",
+      "difficulty": 6,
+      "category": "factual"
+    },
+    {
+      "question": "According to the document, what monitoring techniques does Axess offer for Glycol Units?",
+      "evaluation_criteria": "The answer must include ER, Non-Intrusive, and Coupons as monitoring techniques for Glycol Units.",
+      "answer": "Axess offers ER / Non-Intrusive / Coupons monitoring techniques for Glycol Units.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "According to the document, what monitoring techniques does Axess offer for Compression?",
+      "evaluation_criteria": "The answer must include ER, Non-Intrusive, and Coupons as monitoring techniques for Compression.",
+      "answer": "Axess offers ER / Non-Intrusive / Coupons monitoring techniques for Compression.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "According to the document, what monitoring techniques does Axess offer for Flare Lines?",
+      "evaluation_criteria": "The answer must include ER, Non-Intrusive, and Coupons as monitoring techniques for Flare Lines.",
+      "answer": "Axess offers ER / Non-Intrusive / Coupons monitoring techniques for Flare Lines.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "According to the document, what monitoring techniques does Axess offer for Export Lines?",
+      "evaluation_criteria": "The answer must include ER, Non-Intrusive, and Coupons as monitoring techniques for Export Lines.",
+      "answer": "Axess offers ER / Non-Intrusive / Coupons monitoring techniques for Export Lines.",
+      "difficulty": 4,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"Axess was formed with clear principles that put Integrity at its core operationally, technically, and commercially.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"The answer must state that Axess was formed with clear principles and that Integrity is at its core operationally, technically, and commercially.\",\n    \"question\": \"According to the document, what core value underpins Axess's operations, technically and commercially?\"\n  },\n  {\n    \"answer\": \"Axess offers a full range of hardware for the insertion and retrieval of monitoring, injection and sampling devices, including Mechanical & Hydraulic High-Pressure Access systems, Low Pressure Access Systems, Corrosion Coupons, Erosion/Sand Detection Probes, Retrieval Tools and Service Valves.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"The answer must list the types of hardware offered by Axess: Mechanical & Hydraulic High-Pressure Access systems, Low Pressure Access Systems, Corrosion Coupons, Erosion/Sand Detection Probes, Retrieval Tools and Service Valves.\",\n    \"question\": \"What types of hardware does Axess offer for the insertion and retrieval of monitoring, injection, and sampling devices?\"\n  },\n  {\n    \"answer\": \"Pipe geometry, flow conditions, and process fluid can influence the occurrence and development rate of corrosion and erosion, as well as the rate at which chemicals mix and disperse within a process.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"The answer must include pipe geometry, flow conditions, and process fluid as factors influencing corrosion, erosion, and chemical dispersion rates.\",\n    \"question\": \"What factors can influence the occurrence and development rate of corrosion and erosion, as well as the rate at which chemicals mix and disperse within a process?\"\n  },\n  {\n    \"answer\": \"Corrosion monitoring points can be located downstream of any process change including branch connections where additional process streams are introduced, and at the end of the line.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"The answer must mention downstream of process changes (including branch connections) and the end of the line as locations for corrosion monitoring points.\",\n    \"question\": \"Where can corrosion monitoring points be located to effectively monitor corrosion and chemical effectiveness?\"\n  },\n  {\n    \"answer\": \"Areas at high risk for erosion may include locations with rapid changes in direction such as small radius bends, and T-sections.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"The answer must include locations with rapid changes in direction such as small radius bends, and T-sections as high-risk areas for erosion.\",\n    \"question\": \"Where are the areas at high risk for erosion in a piping system, according to the document?\"\n  },\n  {\n    \"answer\": \"Axess's hardware is manufactured to meet industry standards such as NACE MR0175, ASME B31.3, EN10204-3.1 as standard, and ISO:9001:2015\",\n    \"category\": \"factual\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"The answer must list NACE MR0175, ASME B31.3, EN10204-3.1, and ISO:9001:2015 as industry standards to which Axess's hardware is manufactured.\",\n    \"question\": \"To which industry standards is Axess's hardware manufactured?\"\n  },\n  {\n    \"answer\": \"The address of Axess Corporate HQ is Axess-Corrosion, Inc. 2001 Timberloch Place The Woodlands, Texas USA 77380.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"The answer must provide the full address: Axess-Corrosion, Inc. 2001 Timberloch Place The Woodlands, Texas USA 77380.\",\n    \"question\": \"What is the address of Axess Corporate HQ?\"\n  },\n  {\n    \"answer\": \"The address of Axess's Service & Innovation Centre is Axess-Corrosion LTD H1 Hill of Rubislaw Anderson Drive Aberdeen AB15 6BL.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"The answer must provide the full address: Axess-Corrosion LTD H1 Hill of Rubislaw Anderson Drive Aberdeen AB15 6BL.\",\n    \"question\": \"What is the address of Axess's Service & Innovation Centre?\"\n  },\n  {\n    \"answer\": \"The phone number for Axess Corporate HQ is +1 (832) 990-6754.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"The answer must provide the phone number: +1 (832) 990-6754.\",\n    \"question\": \"What is the phone number for Axess Corporate HQ?\"\n  },\n  {\n    \"answer\": \"The phone number for Axess's Service & Innovation Centre is +44 (0) 1224 042111.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"The answer must provide the phone number: +44 (0) 1224 042111.\",\n    \"question\": \"What is the phone number for Axess's Service & Innovation Centre?\"\n  },\n  {\n    \"answer\": \"Axess sources the materials for their hardware from N. America and W. Europe.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"The answer must state that Axess sources materials from N. America and W. Europe.\",\n    \"question\": \"Where does Axess source the materials for their hardware used in monitoring, injection, and sampling devices?\"\n  },\n  {\n    \"answer\": \"According to the table, the monitoring location for CDO PYTHON is CC+1.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"The answer must state that the monitoring location is CC+1.\",\n    \"question\": \"According to the table, what is the monitoring location for CDO PYTHON?\"\n  },\n  {\n    \"answer\": \"Axess design and manufacture systems based on the client's application.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"The answer must state that Axess designs and manufactures systems based on the client's application.\",\n    \"question\": \"According to the document, on what basis does Axess design and manufacture systems?\"\n  },\n  {\n    \"answer\": \"Erosion is a particular risk downstream of a choke because of higher velocities, particularly where the presence of sand has been detected previously or may be suspected/expected.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"The answer must mention higher velocities and the presence (or suspected presence) of sand as reasons for erosion risk downstream of a choke.\",\n    \"question\": \"Why is erosion a particular risk downstream of a choke, according to the document?\"\n  },\n  {\n    \"answer\": \"Axess offers ER (Corrosion) / ER (Erosion) Coupons / Non-Intrusive (Erosion) / Biofilm monitoring techniques for Flow Lines.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"The answer must include ER (Corrosion), ER (Erosion) Coupons, Non-Intrusive (Erosion), and Biofilm as monitoring techniques for Flow Lines.\",\n    \"question\": \"According to the document, what monitoring techniques does Axess offer for Flow Lines?\"\n  },\n  {\n    \"answer\": \"Axess offers ER / Non-Intrusive / Coupons monitoring techniques for Separator Vessels.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"The answer must include ER, Non-Intrusive, and Coupons as monitoring techniques for Separator Vessels.\",\n    \"question\": \"According to the document, what monitoring techniques does Axess offer for Separator Vessels?\"\n  },\n  {\n    \"answer\": \"Axess offers ER / Non-Intrusive / Hydrogen monitoring techniques for KO Drums.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"The answer must include ER, Non-Intrusive, and Hydrogen as monitoring techniques for KO Drums.\",\n    \"question\": \"According to the document, what monitoring techniques does Axess offer for KO Drums?\"\n  },\n  {\n    \"answer\": \"Axess offers ER / LPR / Galvanic Non-Intrusive / Biofilm monitoring techniques for Product Water / Injection.\",\n    \"category\": \"factual\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"The answer must include ER, LPR, Galvanic Non-Intrusive, and Biofilm as monitoring techniques for Product Water / Injection.\",\n    \"question\": \"According to the document, what monitoring techniques does Axess offer for Product Water / Injection?\"\n  },\n  {\n    \"answer\": \"Axess offers ER / Non-Intrusive / Coupons monitoring techniques for Drain Lines.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"The answer must include ER, Non-Intrusive, and Coupons as monitoring techniques for Drain Lines.\",\n    \"question\": \"According to the document, what monitoring techniques does Axess offer for Drain Lines?\"\n  },\n  {\n    \"answer\": \"Axess offers ER / LPR / Galvanic Non-Intrusive / Biofilm monitoring techniques for Water Injection.\",\n    \"category\": \"factual\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"The answer must include ER, LPR, Galvanic Non-Intrusive, and Biofilm as monitoring techniques for Water Injection.\",\n    \"question\": \"According to the document, what monitoring techniques does Axess offer for Water Injection?\"\n  },\n  {\n    \"answer\": \"Axess offers ER / Non-Intrusive / Coupons monitoring techniques for Glycol Units.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"The answer must include ER, Non-Intrusive, and Coupons as monitoring techniques for Glycol Units.\",\n    \"question\": \"According to the document, what monitoring techniques does Axess offer for Glycol Units?\"\n  },\n  {\n    \"answer\": \"Axess offers ER / Non-Intrusive / Coupons monitoring techniques for Compression.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"The answer must include ER, Non-Intrusive, and Coupons as monitoring techniques for Compression.\",\n    \"question\": \"According to the document, what monitoring techniques does Axess offer for Compression?\"\n  },\n  {\n    \"answer\": \"Axess offers ER / Non-Intrusive / Coupons monitoring techniques for Flare Lines.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"The answer must include ER, Non-Intrusive, and Coupons as monitoring techniques for Flare Lines.\",\n    \"question\": \"According to the document, what monitoring techniques does Axess offer for Flare Lines?\"\n  },\n  {\n    \"answer\": \"Axess offers ER / Non-Intrusive / Coupons monitoring techniques for Export Lines.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"The answer must include ER, Non-Intrusive, and Coupons as monitoring techniques for Export Lines.\",\n    \"question\": \"According to the document, what monitoring techniques does Axess offer for Export Lines?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

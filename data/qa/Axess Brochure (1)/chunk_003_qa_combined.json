@@ -1,0 +1,169 @@
+{
+  "chunk_id": 3,
+  "chunk_filename": "chunk_003.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "What does Axess offer for non-intrusive corrosion and erosion monitoring of process pipework and vessels, and what temperature range can the ultrasonic transducers withstand?",
+      "evaluation_criteria": "Answer accurately describes the non-intrusive wall thickness monitoring system, including the use of ultrasonic transducers, temperature rating (550℃), and monitoring options (spot reading, online, wireless using WirelessHART/ISA100 or cellular networks).",
+      "answer": "Non-intrusive wall thickness solutions provide in-service corrosion and erosion monitoring using ultrasonic transducers, up to 550℃ permanently mounted to process pipework, vessels and other structures coupled with a range of instrumentation options from spot reading, through to online, real-time wireless monitoring using industry standards WirelessHART/ISA100 protocols, or cellular networks.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What factor determines the rate of chemical injection, measured in gallons per day, in an Axess corrosion control system?",
+      "evaluation_criteria": "The answer correctly states that the rate of chemical injection in gallons/day is determined by the min/max capacity of the injection pump. Incorrect answers may omit the units (gallons/day) or misattribute the determining factor.",
+      "answer": "The rate of chemical injection (gallons/day) is determined by the min/max capacity of the injection pump.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "When injecting chemicals in a piping system where there is a change of material, how far upstream should the injection point ideally be located, according to Axess Corrosion?",
+      "evaluation_criteria": "Answer must state the 10 x pipe ID rule. Incorrect answers may specify the wrong distance (e.g., 5x pipe ID) or the wrong location (downstream).",
+      "answer": "The injection point should ideally be located a minimum of 10 x pipe ID upstream of the change in material.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "According to Axess Corrosion, what are the important factors to consider when selecting a chemical injection point?",
+      "evaluation_criteria": "Answer must include all listed factors: chemical density and viscosity, process pipe/vessel size, velocity, pressure, temperature, and fluid composition. Omitting any factor constitutes an incorrect answer.",
+      "answer": "Chemical density and viscosity, process pipe/vessel size, velocity, pressure, temperature, and fluid composition.",
+      "difficulty": 6,
+      "category": "factual"
+    },
+    {
+      "question": "What are the differences between using an atomiser and an open quill for chemical injection, and what is the preferred method for pulse injection according to Axess Corrosion?",
+      "evaluation_criteria": "Answer must accurately compare atomiser vs open quill injection methods, including the control mechanism for atomisers (injection differential pressure) and the pulse nature of open quill injection (stroke rate). The answer must also mention the preference for low stroke volume and high stroke frequency.",
+      "answer": "Using an atomiser in a gas system can help with fine volume control by adjusting the injection differential pressure and maintaining a constant application of the chemical. Chemicals injected using an open quill are applied in a pulse method with the frequency determined by the stroke rate of the chemical injection pump. The preferred method is a low stroke volume with a high stroke frequency to minimise the time between each pulse injection of chemical.",
+      "difficulty": 7,
+      "category": "reasoning"
+    },
+    {
+      "question": "Where should chemical injection points be located relative to the equipment and pipework requiring protection, according to Axess Corrosion guidelines?",
+      "evaluation_criteria": "Answer must state that the injection point should be upstream. Incorrect answers will state downstream or not specify a location relative to the equipment requiring protection.",
+      "answer": "Chemical injection points should always be located upstream of the equipment and pipework requiring protection.",
+      "difficulty": 4,
+      "category": "reasoning"
+    },
+    {
+      "question": "When should wake frequency and drag calculations be considered for chemical injection, and what is their purpose according to Axess Corrosion?",
+      "evaluation_criteria": "Answer must mention wake frequency/drag calculations and their purpose in determining maximum length while maintaining integrity. Omitting either the calculations or the purpose constitutes an incorrect answer.",
+      "answer": "For higher velocity processes, wake frequency / drag calculations should be considered to determine maximum length whilst maintaining the integrity of the injection device.",
+      "difficulty": 8,
+      "category": "reasoning"
+    },
+    {
+      "question": "What type of sensors does Axess use for non-intrusive wall thickness monitoring?",
+      "evaluation_criteria": "The answer must mention ultrasonic transducers and their application for wall thickness monitoring.",
+      "answer": "Axess offers non-intrusive wall thickness solutions that use ultrasonic transducers permanently mounted to process pipework, vessels, and other structures.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What is the maximum temperature that the ultrasonic transducers used in Axess' non-intrusive wall thickness solutions can withstand?",
+      "evaluation_criteria": "The answer must state the temperature rating of 550℃ for the ultrasonic transducers.",
+      "answer": "The ultrasonic transducers can withstand temperatures up to 550℃.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What are the instrumentation options available for Axess' non-intrusive wall thickness monitoring systems?",
+      "evaluation_criteria": "The answer must mention the range of instrumentation options, including spot reading, online monitoring, and the communication protocols WirelessHART/ISA100 or cellular networks.",
+      "answer": "Instrumentation options range from spot reading to online, real-time wireless monitoring using WirelessHART/ISA100 protocols or cellular networks.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "How does using an atomiser for chemical injection help with volume control, and in what type of system is it most appropriate according to Axess Corrosion?",
+      "evaluation_criteria": "The answer must mention the use of an atomiser for fine volume control, adjustment of injection differential pressure, constant chemical application, and its suitability for gas systems.",
+      "answer": "An atomiser can help with fine volume control by adjusting the injection differential pressure and maintaining a constant application of the chemical, particularly in a gas system.",
+      "difficulty": 5,
+      "category": "reasoning"
+    },
+    {
+      "question": "Where is the ideal location for chemical injection, and under what conditions should wake frequency and drag calculations be considered according to Axess Corrosion?",
+      "evaluation_criteria": "The answer must mention the centre line as the ideal injection location and the need for wake frequency/drag calculations in high-velocity processes to maintain injection device integrity.",
+      "answer": "The ideal injection location is normally centre line; however, for higher velocity processes, wake frequency / drag calculations should be considered to determine maximum length whilst maintaining the integrity of the injection device.",
+      "difficulty": 7,
+      "category": "reasoning"
+    },
+    {
+      "question": "According to Axess Corrosion, what do the following acronyms stand for in the context of corrosion and erosion monitoring: AX, CC, ER, LPR, SP, UT, and H?",
+      "evaluation_criteria": "The answer must correctly expand all the listed acronyms: AX, CC, ER, LPR, SP, UT, and H.",
+      "answer": "The acronyms are: AX (Access Systems), CC (Corrosion Coupon), ER (Electrical Resistance), LPR (Linear Polarisation Resistance), SP (Sand Probe), UT (Non Intrusive), and H (Hydrogen Probe).",
+      "difficulty": 6,
+      "category": "factual"
+    },
+    {
+      "question": "According to Axess Corrosion, what factors related to the chemical and the process environment are important to consider when selecting a chemical injection point?",
+      "evaluation_criteria": "The answer must list all the factors: chemical density, viscosity, pipe/vessel size, velocity, pressure, temperature, and fluid composition.",
+      "answer": "Chemical density and viscosity, process pipe/vessel size, velocity, pressure, temperature, and fluid composition.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "According to Axess Corrosion, what factor determines the rate of chemical injection in gallons per day?",
+      "evaluation_criteria": "Answer must state that the rate of chemical injection is determined by the min/max capacity of the injection pump. Any deviation is incorrect.",
+      "answer": "The rate of chemical injection is determined by the min/max capacity of the injection pump.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What type of transducers are used in Axess' non-intrusive wall thickness solutions, and what is their maximum operating temperature?",
+      "evaluation_criteria": "Answer must state ultrasonic transducers are used and can withstand up to 550℃. Incorrect material or temperature is wrong.",
+      "answer": "Non-intrusive wall thickness solutions utilize ultrasonic transducers capable of withstanding temperatures up to 550℃.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What range of instrumentation options are available for Axess' non-intrusive wall thickness monitoring systems?",
+      "evaluation_criteria": "Answer must include spot reading, online, real-time wireless monitoring, and WirelessHART/ISA100 or cellular networks. Missing any of these is incorrect.",
+      "answer": "The instrumentation options range from spot reading to online, real-time wireless monitoring using industry standards WirelessHART/ISA100 protocols, or cellular networks.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "According to Axess Corrosion, what is the preferred method for pulse injection of chemicals, in terms of stroke volume and frequency?",
+      "evaluation_criteria": "Answer must state the preference for low stroke volume and high stroke frequency to minimize time between chemical pulse injections. Incorrect stroke volume or frequency is wrong.",
+      "answer": "In most cases, the preferred method is to have a low stroke volume with a high stroke frequency to minimize the time between each pulse injection of chemical.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "Under what conditions should wake frequency and drag calculations be considered for chemical injection, and what is their purpose according to Axess Corrosion?",
+      "evaluation_criteria": "Answer must mention higher velocity processes and the purpose of wake frequency/drag calculations in maintaining injection device integrity. Omitting either part is incorrect.",
+      "answer": "For higher velocity processes, wake frequency / drag calculations should be considered to determine maximum length whilst maintaining the integrity of the injection device.",
+      "difficulty": 7,
+      "category": "reasoning"
+    },
+    {
+      "question": "What type of sensor and maximum temperature rating are used in Axess' non-intrusive wall thickness monitoring solutions?",
+      "evaluation_criteria": "Answer must state 'ultrasonic transducers' and '550℃'. Failure to mention both components is incorrect. Incorrect temperature or transducer type is incorrect.",
+      "answer": "The system uses ultrasonic transducers that can withstand temperatures up to 550℃.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What are the different instrumentation options available for Axess' non-intrusive wall thickness monitoring systems, including the wireless communication protocols used?",
+      "evaluation_criteria": "Answer must mention 'spot reading', 'online, real-time wireless monitoring', and either 'WirelessHART/ISA100 protocols' or 'cellular networks'. Missing any of these components is incorrect.",
+      "answer": "The instrumentation options range from spot reading to online, real-time wireless monitoring using industry standards WirelessHART/ISA100 protocols, or cellular networks.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "According to Axess Corrosion, what determines the rate of chemical injection in gallons per day?",
+      "evaluation_criteria": "Answer must state 'min/max capacity of the injection pump' and 'gallons/day'. Incorrect pump characteristic or units is incorrect.",
+      "answer": "The rate of chemical injection (gallons/day) is determined by the min/max capacity of the injection pump.",
+      "difficulty": 3,
+      "category": "factual"
+    }
+  ],
+  "iterations": 5,
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

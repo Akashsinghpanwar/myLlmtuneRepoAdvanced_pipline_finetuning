@@ -1,0 +1,85 @@
+{
+  "chunk_id": 1,
+  "chunk_filename": "chunk_001.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "What is the maximum pressure rating for the Axess AXHP range of coupon holders?",
+      "evaluation_criteria": "Verifies the pressure rating of the AXHP coupon holders. Must include '10,000psi'.",
+      "answer": "The Axess AXHP range of coupon holders allow the insertion and removal of corrosion coupons in pressurized piping systems up to 10,000psi.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What type of analysis is conducted using corrosion coupons after they are removed from the process system?",
+      "evaluation_criteria": "Checks understanding of the purpose of corrosion coupons. Must mention 'weight loss' and 'visual analysis'.",
+      "answer": "Corrosion coupons are intrusively inserted into the process system and periodically removed to conduct weight loss and visual analysis.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What is the positioning of the coupon when using a coupon holder for top of the line monitoring?",
+      "evaluation_criteria": "Checks understanding of top of the line monitoring. Must mention 'effective length' and 'pipe vessel'.",
+      "answer": "The coupon holder positions the effective length of the coupon into the pipe vessel.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "What is the positioning of the coupon when using a coupon holder for middle of the line monitoring?",
+      "evaluation_criteria": "Checks understanding of middle of the line monitoring. Must mention '/2 of the coupon' and 'pipe centerline'.",
+      "answer": "The coupon holder positions '/2 of the coupon on either side of pipe centerline.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "What is the positioning of the coupon when using a coupon holder for bottom of the line monitoring?",
+      "evaluation_criteria": "Checks understanding of bottom of the line monitoring. Must mention '/.\" off bottom of line'.",
+      "answer": "The coupon holder positions coupon approximately '/.\" off bottom of line.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "When calculating the required length of a coupon holder, how should the length be adjusted if the calculated length is not an even 0.25\" increment?",
+      "evaluation_criteria": "Checks understanding of rounding rules for coupon holder length. Must mention 'next shortest' and '0.25\"'.",
+      "answer": "If the calculated length is not an even 0.25\" increment, select the next shortest to the nearest 0.25\".",
+      "difficulty": 6,
+      "category": "reasoning"
+    },
+    {
+      "question": "According to the formulas provided for calculating coupon holder length, what is the effective length (El) of a 6\" coupon?",
+      "evaluation_criteria": "Verifies the effective length of a 6\" coupon. Must include '4-3/4\"'.",
+      "answer": "For a 6\" coupon, the effective length (El) is 4-3/4\".",
+      "difficulty": 6,
+      "category": "factual"
+    },
+    {
+      "question": "Which access systems are the Axess AXHP coupon holders designed to be used with?",
+      "evaluation_criteria": "Checks compatibility of coupon holders and access systems. Must mention 'AXHP' for both.",
+      "answer": "The Axess AXHP range of coupon holders are designed for use with AXHP access systems.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What is the complete formula used to calculate the required length of a coupon holder for bottom of the line monitoring?",
+      "evaluation_criteria": "Verifies the formula for bottom of the line monitoring. Must match the formula exactly.",
+      "answer": "The formula to calculate holder length for bottom of the line monitoring is (A + Pd + Wg) - (2.75\" + Pw + El).",
+      "difficulty": 7,
+      "category": "factual"
+    },
+    {
+      "question": "What is the complete formula used to calculate the required length of a coupon holder for middle of the line monitoring?",
+      "evaluation_criteria": "Verifies the formula for middle of the line monitoring. Must match the formula exactly.",
+      "answer": "The formula to calculate holder length for middle of the line monitoring is (A + 1/2Pd+ Wg) - (2.5\" + 1/2EI).",
+      "difficulty": 7,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"The Axess AXHP range of coupon holders allow the insertion and removal of corrosion coupons in pressurized piping systems up to 10,000psi.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Verifies the pressure rating of the AXHP coupon holders. Must include '10,000psi'.\",\n    \"question\": \"What is the maximum pressure rating for the Axess AXHP range of coupon holders?\"\n  },\n  {\n    \"answer\": \"Corrosion coupons are intrusively inserted into the process system and periodically removed to conduct weight loss and visual analysis.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Checks understanding of the purpose of corrosion coupons. Must mention 'weight loss' and 'visual analysis'.\",\n    \"question\": \"What type of analysis is conducted using corrosion coupons after they are removed from the process system?\"\n  },\n  {\n    \"answer\": \"The coupon holder positions the effective length of the coupon into the pipe vessel.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Checks understanding of top of the line monitoring. Must mention 'effective length' and 'pipe vessel'.\",\n    \"question\": \"What is the positioning of the coupon when using a coupon holder for top of the line monitoring?\"\n  },\n  {\n    \"answer\": \"The coupon holder positions '/2 of the coupon on either side of pipe centerline.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Checks understanding of middle of the line monitoring. Must mention '/2 of the coupon' and 'pipe centerline'.\",\n    \"question\": \"What is the positioning of the coupon when using a coupon holder for middle of the line monitoring?\"\n  },\n  {\n    \"answer\": \"The coupon holder positions coupon approximately '/.\\\" off bottom of line.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Checks understanding of bottom of the line monitoring. Must mention '/.\\\" off bottom of line'.\",\n    \"question\": \"What is the positioning of the coupon when using a coupon holder for bottom of the line monitoring?\"\n  },\n  {\n    \"answer\": \"If the calculated length is not an even 0.25\\\" increment, select the next shortest to the nearest 0.25\\\".\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"Checks understanding of rounding rules for coupon holder length. Must mention 'next shortest' and '0.25\\\"'.\",\n    \"question\": \"When calculating the required length of a coupon holder, how should the length be adjusted if the calculated length is not an even 0.25\\\" increment?\"\n  },\n  {\n    \"answer\": \"For a 6\\\" coupon, the effective length (El) is 4-3/4\\\".\",\n    \"category\": \"factual\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"Verifies the effective length of a 6\\\" coupon. Must include '4-3/4\\\"'.\",\n    \"question\": \"According to the formulas provided for calculating coupon holder length, what is the effective length (El) of a 6\\\" coupon?\"\n  },\n  {\n    \"answer\": \"The Axess AXHP range of coupon holders are designed for use with AXHP access systems.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Checks compatibility of coupon holders and access systems. Must mention 'AXHP' for both.\",\n    \"question\": \"Which access systems are the Axess AXHP coupon holders designed to be used with?\"\n  },\n  {\n    \"answer\": \"The formula to calculate holder length for bottom of the line monitoring is (A + Pd + Wg) - (2.75\\\" + Pw + El).\",\n    \"category\": \"factual\",\n    \"difficulty\": 7,\n    \"evaluation_criteria\": \"Verifies the formula for bottom of the line monitoring. Must match the formula exactly.\",\n    \"question\": \"What is the complete formula used to calculate the required length of a coupon holder for bottom of the line monitoring?\"\n  },\n  {\n    \"answer\": \"The formula to calculate holder length for middle of the line monitoring is (A + 1/2Pd+ Wg) - (2.5\\\" + 1/2EI).\",\n    \"category\": \"factual\",\n    \"difficulty\": 7,\n    \"evaluation_criteria\": \"Verifies the formula for middle of the line monitoring. Must match the formula exactly.\",\n    \"question\": \"What is the complete formula used to calculate the required length of a coupon holder for middle of the line monitoring?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

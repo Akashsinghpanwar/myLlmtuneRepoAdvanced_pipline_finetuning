@@ -1,0 +1,22 @@
+{
+  "chunk_id": 1,
+  "chunk_filename": "chunk_001.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "How is the Axess Horizon access fitting supplied to facilitate installation onto a pipe and hot-tapping?",
+      "evaluation_criteria": "Answer must state that the fitting is supplied with one end contoured to the pipe size and partially bored through.",
+      "answer": "The Horizon fitting is supplied with one end contoured to the size of pipe it is to be installed onto and is partially bored through from the opposite end.",
+      "difficulty": 3,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"The Horizon fitting is supplied with one end contoured to the size of pipe it is to be installed onto and is partially bored through from the opposite end.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Answer must state that the fitting is supplied with one end contoured to the pipe size and partially bored through.\",\n    \"question\": \"How is the Axess Horizon access fitting supplied to facilitate installation onto a pipe and hot-tapping?\"\n  },\n  {\n    \"answer\": \"After welding the Horizon fitting to the pipe, hot-tap the end profile nearest the pipe using an Axess supplied hot-tap tool and accompanying temporary service valve.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Answer must mention hot-tapping the end profile nearest the pipe, using an Axess hot-tap tool and service valve.\",\n    \"question\": \"What is the procedure for hot-tapping the Axess Horizon fitting after it has been welded to the pipe?\"\n  },\n  {\n    \"answer\": \"Following hot tapping, the service valve is closed, the hot-tap tool pressure bled down and removed, and a retrieval tool is used to install the monitoring device.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Answer must include closing the service valve, bleeding down and removing the hot-tap tool, and using a retrieval tool to install the monitoring device.\",\n    \"question\": \"What steps are taken immediately after hot-tapping the Axess Horizon fitting to prepare for installation of a monitoring device?\"\n  },\n  {\n    \"answer\": \"If the monitoring device is not installed immediately, the access fitting can be sealed with a solid plug and secondary pressure retaining cover.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Answer must mention sealing the fitting with a solid plug and secondary pressure retaining cover.\",\n    \"question\": \"What components are used to seal the Axess Horizon access fitting if the monitoring device is not installed immediately?\"\n  },\n  {\n    \"answer\": \"The design provides a 'metal backed' root which is then removed post- welding during hot-tapping to provide a full penetration weld.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 7,\n    \"evaluation_criteria\": \"Answer must explain that the metal backed root is removed during hot-tapping to achieve a full penetration weld.\",\n    \"question\": \"Explain how the design of the Axess Horizon access fitting ensures a full penetration weld after hot-tapping.\"\n  },\n  {\n    \"answer\": \"Welding should be carried out in accordance with site specific procedures.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"Answer must state that welding should follow site-specific procedures.\",\n    \"question\": \"Why is it important to follow site-specific procedures when welding the Axess Horizon access fitting onto a pipe?\"\n  },\n  {\n    \"answer\": \"The Axess Horizon access fitting is designed to provide bottom of the line corrosion monitoring with all the safety and operational advantages of a side of the line access fitting.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Answer must mention bottom of the line corrosion monitoring and the safety/operational advantages of a side of the line fitting.\",\n    \"question\": \"What type of corrosion monitoring is the Axess Horizon access fitting designed to provide, and what are its key advantages?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

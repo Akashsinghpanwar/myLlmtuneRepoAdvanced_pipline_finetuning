@@ -1,0 +1,85 @@
+{
+  "chunk_id": 2,
+  "chunk_filename": "chunk_002.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "What types of real-time data does the Axess Innovation HIVE system provide from connected sensors to give a critical view into an asset's health?",
+      "evaluation_criteria": "Answer must include all data types listed: corrosion/erosion probes, ATP/qPCR microbial results, residual measurements, iron counts, pressure, temperature, and vibration data.  Incorrect answers will omit one or more data types.",
+      "answer": "The Axess Innovation HIVE system provides real-time data from connected sensors, including corrosion and erosion monitoring probes, ATP and qPCR microbial results, residual measurements, iron counts, pressure, temperature, and vibration data.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "For which specific industry is the Axess Innovation HIVE system tailored, and what unique capabilities does it offer?",
+      "evaluation_criteria": "Answer must mention oil and gas industry and include visualization and data trending capabilities. Missing either element is incorrect.",
+      "answer": "The Axess Innovation HIVE system is tailored for the oil and gas industry, offering unique visualization and data trending capabilities.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "How does the Axess Innovation HIVE system's smart alert mechanism keep users informed?",
+      "evaluation_criteria": "Answer must mention smart alerts and specify text message or email notifications for events or data reports. Omitting the notification methods is incorrect.",
+      "answer": "The Axess Innovation HIVE system offers smart alerts via text message or email notifications for events or regular data reports.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What is the accuracy of the point-to-point measurements provided by the Axess Innovation HIVE system, and at what distance is this accuracy maintained?",
+      "evaluation_criteria": "Answer must state the accuracy as 2mm and the distance as 60m. Incorrect values for either will be considered wrong.",
+      "answer": "The point-to-point measurements in the Axess Innovation HIVE system have an accuracy of 2mm at a distance of 60m.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "According to the coupon analysis table, what were the initial weight, final weight, weight loss, corrected weight loss, corrosion rate, and max pit depth/pitting rate for the coupon with serial number BAC11, installed on 5/20/2021 and removed on 1/7/2021?",
+      "evaluation_criteria": "Answer must include all values for the specified coupon serial number (BAC11) and dates (5/20/2021 and 1/7/2021): initial weight, final weight, weight loss, corrected weight loss, corrosion rate, and max pit depth/pitting rate. Any deviation from the values in the table is incorrect.",
+      "answer": "The coupon with serial number BAC11, installed on 5/20/2021 and removed on 1/7/2021, had an initial weight of 17.3624, a final weight of 17.2000, a weight loss of 0.0564, a corrected weight loss of 0.0511, a corrosion rate of 0.1172, and a max pit depth/pitting rate of 0.",
+      "difficulty": 7,
+      "category": "factual"
+    },
+    {
+      "question": "According to the coupon analysis table, what was the weight loss for coupon CC-4, which was installed on 5/20/2023 and removed on 8/7/2023?",
+      "evaluation_criteria": "Answer must correctly identify the weight loss for coupon CC-4 with the specified install and remove dates. Incorrect value or incorrect coupon ID is wrong.",
+      "answer": "The coupon analysis table shows that coupon CC-4, with install date 5/20/2023 and remove date 8/7/2023, had a weight loss of 0.0500.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "According to the 'HIVE' section of the document, what are the Device Type, Fitting Type, Device DN, Mating Flange Blandoft, Device Length, Pressure Range, Line Size, Access Filing Part, Coupon Material Allowed, and Coupon Type Allowed?",
+      "evaluation_criteria": "Answer must include all the following attributes and their corresponding values: Device Type, Fitting Type, Device DN, Mating Flange Blandoft, Device Length, Pressure Range, Line Size, Access Filing Part, Coupon Material Allowed, and Coupon Type Allowed. Any deviation from the values in the document is incorrect.",
+      "answer": "The device type is SCH, the fitting type is 15000 NTJ, the device DN is HPSTCHNW:12.75, the mating flange Blandoft is 4.88\", the device length is 12.75\", the pressure range is 750 PSI, the line size is IT SCH 80, the access filing part is ACFPN-01, the coupon material allowed is MAT-91, and the coupon type allowed is TYP-91.",
+      "difficulty": 8,
+      "category": "factual"
+    },
+    {
+      "question": "According to the coupon analysis table, what was the pitting rate for the coupon with serial number RAK32?",
+      "evaluation_criteria": "Answer must correctly identify the pitting rate for coupon RAK32. Incorrect value or incorrect coupon ID is wrong.",
+      "answer": "The coupon analysis table shows that the coupon with serial number RAK32 had a pitting rate of 0.",
+      "difficulty": 6,
+      "category": "factual"
+    },
+    {
+      "question": "According to the coupon analysis table, what is the coupon part number for the location description 'MBI-1330 COOLING MEDIUM EXPANSION TANE'?",
+      "evaluation_criteria": "Answer must correctly match the location description to the coupon part number. Incorrect match is wrong.",
+      "answer": "The location description 'MBI-1330 COOLING MEDIUM EXPANSION TANE' has a coupon part number of 'CCST-2.87580 87SKO 125'.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "According to the coupon analysis table, what is the coupon material for the location description 'MBI-1330 COOLING MEDIUM EXPANSION TANE'?",
+      "evaluation_criteria": "Answer must correctly match the location description to the coupon material. Incorrect match is wrong.",
+      "answer": "The location description 'MBI-1330 COOLING MEDIUM EXPANSION TANE' has a coupon material of '1018 LS |LJUSBU0'.",
+      "difficulty": 5,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"The Axess Innovation HIVE system provides real-time data from connected sensors, including corrosion and erosion monitoring probes, ATP and qPCR microbial results, residual measurements, iron counts, pressure, temperature, and vibration data.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Answer must include all data types listed: corrosion/erosion probes, ATP/qPCR microbial results, residual measurements, iron counts, pressure, temperature, and vibration data.  Incorrect answers will omit one or more data types.\",\n    \"question\": \"What types of real-time data does the Axess Innovation HIVE system provide from connected sensors to give a critical view into an asset's health?\"\n  },\n  {\n    \"answer\": \"The Axess Innovation HIVE system is tailored for the oil and gas industry, offering unique visualization and data trending capabilities.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Answer must mention oil and gas industry and include visualization and data trending capabilities. Missing either element is incorrect.\",\n    \"question\": \"For which specific industry is the Axess Innovation HIVE system tailored, and what unique capabilities does it offer?\"\n  },\n  {\n    \"answer\": \"The Axess Innovation HIVE system offers smart alerts via text message or email notifications for events or regular data reports.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Answer must mention smart alerts and specify text message or email notifications for events or data reports. Omitting the notification methods is incorrect.\",\n    \"question\": \"How does the Axess Innovation HIVE system's smart alert mechanism keep users informed?\"\n  },\n  {\n    \"answer\": \"The point-to-point measurements in the Axess Innovation HIVE system have an accuracy of 2mm at a distance of 60m.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Answer must state the accuracy as 2mm and the distance as 60m. Incorrect values for either will be considered wrong.\",\n    \"question\": \"What is the accuracy of the point-to-point measurements provided by the Axess Innovation HIVE system, and at what distance is this accuracy maintained?\"\n  },\n  {\n    \"answer\": \"The coupon with serial number BAC11, installed on 5/20/2021 and removed on 1/7/2021, had an initial weight of 17.3624, a final weight of 17.2000, a weight loss of 0.0564, a corrected weight loss of 0.0511, a corrosion rate of 0.1172, and a max pit depth/pitting rate of 0.\",\n    \"category\": \"factual\",\n    \"difficulty\": 7,\n    \"evaluation_criteria\": \"Answer must include all values for the specified coupon serial number (BAC11) and dates (5/20/2021 and 1/7/2021): initial weight, final weight, weight loss, corrected weight loss, corrosion rate, and max pit depth/pitting rate. Any deviation from the values in the table is incorrect.\",\n    \"question\": \"According to the coupon analysis table, what were the initial weight, final weight, weight loss, corrected weight loss, corrosion rate, and max pit depth/pitting rate for the coupon with serial number BAC11, installed on 5/20/2021 and removed on 1/7/2021?\"\n  },\n  {\n    \"answer\": \"The coupon analysis table shows that coupon CC-4, with install date 5/20/2023 and remove date 8/7/2023, had a weight loss of 0.0500.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Answer must correctly identify the weight loss for coupon CC-4 with the specified install and remove dates. Incorrect value or incorrect coupon ID is wrong.\",\n    \"question\": \"According to the coupon analysis table, what was the weight loss for coupon CC-4, which was installed on 5/20/2023 and removed on 8/7/2023?\"\n  },\n  {\n    \"answer\": \"The device type is SCH, the fitting type is 15000 NTJ, the device DN is HPSTCHNW:12.75, the mating flange Blandoft is 4.88\\\", the device length is 12.75\\\", the pressure range is 750 PSI, the line size is IT SCH 80, the access filing part is ACFPN-01, the coupon material allowed is MAT-91, and the coupon type allowed is TYP-91.\",\n    \"category\": \"factual\",\n    \"difficulty\": 8,\n    \"evaluation_criteria\": \"Answer must include all the following attributes and their corresponding values: Device Type, Fitting Type, Device DN, Mating Flange Blandoft, Device Length, Pressure Range, Line Size, Access Filing Part, Coupon Material Allowed, and Coupon Type Allowed. Any deviation from the values in the document is incorrect.\",\n    \"question\": \"According to the 'HIVE' section of the document, what are the Device Type, Fitting Type, Device DN, Mating Flange Blandoft, Device Length, Pressure Range, Line Size, Access Filing Part, Coupon Material Allowed, and Coupon Type Allowed?\"\n  },\n  {\n    \"answer\": \"The coupon analysis table shows that the coupon with serial number RAK32 had a pitting rate of 0.\",\n    \"category\": \"factual\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"Answer must correctly identify the pitting rate for coupon RAK32. Incorrect value or incorrect coupon ID is wrong.\",\n    \"question\": \"According to the coupon analysis table, what was the pitting rate for the coupon with serial number RAK32?\"\n  },\n  {\n    \"answer\": \"The location description 'MBI-1330 COOLING MEDIUM EXPANSION TANE' has a coupon part number of 'CCST-2.87580 87SKO 125'.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Answer must correctly match the location description to the coupon part number. Incorrect match is wrong.\",\n    \"question\": \"According to the coupon analysis table, what is the coupon part number for the location description 'MBI-1330 COOLING MEDIUM EXPANSION TANE'?\"\n  },\n  {\n    \"answer\": \"The location description 'MBI-1330 COOLING MEDIUM EXPANSION TANE' has a coupon material of '1018 LS |LJUSBU0'.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Answer must correctly match the location description to the coupon material. Incorrect match is wrong.\",\n    \"question\": \"According to the coupon analysis table, what is the coupon material for the location description 'MBI-1330 COOLING MEDIUM EXPANSION TANE'?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "chunk_id": 3,
+  "chunk_filename": "chunk_003.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "According to Axess Corrosion, what factor determines the rate of chemical injection in gallons per day?",
+      "evaluation_criteria": "Answer must state that the rate of chemical injection is determined by the min/max capacity of the injection pump. Any deviation is incorrect.",
+      "answer": "The rate of chemical injection is determined by the min/max capacity of the injection pump.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What type of transducers are used in Axess' non-intrusive wall thickness solutions, and what is their maximum operating temperature?",
+      "evaluation_criteria": "Answer must state ultrasonic transducers are used and can withstand up to 550℃. Incorrect material or temperature is wrong.",
+      "answer": "Non-intrusive wall thickness solutions utilize ultrasonic transducers capable of withstanding temperatures up to 550℃.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What range of instrumentation options are available for Axess' non-intrusive wall thickness monitoring systems?",
+      "evaluation_criteria": "Answer must include spot reading, online, real-time wireless monitoring, and WirelessHART/ISA100 or cellular networks. Missing any of these is incorrect.",
+      "answer": "The instrumentation options range from spot reading to online, real-time wireless monitoring using industry standards WirelessHART/ISA100 protocols, or cellular networks.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "According to Axess Corrosion, what is the preferred method for pulse injection of chemicals, in terms of stroke volume and frequency?",
+      "evaluation_criteria": "Answer must state the preference for low stroke volume and high stroke frequency to minimize time between chemical pulse injections. Incorrect stroke volume or frequency is wrong.",
+      "answer": "In most cases, the preferred method is to have a low stroke volume with a high stroke frequency to minimize the time between each pulse injection of chemical.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "Under what conditions should wake frequency and drag calculations be considered for chemical injection, and what is their purpose according to Axess Corrosion?",
+      "evaluation_criteria": "Answer must mention higher velocity processes and the purpose of wake frequency/drag calculations in maintaining injection device integrity. Omitting either part is incorrect.",
+      "answer": "For higher velocity processes, wake frequency / drag calculations should be considered to determine maximum length whilst maintaining the integrity of the injection device.",
+      "difficulty": 7,
+      "category": "reasoning"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"The rate of chemical injection is determined by the min/max capacity of the injection pump.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Answer must state that the rate of chemical injection is determined by the min/max capacity of the injection pump. Any deviation is incorrect.\",\n    \"question\": \"According to Axess Corrosion, what factor determines the rate of chemical injection in gallons per day?\"\n  },\n  {\n    \"answer\": \"Non-intrusive wall thickness solutions utilize ultrasonic transducers capable of withstanding temperatures up to 550℃.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"Answer must state ultrasonic transducers are used and can withstand up to 550℃. Incorrect material or temperature is wrong.\",\n    \"question\": \"What type of transducers are used in Axess' non-intrusive wall thickness solutions, and what is their maximum operating temperature?\"\n  },\n  {\n    \"answer\": \"The instrumentation options range from spot reading to online, real-time wireless monitoring using industry standards WirelessHART/ISA100 protocols, or cellular networks.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Answer must include spot reading, online, real-time wireless monitoring, and WirelessHART/ISA100 or cellular networks. Missing any of these is incorrect.\",\n    \"question\": \"What range of instrumentation options are available for Axess' non-intrusive wall thickness monitoring systems?\"\n  },\n  {\n    \"answer\": \"In most cases, the preferred method is to have a low stroke volume with a high stroke frequency to minimize the time between each pulse injection of chemical.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Answer must state the preference for low stroke volume and high stroke frequency to minimize time between chemical pulse injections. Incorrect stroke volume or frequency is wrong.\",\n    \"question\": \"According to Axess Corrosion, what is the preferred method for pulse injection of chemicals, in terms of stroke volume and frequency?\"\n  },\n  {\n    \"answer\": \"For higher velocity processes, wake frequency / drag calculations should be considered to determine maximum length whilst maintaining the integrity of the injection device.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 7,\n    \"evaluation_criteria\": \"Answer must mention higher velocity processes and the purpose of wake frequency/drag calculations in maintaining injection device integrity. Omitting either part is incorrect.\",\n    \"question\": \"Under what conditions should wake frequency and drag calculations be considered for chemical injection, and what is their purpose according to Axess Corrosion?\"\n  },\n  {\n    \"answer\": \"Using an atomiser in a gas system can help with fine volume control by adjusting the injection differential pressure and maintaining a constant application of the chemical.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"Answer must mention atomiser use in gas systems, fine volume control, adjustment of injection differential pressure, and constant chemical application. Missing any of these is incorrect.\",\n    \"question\": \"How does using an atomiser for chemical injection help with volume control, and in what type of system is it most appropriate according to Axess Corrosion?\"\n  },\n  {\n    \"answer\": \"The ideal injection location is normally centre line however for higher velocity processes, wake frequency / drag calculations should be considered to determine maximum length whilst maintaining the integrity of the injection device.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 7,\n    \"evaluation_criteria\": \"Answer must mention centre line as the ideal location and the need for wake frequency/drag calculations in higher velocity processes to maintain injection device integrity. Omitting either part is incorrect.\",\n    \"question\": \"Where is the ideal location for chemical injection, and under what conditions should wake frequency and drag calculations be considered according to Axess Corrosion?\"\n  },\n  {\n    \"answer\": \"Important factors to consider are chemical density and viscosity, process pipe/vessel size, velocity, pressure, temperature, and fluid composition.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Answer must include all factors: chemical density and viscosity, process pipe/vessel size, velocity, pressure, temperature, and fluid composition. Missing any factor is incorrect.\",\n    \"question\": \"According to Axess Corrosion, what factors related to the chemical and the process environment are important to consider when selecting a chemical injection point?\"\n  },\n  {\n    \"answer\": \"AX = Access Systems, CC = Corrosion Coupon, ER = Electrical Resistance, LPR = Linear Polarisation Resistance, SP = Sand Probe, UT = Non Intrusive, H = Hydrogen Probe\",\n    \"category\": \"factual\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"Answer must provide the correct full form for each acronym: AX, CC, ER, LPR, SP, UT, and H. Any incorrect or missing acronym is wrong.\",\n    \"question\": \"According to Axess Corrosion, what do the following acronyms stand for in the context of corrosion and erosion monitoring: AX, CC, ER, LPR, SP, UT, and H?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

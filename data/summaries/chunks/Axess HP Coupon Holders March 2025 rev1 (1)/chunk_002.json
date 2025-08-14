@@ -1,0 +1,26 @@
+{
+  "bullets": [
+    "Designed for use with AXHP access systems.",
+    "Allows insertion/removal of corrosion coupons in pressurized piping systems up to 10,000psi.",
+    "Coupon holders are manufactured in 316SS material as standard."
+  ],
+  "numbers_and_units": [
+    "10,000psi",
+    "316SS",
+    "3\"",
+    "6\"",
+    "2\"",
+    "+1 (832) 990 6754"
+  ],
+  "title": "AXHP High Pressure Retrievable Coupon Holders",
+  "keywords": [
+    "coupon holders",
+    "corrosion monitoring",
+    "access systems",
+    "high pressure"
+  ],
+  "_validation": {
+    "numbers_found_in_text": 6,
+    "source_chunk": "chunk_002.txt"
+  }
+}

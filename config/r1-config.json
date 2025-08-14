@@ -1,0 +1,34 @@
+{
+  "summary": {
+    "model": "deepseek/deepseek-r1",
+    "temperature": 0.25,
+    "max_tokens": 5000,
+    "top_p": 0.9,
+    "top_k": 40,
+    "min_p": 0.05
+  },
+  "chunk": {
+    "min_length": 900,
+    "max_length": 4800,
+    "overlap": 200
+  },
+  "qa": {
+    "model": "deepseek/deepseek-r1",
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05,
+    "context": "",
+    "use_batching": true,
+    "batch_size": 16,
+    "skip_tables": false,
+    "max_iterations": 6
+  },
+  "dataset": {
+    "name": "long-tech-pdfs-r1",
+    "organization": "Axess",
+    "public": false,
+    "seed": 42
+  }
+}

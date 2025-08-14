@@ -1,0 +1,29 @@
+{
+  "original_file": "Horizon Technolgy Overview  (1).txt",
+  "source_used": "md",
+  "length_unit": "tokens",
+  "min_length": 900,
+  "max_length": 2200,
+  "segments_detected": 11,
+  "num_chunks": 3,
+  "chunks": [
+    {
+      "id": 1,
+      "filename": "chunk_001.txt",
+      "length": 70,
+      "is_tableish": true
+    },
+    {
+      "id": 2,
+      "filename": "chunk_002.txt",
+      "length": 1366,
+      "is_tableish": false
+    },
+    {
+      "id": 3,
+      "filename": "chunk_003.txt",
+      "length": 113,
+      "is_tableish": true
+    }
+  ]
+}

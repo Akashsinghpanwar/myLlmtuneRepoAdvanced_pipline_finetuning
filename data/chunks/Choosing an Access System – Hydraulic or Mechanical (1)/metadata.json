@@ -1,0 +1,23 @@
+{
+  "original_file": "Choosing an Access System – Hydraulic or Mechanical (1).txt",
+  "source_used": "md",
+  "length_unit": "tokens",
+  "min_length": 900,
+  "max_length": 2200,
+  "segments_detected": 17,
+  "num_chunks": 2,
+  "chunks": [
+    {
+      "id": 1,
+      "filename": "chunk_001.txt",
+      "length": 444,
+      "is_tableish": false
+    },
+    {
+      "id": 2,
+      "filename": "chunk_002.txt",
+      "length": 228,
+      "is_tableish": false
+    }
+  ]
+}

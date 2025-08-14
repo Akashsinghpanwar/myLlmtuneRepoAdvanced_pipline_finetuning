@@ -1,0 +1,85 @@
+{
+  "chunk_id": 2,
+  "chunk_filename": "chunk_002.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "How do Axess HR ER probes compensate for changes in electrical resistance due to factors like temperature?",
+      "evaluation_criteria": "Answer must mention the reference element, its material, its location inside the probe, and its function in compensating for temperature changes. Incorrect answers may omit one or more of these details.",
+      "answer": "Axess HR ER probes utilize a second element, called the reference element, which is manufactured from the same material as the measurement element. The reference element is stored inside the body of the probe, where it is shielded from the process and used to auto-compensate for changes in electrical resistance due to other factors such as temperature.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What are the pressure and temperature ratings of Axess ER probes?",
+      "evaluation_criteria": "Answer must state both the pressure and temperature ratings, including units. Incorrect answers may provide incorrect values or omit units.",
+      "answer": "Axess ER probes are pressure and temperature rated to 6000PSI and 260°C.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What range of element thicknesses are available for cylindrical and Surface Strip Underground ER Probes?",
+      "evaluation_criteria": "Answer must specify the element thickness ranges for both Surface Strip and cylindrical elements, including units (mil). Incorrect answers may provide incorrect ranges or omit units.",
+      "answer": "The available element thicknesses for Underground ER Probes range from 10mil to 40mil for the Surface Strip element, and 10mil to 50mil for the cylindrical option.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "What options are available when configuring the part number for Axess High Pressure Retrievable ER Probes?",
+      "evaluation_criteria": "Answer must list the categories of options available in the part numbering system and some examples of each. Incorrect answers may omit categories or provide inaccurate examples.",
+      "answer": "The part numbering system for High Pressure Retrievable ER Probes includes options for element type (Tubular/Cylindrical, Flush), element thickness (5mil, 10mil, 20mil, 40mil, 50mil), element material (Pipe Grade CS, 304 SS, 316L SS, S2205, C276, Alloy 625, Alloy 825, F51 DSS, F60 DSS, F53 SDSS, F55 SDSS), and probe body material (316/316L SS, C276, Alloy 625, Alloy 825).",
+      "difficulty": 6,
+      "category": "factual"
+    },
+    {
+      "question": "Where is the grounding lead installed on Axess Underground ER probes, and under what condition is this different?",
+      "evaluation_criteria": "Answer must state the default location of the grounding lead and the condition under which it may be different. Incorrect answers may omit the default location or the exception.",
+      "answer": "The grounding lead for Underground ER probes is installed at the connector end, unless otherwise specified.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "Why can Axess HR ER probes be used in almost any environment?",
+      "evaluation_criteria": "Answer must correctly state that Axess ER probes operate independently of process properties. Incorrect answers may state that the probes are dependent on process properties or fail to mention the independence.",
+      "answer": "Axess ER probes can be used in almost any environment because they operate independently of the process properties.",
+      "difficulty": 6,
+      "category": "reasoning"
+    },
+    {
+      "question": "What are the key differences between tubular element probes and flush probes in Axess ER probe configurations, and where is each best suited for monitoring?",
+      "evaluation_criteria": "Answer must correctly differentiate between tubular and flush probes, including their ideal monitoring locations and the reasons for those locations. Incorrect answers may confuse the probe types or their applications.",
+      "answer": "Tubular element probes are more robust and have longer lifespans, making them ideally suited for monitoring the center of the line. Flush probes are suited for monitoring the top and bottom of the line where localized corrosion may occur because they can be installed with the element positioned in line with the pipe wall.",
+      "difficulty": 7,
+      "category": "reasoning"
+    },
+    {
+      "question": "How does incorporating Axess HR ER probes and High-Resolution instrumentation into an integrity management program benefit operators, integrity, and maintenance teams?",
+      "evaluation_criteria": "Answer must include the benefits of early detection of corrosion/erosion rates, and the resulting improvements in corrosion control, safety, and asset life. Incorrect answers may omit key benefits or provide unrelated information.",
+      "answer": "By incorporating Axess HR ER probes and High-Resolution instrumentation into an integrity management program, operators, integrity, and maintenance teams can achieve early, reliable detection of changes in corrosion/erosion rates, allowing them to optimize corrosion control programs, increase safety, and extend asset life.",
+      "difficulty": 7,
+      "category": "reasoning"
+    },
+    {
+      "question": "What does an Axess Underground ER probe measure when its grounding lead is left unconnected from the structure?",
+      "evaluation_criteria": "Answer must correctly state that an unconnected grounding lead allows the probe to monitor the direct corrosivity of the soil or environment. Incorrect answers may describe the function of a connected grounding lead or provide unrelated information.",
+      "answer": "If the grounding lead is left unconnected from the structure, the probe monitors the direct corrosivity of the soil or environment.",
+      "difficulty": 5,
+      "category": "reasoning"
+    },
+    {
+      "question": "For Axess High Pressure Retrievable ER Probes, which element type is compatible with the 'ES' element shield?",
+      "evaluation_criteria": "Answer must specify that the element shield is only available for tubular/cylindrical elements and mention that this is regarding High Pressure Retrievable ER Probes. Incorrect answers may omit the element type or the probe type.",
+      "answer": "The 'ES' element shield is only available for use with tubular/cylindrical elements in High Pressure Retrievable ER Probes.",
+      "difficulty": 8,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"Axess HR ER probes utilize a second element, called the reference element, which is manufactured from the same material as the measurement element. The reference element is stored inside the body of the probe, where it is shielded from the process and used to auto-compensate for changes in electrical resistance due to other factors such as temperature.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Answer must mention the reference element, its material, its location inside the probe, and its function in compensating for temperature changes. Incorrect answers may omit one or more of these details.\",\n    \"question\": \"How do Axess HR ER probes compensate for changes in electrical resistance due to factors like temperature?\"\n  },\n  {\n    \"answer\": \"Axess ER probes are pressure and temperature rated to 6000PSI and 260°C.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Answer must state both the pressure and temperature ratings, including units. Incorrect answers may provide incorrect values or omit units.\",\n    \"question\": \"What are the pressure and temperature ratings of Axess ER probes?\"\n  },\n  {\n    \"answer\": \"The available element thicknesses for Underground ER Probes range from 10mil to 40mil for the Surface Strip element, and 10mil to 50mil for the cylindrical option.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Answer must specify the element thickness ranges for both Surface Strip and cylindrical elements, including units (mil). Incorrect answers may provide incorrect ranges or omit units.\",\n    \"question\": \"What range of element thicknesses are available for cylindrical and Surface Strip Underground ER Probes?\"\n  },\n  {\n    \"answer\": \"The part numbering system for High Pressure Retrievable ER Probes includes options for element type (Tubular/Cylindrical, Flush), element thickness (5mil, 10mil, 20mil, 40mil, 50mil), element material (Pipe Grade CS, 304 SS, 316L SS, S2205, C276, Alloy 625, Alloy 825, F51 DSS, F60 DSS, F53 SDSS, F55 SDSS), and probe body material (316/316L SS, C276, Alloy 625, Alloy 825).\",\n    \"category\": \"factual\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"Answer must list the categories of options available in the part numbering system and some examples of each. Incorrect answers may omit categories or provide inaccurate examples.\",\n    \"question\": \"What options are available when configuring the part number for Axess High Pressure Retrievable ER Probes?\"\n  },\n  {\n    \"answer\": \"The grounding lead for Underground ER probes is installed at the connector end, unless otherwise specified.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Answer must state the default location of the grounding lead and the condition under which it may be different. Incorrect answers may omit the default location or the exception.\",\n    \"question\": \"Where is the grounding lead installed on Axess Underground ER probes, and under what condition is this different?\"\n  },\n  {\n    \"answer\": \"Axess ER probes can be used in almost any environment because they operate independently of the process properties.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"Answer must correctly state that Axess ER probes operate independently of process properties. Incorrect answers may state that the probes are dependent on process properties or fail to mention the independence.\",\n    \"question\": \"Why can Axess HR ER probes be used in almost any environment?\"\n  },\n  {\n    \"answer\": \"Tubular element probes are more robust and have longer lifespans, making them ideally suited for monitoring the center of the line. Flush probes are suited for monitoring the top and bottom of the line where localized corrosion may occur because they can be installed with the element positioned in line with the pipe wall.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 7,\n    \"evaluation_criteria\": \"Answer must correctly differentiate between tubular and flush probes, including their ideal monitoring locations and the reasons for those locations. Incorrect answers may confuse the probe types or their applications.\",\n    \"question\": \"What are the key differences between tubular element probes and flush probes in Axess ER probe configurations, and where is each best suited for monitoring?\"\n  },\n  {\n    \"answer\": \"By incorporating Axess HR ER probes and High-Resolution instrumentation into an integrity management program, operators, integrity, and maintenance teams can achieve early, reliable detection of changes in corrosion/erosion rates, allowing them to optimize corrosion control programs, increase safety, and extend asset life.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 7,\n    \"evaluation_criteria\": \"Answer must include the benefits of early detection of corrosion/erosion rates, and the resulting improvements in corrosion control, safety, and asset life. Incorrect answers may omit key benefits or provide unrelated information.\",\n    \"question\": \"How does incorporating Axess HR ER probes and High-Resolution instrumentation into an integrity management program benefit operators, integrity, and maintenance teams?\"\n  },\n  {\n    \"answer\": \"If the grounding lead is left unconnected from the structure, the probe monitors the direct corrosivity of the soil or environment.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Answer must correctly state that an unconnected grounding lead allows the probe to monitor the direct corrosivity of the soil or environment. Incorrect answers may describe the function of a connected grounding lead or provide unrelated information.\",\n    \"question\": \"What does an Axess Underground ER probe measure when its grounding lead is left unconnected from the structure?\"\n  },\n  {\n    \"answer\": \"The 'ES' element shield is only available for use with tubular/cylindrical elements in High Pressure Retrievable ER Probes.\",\n    \"category\": \"factual\",\n    \"difficulty\": 8,\n    \"evaluation_criteria\": \"Answer must specify that the element shield is only available for tubular/cylindrical elements and mention that this is regarding High Pressure Retrievable ER Probes. Incorrect answers may omit the element type or the probe type.\",\n    \"question\": \"For Axess High Pressure Retrievable ER Probes, which element type is compatible with the 'ES' element shield?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

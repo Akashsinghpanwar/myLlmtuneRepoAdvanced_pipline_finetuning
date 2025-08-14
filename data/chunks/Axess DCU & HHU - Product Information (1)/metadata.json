@@ -1,0 +1,35 @@
+{
+  "original_file": "Axess DCU & HHU - Product Information (1).txt",
+  "source_used": "md",
+  "length_unit": "tokens",
+  "min_length": 900,
+  "max_length": 2200,
+  "segments_detected": 15,
+  "num_chunks": 4,
+  "chunks": [
+    {
+      "id": 1,
+      "filename": "chunk_001.txt",
+      "length": 161,
+      "is_tableish": true
+    },
+    {
+      "id": 2,
+      "filename": "chunk_002.txt",
+      "length": 573,
+      "is_tableish": true
+    },
+    {
+      "id": 3,
+      "filename": "chunk_003.txt",
+      "length": 71,
+      "is_tableish": false
+    },
+    {
+      "id": 4,
+      "filename": "chunk_004.txt",
+      "length": 201,
+      "is_tableish": true
+    }
+  ]
+}

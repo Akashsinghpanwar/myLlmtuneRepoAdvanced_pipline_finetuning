@@ -1,0 +1,25 @@
+{
+  "bullets": [
+    "Pipe Grade CS: A1",
+    "304 SS: C1",
+    "316L SS: A3"
+  ],
+  "numbers_and_units": [
+    "304",
+    "316",
+    "625",
+    "825",
+    "2205"
+  ],
+  "title": "Table 1: Pipe Grades",
+  "keywords": [
+    "pipe",
+    "grade",
+    "alloy",
+    "stainless steel"
+  ],
+  "_validation": {
+    "numbers_found_in_text": 5,
+    "source_chunk": "chunk_003.txt"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "chunk_id": 1,
+  "chunk_filename": "chunk_001.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "What is the pressure rating of mechanical tools compared to hydraulic tools used with access fittings?",
+      "evaluation_criteria": "Correctly identifies the pressure rating for both mechanical and hydraulic tools. Includes the correct units (psi).",
+      "answer": "Mechanical tools are rated to 6000psi, while hydraulic tools can be offered at 10,000psi.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "When selecting an access system, what is the difference in the number of potential leak paths between mechanical fittings and hydraulic systems, and what are the specific leak points in the hydraulic system?",
+      "evaluation_criteria": "Accurately states the number of leak paths for each system and identifies the specific leak points in the hydraulic system.",
+      "answer": "The hydraulic system has 5 potential leak paths (4 locking pins and the plug), while mechanical fittings have only 1.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "Why does servicing a hydraulic fitting take longer than a mechanical system, considering the number of interfaces and threads?",
+      "evaluation_criteria": "Accurately identifies the reasons for longer servicing times, including the number of leak path interfaces and mechanical threads to inspect. Mentions the pressurization process.",
+      "answer": "Servicing hydraulic fittings involves checking/renewing more leak path interfaces (6 vs 2), inspecting more mechanical threads (5 vs 3), and the pressurization of the hydraulic action can be a longer process.",
+      "difficulty": 6,
+      "category": "reasoning"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"Mechanical tools are rated to 6000psi, while hydraulic tools can be offered at 10,000psi.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Correctly identifies the pressure rating for both mechanical and hydraulic tools. Includes the correct units (psi).\",\n    \"question\": \"What is the pressure rating of mechanical tools compared to hydraulic tools used with access fittings?\"\n  },\n  {\n    \"answer\": \"The hydraulic system has 5 potential leak paths (4 locking pins and the plug), while mechanical fittings have only 1.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Accurately states the number of leak paths for each system and identifies the specific leak points in the hydraulic system.\",\n    \"question\": \"When selecting an access system, what is the difference in the number of potential leak paths between mechanical fittings and hydraulic systems, and what are the specific leak points in the hydraulic system?\"\n  },\n  {\n    \"answer\": \"Servicing hydraulic fittings involves checking/renewing more leak path interfaces (6 vs 2), inspecting more mechanical threads (5 vs 3), and the pressurization of the hydraulic action can be a longer process.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"Accurately identifies the reasons for longer servicing times, including the number of leak path interfaces and mechanical threads to inspect. Mentions the pressurization process.\",\n    \"question\": \"Why does servicing a hydraulic fitting take longer than a mechanical system, considering the number of interfaces and threads?\"\n  },\n  {\n    \"answer\": \"Positive pressure balancing techniques can be used to eliminate galling on mechanical fittings.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Correctly identifies the technique used to prevent galling in mechanical fittings.\",\n    \"question\": \"What techniques can be used to eliminate galling on mechanical fittings?\"\n  },\n  {\n    \"answer\": \"Galling can occur with the 4 external locking pins on the hydraulic system.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Correctly identifies where galling can occur in hydraulic access systems.\",\n    \"question\": \"Where can galling occur in hydraulic access systems?\"\n  },\n  {\n    \"answer\": \"All mechanical equipment available on the market is interchangeable, spares are readily available, and prices are very competitive.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Accurately states the advantages of using mechanical equipment in terms of logistics and equipment selection.\",\n    \"question\": \"What are the advantages of using mechanical equipment in terms of logistics and equipment selection?\"\n  },\n  {\n    \"answer\": \"Mechanical and hydraulic access fittings can both be rated to 10’000psi and above.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"Correctly states the maximum pressure rating for both types of access fittings. Includes the correct units (psi).\",\n    \"question\": \"What is the maximum pressure rating for both mechanical and hydraulic access fittings?\"\n  },\n  {\n    \"answer\": \"Galling in mechanical fittings has historically been due to poor material selection and ingress of sand etc.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Correctly identifies the causes of galling in mechanical fittings.\",\n    \"question\": \"What are the causes of galling in mechanical fittings?\"\n  },\n  {\n    \"answer\": \"The latest 2-Piece Hydraulic access system further prevents galling from being a risk.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Correctly identifies the specific hydraulic access system design that minimizes the risk of galling.\",\n    \"question\": \"Which hydraulic access system design minimizes the risk of galling?\"\n  },\n  {\n    \"answer\": \"Drilling out the locking pins can lead to integrity issues with the fitting and the pipeline.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"Correctly identifies the potential integrity issues that can arise from drilling out the locking pins.\",\n    \"question\": \"What integrity issues can arise from drilling out the locking pins on a hydraulic access system due to galling?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

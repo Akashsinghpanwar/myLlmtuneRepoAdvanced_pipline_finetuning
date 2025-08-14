@@ -1,0 +1,134 @@
+{
+  "abstract": "The Axess range of HR ER probes are designed and compatible with High Resolution Instrumentation providing a highly sensitive method of detecting corrosion and erosion events by monitoring small changes in the electrical resistance of a metal element directly exposed to the process.",
+  "key_points": [
+    "Axess HR ER probes utilize a second element, called the reference element.",
+    "Pressure and temperature rated to 6000PSI & 260C",
+    "Available in Cylindrical and Surface Strip Element from 10mil element thickness to 40mil on the Surface Strip and 10mil to 50mil thickness on the cylindrical option.",
+    "Standard cable lengths of 10-20feet."
+  ],
+  "numbers_and_units": [
+    "6000PSI",
+    "260C",
+    "10mil",
+    "40mil",
+    "10mil",
+    "50mil",
+    "10-20feet",
+    "176°F",
+    "80℃",
+    "392°F",
+    "200℃",
+    "10- 50 MIL"
+  ],
+  "entities": [
+    {
+      "type": "ORGANIZATION",
+      "value": "AXESS"
+    },
+    {
+      "type": "ORGANIZATION",
+      "value": "Qualitas Veritas"
+    },
+    {
+      "type": "OTHER",
+      "value": "ISO 9001-2015"
+    },
+    {
+      "type": "OTHER",
+      "value": "ER"
+    },
+    {
+      "type": "OTHER",
+      "value": "NPT"
+    },
+    {
+      "type": "ORGANIZATION",
+      "value": "ConocoPhilips"
+    },
+    {
+      "type": "OTHER",
+      "value": "ERHP"
+    },
+    {
+      "type": "OTHER",
+      "value": "ES"
+    },
+    {
+      "type": "OTHER",
+      "value": "ESHV"
+    },
+    {
+      "type": "OTHER",
+      "value": "CS"
+    },
+    {
+      "type": "OTHER",
+      "value": "SS"
+    },
+    {
+      "type": "OTHER",
+      "value": "DSS"
+    },
+    {
+      "type": "OTHER",
+      "value": "SDSS"
+    },
+    {
+      "type": "OTHER",
+      "value": "ERUG"
+    },
+    {
+      "type": "OTHER",
+      "value": "C.P."
+    },
+    {
+      "type": "OTHER",
+      "value": "ERUN"
+    },
+    {
+      "type": "ORGANIZATION",
+      "value": "AXESS"
+    },
+    {
+      "type": "ORGANIZATION",
+      "value": "JANUSGUARD"
+    }
+  ],
+  "tables_index": [
+    {
+      "columns": [
+        "Pipe Grade CS",
+        "A1"
+      ],
+      "title": "Table 1"
+    },
+    {
+      "columns": [
+        "316/316L SS (standard)*",
+        "A3"
+      ],
+      "title": "Table 2"
+    },
+    {
+      "columns": [
+        "ERUN",
+        "-",
+        "Element Type",
+        "",
+        "Element Thickness",
+        "",
+        "",
+        "Element Material",
+        "",
+        "-",
+        "Cable Length",
+        "-",
+        "Ground Lead"
+      ],
+      "title": "Table 3"
+    }
+  ],
+  "_validation": {
+    "numbers_found_in_text": 12
+  }
+}

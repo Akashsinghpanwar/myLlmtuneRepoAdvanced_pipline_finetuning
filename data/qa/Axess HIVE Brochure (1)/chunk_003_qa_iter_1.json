@@ -1,0 +1,71 @@
+{
+  "chunk_id": 3,
+  "chunk_filename": "chunk_003.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "According to Table 2, what is the blank initial weight for the MBI-1330 COOLING MEDIUM EXPANSION TANE?",
+      "evaluation_criteria": "Verifies the ability to locate the blank initial weight from Table 2. Incorrect if any other weight is given. Must match the value 37.5395 exactly.",
+      "answer": "The blank initial weight for the MBI-1330 COOLING MEDIUM EXPANSION TANE is 37.5395.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "According to Table 2, what is the surface area of the coupon with part number CCST-2.87580 87SKO 125?",
+      "evaluation_criteria": "Verifies the ability to extract the surface area from Table 2. Incorrect if any other surface area is given. Must match the value 5.032 in\" exactly.",
+      "answer": "The surface area of the coupon with part number CCST-2.87580 87SKO 125 is 5.032 in\".",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "According to Table 2, what is the coupon material and material density for the MBI-1330 COOLING MEDIUM EXPANSION TANE?",
+      "evaluation_criteria": "Verifies the ability to extract the coupon material and material density from Table 2. The answer must include both the material (1018 LS \\|LJUSBU0) and the density (13%).",
+      "answer": "According to Table 2, the coupon material is 1018 LS \\|LJUSBU0 and the material density is 13%.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "According to Table 3, what is the weight loss for coupon SN RAK32 in location Tog CC-4?",
+      "evaluation_criteria": "Verifies the ability to extract the weight loss from Table 3 for a specific coupon. Must match the value 0.0500 exactly.",
+      "answer": "The weight loss for coupon SN RAK32 in location Tog CC-4 is 0.0500.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "According to Table 3, what is the corrected weight loss corrosion rate for coupon SN RAK32 in location Tog CC-4?",
+      "evaluation_criteria": "Verifies the ability to extract the corrosion rate from Table 3 for a specific coupon. Must match the value 0.0009 exactly.",
+      "answer": "The corrected weight loss corrosion rate for coupon SN RAK32 in location Tog CC-4 is 0.0009.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "According to Table 3, what were the install and remove dates for coupon SN BACII?",
+      "evaluation_criteria": "Verifies the ability to extract the install and remove dates from Table 3 for a specific coupon. Must match the dates 5/20/2021 and 1/7/2021 exactly.",
+      "answer": "According to Table 3, coupon SN BACII was installed on 5/20/2021 and removed on 1/7/2021.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "According to Table 1, what was the corrosion rate in May 2013 at location D NED-15-7 Cm?",
+      "evaluation_criteria": "Verifies the ability to extract the corrosion rate from Table 1 for a specific month and year. Must match the value 0.09 exactly.",
+      "answer": "In location D NED-15-7 Cm, the corrosion rate in May 2013 was 0.09.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "According to Table 1, what was the corrosion rate in February H.2020 at location D NED-15-7 Cm?",
+      "evaluation_criteria": "Verifies the ability to extract the corrosion rate from Table 1 for a specific month and year. Must match the value 0.05 exactly.",
+      "answer": "In location D NED-15-7 Cm, the corrosion rate in February H.2020 was 0.05.",
+      "difficulty": 3,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"The blank initial weight for the MBI-1330 COOLING MEDIUM EXPANSION TANE is 37.5395.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"Verifies the ability to locate the blank initial weight from Table 2. Incorrect if any other weight is given. Must match the value 37.5395 exactly.\",\n    \"question\": \"According to Table 2, what is the blank initial weight for the MBI-1330 COOLING MEDIUM EXPANSION TANE?\"\n  },\n  {\n    \"answer\": \"The surface area of the coupon with part number CCST-2.87580 87SKO 125 is 5.032 in\\\".\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Verifies the ability to extract the surface area from Table 2. Incorrect if any other surface area is given. Must match the value 5.032 in\\\" exactly.\",\n    \"question\": \"According to Table 2, what is the surface area of the coupon with part number CCST-2.87580 87SKO 125?\"\n  },\n  {\n    \"answer\": \"According to Table 2, the coupon material is 1018 LS \\\\|LJUSBU0 and the material density is 13%.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Verifies the ability to extract the coupon material and material density from Table 2. The answer must include both the material (1018 LS \\\\|LJUSBU0) and the density (13%).\",\n    \"question\": \"According to Table 2, what is the coupon material and material density for the MBI-1330 COOLING MEDIUM EXPANSION TANE?\"\n  },\n  {\n    \"answer\": \"The weight loss for coupon SN RAK32 in location Tog CC-4 is 0.0500.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Verifies the ability to extract the weight loss from Table 3 for a specific coupon. Must match the value 0.0500 exactly.\",\n    \"question\": \"According to Table 3, what is the weight loss for coupon SN RAK32 in location Tog CC-4?\"\n  },\n  {\n    \"answer\": \"The corrected weight loss corrosion rate for coupon SN RAK32 in location Tog CC-4 is 0.0009.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Verifies the ability to extract the corrosion rate from Table 3 for a specific coupon. Must match the value 0.0009 exactly.\",\n    \"question\": \"According to Table 3, what is the corrected weight loss corrosion rate for coupon SN RAK32 in location Tog CC-4?\"\n  },\n  {\n    \"answer\": \"According to Table 3, coupon SN BACII was installed on 5/20/2021 and removed on 1/7/2021.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Verifies the ability to extract the install and remove dates from Table 3 for a specific coupon. Must match the dates 5/20/2021 and 1/7/2021 exactly.\",\n    \"question\": \"According to Table 3, what were the install and remove dates for coupon SN BACII?\"\n  },\n  {\n    \"answer\": \"In location D NED-15-7 Cm, the corrosion rate in May 2013 was 0.09.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Verifies the ability to extract the corrosion rate from Table 1 for a specific month and year. Must match the value 0.09 exactly.\",\n    \"question\": \"According to Table 1, what was the corrosion rate in May 2013 at location D NED-15-7 Cm?\"\n  },\n  {\n    \"answer\": \"In location D NED-15-7 Cm, the corrosion rate in February H.2020 was 0.05.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Verifies the ability to extract the corrosion rate from Table 1 for a specific month and year. Must match the value 0.05 exactly.\",\n    \"question\": \"According to Table 1, what was the corrosion rate in February H.2020 at location D NED-15-7 Cm?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

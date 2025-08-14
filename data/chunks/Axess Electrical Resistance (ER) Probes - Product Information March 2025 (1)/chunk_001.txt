@@ -1,0 +1,15 @@
+# Axess Electrical Resistance (ER) Probes - Product Information March 2025 (1).pdf
+
+- **Pages detected:** 4
+- **Tables detected:** 3
+- **Key/Value pairs detected:** yes
+
+## Key–Value Pairs
+
+| Key | Value |
+| --- | --- |
+| Element Thickness |  |
+| Cable Length | Lead |
+| ERUN |  |
+| Element Type |  |
+| Element Material |  |

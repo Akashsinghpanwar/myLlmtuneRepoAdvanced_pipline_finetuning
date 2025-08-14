@@ -1,0 +1,79 @@
+Coupon Holder Part Numbers
+Once the coupon holder length is known, the next step is to generate the part number using the below system:
+HP
+Coupon Type
+Construction
+-
+Material
+-
+Order Length
+-
+Special
+High
+Strip
+STCH
+Welded*
+**
+-
+316/316L
+**
+-
+See Page 3
+-
+Horizon FDCH HZ45
+Pressure
+Flush Disc
+FDCH
+Non-Welded
+NW
+F51 DSS
+A7
+Head Angle ***
+Retrievable
+Multiple Disc
+MDCH
+F60 DSS
+A8
+Ladder Strip
+LDCH
+F53 SDSS
+A9
+Adjustable Flush Disc
+DCCHAJ
+F55 SDSS
+B1
+Hastelloy / C276
+B4
+Inconel 625
+B5
+Incoloy 825
+B6
+
+* Welded construction is available for 316/316L S/S only. All other materials are non-welded construction.
+
+** Standard, Please Leave Blank
+*** Example. The horizon flush disc coupon holder head angle is set by Axess to suit the pipe bore.
+Alternatively log in to Kickstarter via Axess' website and let the system generate the access fitting, coupon holder, coupons, retrieval tools and spare parts for you based on a few logic driven selections.
+KICKST RTER AN AXXESS INNOVATION
+Alternative Coupon Holder Types
+Axess offers a product tailoring system whereby we design a product specific to customer's requirements. Examples include the polymer coupon holder shown below left and crevice corrosion coupon holder shown below right. Please see their specific product information sheets for further details on those products and please feel free to contact Axess with any special requirements.
+AXESS
+Innovating Safety ...
+JANUSGUARD
+
+2001 Timberloch Place, Suite 500, The Woodlands Texas 77380, USA, www.axess-corrosion.com, +1 (832) 990 6754_info@axess-corrosion.com WhatsApp
+
+## Tables
+
+### Table 1
+
+| HP | Coupon Type |  |  |  | Construction |  | - | Material |  | - | Order Length | - | Special |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| High |  | Strip | STCH |  | Welded* | ** | - | 316/316L | ** | - | See Page 3 | - | Horizon FDCH HZ45 |
+| Pressure |  | Flush Disc | FDCH |  | Non-Welded | NW |  | F51 DSS | A7 |  |  |  | Head Angle *** |
+| Retrievable |  | Multiple Disc | MDCH |  |  |  |  | F60 DSS | A8 |  |  |  |  |
+|  |  | Ladder Strip | LDCH |  |  |  |  | F53 SDSS | A9 |  |  |  |  |
+|  |  | Adjustable Flush Disc | DCCHAJ |  |  |  |  | F55 SDSS | B1 |  |  |  |  |
+|  |  |  |  |  |  |  |  | Hastelloy / C276 | B4 |  |  |  |  |
+|  |  |  |  |  |  |  |  | Inconel 625 | B5 |  |  |  |  |
+|  |  |  |  |  |  |  |  | Incoloy 825 | B6 |  |  |  |  |

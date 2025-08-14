@@ -1,0 +1,32 @@
+{
+  "bullets": [
+    "Electrical Resistance (ER) Linear Polarization Resistance (LPR) Galvanic Potential",
+    "Temperature range: -20°C to +70℃ (-4°F to +158°F)",
+    "Power Supply: Lithium Battery Pack (7.2V 5Ah)"
+  ],
+  "numbers_and_units": [
+    "20 bits",
+    "7.200 Readings",
+    "-20°C",
+    "+70℃",
+    "-4°F",
+    "+158°F",
+    "7.2V 5Ah",
+    "1.7kg",
+    "3.8lb",
+    "6.5\" x 6.5\" x 4.25\"",
+    "165mm x 165mm x 108mm",
+    "9600"
+  ],
+  "title": "Table specifications",
+  "keywords": [
+    "electrical resistance",
+    "temperature",
+    "power supply",
+    "lithium battery"
+  ],
+  "_validation": {
+    "numbers_found_in_text": 12,
+    "source_chunk": "chunk_004.txt"
+  }
+}

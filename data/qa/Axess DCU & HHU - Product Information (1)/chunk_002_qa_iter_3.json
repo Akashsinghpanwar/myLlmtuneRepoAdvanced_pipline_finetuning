@@ -1,0 +1,57 @@
+{
+  "chunk_id": 2,
+  "chunk_filename": "chunk_002.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "How does the Axess DCU (Data Collection Unit) transfer data to the Axess HHU?",
+      "evaluation_criteria": "Answer must state RS-232 Serial ASCII connection.",
+      "answer": "The Axess DCU (Data Collection Unit) can download data to the Axess HHU via the RS-232 Serial ASCII connection.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "Why is the Axess DCU capable of reading all types of electrical resistance (ER), linear polarization resistance (LPR) and galvanic probes?",
+      "evaluation_criteria": "Answer must mention high resolution, battery powered, and corrosion monitoring instrument.",
+      "answer": "The Axess DCU is capable of reading all types of electrical resistance (ER), linear polarization resistance (LPR) and galvanic probes because it is a high resolution, battery powered, corrosion monitoring instrument designed for this purpose.",
+      "difficulty": 6,
+      "category": "reasoning"
+    },
+    {
+      "question": "Where can the Axess DCU be mounted, and what is required for mounting to these locations?",
+      "evaluation_criteria": "Answer must mention site structure and Axess low and high pressure access systems, and an optional mounting bracket kit.",
+      "answer": "The Axess DCU can be directly mounted to site structure or Axess low and high pressure access systems using an optional mounting bracket kit.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What are the key functions of the CDAS software used with the Axess DCU (Data Collection Unit)?",
+      "evaluation_criteria": "Answer must mention graphing metal loss trends, calculating corrosion rates, and exporting data in csv format, and CDAS software.",
+      "answer": "The Axess DCU's software, CDAS, is used to graph metal loss trends, calculate corrosion rates, and export data in csv (comma separated value) format.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "What is the part number for the battery pack used in the Axess Data Collection Unit?",
+      "evaluation_criteria": "Answer must state the correct part number: AXDCUHBBAT.",
+      "answer": "The part number for the 7.2V 5Ah Lithium Battery Pack for the Axess Data Collection Unit is AXDCUHBBAT.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What is the resolution of the Axess DCU (Data Collection Unit)?",
+      "evaluation_criteria": "Answer must state the correct resolution: 20 bits.",
+      "answer": "The resolution of the Axess DCU is 20 bits.",
+      "difficulty": 1,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"The Axess DCU (Data Collection Unit) can download data to the Axess HHU via the RS-232 Serial ASCII connection.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Answer must state RS-232 Serial ASCII connection.\",\n    \"question\": \"How does the Axess DCU (Data Collection Unit) transfer data to the Axess HHU?\"\n  },\n  {\n    \"answer\": \"The Axess DCU is capable of reading all types of electrical resistance (ER), linear polarization resistance (LPR) and galvanic probes because it is a high resolution, battery powered, corrosion monitoring instrument designed for this purpose.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"Answer must mention high resolution, battery powered, and corrosion monitoring instrument.\",\n    \"question\": \"Why is the Axess DCU capable of reading all types of electrical resistance (ER), linear polarization resistance (LPR) and galvanic probes?\"\n  },\n  {\n    \"answer\": \"The Axess DCU can be directly mounted to site structure or Axess low and high pressure access systems using an optional mounting bracket kit.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Answer must mention site structure and Axess low and high pressure access systems, and an optional mounting bracket kit.\",\n    \"question\": \"Where can the Axess DCU be mounted, and what is required for mounting to these locations?\"\n  },\n  {\n    \"answer\": \"The Axess DCU's software, CDAS, is used to graph metal loss trends, calculate corrosion rates, and export data in csv (comma separated value) format.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Answer must mention graphing metal loss trends, calculating corrosion rates, and exporting data in csv format, and CDAS software.\",\n    \"question\": \"What are the key functions of the CDAS software used with the Axess DCU (Data Collection Unit)?\"\n  },\n  {\n    \"answer\": \"The part number for the 7.2V 5Ah Lithium Battery Pack for the Axess Data Collection Unit is AXDCUHBBAT.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"Answer must state the correct part number: AXDCUHBBAT.\",\n    \"question\": \"What is the part number for the battery pack used in the Axess Data Collection Unit?\"\n  },\n  {\n    \"answer\": \"The resolution of the Axess DCU is 20 bits.\",\n    \"category\": \"factual\",\n    \"difficulty\": 1,\n    \"evaluation_criteria\": \"Answer must state the correct resolution: 20 bits.\",\n    \"question\": \"What is the resolution of the Axess DCU (Data Collection Unit)?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

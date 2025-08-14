@@ -1,0 +1,29 @@
+{
+  "chunk_id": 1,
+  "chunk_filename": "chunk_001.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "Which hydraulic access system design minimizes the risk of galling?",
+      "evaluation_criteria": "Identifies the 2-Piece Hydraulic access system as a preventative measure.",
+      "answer": "The latest 2-Piece Hydraulic access system further prevents galling from being a risk.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "What integrity issues can arise from drilling out the locking pins on a hydraulic access system due to galling?",
+      "evaluation_criteria": "Identifies the consequence of drilling out pins (integrity issues) and the location of the pins (external locking pins).",
+      "answer": "In the past, if galling occurred with the 4 external locking pins on the hydraulic system, the pins may have to be drilled out which can lead to integrity issues with the fitting and the pipeline.",
+      "difficulty": 7,
+      "category": "reasoning"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"Mechanical fittings have one potential leak path, while hydraulic systems have five (four locking pins and the plug).\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Counts the leak paths correctly for both mechanical and hydraulic fittings (1 vs 5).\",\n    \"question\": \"When selecting an access system, how many potential leak paths do mechanical fittings have compared to hydraulic systems?\"\n  },\n  {\n    \"answer\": \"Positive pressure balancing techniques and the Axess ‘Saturn’ coupon holders can be used to eliminate galling on mechanical fittings.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Identifies both positive pressure balancing and the Saturn coupon holders as methods to prevent galling.\",\n    \"question\": \"What techniques can be used to eliminate galling on mechanical fittings?\"\n  },\n  {\n    \"answer\": \"Galling can occur with the four external locking pins in hydraulic access systems.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Identifies the locking pins as the location of galling and the correct number of pins (4).\",\n    \"question\": \"Where can galling occur in hydraulic access systems?\"\n  },\n  {\n    \"answer\": \"All mechanical equipment available on the market is interchangeable, spares are readily available, and prices are very competitive.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Lists interchangeability, availability of spares, and competitive pricing as advantages.\",\n    \"question\": \"What are the advantages of using mechanical equipment in terms of logistics and equipment selection?\"\n  },\n  {\n    \"answer\": \"Servicing hydraulic fittings is generally a longer process because there are more leak path interfaces to check/seals to renew (6 against 2), more mechanical threads to inspect (5 against 3), and the pressurization of the hydraulic action of the tool can be a much longer process.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"Lists the three reasons: more interfaces/seals (6 vs 2), more threads (5 vs 3), and longer pressurization process.\",\n    \"question\": \"Why is servicing hydraulic fittings generally a longer process than servicing mechanical systems?\"\n  },\n  {\n    \"answer\": \"Mechanical access fittings can be rated to 10,000psi and above, but the mechanical tools are only rated to 6000psi. Hydraulic tools can be offered at 10,000psi.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"States the pressure ratings for mechanical access fittings (10,000psi+), mechanical tools (6000psi), and hydraulic tools (10,000psi).\",\n    \"question\": \"What are the pressure ratings for mechanical and hydraulic tools used with access fittings?\"\n  },\n  {\n    \"answer\": \"Both mechanical and hydraulic access fittings can be rated to 10,000psi and above.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"States the maximum pressure rating of 10,000psi or above for both types of fittings.\",\n    \"question\": \"What is the maximum pressure rating for both mechanical and hydraulic access fittings?\"\n  },\n  {\n    \"answer\": \"Galling in mechanical fittings has historically been due to poor material selection and ingress of sand etc.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Identifies poor material selection and ingress of sand as causes.\",\n    \"question\": \"What are the causes of galling in mechanical fittings?\"\n  },\n  {\n    \"answer\": \"The latest 2-Piece Hydraulic access system further prevents galling from being a risk.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Identifies the 2-Piece Hydraulic access system as a preventative measure.\",\n    \"question\": \"Which hydraulic access system design minimizes the risk of galling?\"\n  },\n  {\n    \"answer\": \"In the past, if galling occurred with the 4 external locking pins on the hydraulic system, the pins may have to be drilled out which can lead to integrity issues with the fitting and the pipeline.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 7,\n    \"evaluation_criteria\": \"Identifies the consequence of drilling out pins (integrity issues) and the location of the pins (external locking pins).\",\n    \"question\": \"What integrity issues can arise from drilling out the locking pins on a hydraulic access system due to galling?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

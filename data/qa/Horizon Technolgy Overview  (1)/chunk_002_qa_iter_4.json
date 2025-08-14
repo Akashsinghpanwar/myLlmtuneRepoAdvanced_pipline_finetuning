@@ -1,0 +1,57 @@
+{
+  "chunk_id": 2,
+  "chunk_filename": "chunk_002.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "According to drawing GAD24041801, what materials are used for the Horizon access fitting, the inverted T-section, and the process line?",
+      "evaluation_criteria": "Verifies the correct materials for each component: Horizon access fitting (A105/A350 LF2), inverted T-section (Alloy 825), and process line (API 5L GR. X65).  Incorrect answers include swapping materials between components or providing incorrect material codes.",
+      "answer": "The Horizon access fitting material is A105/A350 LF2, the inverted T-section material is Alloy 825, and the process line material is API 5L GR. X65.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "What is the primary function of the Janus guard product in the context of corrosion monitoring and chemical injection systems?",
+      "evaluation_criteria": "Checks for understanding of the Janus guard's primary function: enhancing safety in online retrieval.  Incorrect answers may focus on cost reduction or other secondary benefits.",
+      "answer": "The Janus guard product is designed to make online retrieval safer by reducing the risks associated with intrusive internal monitoring and chemical injection systems.",
+      "difficulty": 6,
+      "category": "reasoning"
+    },
+    {
+      "question": "According to the document, why are incidents more likely to occur on fittings at the 6 o'clock position?",
+      "evaluation_criteria": "Checks for understanding of why 6 o'clock fittings are prone to incidents. Correct answer identifies debris accumulation and gravity. Incorrect answers may focus on unrelated factors.",
+      "answer": "Incidents often occur at the 6 o'clock position due to the fittings acting as traps for debris and gravity's influence.",
+      "difficulty": 7,
+      "category": "reasoning"
+    },
+    {
+      "question": "What is the maximum device length when using Horizon fittings?",
+      "evaluation_criteria": "Verifies the maximum device length when using Horizon fittings. The correct answer is 8 inches. Incorrect answers include any other length.",
+      "answer": "By using Horizon fittings, device lengths will be no longer than 8\".",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What are the materials used for the primary packing and O-ring in the solid plug?",
+      "evaluation_criteria": "Verifies the packing and O-ring materials for the solid plug. Correct answer identifies PTFE primary packing and Viton O-ring. Incorrect answers include incorrect materials.",
+      "answer": "The solid plug has a PTFE primary packing and a Viton O-ring.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What is the order length of the AX2HPJA-HZ12-NT-A4 access fitting?",
+      "evaluation_criteria": "Verifies the order length for the specified access fitting. The correct answer is 4.25 inches. Incorrect answers include any other length.",
+      "answer": "The 2\" Horizon Janus access fitting for 12\" NB pipe, in A10SN carbon steel has an order length of 4.25\".",
+      "difficulty": 6,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"The Horizon access fitting material is A105/A350 LF2, the inverted T-section material is Alloy 825, and the process line material is API 5L GR. X65.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Verifies the correct materials for each component: Horizon access fitting (A105/A350 LF2), inverted T-section (Alloy 825), and process line (API 5L GR. X65).  Incorrect answers include swapping materials between components or providing incorrect material codes.\",\n    \"question\": \"According to drawing GAD24041801, what materials are used for the Horizon access fitting, the inverted T-section, and the process line?\"\n  },\n  {\n    \"answer\": \"The Janus guard product is designed to make online retrieval safer by reducing the risks associated with intrusive internal monitoring and chemical injection systems.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"Checks for understanding of the Janus guard's primary function: enhancing safety in online retrieval.  Incorrect answers may focus on cost reduction or other secondary benefits.\",\n    \"question\": \"What is the primary function of the Janus guard product in the context of corrosion monitoring and chemical injection systems?\"\n  },\n  {\n    \"answer\": \"Incidents often occur at the 6 o'clock position due to the fittings acting as traps for debris and gravity's influence.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 7,\n    \"evaluation_criteria\": \"Checks for understanding of why 6 o'clock fittings are prone to incidents. Correct answer identifies debris accumulation and gravity. Incorrect answers may focus on unrelated factors.\",\n    \"question\": \"According to the document, why are incidents more likely to occur on fittings at the 6 o'clock position?\"\n  },\n  {\n    \"answer\": \"By using Horizon fittings, device lengths will be no longer than 8\\\".\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Verifies the maximum device length when using Horizon fittings. The correct answer is 8 inches. Incorrect answers include any other length.\",\n    \"question\": \"What is the maximum device length when using Horizon fittings?\"\n  },\n  {\n    \"answer\": \"The solid plug has a PTFE primary packing and a Viton O-ring.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Verifies the packing and O-ring materials for the solid plug. Correct answer identifies PTFE primary packing and Viton O-ring. Incorrect answers include incorrect materials.\",\n    \"question\": \"What are the materials used for the primary packing and O-ring in the solid plug?\"\n  },\n  {\n    \"answer\": \"The 2\\\" Horizon Janus access fitting for 12\\\" NB pipe, in A10SN carbon steel has an order length of 4.25\\\".\",\n    \"category\": \"factual\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"Verifies the order length for the specified access fitting. The correct answer is 4.25 inches. Incorrect answers include any other length.\",\n    \"question\": \"What is the order length of the AX2HPJA-HZ12-NT-A4 access fitting?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

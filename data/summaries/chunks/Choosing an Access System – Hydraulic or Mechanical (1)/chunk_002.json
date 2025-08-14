@@ -1,0 +1,28 @@
+{
+  "bullets": [
+    "Hydraulic fittings have more leak path interfaces to check/seals to renew (6 against 2) and more mechanical threads to inspect (5 against 3).",
+    "Mechanical and hydraulic access fittings can both be rated to 10'000psi and above.",
+    "Mechanical tools are rated to 6000psi; hydraulic tools offered at 10,000psi."
+  ],
+  "numbers_and_units": [
+    "6",
+    "2",
+    "5",
+    "3",
+    "10'000psi",
+    "6000psi",
+    "10,000psi"
+  ],
+  "title": "Hydraulic vs. Mechanical Access Fitting Systems",
+  "keywords": [
+    "hydraulic",
+    "mechanical",
+    "fittings",
+    "pressure rating",
+    "servicing"
+  ],
+  "_validation": {
+    "numbers_found_in_text": 7,
+    "source_chunk": "chunk_002.txt"
+  }
+}

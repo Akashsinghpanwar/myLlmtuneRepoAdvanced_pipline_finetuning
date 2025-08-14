@@ -1,0 +1,50 @@
+{
+  "chunk_id": 3,
+  "chunk_filename": "chunk_003.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "What is the weight of the Axess Data Collection Unit (AXDCUHB)? Include units.",
+      "evaluation_criteria": "Correctly states the weight and units for the AXDCUHB.",
+      "answer": "The Axess Data Collection Unit (AXDCUHB) weighs 1.7kg (3.8lb).",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What are the dimensions of the Axess Data Collection Unit (AXDCUHB) in inches and millimeters?",
+      "evaluation_criteria": "Correctly states all three dimensions and their respective units for the AXDCUHB.",
+      "answer": "The Axess Data Collection Unit (AXDCUHB) has dimensions of 6.5\" x 6.5\" x 4.25\" (165mm x 165mm x 108mm).",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What is the part number for the Axess Data Collection Unit?",
+      "evaluation_criteria": "Correctly identifies the part number for the Axess Data Collection Unit.",
+      "answer": "AXDCUHB",
+      "difficulty": 1,
+      "category": "factual"
+    },
+    {
+      "question": "What is the part number for the 7.2V 5Ah Lithium Battery Pack used with the Axess Data Collection Unit?",
+      "evaluation_criteria": "Correctly identifies the part number for the 7.2V 5Ah Lithium Battery Pack.",
+      "answer": "AXDCUHBBAT",
+      "difficulty": 1,
+      "category": "factual"
+    },
+    {
+      "question": "What is the part number for the DCU Mounting Bracket Kit?",
+      "evaluation_criteria": "Correctly identifies the part number for the DCU Mounting Bracket Kit.",
+      "answer": "AXDCUBRKT",
+      "difficulty": 1,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"The Axess Data Collection Unit (AXDCUHB) weighs 1.7kg (3.8lb).\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"Correctly states the weight and units for the AXDCUHB.\",\n    \"question\": \"What is the weight of the Axess Data Collection Unit (AXDCUHB)? Include units.\"\n  },\n  {\n    \"answer\": \"The Axess Data Collection Unit (AXDCUHB) has dimensions of 6.5\\\" x 6.5\\\" x 4.25\\\" (165mm x 165mm x 108mm).\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Correctly states all three dimensions and their respective units for the AXDCUHB.\",\n    \"question\": \"What are the dimensions of the Axess Data Collection Unit (AXDCUHB) in inches and millimeters?\"\n  },\n  {\n    \"answer\": \"AXDCUHB\",\n    \"category\": \"factual\",\n    \"difficulty\": 1,\n    \"evaluation_criteria\": \"Correctly identifies the part number for the Axess Data Collection Unit.\",\n    \"question\": \"What is the part number for the Axess Data Collection Unit?\"\n  },\n  {\n    \"answer\": \"AXDCUHBBAT\",\n    \"category\": \"factual\",\n    \"difficulty\": 1,\n    \"evaluation_criteria\": \"Correctly identifies the part number for the 7.2V 5Ah Lithium Battery Pack.\",\n    \"question\": \"What is the part number for the 7.2V 5Ah Lithium Battery Pack used with the Axess Data Collection Unit?\"\n  },\n  {\n    \"answer\": \"AXDCUBRKT\",\n    \"category\": \"factual\",\n    \"difficulty\": 1,\n    \"evaluation_criteria\": \"Correctly identifies the part number for the DCU Mounting Bracket Kit.\",\n    \"question\": \"What is the part number for the DCU Mounting Bracket Kit?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

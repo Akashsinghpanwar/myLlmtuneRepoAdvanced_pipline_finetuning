@@ -1,0 +1,103 @@
+{
+  "abstract": "HIVE is an Axess Innovation designed for Oil and Gas Operators, Asset Managers, Inspection Engineers, Corrosion Engineers, and Production Chemists for asset integrity through monitoring and inspections. It uses LiDAR technology for digital representation of assets, point-to-point measurements with 2mm accuracy at 60m distance, and intelligent tagging for information storage. The HIVE field app scans QR codes, generating reports with coupon weights and serial numbers, integrated with GPS. It manages field work, Cost, Time, and Resource (CTR) planning, and provides real-time data from connected sensors.",
+  "key_points": [
+    "\"HIVE - the cutting- edge solution specifically designed for Oil and Gas Operators, Asset Managers, Inspection Engineers, Corrosion Engineers, and Production Chemists who demand precision, integration, and intelligent management of their assets.\"",
+    "\"Planning for installation work such as scaffolding or cabling is simplified with HIVE's built-in point-to-point measurements, boasting an impressive 2mm accuracy at 60m distance.\"",
+    "\"HIVE keeps everything you need just a click away.\"",
+    "\"Leverage the HIVE field app to scan QR codes on equipment and vials, generating comprehensive reports with automated inclusion of coupon weights and serial numbers.\"",
+    "\"A system capable of generating point to point MPY metal loss rates, a distinctive feature revered by industry professionals.\""
+  ],
+  "numbers_and_units": [
+    "2mm",
+    "60m",
+    "+1(832)990-6754",
+    "+1(832)990-6754",
+    "+44(0)1224 042111",
+    "5.032",
+    "13%",
+    "37.5395",
+    "37.5364",
+    "0.0500",
+    "0.0009",
+    "0.2967",
+    "17.3624",
+    "17.2000",
+    "0.0564",
+    "0.0511",
+    "0.1172",
+    "750 PSI",
+    "12.75",
+    "4. 88"
+  ],
+  "entities": [
+    {
+      "type": "ORGANIZATION",
+      "value": "Axess"
+    },
+    {
+      "type": "ORGANIZATION",
+      "value": "TESIN"
+    },
+    {
+      "type": "ORGANIZATION",
+      "value": "Axess Corporate HQ"
+    },
+    {
+      "type": "ORGANIZATION",
+      "value": "Axess-Corrosion, Inc."
+    },
+    {
+      "type": "LOCATION",
+      "value": "The Woodlands, Texas USA 77380"
+    },
+    {
+      "type": "ORGANIZATION",
+      "value": "Center of Excellence"
+    },
+    {
+      "type": "LOCATION",
+      "value": "Spring, Texas USA 77389"
+    },
+    {
+      "type": "ORGANIZATION",
+      "value": "Axess-Corrosion LTD"
+    },
+    {
+      "type": "LOCATION",
+      "value": "Aberdeen AB15 6BL"
+    }
+  ],
+  "tables_index": [
+    {
+      "columns": [
+        "Location D NED-15-7 Cm"
+      ],
+      "title": "Table 1"
+    },
+    {
+      "columns": [
+        "Location Description",
+        "Coupon Part Number",
+        "Coupon Material"
+      ],
+      "title": "Table 2"
+    },
+    {
+      "columns": [
+        "Location Tog",
+        "Coupon SN",
+        "Install Dede",
+        "Remove Dute",
+        "Exposure Time",
+        "Initial Weight",
+        "Final Weight (x)",
+        "Weight Loss In",
+        "Weight Loss Corrosion Rata Max Fit Depth"
+      ],
+      "title": "Table 3"
+    }
+  ],
+  "_validation": {
+    "numbers_found_in_text": 20
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "chunk_id": 4,
+  "chunk_filename": "chunk_004.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "According to the Axess coupon holder part numbering system, where can the 'Order Length' be found for the High Pressure Strip (STCH) coupon holder?",
+      "evaluation_criteria": "The answer must state that the order length information is on Page 3. Incorrect answers may state an incorrect page number or provide a specific length.",
+      "answer": "The order length for the Axess High Pressure Strip coupon holder is found on Page 3.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "For which materials is welded construction available for Axess coupon holders, and for which materials is only non-welded construction available?",
+      "evaluation_criteria": "The answer must correctly identify the material for which welded construction is an option (316/316L) and state that all other listed materials use non-welded construction. Incorrect answers may list other materials as compatible with welded construction or fail to mention the non-welded restriction for other materials.",
+      "answer": "If the coupon holder is made of 316/316L stainless steel, welded construction is an option. For F51 DSS, F60 DSS, F53 SDSS, F55 SDSS, Hastelloy / C276, Inconel 625 and Incoloy 825, only non-welded construction is available.",
+      "difficulty": 7,
+      "category": "reasoning"
+    },
+    {
+      "question": "According to the Axess coupon holder part numbering system, what are the valid options for 'Construction'?",
+      "evaluation_criteria": "The answer must list both 'Welded' and 'Non-Welded' as the valid construction options. Incorrect answers may omit one of the options or include invalid options.",
+      "answer": "The 'Construction' options are Welded and Non-Welded.",
+      "difficulty": 3,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"The order length for the Axess High Pressure Strip coupon holder is found on Page 3.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"The answer must state that the order length information is on Page 3. Incorrect answers may state an incorrect page number or provide a specific length.\",\n    \"question\": \"According to the Axess coupon holder part numbering system, where can the 'Order Length' be found for the High Pressure Strip (STCH) coupon holder?\"\n  },\n  {\n    \"answer\": \"If the coupon holder is made of 316/316L stainless steel, welded construction is an option. For F51 DSS, F60 DSS, F53 SDSS, F55 SDSS, Hastelloy / C276, Inconel 625 and Incoloy 825, only non-welded construction is available.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 7,\n    \"evaluation_criteria\": \"The answer must correctly identify the material for which welded construction is an option (316/316L) and state that all other listed materials use non-welded construction. Incorrect answers may list other materials as compatible with welded construction or fail to mention the non-welded restriction for other materials.\",\n    \"question\": \"For which materials is welded construction available for Axess coupon holders, and for which materials is only non-welded construction available?\"\n  },\n  {\n    \"answer\": \"The 'Construction' options are Welded and Non-Welded.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"The answer must list both 'Welded' and 'Non-Welded' as the valid construction options. Incorrect answers may omit one of the options or include invalid options.\",\n    \"question\": \"According to the Axess coupon holder part numbering system, what are the valid options for 'Construction'?\"\n  },\n  {\n    \"answer\": \"The horizon flush disc coupon holder head angle is set by Axess to suit the pipe bore.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"The answer must state that Axess sets the head angle and that it is based on the pipe bore. Incorrect answers may attribute the angle setting to the customer or mention an incorrect determining factor.\",\n    \"question\": \"Who sets the head angle for the Axess horizon flush disc coupon holder, and what is the angle based on?\"\n  },\n  {\n    \"answer\": \"High Pressure Strip (STCH), Flush Disc (FDCH), Multiple Disc (MDCH), Ladder Strip (LDCH), and Adjustable Flush Disc (DCCHAJ).\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"The answer must list all five valid coupon types and their abbreviations. Incorrect answers may omit one or more types or include invalid types.\",\n    \"question\": \"According to the Axess coupon holder part numbering system, what are the valid options for 'Coupon Type'?\"\n  },\n  {\n    \"answer\": \"316/316L, F51 DSS, F60 DSS, F53 SDSS, F55 SDSS, Hastelloy / C276, Inconel 625, and Incoloy 825.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"The answer must list all eight valid material options. Incorrect answers may omit one or more materials or include invalid materials.\",\n    \"question\": \"According to the Axess coupon holder part numbering system, what are the valid options for 'Material'?\"\n  },\n  {\n    \"answer\": \"The Kickstarter system on Axess' website can generate the access fitting, coupon holder, coupons, retrieval tools, and spare parts based on logic-driven selections.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"The answer must mention the Kickstarter system on Axess' website and list the components it generates. Incorrect answers may mention a different system or omit components.\",\n    \"question\": \"Besides manually generating the part number, what other method is available to generate the access fitting, coupon holder, coupons, retrieval tools, and spare parts?\"\n  },\n  {\n    \"answer\": \"Examples include the polymer coupon holder and crevice corrosion coupon holder.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"The answer must list both the polymer coupon holder and crevice corrosion coupon holder as examples. Incorrect answers may omit one of the examples or include invalid examples.\",\n    \"question\": \"What are some examples of alternative coupon holder types offered by Axess, outside of the standard options?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "chunk_id": 2,
+  "chunk_filename": "chunk_002.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "What types of hardware does Axess offer for the insertion and retrieval of monitoring, injection, and sampling devices, according to the document?",
+      "evaluation_criteria": "Answer must list the hardware types offered by Axess for insertion/retrieval of monitoring, injection, and sampling devices. Correct hardware types must be mentioned: Mechanical & Hydraulic High-Pressure Access systems, Low Pressure Access Systems, Corrosion Coupons, Erosion/Sand Detection Probes, Retrieval Tools, and Service Valves. Any missing or incorrect hardware type is a deduction.",
+      "answer": "Axess offers a full range of hardware for the insertion and retrieval of monitoring, injection, and sampling devices, including Mechanical & Hydraulic High-Pressure Access systems, Low Pressure Access Systems, Corrosion Coupons, Erosion/Sand Detection Probes, Retrieval Tools, and Service Valves.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "Where can corrosion monitoring points be located to effectively monitor corrosion and chemical effectiveness in a piping system, according to the document?",
+      "evaluation_criteria": "Answer must state the two locations for corrosion monitoring points. Correct locations must be mentioned: downstream of any process change including branch connections where additional process streams are introduced, and at the end of the line. Any missing or incorrect location is a deduction.",
+      "answer": "Corrosion monitoring points can be located downstream of any process change including branch connections where additional process streams are introduced, and at the end of the line to ensure that chemicals are still effective throughout the piping system.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "To which industry standards is Axess's hardware manufactured, according to the document?",
+      "evaluation_criteria": "Answer must list the industry standards to which Axess's hardware is manufactured. Correct standards must be mentioned: NACE MR0175, ASME B31.3, EN10204-3.1, and ISO:9001:2015. Any missing or incorrect standard is a deduction.",
+      "answer": "Axess's hardware is manufactured to meet industry standards such as NACE MR0175, ASME B31.3, EN10204-3.1 as standard, and ISO:9001:2015.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What is the address of Axess Corporate HQ, according to the document?",
+      "evaluation_criteria": "The answer must provide the full and correct address for Axess Corporate HQ. The address must exactly match: Axess-Corrosion, Inc. 2001 Timberloch Place The Woodlands, Texas USA 77380. Any deviation is incorrect.",
+      "answer": "The address of Axess Corporate HQ is Axess-Corrosion, Inc. 2001 Timberloch Place The Woodlands, Texas USA 77380.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What is the address of Axess's Center of Excellence, according to the document?",
+      "evaluation_criteria": "The answer must provide the full and correct address for Axess's Center of Excellence. The address must exactly match: Axess-Corrosion 22632 Kuykendahl Rd Spring, Texas USA 77389. Any deviation is incorrect.",
+      "answer": "The address of Axess's Center of Excellence is Axess-Corrosion 22632 Kuykendahl Rd Spring, Texas USA 77389.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What is the address of Axess's Service & Innovation Centre, according to the document?",
+      "evaluation_criteria": "The answer must provide the full and correct address for Axess's Service & Innovation Centre. The address must exactly match: Axess-Corrosion LTD H1 Hill of Rubislaw Anderson Drive Aberdeen AB15 6BL. Any deviation is incorrect.",
+      "answer": "The address of Axess's Service & Innovation Centre is Axess-Corrosion LTD H1 Hill of Rubislaw Anderson Drive Aberdeen AB15 6BL.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What is the phone number for Axess Corporate HQ, according to the document?",
+      "evaluation_criteria": "The answer must provide the correct phone number for Axess Corporate HQ. The phone number must exactly match: +1 (832) 990-6754. Any deviation is incorrect.",
+      "answer": "The phone number for Axess Corporate HQ is +1 (832) 990-6754.",
+      "difficulty": 1,
+      "category": "factual"
+    },
+    {
+      "question": "What is the phone number for Axess's Service & Innovation Centre, according to the document?",
+      "evaluation_criteria": "The answer must provide the correct phone number for Axess's Service & Innovation Centre. The phone number must exactly match: +44 (0) 1224 042111. Any deviation is incorrect.",
+      "answer": "The phone number for Axess's Service & Innovation Centre is +44 (0) 1224 042111.",
+      "difficulty": 1,
+      "category": "factual"
+    },
+    {
+      "question": "Where does Axess source the materials for their hardware used in monitoring, injection, and sampling devices?",
+      "evaluation_criteria": "The answer must state where Axess sources the materials for their hardware. The answer must include both N. America and W. Europe. Failure to mention both regions is incorrect.",
+      "answer": "Axess offers a full range of hardware for the insertion and retrieval of monitoring, injection and sampling devices. We supply many different materials, all of which are sourced from N. America and W. Europe, in compliance with end user standards.",
+      "difficulty": 6,
+      "category": "factual"
+    },
+    {
+      "question": "According to the table, what is the monitoring location for CDO PYTHON?",
+      "evaluation_criteria": "The answer must state the correct monitoring location for CDO PYTHON, which is CC+1. Any other answer is incorrect.",
+      "answer": "The monitoring location for CDO PYTHON is CC+1.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "According to the document, on what basis does Axess design and manufacture systems?",
+      "evaluation_criteria": "The answer must state that Axess designs and manufactures systems based on the client's application. Any deviation from this is incorrect.",
+      "answer": "Axess design and manufacture systems based on the client's application.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "Why is erosion a particular risk downstream of a choke, according to the document?",
+      "evaluation_criteria": "The answer must correctly identify that erosion risk increases with higher velocities and the presence of sand. It should mention the downstream of the choke as a specific location. Failure to mention both velocity and sand is incorrect.",
+      "answer": "Erosion is a risk at higher velocities such as downstream of the choke, particularly where the presence of sand has been detected previously or may be suspected/expected.",
+      "difficulty": 6,
+      "category": "reasoning"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"Axess offers a full range of hardware for the insertion and retrieval of monitoring, injection, and sampling devices, including Mechanical & Hydraulic High-Pressure Access systems, Low Pressure Access Systems, Corrosion Coupons, Erosion/Sand Detection Probes, Retrieval Tools, and Service Valves.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Answer must list the hardware types offered by Axess for insertion/retrieval of monitoring, injection, and sampling devices. Correct hardware types must be mentioned: Mechanical & Hydraulic High-Pressure Access systems, Low Pressure Access Systems, Corrosion Coupons, Erosion/Sand Detection Probes, Retrieval Tools, and Service Valves. Any missing or incorrect hardware type is a deduction.\",\n    \"question\": \"What types of hardware does Axess offer for the insertion and retrieval of monitoring, injection, and sampling devices, according to the document?\"\n  },\n  {\n    \"answer\": \"Corrosion monitoring points can be located downstream of any process change including branch connections where additional process streams are introduced, and at the end of the line to ensure that chemicals are still effective throughout the piping system.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Answer must state the two locations for corrosion monitoring points. Correct locations must be mentioned: downstream of any process change including branch connections where additional process streams are introduced, and at the end of the line. Any missing or incorrect location is a deduction.\",\n    \"question\": \"Where can corrosion monitoring points be located to effectively monitor corrosion and chemical effectiveness in a piping system, according to the document?\"\n  },\n  {\n    \"answer\": \"Areas at high risk for erosion may include locations with rapid changes in direction such as small radius bends, and T-sections, as well as downstream of the choke, particularly where the presence of sand has been detected previously or may be suspected/expected.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Answer must state the locations at high risk for erosion. Correct locations must be mentioned: downstream of the choke, locations with rapid changes in direction such as small radius bends, and T-sections. Any missing or incorrect location is a deduction.\",\n    \"question\": \"Where are the areas at high risk for erosion in a piping system, according to the document?\"\n  },\n  {\n    \"answer\": \"Axess's hardware is manufactured to meet industry standards such as NACE MR0175, ASME B31.3, EN10204-3.1 as standard, and ISO:9001:2015.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Answer must list the industry standards to which Axess's hardware is manufactured. Correct standards must be mentioned: NACE MR0175, ASME B31.3, EN10204-3.1, and ISO:9001:2015. Any missing or incorrect standard is a deduction.\",\n    \"question\": \"To which industry standards is Axess's hardware manufactured, according to the document?\"\n  },\n  {\n    \"answer\": \"Axess was formed with very clear principles that must resonate across our business and echo throughout everything we do. These are our benchmarks in all aspects of our business and put Integrity at its core operationally, technically, and commercially.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"The answer must state that Integrity is at the core of Axess's operations, technically and commercially. The answer must also state that these principles are the benchmarks in all aspects of the business.\",\n    \"question\": \"According to the document, what core value underpins Axess's operations, technically and commercially? What is at its core operationally, technically, and commercially, according to the document?\"\n  },\n  {\n    \"answer\": \"The address of Axess Corporate HQ is Axess-Corrosion, Inc. 2001 Timberloch Place The Woodlands, Texas USA 77380.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"The answer must provide the full and correct address for Axess Corporate HQ. The address must exactly match: Axess-Corrosion, Inc. 2001 Timberloch Place The Woodlands, Texas USA 77380. Any deviation is incorrect.\",\n    \"question\": \"What is the address of Axess Corporate HQ, according to the document?\"\n  },\n  {\n    \"answer\": \"The address of Axess's Center of Excellence is Axess-Corrosion 22632 Kuykendahl Rd Spring, Texas USA 77389.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"The answer must provide the full and correct address for Axess's Center of Excellence. The address must exactly match: Axess-Corrosion 22632 Kuykendahl Rd Spring, Texas USA 77389. Any deviation is incorrect.\",\n    \"question\": \"What is the address of Axess's Center of Excellence, according to the document?\"\n  },\n  {\n    \"answer\": \"The address of Axess's Service & Innovation Centre is Axess-Corrosion LTD H1 Hill of Rubislaw Anderson Drive Aberdeen AB15 6BL.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"The answer must provide the full and correct address for Axess's Service & Innovation Centre. The address must exactly match: Axess-Corrosion LTD H1 Hill of Rubislaw Anderson Drive Aberdeen AB15 6BL. Any deviation is incorrect.\",\n    \"question\": \"What is the address of Axess's Service & Innovation Centre, according to the document?\"\n  },\n  {\n    \"answer\": \"The phone number for Axess Corporate HQ is +1 (832) 990-6754.\",\n    \"category\": \"factual\",\n    \"difficulty\": 1,\n    \"evaluation_criteria\": \"The answer must provide the correct phone number for Axess Corporate HQ. The phone number must exactly match: +1 (832) 990-6754. Any deviation is incorrect.\",\n    \"question\": \"What is the phone number for Axess Corporate HQ, according to the document?\"\n  },\n  {\n    \"answer\": \"The phone number for Axess's Service & Innovation Centre is +44 (0) 1224 042111.\",\n    \"category\": \"factual\",\n    \"difficulty\": 1,\n    \"evaluation_criteria\": \"The answer must provide the correct phone number for Axess's Service & Innovation Centre. The phone number must exactly match: +44 (0) 1224 042111. Any deviation is incorrect.\",\n    \"question\": \"What is the phone number for Axess's Service & Innovation Centre, according to the document?\"\n  },\n  {\n    \"answer\": \"Pipe geometry, flow conditions, and process fluid can all influence the occurrence and the development rate of corrosion and erosion within a facility as well as effecting the rate at which chemicals mix and disperse within the process.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"The answer must list the factors that influence corrosion and erosion. Correct factors must be mentioned: Pipe geometry, flow conditions, and process fluid. Any missing or incorrect factor is a deduction.\",\n    \"question\": \"What factors can influence the occurrence and development rate of corrosion and erosion, as well as the rate at which chemicals mix and disperse within a process?\"\n  },\n  {\n    \"answer\": \"Axess offers a full range of hardware for the insertion and retrieval of monitoring, injection and sampling devices. We supply many different materials, all of which are sourced from N. America and W. Europe, in compliance with end user standards.\",\n    \"category\": \"factual\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"The answer must state where Axess sources the materials for their hardware. The answer must include both N. America and W. Europe. Failure to mention both regions is incorrect.\",\n    \"question\": \"Where does Axess source the materials for their hardware used in monitoring, injection, and sampling devices?\"\n  },\n  {\n    \"answer\": \"The monitoring location for CDO PYTHON is CC+1.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"The answer must state the correct monitoring location for CDO PYTHON, which is CC+1. Any other answer is incorrect.\",\n    \"question\": \"According to the table, what is the monitoring location for CDO PYTHON?\"\n  },\n  {\n    \"answer\": \"Axess design and manufacture systems based on the client's application.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"The answer must state that Axess designs and manufactures systems based on the client's application. Any deviation from this is incorrect.\",\n    \"question\": \"According to the document, on what basis does Axess design and manufacture systems?\"\n  },\n  {\n    \"answer\": \"Erosion is a risk at higher velocities such as downstream of the choke, particularly where the presence of sand has been detected previously or may be suspected/expected.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"The answer must correctly identify that erosion risk increases with higher velocities and the presence of sand. It should mention the downstream of the choke as a specific location. Failure to mention both velocity and sand is incorrect.\",\n    \"question\": \"Why is erosion a particular risk downstream of a choke, according to the document?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

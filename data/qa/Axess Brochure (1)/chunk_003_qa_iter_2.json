@@ -1,0 +1,64 @@
+{
+  "chunk_id": 3,
+  "chunk_filename": "chunk_003.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "What type of sensors does Axess use for non-intrusive wall thickness monitoring?",
+      "evaluation_criteria": "The answer must mention ultrasonic transducers and their application for wall thickness monitoring.",
+      "answer": "Axess offers non-intrusive wall thickness solutions that use ultrasonic transducers permanently mounted to process pipework, vessels, and other structures.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What is the maximum temperature that the ultrasonic transducers used in Axess' non-intrusive wall thickness solutions can withstand?",
+      "evaluation_criteria": "The answer must state the temperature rating of 550℃ for the ultrasonic transducers.",
+      "answer": "The ultrasonic transducers can withstand temperatures up to 550℃.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What are the instrumentation options available for Axess' non-intrusive wall thickness monitoring systems?",
+      "evaluation_criteria": "The answer must mention the range of instrumentation options, including spot reading, online monitoring, and the communication protocols WirelessHART/ISA100 or cellular networks.",
+      "answer": "Instrumentation options range from spot reading to online, real-time wireless monitoring using WirelessHART/ISA100 protocols or cellular networks.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "How does using an atomiser for chemical injection help with volume control, and in what type of system is it most appropriate according to Axess Corrosion?",
+      "evaluation_criteria": "The answer must mention the use of an atomiser for fine volume control, adjustment of injection differential pressure, constant chemical application, and its suitability for gas systems.",
+      "answer": "An atomiser can help with fine volume control by adjusting the injection differential pressure and maintaining a constant application of the chemical, particularly in a gas system.",
+      "difficulty": 5,
+      "category": "reasoning"
+    },
+    {
+      "question": "Where is the ideal location for chemical injection, and under what conditions should wake frequency and drag calculations be considered according to Axess Corrosion?",
+      "evaluation_criteria": "The answer must mention the centre line as the ideal injection location and the need for wake frequency/drag calculations in high-velocity processes to maintain injection device integrity.",
+      "answer": "The ideal injection location is normally centre line; however, for higher velocity processes, wake frequency / drag calculations should be considered to determine maximum length whilst maintaining the integrity of the injection device.",
+      "difficulty": 7,
+      "category": "reasoning"
+    },
+    {
+      "question": "According to Axess Corrosion, what do the following acronyms stand for in the context of corrosion and erosion monitoring: AX, CC, ER, LPR, SP, UT, and H?",
+      "evaluation_criteria": "The answer must correctly expand all the listed acronyms: AX, CC, ER, LPR, SP, UT, and H.",
+      "answer": "The acronyms are: AX (Access Systems), CC (Corrosion Coupon), ER (Electrical Resistance), LPR (Linear Polarisation Resistance), SP (Sand Probe), UT (Non Intrusive), and H (Hydrogen Probe).",
+      "difficulty": 6,
+      "category": "factual"
+    },
+    {
+      "question": "According to Axess Corrosion, what factors related to the chemical and the process environment are important to consider when selecting a chemical injection point?",
+      "evaluation_criteria": "The answer must list all the factors: chemical density, viscosity, pipe/vessel size, velocity, pressure, temperature, and fluid composition.",
+      "answer": "Chemical density and viscosity, process pipe/vessel size, velocity, pressure, temperature, and fluid composition.",
+      "difficulty": 5,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"Axess offers non-intrusive wall thickness solutions that use ultrasonic transducers permanently mounted to process pipework, vessels, and other structures.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"The answer must mention ultrasonic transducers and their application for wall thickness monitoring.\",\n    \"question\": \"What type of sensors does Axess use for non-intrusive wall thickness monitoring?\"\n  },\n  {\n    \"answer\": \"The ultrasonic transducers can withstand temperatures up to 550℃.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"The answer must state the temperature rating of 550℃ for the ultrasonic transducers.\",\n    \"question\": \"What is the maximum temperature that the ultrasonic transducers used in Axess' non-intrusive wall thickness solutions can withstand?\"\n  },\n  {\n    \"answer\": \"Instrumentation options range from spot reading to online, real-time wireless monitoring using WirelessHART/ISA100 protocols or cellular networks.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"The answer must mention the range of instrumentation options, including spot reading, online monitoring, and the communication protocols WirelessHART/ISA100 or cellular networks.\",\n    \"question\": \"What are the instrumentation options available for Axess' non-intrusive wall thickness monitoring systems?\"\n  },\n  {\n    \"answer\": \"An atomiser can help with fine volume control by adjusting the injection differential pressure and maintaining a constant application of the chemical, particularly in a gas system.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"The answer must mention the use of an atomiser for fine volume control, adjustment of injection differential pressure, constant chemical application, and its suitability for gas systems.\",\n    \"question\": \"How does using an atomiser for chemical injection help with volume control, and in what type of system is it most appropriate according to Axess Corrosion?\"\n  },\n  {\n    \"answer\": \"The ideal injection location is normally centre line; however, for higher velocity processes, wake frequency / drag calculations should be considered to determine maximum length whilst maintaining the integrity of the injection device.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 7,\n    \"evaluation_criteria\": \"The answer must mention the centre line as the ideal injection location and the need for wake frequency/drag calculations in high-velocity processes to maintain injection device integrity.\",\n    \"question\": \"Where is the ideal location for chemical injection, and under what conditions should wake frequency and drag calculations be considered according to Axess Corrosion?\"\n  },\n  {\n    \"answer\": \"The acronyms are: AX (Access Systems), CC (Corrosion Coupon), ER (Electrical Resistance), LPR (Linear Polarisation Resistance), SP (Sand Probe), UT (Non Intrusive), and H (Hydrogen Probe).\",\n    \"category\": \"factual\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"The answer must correctly expand all the listed acronyms: AX, CC, ER, LPR, SP, UT, and H.\",\n    \"question\": \"According to Axess Corrosion, what do the following acronyms stand for in the context of corrosion and erosion monitoring: AX, CC, ER, LPR, SP, UT, and H?\"\n  },\n  {\n    \"answer\": \"Chemical density and viscosity, process pipe/vessel size, velocity, pressure, temperature, and fluid composition.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"The answer must list all the factors: chemical density, viscosity, pipe/vessel size, velocity, pressure, temperature, and fluid composition.\",\n    \"question\": \"According to Axess Corrosion, what factors related to the chemical and the process environment are important to consider when selecting a chemical injection point?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "chunk_id": 1,
+  "chunk_filename": "chunk_001.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "According to the Axess HIVE brochure, what is the number of 'Monitoring Locations' listed under the 'Recolected Data' section?",
+      "evaluation_criteria": "The answer must state the exact number of 'Monitoring Locations' listed under the 'Recolected Data' section, which is 19. Any other number or a missing unit is incorrect.",
+      "answer": "Under the 'Recolected Data' section, the 'Monitoring Locations' value is 19.",
+      "difficulty": 2,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"Under the 'Recolected Data' section, the 'Monitoring Locations' value is 19.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"The answer must state the exact number of 'Monitoring Locations' listed under the 'Recolected Data' section, which is 19. Any other number or a missing unit is incorrect.\",\n    \"question\": \"According to the Axess HIVE brochure, what is the number of 'Monitoring Locations' listed under the 'Recolected Data' section?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

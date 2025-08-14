@@ -1,0 +1,71 @@
+{
+  "abstract": "The document describes AXHP Axess Systems corrosion coupon holders designed for monitoring corrosion in pressurized piping systems up to 10,000psi. The coupon holders are made of 316SS and come in 3\" strip and flush disc styles. Formulas are provided for calculating holder length for different monitoring positions.",
+  "key_points": [
+    "\"The Axess AXHP range of coupon holders are designed for use with our AXHP access systems and allow the insertion and removal of corrosion coupons in pressurized piping systems up to 10,000psi.\"",
+    "\"Coupon holders are manufactured in 316SS material as standard and lengths are selected to suit the individual monitoring location.\"",
+    "\"The two main styles of coupon holder are 3\" strip and flush disc.\"",
+    "\"MEET NACE MR0175 & MR0103 STANDARDS\"",
+    "\"Use the formulas below to calculate holder length. If calculated length is not an even 0.25\" increment, select next shortest to nearest 0.25\"."
+  ],
+  "numbers_and_units": [
+    "10,000psi",
+    "3\"",
+    "0.25\"",
+    "1/16\"",
+    "3\"",
+    "1-5/8\"",
+    "6\"",
+    "4-3/4\"",
+    "+1 (832) 990 6754"
+  ],
+  "entities": [
+    {
+      "type": "ORGANIZATION",
+      "value": "AXESS"
+    },
+    {
+      "type": "ORGANIZATION",
+      "value": "Qualitas Veritas"
+    },
+    {
+      "type": "STANDARD",
+      "value": "ISO 9001-2015"
+    },
+    {
+      "type": "PRODUCT",
+      "value": "HP RETRIEVABLE CORROSION COUPON HOLDERS"
+    },
+    {
+      "type": "PRODUCT",
+      "value": "AXHP Axess Systems"
+    },
+    {
+      "type": "MATERIAL",
+      "value": "316SS"
+    },
+    {
+      "type": "STANDARD",
+      "value": "NACE MR0175"
+    },
+    {
+      "type": "STANDARD",
+      "value": "MR0103"
+    },
+    {
+      "type": "STANDARD",
+      "value": "ANSI B31.1 1973"
+    },
+    {
+      "type": "ORGANIZATION",
+      "value": "AXESS CORROSION"
+    },
+    {
+      "type": "ORGANIZATION",
+      "value": "JANUSGUARD"
+    }
+  ],
+  "tables_index": [],
+  "_validation": {
+    "numbers_found_in_text": 9
+  }
+}

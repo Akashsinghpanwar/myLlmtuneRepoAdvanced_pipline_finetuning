@@ -1,0 +1,22 @@
+{
+  "chunk_id": 3,
+  "chunk_filename": "chunk_003.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "For which clients are the Horizon Access Fittings intended, according to Table 1?",
+      "evaluation_criteria": "Verifies the correct clients for Horizon Access Fittings. Answer must include all three: Worley, Aramco, and AFIC.",
+      "answer": "The Horizon Access Fittings are intended for Worley, Aramco, and AFIC.",
+      "difficulty": 2,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"The Horizon Access Fittings are intended for Worley, Aramco, and AFIC.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"Verifies the correct clients for Horizon Access Fittings. Answer must include all three: Worley, Aramco, and AFIC.\",\n    \"question\": \"For which clients are the Horizon Access Fittings intended, according to Table 1?\"\n  },\n  {\n    \"answer\": \"The date of issue for the Horizon Access Fittings is 04/30/2024.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"Verifies the correct date of issue. Answer must be exactly '04/30/2024'.\",\n    \"question\": \"What is the date of issue for the Horizon Access Fittings, as indicated in Table 1?\"\n  },\n  {\n    \"answer\": \"The drawing number for the GA - HORIZON SIDE ENTRY BOL ACCESS FITTING, WITH ANGLED FLUSH DISC HOLDER is ADD23091201_Rav.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Verifies the correct drawing number. Answer must be exactly 'ADD23091201_Rav'.\",\n    \"question\": \"What is the drawing number for the GA - HORIZON SIDE ENTRY BOL ACCESS FITTING, WITH ANGLED FLUSH DISC HOLDER, according to Table 2?\"\n  },\n  {\n    \"answer\": \"According to Table 2, the size designation associated with the CONTROL STANDARDS NACE MR0175 is C.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Verifies the correct size designation. Answer must be exactly 'C'.\",\n    \"question\": \"According to Table 2, what size designation is associated with the CONTROL STANDARDS NACE MR0175?\"\n  },\n  {\n    \"answer\": \"According to Table 2, the GA - HORIZON SIDE ENTRY BOL ACCESS FITTING, WITH ANGLED FLUSH DISC HOLDER conforms to CONTROL STANDARDS NACE MR0175.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Verifies the correct control standard. Answer must be exactly 'CONTROL STANDARDS NACE MR0175'.\",\n    \"question\": \"To which control standard does the GA - HORIZON SIDE ENTRY BOL ACCESS FITTING, WITH ANGLED FLUSH DISC HOLDER conform, according to Table 2?\"\n  },\n  {\n    \"answer\": \"According to Table 2, the material information for size C of the CONTROL STANDARDS NACE MR0175 can be found on sheet 1 of 1.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Verifies the correct sheet number. Answer must be exactly '1 of 1'.\",\n    \"question\": \"According to Table 2, where can the material information be found for size C of the CONTROL STANDARDS NACE MR0175?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

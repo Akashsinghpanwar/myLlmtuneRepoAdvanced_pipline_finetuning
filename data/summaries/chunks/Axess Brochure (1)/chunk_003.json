@@ -1,0 +1,24 @@
+{
+  "bullets": [
+    "Non-intrusive wall thickness solutions provide in-service corrosion and erosion monitoring using ultrasonic transducers.",
+    "Chemical injection rate (gallons/day) is determined by the min/max capacity of the injection pump.",
+    "Chemical injection points should be located upstream of the equipment and pipework requiring protection."
+  ],
+  "numbers_and_units": [
+    "550℃",
+    "gallons/day",
+    "10 x pipe ID"
+  ],
+  "title": "Corrosion and Erosion Monitoring",
+  "keywords": [
+    "corrosion",
+    "erosion",
+    "chemical injection",
+    "monitoring",
+    "ultrasonic transducers"
+  ],
+  "_validation": {
+    "numbers_found_in_text": 3,
+    "source_chunk": "chunk_003.txt"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "chunk_id": 1,
+  "chunk_filename": "chunk_001.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [],
+  "raw_response": "[\n  {\n    \"answer\": \"The Axess DCU & HHU has a Lithium Battery Pack with specifications of 7.2V and 5Ah.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"The answer must state 'Lithium Battery Pack', '7.2V', and '5Ah'. Missing any of these attributes is incorrect.\",\n    \"question\": \"What type of battery and what are the voltage and amperage specifications for the Axess DCU & HHU?\"\n  },\n  {\n    \"answer\": \"The Axess DCU & HHU's operating temperature range is -20°C to +70℃ (-4°F to +158°F).\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"The answer must include both Celsius and Fahrenheit ranges. The Celsius range must be '-20°C to +70℃' and the Fahrenheit range must be '-4°F to +158°F'. Incorrect ranges or missing units are incorrect.\",\n    \"question\": \"What is the operating temperature range of the Axess DCU & HHU?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

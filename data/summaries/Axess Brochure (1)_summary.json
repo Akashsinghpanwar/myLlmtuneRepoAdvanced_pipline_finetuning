@@ -1,0 +1,125 @@
+{
+  "abstract": "Axess designs and manufactures systems based on the client's application, offering products and services from design to maintenance and data analysis.",
+  "key_points": [
+    "\"Axess retrieval tools, service valves and fittings are the safest in the business.\"",
+    "\"Axess provide the safest hot-tapping equipment designed for the online installation of both 1\\\" and 2\\\" access fittings.\"",
+    "\"Axess provide the most complete training and certification programs for the safe use of online retrieval tools.\"",
+    "\"Axess patented design allows operators to purge the voids within the fittings and seal the cavities with corrosion resistant sealants.\""
+  ],
+  "numbers_and_units": [
+    "54-1-37-48",
+    "+1 (832) 990-6754",
+    "+1 (832) 990-6754",
+    "+44 (0) 1224 042111",
+    "550℃",
+    "4-20mA",
+    "90 days",
+    "3-5",
+    "5-10",
+    "10 x",
+    "1\\\"",
+    "2\\\"",
+    "1000psi",
+    "10'000psi",
+    "2000psi",
+    "0.0102 MILS"
+  ],
+  "entities": [
+    {
+      "type": "ORGANIZATION",
+      "value": "Axess"
+    },
+    {
+      "type": "ORGANIZATION",
+      "value": "Axess-Corrosion, Inc."
+    },
+    {
+      "type": "ADDRESS",
+      "value": "2001 Timberloch Place The Woodlands, Texas USA 77380"
+    },
+    {
+      "type": "EMAIL",
+      "value": "info@axess-corrosion.com"
+    },
+    {
+      "type": "PHONE_NUMBER",
+      "value": "+1 (832) 990-6754"
+    },
+    {
+      "type": "ORGANIZATION",
+      "value": "Axess-Corrosion"
+    },
+    {
+      "type": "ADDRESS",
+      "value": "22632 Kuykendahl Rd Spring, Texas USA 77389"
+    },
+    {
+      "type": "EMAIL",
+      "value": "info@axess-corrosion.com"
+    },
+    {
+      "type": "PHONE_NUMBER",
+      "value": "+1 (832) 990-6754"
+    },
+    {
+      "type": "ORGANIZATION",
+      "value": "Axess-Corrosion LTD"
+    },
+    {
+      "type": "ADDRESS",
+      "value": "H1 Hill of Rubislaw Anderson Drive Aberdeen AB15 6BL"
+    },
+    {
+      "type": "EMAIL",
+      "value": "info@axess-corrosion.com"
+    },
+    {
+      "type": "PHONE_NUMBER",
+      "value": "+44 (0) 1224 042111"
+    },
+    {
+      "type": "ORGANIZATION",
+      "value": "AMPP"
+    },
+    {
+      "type": "ORGANIZATION",
+      "value": "NACE MR0175"
+    },
+    {
+      "type": "ORGANIZATION",
+      "value": "ASME B31.3"
+    },
+    {
+      "type": "ORGANIZATION",
+      "value": "EN10204-3.1"
+    },
+    {
+      "type": "ORGANIZATION",
+      "value": "ISO:9001:2015"
+    },
+    {
+      "type": "TECHNOLOGY",
+      "value": "WirelessHART/ISA100"
+    },
+    {
+      "type": "TECHNOLOGY",
+      "value": "RS485 Modbus"
+    },
+    {
+      "type": "ORGANIZATION",
+      "value": "Baker Hughes"
+    }
+  ],
+  "tables_index": [
+    {
+      "columns": [
+        "Searching",
+        "We will continually seek to see the next step"
+      ],
+      "title": "Table 1"
+    }
+  ],
+  "_validation": {
+    "numbers_found_in_text": 14
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "bullets": [
+    "Table 1 shows data for Location D NED-15-7 Cm.",
+    "Table 2 describes MBI-1330 COOLING MEDIUM EXPANSION TANE.",
+    "Table 3 shows weight loss and corrosion rates for coupons."
+  ],
+  "numbers_and_units": [
+    "0.03",
+    "0.09",
+    "9.09",
+    "0.05",
+    "0.01",
+    "0 28",
+    "0.42",
+    "0.35",
+    "0.35",
+    "0.13",
+    "0 17",
+    "9.09",
+    "0.0",
+    "37.5395",
+    "5.032 in",
+    "37.5364",
+    "13%",
+    "0.0500",
+    "0.0009",
+    "0.2967",
+    "17.3624",
+    "17.2000",
+    "0.0564",
+    "0.0511",
+    "0.1172"
+  ],
+  "title": "Table Data",
+  "keywords": [
+    "tables",
+    "weight loss",
+    "corrosion",
+    "coupons"
+  ],
+  "_validation": {
+    "numbers_found_in_text": 24,
+    "source_chunk": "chunk_003.txt"
+  }
+}

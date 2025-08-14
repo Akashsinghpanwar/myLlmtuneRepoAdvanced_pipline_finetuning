@@ -1,0 +1,64 @@
+{
+  "chunk_id": 4,
+  "chunk_filename": "chunk_004.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "According to Table 2, what is the material code for F53 SDSS?",
+      "evaluation_criteria": "Verifies the correct material code (A9) is identified for F53 SDSS from Table 2.",
+      "answer": "The material code for F53 SDSS is A9.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "According to Table 2, what is the material code for F60 DSS?",
+      "evaluation_criteria": "Verifies the correct material code (A8) is identified for F60 DSS from Table 2.",
+      "answer": "The material code for F60 DSS is A8.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "According to Table 2, what is the material code for F55 SDSS?",
+      "evaluation_criteria": "Verifies the correct material code (B1) is identified for F55 SDSS from Table 2.",
+      "answer": "The material code for F55 SDSS is B1.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "According to Table 2, what is the material code for the standard material 316/316L SS?",
+      "evaluation_criteria": "Verifies the correct material code (A3) is identified for 316/316L SS from Table 2.",
+      "answer": "The standard material, 316/316L SS, has a material code of A3.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "According to Table 2, what is the material code for C276?",
+      "evaluation_criteria": "Verifies the correct material code (B4) is identified for C276 from Table 2.",
+      "answer": "The material code for C276 is B4.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What is the element thickness for a 316L SS ER probe?",
+      "evaluation_criteria": "Verifies the correct element thickness (40mil) is identified for 316L SS ER probe from Table 3.",
+      "answer": "The element thickness for a 316L SS ER probe is 40mil.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What is the element thickness for an ER element made of C276?",
+      "evaluation_criteria": "Verifies the correct element thickness (50mil) is identified for C276 ER element from Table 3.",
+      "answer": "The element thickness for an ER element made of C276 is 50mil.",
+      "difficulty": 4,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"The material code for F53 SDSS is A9.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Verifies the correct material code (A9) is identified for F53 SDSS from Table 2.\",\n    \"question\": \"According to Table 2, what is the material code for F53 SDSS?\"\n  },\n  {\n    \"answer\": \"The material code for F60 DSS is A8.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Verifies the correct material code (A8) is identified for F60 DSS from Table 2.\",\n    \"question\": \"According to Table 2, what is the material code for F60 DSS?\"\n  },\n  {\n    \"answer\": \"The material code for F55 SDSS is B1.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Verifies the correct material code (B1) is identified for F55 SDSS from Table 2.\",\n    \"question\": \"According to Table 2, what is the material code for F55 SDSS?\"\n  },\n  {\n    \"answer\": \"The standard material, 316/316L SS, has a material code of A3.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Verifies the correct material code (A3) is identified for 316/316L SS from Table 2.\",\n    \"question\": \"According to Table 2, what is the material code for the standard material 316/316L SS?\"\n  },\n  {\n    \"answer\": \"The material code for C276 is B4.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Verifies the correct material code (B4) is identified for C276 from Table 2.\",\n    \"question\": \"According to Table 2, what is the material code for C276?\"\n  },\n  {\n    \"answer\": \"The element thickness for a 316L SS ER probe is 40mil.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Verifies the correct element thickness (40mil) is identified for 316L SS ER probe from Table 3.\",\n    \"question\": \"What is the element thickness for a 316L SS ER probe?\"\n  },\n  {\n    \"answer\": \"The element thickness for an ER element made of C276 is 50mil.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Verifies the correct element thickness (50mil) is identified for C276 ER element from Table 3.\",\n    \"question\": \"What is the element thickness for an ER element made of C276?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

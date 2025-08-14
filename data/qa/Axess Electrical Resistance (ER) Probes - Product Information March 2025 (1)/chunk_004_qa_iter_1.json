@@ -1,0 +1,85 @@
+{
+  "chunk_id": 4,
+  "chunk_filename": "chunk_004.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "According to Table 2, what is the material code for F51 DSS?",
+      "evaluation_criteria": "Verifies the correct material code is given. Incorrect answers would provide the code for a different material (e.g., A3, B4).",
+      "answer": "The material code for F51 DSS is A7.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "According to Table 2, what is the material code for Alloy 625?",
+      "evaluation_criteria": "Verifies the correct material code is given. Incorrect answers would provide the code for a different material (e.g., A3, B4).",
+      "answer": "The material code for Alloy 625 is B5.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What is the element thickness for a Surface Strip (\"Flush\") SS ER element?",
+      "evaluation_criteria": "Verifies the correct element thickness is given. Incorrect answers would provide the thickness for a different element type (e.g., 10mil, 40mil).",
+      "answer": "The element thickness for a Surface Strip (\"Flush\") SS ER element is 20mil.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What material code is associated with Pipe Grade CS when used as an ER element material?",
+      "evaluation_criteria": "Verifies the correct material code is given. Incorrect answers would provide the code for a different material (e.g., A3, B4).",
+      "answer": "Pipe Grade CS uses material code A1.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What material code is associated with the ER element material S2205?",
+      "evaluation_criteria": "Verifies the correct material code is given. Incorrect answers would provide the code for a different material (e.g., A3, B4).",
+      "answer": "The element material S2205 uses the material code A7.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What material code is associated with the ER element material Alloy 825?",
+      "evaluation_criteria": "Verifies the correct material code is given. Incorrect answers would provide the code for a different material (e.g., A3, B4).",
+      "answer": "The element material Alloy 825 uses the material code B6.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What is the element thickness and material for a Tubular / Cylindrical C ER element?",
+      "evaluation_criteria": "Verifies the correct element thickness and material are given for the specified element type. Incorrect answers would provide the thickness/material for a different element type.",
+      "answer": "A Tubular / Cylindrical C ER element has a thickness of 10mil and is made of Pipe Grade CS.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "What material code is associated with an ER probe made of 316L SS?",
+      "evaluation_criteria": "Verifies the correct material code is given. Incorrect answers would provide the code for a different material (e.g., A1, B4).",
+      "answer": "An ER probe made of 316L SS has a material code of A3.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What is the cable length for a Resistance ER probe?",
+      "evaluation_criteria": "Verifies the correct cable length is given. Incorrect answers would provide a different cable length or omit the unit.",
+      "answer": "The cable length for a Resistance ER probe is 10 foot.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What type of ground lead is used with a Resistance ER probe?",
+      "evaluation_criteria": "Verifies the correct ground lead is given. Incorrect answers would state 'No Ground Lead'.",
+      "answer": "A Resistance ER probe uses a Ground Lead GNDL.",
+      "difficulty": 3,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"The material code for F51 DSS is A7.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"Verifies the correct material code is given. Incorrect answers would provide the code for a different material (e.g., A3, B4).\",\n    \"question\": \"According to Table 2, what is the material code for F51 DSS?\"\n  },\n  {\n    \"answer\": \"The material code for Alloy 625 is B5.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"Verifies the correct material code is given. Incorrect answers would provide the code for a different material (e.g., A3, B4).\",\n    \"question\": \"According to Table 2, what is the material code for Alloy 625?\"\n  },\n  {\n    \"answer\": \"The element thickness for a Surface Strip (\\\"Flush\\\") SS ER element is 20mil.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Verifies the correct element thickness is given. Incorrect answers would provide the thickness for a different element type (e.g., 10mil, 40mil).\",\n    \"question\": \"What is the element thickness for a Surface Strip (\\\"Flush\\\") SS ER element?\"\n  },\n  {\n    \"answer\": \"Pipe Grade CS uses material code A1.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Verifies the correct material code is given. Incorrect answers would provide the code for a different material (e.g., A3, B4).\",\n    \"question\": \"What material code is associated with Pipe Grade CS when used as an ER element material?\"\n  },\n  {\n    \"answer\": \"The element material S2205 uses the material code A7.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Verifies the correct material code is given. Incorrect answers would provide the code for a different material (e.g., A3, B4).\",\n    \"question\": \"What material code is associated with the ER element material S2205?\"\n  },\n  {\n    \"answer\": \"The element material Alloy 825 uses the material code B6.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Verifies the correct material code is given. Incorrect answers would provide the code for a different material (e.g., A3, B4).\",\n    \"question\": \"What material code is associated with the ER element material Alloy 825?\"\n  },\n  {\n    \"answer\": \"A Tubular / Cylindrical C ER element has a thickness of 10mil and is made of Pipe Grade CS.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Verifies the correct element thickness and material are given for the specified element type. Incorrect answers would provide the thickness/material for a different element type.\",\n    \"question\": \"What is the element thickness and material for a Tubular / Cylindrical C ER element?\"\n  },\n  {\n    \"answer\": \"An ER probe made of 316L SS has a material code of A3.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Verifies the correct material code is given. Incorrect answers would provide the code for a different material (e.g., A1, B4).\",\n    \"question\": \"What material code is associated with an ER probe made of 316L SS?\"\n  },\n  {\n    \"answer\": \"The cable length for a Resistance ER probe is 10 foot.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Verifies the correct cable length is given. Incorrect answers would provide a different cable length or omit the unit.\",\n    \"question\": \"What is the cable length for a Resistance ER probe?\"\n  },\n  {\n    \"answer\": \"A Resistance ER probe uses a Ground Lead GNDL.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Verifies the correct ground lead is given. Incorrect answers would state 'No Ground Lead'.\",\n    \"question\": \"What type of ground lead is used with a Resistance ER probe?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

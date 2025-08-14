@@ -1,0 +1,218 @@
+{
+  "chunk_id": 2,
+  "chunk_filename": "chunk_002.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "For whom is the Axess Innovation HIVE system designed?",
+      "evaluation_criteria": "Answer accurately lists the intended users of the HIVE system as stated in the document.",
+      "answer": "HIVE is designed for Oil and Gas Operators, Asset Managers, Inspection Engineers, Corrosion Engineers, and Production Chemists.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What technology does the Axess Innovation HIVE system use to create a digital representation of assets?",
+      "evaluation_criteria": "Answer correctly identifies LiDAR technology as the method for digital asset representation.",
+      "answer": "HIVE uses LiDAR technology to create an accurate digital representation of assets.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What is the accuracy of point-to-point measurements in the Axess Innovation HIVE system, and at what distance is this accuracy maintained?",
+      "evaluation_criteria": "Answer correctly states the measurement accuracy and distance: 2mm accuracy at 60m distance. Incorrect if values are swapped or units are omitted.",
+      "answer": "HIVE's built-in point-to-point measurements boast an accuracy of 2mm at 60m distance.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "What functionalities does the Axess Innovation HIVE system offer for engineers regarding tagging locations and uploading reports?",
+      "evaluation_criteria": "Answer accurately lists the capabilities of tagging locations and uploading reports, including the types of reports mentioned (work instructions, HAZIDs, general arrangement drawings).",
+      "answer": "The Axess Innovation HIVE system allows engineers to tag critical locations and upload essential reports, including detailed work instructions, HAZIDs, and general arrangement drawings complete with materials and specifications.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What is the function of the Axess Innovation HIVE field app regarding QR codes and report generation?",
+      "evaluation_criteria": "Answer correctly identifies the QR code scanning functionality and the automated inclusion of coupon weights and serial numbers in reports. Incorrect if either function is omitted.",
+      "answer": "The HIVE field app allows users to scan QR codes on equipment and vials, generating comprehensive reports with automated inclusion of coupon weights and serial numbers.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "What capabilities does the Axess Innovation HIVE system offer for project management of field work?",
+      "evaluation_criteria": "Answer accurately describes the project management capabilities, including CTR planning and final reporting. Incorrect if CTR is misinterpreted or final reporting is omitted.",
+      "answer": "HIVE's project management features allow management of field work, from Cost, Time, and Resource (CTR) planning to final reporting.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What types of real-time data does the Axess Innovation HIVE system provide from connected sensors?",
+      "evaluation_criteria": "Answer accurately lists the types of real-time data provided by HIVE (corrosion/erosion probes, ATP/qPCR results, residual measurements, iron counts, pressure, temperature, vibration).",
+      "answer": "HIVE provides real-time data from connected sensors, including corrosion and erosion monitoring probes, ATP and qPCR microbial results, residual measurements, iron counts, pressure, temperature, and vibration data.",
+      "difficulty": 6,
+      "category": "factual"
+    },
+    {
+      "question": "What is the function of the chemical monitoring module in the Axess Innovation HIVE system?",
+      "evaluation_criteria": "Answer correctly states the function of the chemical monitoring module: live visibility of injection regime and adjustments for KPI compliance. Incorrect if either aspect is missing.",
+      "answer": "The chemical monitoring module in HIVE provides live visibility of the current injection regime and allows adjustments to maintain KPI compliance.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "What is a distinctive feature of the Axess Innovation HIVE system regarding metal loss rates?",
+      "evaluation_criteria": "Answer correctly identifies the system's capability to generate point to point MPY metal loss rates. Incorrect if MPY is misinterpreted or omitted.",
+      "answer": "HIVE can generate point to point MPY metal loss rates.",
+      "difficulty": 6,
+      "category": "factual"
+    },
+    {
+      "question": "Where is the Axess Corporate HQ located?",
+      "evaluation_criteria": "Answer provides the correct address for Axess Corporate HQ as stated in the document.",
+      "answer": "Axess Corporate HQ is located at Axess-Corrosion, Inc. 2001 Timberloch Place The Woodlands, Texas USA 77380.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What is the address of the Axess-Corrosion Center of Excellence?",
+      "evaluation_criteria": "Answer provides the correct address for the Center of Excellence as stated in the document.",
+      "answer": "The Center of Excellence is located at 22632 Kuykendahl Rd Spring, Texas USA 77389.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What is the address of Axess-Corrosion LTD?",
+      "evaluation_criteria": "Answer provides the correct address for Axess-Corrosion LTD as stated in the document.",
+      "answer": "Axess-Corrosion LTD is located at H1 Hill of Rubislaw Anderson Drive Aberdeen AB15 6BL.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What is the email address and what are the phone numbers for Axess?",
+      "evaluation_criteria": "Answer provides the correct email address and phone numbers for Axess as stated in the document. Must include both phone numbers to be correct.",
+      "answer": "The email address for Axess is info@axess.energy, and the phone numbers are +1(832)990-6754 and +44(0)1224 042111.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "According to the coupon analysis table, what coupon material is associated with the coupon part number CCST-2.87580 87SKO 125?",
+      "evaluation_criteria": "Answer correctly associates the coupon part number with the coupon material as found in the table. Must include the full part number and material code.",
+      "answer": "The coupon part number CCST-2.87580 87SKO 125 is associated with coupon material 1018 LS |LJUSBU0.",
+      "difficulty": 7,
+      "category": "factual"
+    },
+    {
+      "question": "What types of real-time data does the Axess Innovation HIVE system provide from connected sensors to give a critical view into an asset's health?",
+      "evaluation_criteria": "Answer must include all data types listed: corrosion/erosion probes, ATP/qPCR microbial results, residual measurements, iron counts, pressure, temperature, and vibration data.  Incorrect answers will omit one or more data types.",
+      "answer": "The Axess Innovation HIVE system provides real-time data from connected sensors, including corrosion and erosion monitoring probes, ATP and qPCR microbial results, residual measurements, iron counts, pressure, temperature, and vibration data.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "For which specific industry is the Axess Innovation HIVE system tailored, and what unique capabilities does it offer?",
+      "evaluation_criteria": "Answer must mention oil and gas industry and include visualization and data trending capabilities. Missing either element is incorrect.",
+      "answer": "The Axess Innovation HIVE system is tailored for the oil and gas industry, offering unique visualization and data trending capabilities.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "How does the Axess Innovation HIVE system's smart alert mechanism keep users informed?",
+      "evaluation_criteria": "Answer must mention smart alerts and specify text message or email notifications for events or data reports. Omitting the notification methods is incorrect.",
+      "answer": "The Axess Innovation HIVE system offers smart alerts via text message or email notifications for events or regular data reports.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What is the accuracy of the point-to-point measurements provided by the Axess Innovation HIVE system, and at what distance is this accuracy maintained?",
+      "evaluation_criteria": "Answer must state the accuracy as 2mm and the distance as 60m. Incorrect values for either will be considered wrong.",
+      "answer": "The point-to-point measurements in the Axess Innovation HIVE system have an accuracy of 2mm at a distance of 60m.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "According to the coupon analysis table, what were the initial weight, final weight, weight loss, corrected weight loss, corrosion rate, and max pit depth/pitting rate for the coupon with serial number BAC11, installed on 5/20/2021 and removed on 1/7/2021?",
+      "evaluation_criteria": "Answer must include all values for the specified coupon serial number (BAC11) and dates (5/20/2021 and 1/7/2021): initial weight, final weight, weight loss, corrected weight loss, corrosion rate, and max pit depth/pitting rate. Any deviation from the values in the table is incorrect.",
+      "answer": "The coupon with serial number BAC11, installed on 5/20/2021 and removed on 1/7/2021, had an initial weight of 17.3624, a final weight of 17.2000, a weight loss of 0.0564, a corrected weight loss of 0.0511, a corrosion rate of 0.1172, and a max pit depth/pitting rate of 0.",
+      "difficulty": 7,
+      "category": "factual"
+    },
+    {
+      "question": "According to the coupon analysis table, what was the weight loss for coupon CC-4, which was installed on 5/20/2023 and removed on 8/7/2023?",
+      "evaluation_criteria": "Answer must correctly identify the weight loss for coupon CC-4 with the specified install and remove dates. Incorrect value or incorrect coupon ID is wrong.",
+      "answer": "The coupon analysis table shows that coupon CC-4, with install date 5/20/2023 and remove date 8/7/2023, had a weight loss of 0.0500.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "According to the 'HIVE' section of the document, what are the Device Type, Fitting Type, Device DN, Mating Flange Blandoft, Device Length, Pressure Range, Line Size, Access Filing Part, Coupon Material Allowed, and Coupon Type Allowed?",
+      "evaluation_criteria": "Answer must include all the following attributes and their corresponding values: Device Type, Fitting Type, Device DN, Mating Flange Blandoft, Device Length, Pressure Range, Line Size, Access Filing Part, Coupon Material Allowed, and Coupon Type Allowed. Any deviation from the values in the document is incorrect.",
+      "answer": "The device type is SCH, the fitting type is 15000 NTJ, the device DN is HPSTCHNW:12.75, the mating flange Blandoft is 4.88\", the device length is 12.75\", the pressure range is 750 PSI, the line size is IT SCH 80, the access filing part is ACFPN-01, the coupon material allowed is MAT-91, and the coupon type allowed is TYP-91.",
+      "difficulty": 8,
+      "category": "factual"
+    },
+    {
+      "question": "According to the coupon analysis table, what was the pitting rate for the coupon with serial number RAK32?",
+      "evaluation_criteria": "Answer must correctly identify the pitting rate for coupon RAK32. Incorrect value or incorrect coupon ID is wrong.",
+      "answer": "The coupon analysis table shows that the coupon with serial number RAK32 had a pitting rate of 0.",
+      "difficulty": 6,
+      "category": "factual"
+    },
+    {
+      "question": "According to the coupon analysis table, what is the coupon part number for the location description 'MBI-1330 COOLING MEDIUM EXPANSION TANE'?",
+      "evaluation_criteria": "Answer must correctly match the location description to the coupon part number. Incorrect match is wrong.",
+      "answer": "The location description 'MBI-1330 COOLING MEDIUM EXPANSION TANE' has a coupon part number of 'CCST-2.87580 87SKO 125'.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "According to the coupon analysis table, what is the coupon material for the location description 'MBI-1330 COOLING MEDIUM EXPANSION TANE'?",
+      "evaluation_criteria": "Answer must correctly match the location description to the coupon material. Incorrect match is wrong.",
+      "answer": "The location description 'MBI-1330 COOLING MEDIUM EXPANSION TANE' has a coupon material of '1018 LS |LJUSBU0'.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "What access options does the HIVE system offer, and what does this ensure?",
+      "evaluation_criteria": "Answer must mention both web-based access and closed networks with a dedicated server.",
+      "answer": "The HIVE system offers both web-based access and the ability to run on closed networks with a dedicated server, ensuring compatibility and security.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "How does the HIVE system facilitate connectivity and data transfer?",
+      "evaluation_criteria": "Answer must mention connection through common industry protocols and data transfer to client systems.",
+      "answer": "The HIVE system's flexible design allows for easy connection through common industry protocols and smooth data transfer to client systems.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "According to the location table, what are the location descriptions listed?",
+      "evaluation_criteria": "Answer must list all 8 locations exactly as they appear in the table.",
+      "answer": "The location descriptions NBD-1510 Oil, NBD-1560 Oil, NBD-1540 Walls, NBD-1640 Gas, NBD-1510 Walu Leg, FA-0200 Flowline (GF), Glycol Reboller, and Glycol Still Column are listed in the location table.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "What type of notifications can HIVE users set up to stay informed?",
+      "evaluation_criteria": "The answer must state that HIVE users can set alarms for text message or email notifications for events or regular data reports.",
+      "answer": "HIVE users can set alarms for text message or email notifications for events or regular data reports.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "For which professionals is the Axess Innovation HIVE system designed?",
+      "evaluation_criteria": "The answer must list Oil and Gas Operators, Asset Managers, Inspection Engineers, Corrosion Engineers, and Production Chemists.",
+      "answer": "The Axess Innovation HIVE system is designed for Oil and Gas Operators, Asset Managers, Inspection Engineers, Corrosion Engineers, and Production Chemists.",
+      "difficulty": 2,
+      "category": "factual"
+    }
+  ],
+  "iterations": 5,
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

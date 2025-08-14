@@ -1,0 +1,35 @@
+{
+  "original_file": "Axess Brochure (1).txt",
+  "source_used": "md",
+  "length_unit": "tokens",
+  "min_length": 900,
+  "max_length": 2200,
+  "segments_detected": 15,
+  "num_chunks": 4,
+  "chunks": [
+    {
+      "id": 1,
+      "filename": "chunk_001.txt",
+      "length": 39,
+      "is_tableish": true
+    },
+    {
+      "id": 2,
+      "filename": "chunk_002.txt",
+      "length": 738,
+      "is_tableish": false
+    },
+    {
+      "id": 3,
+      "filename": "chunk_003.txt",
+      "length": 379,
+      "is_tableish": false
+    },
+    {
+      "id": 4,
+      "filename": "chunk_004.txt",
+      "length": 1933,
+      "is_tableish": true
+    }
+  ]
+}

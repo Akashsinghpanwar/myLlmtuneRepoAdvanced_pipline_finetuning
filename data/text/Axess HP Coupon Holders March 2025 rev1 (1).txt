@@ -1,0 +1,114 @@
+AXESS
+Qualitas Veritas
+ISO 9001-2015
+HIGH PRESSURE RETRIEVABLE COUPON HOLDERS
+AX123
+AX123
+AX123
+For use with AXHP Access Systems
+Corrosion can be extremely costly, and control is vital for the integrity management of critical assets. One of the simplest ways to monitor your facility is with the use of corrosion coupons. The corrosion coupon is intrusively inserted into the process system and periodically removed to conduct weight loss and visual analysis.
+The Axess AXHP range of coupon holders are designed for use with our AXHP access systems and allow the insertion and removal of corrosion coupons in pressurized piping systems up to 10,000psi. The coupon holders are installed through permanently mounted access fittings allowing installation and replacement of coupons without the requirement to isolate process pressure avoiding expensive isolation and shutdowns. Coupon holders are manufactured in 316SS material as standard and lengths are selected to suit the individual monitoring location.
+The two main styles of coupon holder are 3" strip and flush disc. Strip coupon holders can be used for monitoring at a pre-selected area within the pipe whilst flush disc coupon holders are ideal from monitoring inline with the pipe wall. Additional coupon holder types including ladder coupons and multidisc are available for specialist monitoring withing multiphase lines.
+MEET NACE MR0175 & MR0103 STANDARDS
+LOW COST MONITORING OPTION
+EASY INSTALLATION AND MAINTENANCE
+PROVIDES AVERAGE WEIGHT LOSS DATA
+PHYSICAL SPECIMEN TO IDENTIFY CORROSION MECHANISMS
+Coupon Holder Types
+Strip Coupon Holder
+This type of coupon holder mounts a pair of coupons of either 3" or 6" nominal length. Typically the access fitting will be mounted at 12o'clock on the pipe, with coupons held at the bottom of the pipe. Scale coupons would typically be held at the center of the pipe. Note the alternative layout shown with the strip coupon holder mounted through Axess' patented Horizon access fitting, for the most user friendly and accurate bottom of the line monitoring.
+Flush Disc Coupon Holder
+Flush disc coupons are typically mounted flush to the inner pipe wall at the entry point. This suits bottom of the line monitoring with the access fitting at 6o'clock on the pipe. We have shown the flush disc coupon holder mounted through our Horizon access fitting, note the angled coupon to align with the pipe inner bore. Flush disc coupon holders are available with fixed length and also with adjustable length.
+Ladder (Strip) Coupon Holder
+Ladder coupons are strip coupons with 2" nominal length. These are typically mounted at top, center and bottom of a pipe (inner bore diameter permitting). This allows monitoring corrosion rate across multiple fluid / gas phases within the process flow. The access fitting would normally be located at the top (12o'clock) of the pipe.
+Multiple (Multi) Disc Coupon Holder
+Multiple disc coupons are typically mounted at top, center and bottom of a pipe (inner bore diameter permitting). This allows monitoring corrosion rate across multiple fluid / gas phases within the process flow. The access fitting would normally be located at the top (12o'clock) of the pipe.
+1
+L
+JANUSGUARD
+AXESS
+Innovating Safety ...
+2001 Timberloch Place, Suite 500, The Woodlands Texas 77380, USA, www.axess-corrosion.com, +1 (832) 990 6754_info@axess-corrosion.com WhatsApp
+Coupon Holder Sizing
+Once the access fitting type, and pipe dimensions are known, the style of holder and desired location of the coupons can be selected. The below formulas can then be used to position the coupons in the correct position within the line.
+The example formulas below are for calculating coupon holder length (L) for use with standard mechanical flare-weld access fitting assemblies. Please contact Axess for other applications, or log in to Kickstarter via our website and let it calculate the lengths and generate part numbers for you.
+Top of the Line Monitoring:
+Coupon holder positions the effective length of strip coupon into pipe / vessel. L = (A + PW + WG) - 2.5"
+Flush Monitoring:
+Coupon holder positions the coupon face flush to the pipe inner wall at the entry point (flush disc coupon only). L = (A + PW + WG) - 2.815"
+Middle of the Line Monitoring:
+Coupon holder positions '/2 of the coupon on either side of pipe centerline. In the case of a multiple disc coupon holder use this formula for top and center of the line monitoring. L = (A + '/2PD + WG) - (2.5" + 1/2EL)
+Bottom of the Line Monitoring:
+Coupon holder positions coupon approximately '/." off bottom of line. In the case of ladder and multiple disc coupon holder use this formula for top, center and bottom of the line monitoring. L = (A + PD + WG) - (2.75" + PW + EL)
+Where:
+A = Length of Flare-weld Access fitting body
+PW = Pipe wall (wall thickness of pipe)
+PD = Pipe diameter (outside diameter of pipe)
+EL = Effective length of coupon (the portion of the coupon exposed to the environment, i.e. 3" coupon = 1-5%", 6" coupon = 4-3/4")
+WG = Weld gap (as per weld procedures, 1/16" is normal per ANSI B31.1 1973)
+NOTE: If calculated length is not an even '/." increment, please round back to the previous '/." increment.
+AXESS
+Innovating Safety ...
+JANUSGUARD
+2001 Timberloch Place, Suite 500, The Woodlands Texas 77380, USA, www.axess-corrosion.com, +1 (832) 990 6754_info@axess-corrosion.com WhatsApp
+Coupon Holder Part Numbers
+Once the coupon holder length is known, the next step is to generate the part number using the below system:
+HP
+Coupon Type
+Construction
+-
+Material
+-
+Order Length
+-
+Special
+High
+Strip
+STCH
+Welded*
+**
+-
+316/316L
+**
+-
+See Page 3
+-
+Horizon FDCH HZ45
+Pressure
+Flush Disc
+FDCH
+Non-Welded
+NW
+F51 DSS
+A7
+Head Angle ***
+Retrievable
+Multiple Disc
+MDCH
+F60 DSS
+A8
+Ladder Strip
+LDCH
+F53 SDSS
+A9
+Adjustable Flush Disc
+DCCHAJ
+F55 SDSS
+B1
+Hastelloy / C276
+B4
+Inconel 625
+B5
+Incoloy 825
+B6
+* Welded construction is available for 316/316L S/S only. All other materials are non-welded construction.
+** Standard, Please Leave Blank
+*** Example. The horizon flush disc coupon holder head angle is set by Axess to suit the pipe bore.
+Alternatively log in to Kickstarter via Axess' website and let the system generate the access fitting, coupon holder, coupons, retrieval tools and spare parts for you based on a few logic driven selections.
+KICKST RTER AN AXXESS INNOVATION
+Alternative Coupon Holder Types
+Axess offers a product tailoring system whereby we design a product specific to customer's requirements. Examples include the polymer coupon holder shown below left and crevice corrosion coupon holder shown below right. Please see their specific product information sheets for further details on those products and please feel free to contact Axess with any special requirements.
+AXESS
+Innovating Safety ...
+JANUSGUARD
+2001 Timberloch Place, Suite 500, The Woodlands Texas 77380, USA, www.axess-corrosion.com, +1 (832) 990 6754_info@axess-corrosion.com WhatsApp

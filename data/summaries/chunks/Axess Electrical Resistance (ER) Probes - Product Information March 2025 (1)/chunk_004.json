@@ -1,0 +1,26 @@
+{
+  "bullets": [
+    "Table 2 lists materials: 316/316L SS (standard), F51 DSS, F60 DSS, F53 SDSS, F55 SDSS, C276, Alloy 625, Alloy 825.",
+    "Table 3 lists element thicknesses: 10mil, 20mil, 40mil, 50mil.",
+    "Table 3 lists cable length: 10 foot."
+  ],
+  "numbers_and_units": [
+    "10mil",
+    "20mil",
+    "40mil",
+    "50mil",
+    "10 foot"
+  ],
+  "title": "Material Types and Properties",
+  "keywords": [
+    "material",
+    "thickness",
+    "cable",
+    "stainless steel",
+    "alloy"
+  ],
+  "_validation": {
+    "numbers_found_in_text": 5,
+    "source_chunk": "chunk_004.txt"
+  }
+}

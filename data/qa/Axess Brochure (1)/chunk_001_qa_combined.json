@@ -1,0 +1,64 @@
+{
+  "chunk_id": 1,
+  "chunk_filename": "chunk_001.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "How many pages are in the Axess Brochure (1).pdf document?",
+      "evaluation_criteria": "The answer must state '16 pages'.",
+      "answer": "The document has 16 pages.",
+      "difficulty": 1,
+      "category": "factual"
+    },
+    {
+      "question": "How many tables were detected in the Axess Brochure (1).pdf document?",
+      "evaluation_criteria": "The answer must state 'one table'.",
+      "answer": "One table was detected in the document.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "Were key/value pairs detected in the Axess Brochure (1).pdf document?",
+      "evaluation_criteria": "The answer must state 'yes'.",
+      "answer": "Yes, key/value pairs were detected.",
+      "difficulty": 1,
+      "category": "factual"
+    },
+    {
+      "question": "According to the Axess Brochure (1).pdf, were key/value pairs detected?",
+      "evaluation_criteria": "The answer must state that key/value pairs were detected.",
+      "answer": "Yes, key/value pairs were detected.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "Does the Axess Brochure (1).pdf contain detected key/value pairs?",
+      "evaluation_criteria": "Answer must state that key/value pairs were detected.",
+      "answer": "Yes, key/value pairs were detected.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "How many tables were detected in the Axess Brochure (1).pdf?",
+      "evaluation_criteria": "Answer must state the number of tables detected.",
+      "answer": "1",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "In the Axess Brochure (1).pdf, were key/value pairs detected?",
+      "evaluation_criteria": "Check that the answer states that key/value pairs were detected in the document.",
+      "answer": "Yes, key/value pairs were detected.",
+      "difficulty": 2,
+      "category": "factual"
+    }
+  ],
+  "iterations": 5,
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

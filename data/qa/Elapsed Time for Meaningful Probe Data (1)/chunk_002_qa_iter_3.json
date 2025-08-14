@@ -1,0 +1,78 @@
+{
+  "chunk_id": 2,
+  "chunk_filename": "chunk_002.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "According to the table, how long does it take to obtain meaningful corrosion rate data from E/R probes with a corrosion rate of 0.1 mpy and a probe span of 2 mils?",
+      "evaluation_criteria": "Verifies the ability to read the table correctly. Checks for correct units (days).",
+      "answer": "According to the table, with a corrosion rate of 0.1 mpy and a probe span of 2 mils, it takes 73 days to obtain meaningful corrosion rate data from E/R probes.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "According to the table, how long does it take to obtain meaningful corrosion rate data from E/R probes with a corrosion rate of 100 mpy and a probe span of 25 mils?",
+      "evaluation_criteria": "Verifies the ability to read the table correctly. Checks for correct units (hours).",
+      "answer": "According to the table, with a corrosion rate of 100 mpy and a probe span of 25 mils, it takes 22 hours to obtain meaningful corrosion rate data from E/R probes.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "According to the table, if the probe span is 5 mils, how does increasing the corrosion rate from 50 mpy to 75 mpy affect the time required for meaningful corrosion rate data from E/R probes?",
+      "evaluation_criteria": "Verifies the ability to read the table correctly for two different corrosion rates at a fixed probe span. Checks for correct units (hours). Correctly identifies the inverse relationship between corrosion rate and time to meaningful data.",
+      "answer": "According to the table, with a probe span of 5 mils, a corrosion rate of 50 mpy will yield meaningful data in 9 hours, while a corrosion rate of 75 mpy will yield meaningful data in 6 hours. Therefore, increasing the corrosion rate decreases the time required.",
+      "difficulty": 6,
+      "category": "reasoning"
+    },
+    {
+      "question": "According to the table, if the corrosion rate is 5 mpy, how does increasing the probe span from 2 mils to 25 mils affect the time required for meaningful corrosion rate data from E/R probes?",
+      "evaluation_criteria": "Verifies the ability to read the table correctly for two different probe spans at a fixed corrosion rate. Checks for correct units (hours and days). Correctly identifies the direct relationship between probe span and time to meaningful data.",
+      "answer": "According to the table, with a corrosion rate of 5 mpy, increasing the probe span from 2 mils to 25 mils increases the time required from 35 hours to 18 days to obtain meaningful corrosion rate data from E/R probes.",
+      "difficulty": 6,
+      "category": "reasoning"
+    },
+    {
+      "question": "According to the table, if the probe span is 20 mils, how does increasing the corrosion rate from 0.5 mpy to 1 mpy affect the time required for meaningful corrosion rate data from E/R probes?",
+      "evaluation_criteria": "Verifies the ability to read the table correctly for two different corrosion rates at a fixed probe span. Checks for correct units (months and days). Correctly identifies the inverse relationship between corrosion rate and time to meaningful data.",
+      "answer": "According to the table, with a probe span of 20 mils, a corrosion rate of 0.5 mpy will yield meaningful data in 5 months, while a corrosion rate of 1 mpy will yield meaningful data in 73 days. Therefore, increasing the corrosion rate decreases the time required.",
+      "difficulty": 6,
+      "category": "reasoning"
+    },
+    {
+      "question": "According to the table, what is the shortest time to meaningful data, and at what corrosion rate and probe span does this occur?",
+      "evaluation_criteria": "Verifies the ability to identify the minimum time in the table and the corresponding corrosion rate and probe span. Checks for correct units (minutes and mpy).",
+      "answer": "According to the table, the shortest time to meaningful data is 105 minutes, which occurs with a corrosion rate of 100 mpy and a probe span of 2 mils.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "According to the table, how long does it take to obtain meaningful corrosion rate data from E/R probes with a corrosion rate of 25 mpy and a probe span of 2 mils?",
+      "evaluation_criteria": "Verifies the ability to read the table correctly. Checks for correct units (hours).",
+      "answer": "According to the table, with a corrosion rate of 25 mpy and a probe span of 2 mils, it takes 7 hours to obtain meaningful corrosion rate data from E/R probes.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "According to the table, how long does it take to obtain meaningful corrosion rate data from E/R probes with a corrosion rate of 10 mpy and a probe span of 25 mils?",
+      "evaluation_criteria": "Verifies the ability to read the table correctly. Checks for correct units (days).",
+      "answer": "According to the table, with a corrosion rate of 10 mpy and a probe span of 25 mils, it takes 9 days to obtain meaningful corrosion rate data from E/R probes.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "According to the table, if the probe span is 4 mils, how does increasing the corrosion rate from 0.1 mpy to 100 mpy affect the time required for meaningful corrosion rate data from E/R probes?",
+      "evaluation_criteria": "Verifies the ability to read the table correctly for two different corrosion rates at a fixed probe span. Checks for correct units (months and hours). Correctly identifies the inverse relationship between corrosion rate and time to meaningful data.",
+      "answer": "According to the table, with a probe span of 4 mils, a corrosion rate of 0.1 mpy will yield meaningful data in 5 months, while a corrosion rate of 100 mpy will yield meaningful data in 4 hours. Therefore, increasing the corrosion rate decreases the time required.",
+      "difficulty": 6,
+      "category": "reasoning"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"According to the table, with a corrosion rate of 0.1 mpy and a probe span of 2 mils, it takes 73 days to obtain meaningful corrosion rate data from E/R probes.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Verifies the ability to read the table correctly. Checks for correct units (days).\",\n    \"question\": \"According to the table, how long does it take to obtain meaningful corrosion rate data from E/R probes with a corrosion rate of 0.1 mpy and a probe span of 2 mils?\"\n  },\n  {\n    \"answer\": \"According to the table, with a corrosion rate of 100 mpy and a probe span of 25 mils, it takes 22 hours to obtain meaningful corrosion rate data from E/R probes.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Verifies the ability to read the table correctly. Checks for correct units (hours).\",\n    \"question\": \"According to the table, how long does it take to obtain meaningful corrosion rate data from E/R probes with a corrosion rate of 100 mpy and a probe span of 25 mils?\"\n  },\n  {\n    \"answer\": \"According to the table, with a probe span of 5 mils, a corrosion rate of 50 mpy will yield meaningful data in 9 hours, while a corrosion rate of 75 mpy will yield meaningful data in 6 hours. Therefore, increasing the corrosion rate decreases the time required.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"Verifies the ability to read the table correctly for two different corrosion rates at a fixed probe span. Checks for correct units (hours). Correctly identifies the inverse relationship between corrosion rate and time to meaningful data.\",\n    \"question\": \"According to the table, if the probe span is 5 mils, how does increasing the corrosion rate from 50 mpy to 75 mpy affect the time required for meaningful corrosion rate data from E/R probes?\"\n  },\n  {\n    \"answer\": \"According to the table, with a corrosion rate of 5 mpy, increasing the probe span from 2 mils to 25 mils increases the time required from 35 hours to 18 days to obtain meaningful corrosion rate data from E/R probes.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"Verifies the ability to read the table correctly for two different probe spans at a fixed corrosion rate. Checks for correct units (hours and days). Correctly identifies the direct relationship between probe span and time to meaningful data.\",\n    \"question\": \"According to the table, if the corrosion rate is 5 mpy, how does increasing the probe span from 2 mils to 25 mils affect the time required for meaningful corrosion rate data from E/R probes?\"\n  },\n  {\n    \"answer\": \"According to the table, with a probe span of 20 mils, a corrosion rate of 0.5 mpy will yield meaningful data in 5 months, while a corrosion rate of 1 mpy will yield meaningful data in 73 days. Therefore, increasing the corrosion rate decreases the time required.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"Verifies the ability to read the table correctly for two different corrosion rates at a fixed probe span. Checks for correct units (months and days). Correctly identifies the inverse relationship between corrosion rate and time to meaningful data.\",\n    \"question\": \"According to the table, if the probe span is 20 mils, how does increasing the corrosion rate from 0.5 mpy to 1 mpy affect the time required for meaningful corrosion rate data from E/R probes?\"\n  },\n  {\n    \"answer\": \"According to the table, the shortest time to meaningful data is 105 minutes, which occurs with a corrosion rate of 100 mpy and a probe span of 2 mils.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Verifies the ability to identify the minimum time in the table and the corresponding corrosion rate and probe span. Checks for correct units (minutes and mpy).\",\n    \"question\": \"According to the table, what is the shortest time to meaningful data, and at what corrosion rate and probe span does this occur?\"\n  },\n  {\n    \"answer\": \"According to the table, with a corrosion rate of 25 mpy and a probe span of 2 mils, it takes 7 hours to obtain meaningful corrosion rate data from E/R probes.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Verifies the ability to read the table correctly. Checks for correct units (hours).\",\n    \"question\": \"According to the table, how long does it take to obtain meaningful corrosion rate data from E/R probes with a corrosion rate of 25 mpy and a probe span of 2 mils?\"\n  },\n  {\n    \"answer\": \"According to the table, with a corrosion rate of 10 mpy and a probe span of 25 mils, it takes 9 days to obtain meaningful corrosion rate data from E/R probes.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Verifies the ability to read the table correctly. Checks for correct units (days).\",\n    \"question\": \"According to the table, how long does it take to obtain meaningful corrosion rate data from E/R probes with a corrosion rate of 10 mpy and a probe span of 25 mils?\"\n  },\n  {\n    \"answer\": \"According to the table, with a probe span of 4 mils, a corrosion rate of 0.1 mpy will yield meaningful data in 5 months, while a corrosion rate of 100 mpy will yield meaningful data in 4 hours. Therefore, increasing the corrosion rate decreases the time required.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"Verifies the ability to read the table correctly for two different corrosion rates at a fixed probe span. Checks for correct units (months and hours). Correctly identifies the inverse relationship between corrosion rate and time to meaningful data.\",\n    \"question\": \"According to the table, if the probe span is 4 mils, how does increasing the corrosion rate from 0.1 mpy to 100 mpy affect the time required for meaningful corrosion rate data from E/R probes?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

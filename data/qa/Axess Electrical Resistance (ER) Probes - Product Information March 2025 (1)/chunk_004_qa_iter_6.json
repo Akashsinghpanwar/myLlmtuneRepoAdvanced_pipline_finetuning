@@ -1,0 +1,57 @@
+{
+  "chunk_id": 4,
+  "chunk_filename": "chunk_004.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "What is the element thickness for a 304 SS Surface Strip (\"Flush\") ER element?",
+      "evaluation_criteria": "The answer must state the correct element thickness (20mil) and material (304 SS) and element type (Surface Strip).",
+      "answer": "The element thickness for a 304 SS Surface Strip (\"Flush\") ER element is 20mil.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What element type is associated with an Electrical Resistance ER probe?",
+      "evaluation_criteria": "The answer must state the correct element type (Surface Strip) and material (SS).",
+      "answer": "The element type for an Electrical Resistance ER probe is Surface Strip (\"Flush\") SS.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What is the element thickness for an ER probe made of Alloy 625?",
+      "evaluation_criteria": "The answer must state the correct element thickness (50mil) and material (Alloy 625).",
+      "answer": "The element thickness for an ER probe made of Alloy 625 is 50mil.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What is the element thickness for an ER probe made of Alloy 825?",
+      "evaluation_criteria": "The answer must state the correct element thickness (50mil) and material (Alloy 825).",
+      "answer": "The element thickness for an ER probe made of Alloy 825 is 50mil.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What is the element thickness for an ER probe made of F51 DSS?",
+      "evaluation_criteria": "The answer must state the correct element thickness (40mil) and material (F51 DSS).",
+      "answer": "The element thickness for an ER probe made of F51 DSS is 40mil.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What is the element thickness for an ER probe made of C276?",
+      "evaluation_criteria": "The answer must state the correct element thickness (50mil) and material (C276).",
+      "answer": "The element thickness for an ER probe made of C276 is 50mil.",
+      "difficulty": 4,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"The element thickness for a 304 SS Surface Strip (\\\"Flush\\\") ER element is 20mil.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"The answer must state the correct element thickness (20mil) and material (304 SS) and element type (Surface Strip).\",\n    \"question\": \"What is the element thickness for a 304 SS Surface Strip (\\\"Flush\\\") ER element?\"\n  },\n  {\n    \"answer\": \"The element type for an Electrical Resistance ER probe is Surface Strip (\\\"Flush\\\") SS.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"The answer must state the correct element type (Surface Strip) and material (SS).\",\n    \"question\": \"What element type is associated with an Electrical Resistance ER probe?\"\n  },\n  {\n    \"answer\": \"The element thickness for an ER probe made of Alloy 625 is 50mil.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"The answer must state the correct element thickness (50mil) and material (Alloy 625).\",\n    \"question\": \"What is the element thickness for an ER probe made of Alloy 625?\"\n  },\n  {\n    \"answer\": \"The element thickness for an ER probe made of Alloy 825 is 50mil.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"The answer must state the correct element thickness (50mil) and material (Alloy 825).\",\n    \"question\": \"What is the element thickness for an ER probe made of Alloy 825?\"\n  },\n  {\n    \"answer\": \"The element thickness for an ER probe made of F51 DSS is 40mil.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"The answer must state the correct element thickness (40mil) and material (F51 DSS).\",\n    \"question\": \"What is the element thickness for an ER probe made of F51 DSS?\"\n  },\n  {\n    \"answer\": \"The element thickness for an ER probe made of C276 is 50mil.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"The answer must state the correct element thickness (50mil) and material (C276).\",\n    \"question\": \"What is the element thickness for an ER probe made of C276?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "chunk_id": 1,
+  "chunk_filename": "chunk_001.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "According to the Axess HIVE brochure, how many campaigns are indicated?",
+      "evaluation_criteria": "Verifies the correct number of campaigns from the key-value pair.",
+      "answer": "The brochure indicates 2 campaigns.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "According to the Axess HIVE brochure, how many monitoring locations are indicated under 'Montaring'?",
+      "evaluation_criteria": "Verifies the correct number of monitoring locations from the key-value pair.",
+      "answer": "The brochure indicates 25 monitoring locations.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "According to the Axess HIVE brochure, how many pictures are indicated?",
+      "evaluation_criteria": "Verifies the correct number of pictures from the key-value pair.",
+      "answer": "The brochure indicates 75 pictures.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "According to the Axess HIVE brochure, what locations are listed?",
+      "evaluation_criteria": "Verifies the locations are 'Hess / Tubular Bells'.",
+      "answer": "Hess / Tubular Bells",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "According to the Axess HIVE brochure, what is the percentage listed for 'Monitoring Locations' under 'Progress'?",
+      "evaluation_criteria": "Verifies the percentage of monitoring locations is 45%.",
+      "answer": "45%",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "According to the Axess HIVE brochure, what is the date listed for 'Corrosion Monitoring' under 'Progress'?",
+      "evaluation_criteria": "Verifies the corrosion monitoring date is 'SOW Q2-2024'.",
+      "answer": "SOW Q2-2024",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "According to the Axess HIVE brochure, what is the percentage listed for 'Coupons' under 'Progress'?",
+      "evaluation_criteria": "Verifies the percentage of coupons is 95%.",
+      "answer": "95%",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "According to the Axess HIVE brochure, what number is listed for 'Monitoring Locations' under 'Password'?",
+      "evaluation_criteria": "Verifies the number of monitoring locations is 19.",
+      "answer": "19",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "According to the Axess HIVE brochure, what number is listed for 'Pictures' under 'Password'?",
+      "evaluation_criteria": "Verifies the number of pictures is 57.",
+      "answer": "57",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "According to the Axess HIVE brochure, what percentage is listed for 'Pictures' under 'Progress'?",
+      "evaluation_criteria": "Verifies the percentage of pictures is 95%.",
+      "answer": "95%",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "According to the Axess HIVE brochure, what is the date listed for 'Corrosion Monitoring' under 'Password'?",
+      "evaluation_criteria": "Verifies the corrosion monitoring date is 'SOW Q2-2024'.",
+      "answer": "SOW Q2-2024",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "According to the Axess HIVE brochure, what number is listed for 'Monitoring Locations' under 'Projest Delet's'?",
+      "evaluation_criteria": "Verifies the number of monitoring locations is 6.",
+      "answer": "6",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "According to the Axess HIVE brochure, what number is listed for 'Pictures' under 'Projest Delet's'?",
+      "evaluation_criteria": "Verifies the number of pictures is 18.",
+      "answer": "18",
+      "difficulty": 3,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"The brochure indicates 2 campaigns.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"Verifies the correct number of campaigns from the key-value pair.\",\n    \"question\": \"According to the Axess HIVE brochure, how many campaigns are indicated?\"\n  },\n  {\n    \"answer\": \"The brochure indicates 25 monitoring locations.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"Verifies the correct number of monitoring locations from the key-value pair.\",\n    \"question\": \"According to the Axess HIVE brochure, how many monitoring locations are indicated under 'Montaring'?\"\n  },\n  {\n    \"answer\": \"The brochure indicates 75 pictures.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"Verifies the correct number of pictures from the key-value pair.\",\n    \"question\": \"According to the Axess HIVE brochure, how many pictures are indicated?\"\n  },\n  {\n    \"answer\": \"Hess / Tubular Bells\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Verifies the locations are 'Hess / Tubular Bells'.\",\n    \"question\": \"According to the Axess HIVE brochure, what locations are listed?\"\n  },\n  {\n    \"answer\": \"45%\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Verifies the percentage of monitoring locations is 45%.\",\n    \"question\": \"According to the Axess HIVE brochure, what is the percentage listed for 'Monitoring Locations' under 'Progress'?\"\n  },\n  {\n    \"answer\": \"SOW Q2-2024\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Verifies the corrosion monitoring date is 'SOW Q2-2024'.\",\n    \"question\": \"According to the Axess HIVE brochure, what is the date listed for 'Corrosion Monitoring' under 'Progress'?\"\n  },\n  {\n    \"answer\": \"95%\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Verifies the percentage of coupons is 95%.\",\n    \"question\": \"According to the Axess HIVE brochure, what is the percentage listed for 'Coupons' under 'Progress'?\"\n  },\n  {\n    \"answer\": \"19\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Verifies the number of monitoring locations is 19.\",\n    \"question\": \"According to the Axess HIVE brochure, what number is listed for 'Monitoring Locations' under 'Password'?\"\n  },\n  {\n    \"answer\": \"57\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Verifies the number of pictures is 57.\",\n    \"question\": \"According to the Axess HIVE brochure, what number is listed for 'Pictures' under 'Password'?\"\n  },\n  {\n    \"answer\": \"95%\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Verifies the percentage of pictures is 95%.\",\n    \"question\": \"According to the Axess HIVE brochure, what percentage is listed for 'Pictures' under 'Progress'?\"\n  },\n  {\n    \"answer\": \"SOW Q2-2024\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Verifies the corrosion monitoring date is 'SOW Q2-2024'.\",\n    \"question\": \"According to the Axess HIVE brochure, what is the date listed for 'Corrosion Monitoring' under 'Password'?\"\n  },\n  {\n    \"answer\": \"6\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Verifies the number of monitoring locations is 6.\",\n    \"question\": \"According to the Axess HIVE brochure, what number is listed for 'Monitoring Locations' under 'Projest Delet's'?\"\n  },\n  {\n    \"answer\": \"18\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Verifies the number of pictures is 18.\",\n    \"question\": \"According to the Axess HIVE brochure, what number is listed for 'Pictures' under 'Projest Delet's'?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

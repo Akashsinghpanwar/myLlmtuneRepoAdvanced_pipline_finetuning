@@ -1,0 +1,14 @@
+{
+  "chunk_id": 1,
+  "chunk_filename": "chunk_001.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [],
+  "raw_response": "[\n  {\n    \"answer\": \"The Horizon Access Fittings are intended for clients Worley, Aramco, and AFIC.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"Answer must list all three clients: Worley, Aramco, and AFIC. Missing any client is incorrect.\",\n    \"question\": \"For which clients are the Horizon Access Fittings intended?\"\n  },\n  {\n    \"answer\": \"The Horizon Access Fittings document was issued on 04/30/2024.\",\n    \"category\": \"factual\",\n    \"difficulty\": 1,\n    \"evaluation_criteria\": \"Answer must state the exact date: 04/30/2024. Any other date is incorrect.\",\n    \"question\": \"What is the issue date of the Horizon Access Fittings document?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

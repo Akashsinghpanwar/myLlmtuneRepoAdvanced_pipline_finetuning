@@ -1,0 +1,22 @@
+{
+  "bullets": [
+    "Pages detected: 4",
+    "Tables detected: 1",
+    "Key/Value pairs detected: yes"
+  ],
+  "numbers_and_units": [
+    "4",
+    "1"
+  ],
+  "title": "Axess HP Coupon Holders March 2025 rev1 (1).pdf",
+  "keywords": [
+    "axess",
+    "hp",
+    "coupon",
+    "march 2025"
+  ],
+  "_validation": {
+    "numbers_found_in_text": 2,
+    "source_chunk": "chunk_001.txt"
+  }
+}

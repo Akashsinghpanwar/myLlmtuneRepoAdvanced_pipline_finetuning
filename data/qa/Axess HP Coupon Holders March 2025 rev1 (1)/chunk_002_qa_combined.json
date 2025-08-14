@@ -1,0 +1,232 @@
+{
+  "chunk_id": 2,
+  "chunk_filename": "chunk_002.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "What are the pressure rating and compatible access systems for the Axess AXHP range of coupon holders?",
+      "evaluation_criteria": "Answer must specify the Axess AXHP coupon holders, their compatibility with AXHP access systems, and the 10,000psi pressure rating. Incorrect answers may omit the pressure rating or compatibility.",
+      "answer": "The Axess AXHP range of coupon holders are designed for use with AXHP access systems and allow insertion/removal in pressurized piping systems up to 10,000psi.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What is the standard material of manufacture for Axess coupon holders?",
+      "evaluation_criteria": "Answer must state 316SS. Incorrect answers may specify a different material.",
+      "answer": "Coupon holders are manufactured in 316SS material as standard.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What nominal lengths are available for coupons used with strip coupon holders?",
+      "evaluation_criteria": "Answer must mention strip coupon holders and specify both 3\" and 6\" nominal lengths. Incorrect answers may omit one of the lengths or refer to a different coupon holder type.",
+      "answer": "Strip coupon holders mount a pair of coupons of either 3\" or 6\" nominal length.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What is the nominal length of coupons used in ladder coupon holders?",
+      "evaluation_criteria": "Answer must state that ladder coupons are strip coupons and specify 2\" nominal length. Incorrect answers may omit the length or the type of coupon.",
+      "answer": "Ladder coupons are strip coupons with 2\" nominal length.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What is the difference in application between strip coupon holders and flush disc coupon holders?",
+      "evaluation_criteria": "Answer must correctly differentiate the use cases for strip coupon holders (pre-selected area) versus flush disc coupon holders (inline with pipe wall). Incorrect answers may confuse the two use cases.",
+      "answer": "Strip coupon holders can be used for monitoring at a pre-selected area within the pipe, while flush disc coupon holders are ideal for monitoring inline with the pipe wall.",
+      "difficulty": 5,
+      "category": "reasoning"
+    },
+    {
+      "question": "Why are multiple disc coupons typically mounted at the top, center, and bottom of a pipe?",
+      "evaluation_criteria": "Answer must mention mounting at the top, center, and bottom of the pipe, and the purpose of monitoring corrosion rate across multiple phases. Incorrect answers may omit the mounting locations or the purpose.",
+      "answer": "Multiple disc coupons are typically mounted at the top, center, and bottom of a pipe (inner bore diameter permitting) to allow monitoring of corrosion rate across multiple fluid / gas phases within the process flow.",
+      "difficulty": 6,
+      "category": "reasoning"
+    },
+    {
+      "question": "Where is the access fitting normally located on the pipe when using ladder or multiple disc coupon holders?",
+      "evaluation_criteria": "Answer must state that the access fitting is located at the top (12 o'clock) of the pipe. Incorrect answers may specify a different location.",
+      "answer": "The access fitting would normally be located at the top (12 o'clock) of the pipe.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What length options are available for flush disc coupon holders?",
+      "evaluation_criteria": "Answer must mention that flush disc coupon holders are available in both fixed and adjustable lengths. Incorrect answers may omit one of the length options.",
+      "answer": "Flush disc coupon holders are available with fixed length and also with adjustable length.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What pressure rating do the Axess AXHP range of coupon holders support, and which access systems are they designed for use with?",
+      "evaluation_criteria": "Verifies the pressure rating and compatible access system for Axess AXHP coupon holders. Answer must state 10,000psi and AXHP access systems.",
+      "answer": "The Axess AXHP range of coupon holders are designed for use with AXHP access systems and allow insertion/removal in pressurized piping systems up to 10,000psi.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "How are corrosion coupons used to monitor a facility's integrity?",
+      "evaluation_criteria": "Answer must mention intrusive insertion, periodic removal, and weight loss/visual analysis.",
+      "answer": "Corrosion coupons are intrusively inserted into the process system and periodically removed to conduct weight loss and visual analysis.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "Which NACE standards do Axess coupon holders meet?",
+      "evaluation_criteria": "Answer must state 'NACE MR0175 & MR0103'.",
+      "answer": "Axess coupon holders meet NACE MR0175 & MR0103 standards.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What is the maximum pressure rating for the Axess AXHP range of coupon holders?",
+      "evaluation_criteria": "Answer must state '10,000psi' and mention 'Axess AXHP range of coupon holders'. Incorrect if pressure is wrong or if product name is missing.",
+      "answer": "The Axess AXHP range of coupon holders allow insertion and removal of corrosion coupons in pressurized piping systems up to 10,000psi.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What are the typical monitoring applications for strip coupon holders versus flush disc coupon holders?",
+      "evaluation_criteria": "Answer must correctly differentiate the monitoring use cases for both strip and flush disc coupon holders. Incorrect if the use cases are swapped or if only one type of holder is mentioned.",
+      "answer": "Strip coupon holders can be used for monitoring at a pre-selected area within the pipe, while flush disc coupon holders are ideal for monitoring inline with the pipe wall.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "What type of coupons are ladder coupons, and what is their nominal length?",
+      "evaluation_criteria": "Answer must state 'Ladder coupons' are 'strip coupons' and give the correct length of '2\"'. Incorrect if the length is wrong or if the type of coupon is misidentified.",
+      "answer": "Ladder coupons are strip coupons with 2\" nominal length.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What is the standard material used to manufacture Axess coupon holders?",
+      "evaluation_criteria": "Answer must state '316SS' and mention 'Axess coupon holders'. Incorrect if the material is wrong or if product name is missing.",
+      "answer": "Axess coupon holders are manufactured in 316SS material as standard.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "Where is the access fitting normally located on the pipe when using ladder coupons?",
+      "evaluation_criteria": "Answer must state 'top (12 o'clock)'. Incorrect if the location is wrong.",
+      "answer": "The access fitting would normally be located at the top (12 o'clock) of the pipe.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "Which access systems are the Axess AXHP range of coupon holders designed for use with?",
+      "evaluation_criteria": "Answer must state 'AXHP Access Systems'. Incorrect if the access system is wrong.",
+      "answer": "The Axess AXHP range of coupon holders are designed for use with AXHP Access Systems.",
+      "difficulty": 2,
+      "category": "factual"
+    },
+    {
+      "question": "What is the maximum pressure that the Axess AXHP range of coupon holders can handle in pressurized piping systems?",
+      "evaluation_criteria": "Verifies the pressure rating of the Axess AXHP coupon holders.  The answer must state '10,000psi'.",
+      "answer": "The Axess AXHP range of coupon holders allow the insertion and removal of corrosion coupons in pressurized piping systems up to 10,000psi.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "According to the document, what are the different monitoring applications for strip coupon holders and flush disc coupon holders?",
+      "evaluation_criteria": "Checks the understanding of the different applications of strip and flush disc coupon holders. The answer must correctly identify the use case for each type of holder.",
+      "answer": "Strip coupon holders can be used for monitoring at a pre-selected area within the pipe, while flush disc coupon holders are ideal for monitoring inline with the pipe wall.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "What are the two main styles of coupon holders, and what additional types are available for specialist monitoring within multiphase lines?",
+      "evaluation_criteria": "Checks the understanding of the different types of coupon holders. The answer must correctly identify the two main styles and the additional types.",
+      "answer": "The two main styles of coupon holder are 3\" strip and flush disc. Additional coupon holder types including ladder coupons and multidisc are available for specialist monitoring within multiphase lines.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "How do coupon holders installed through permanently mounted access fittings simplify the process of corrosion monitoring?",
+      "evaluation_criteria": "Checks the understanding of the benefits of using coupon holders. The answer must correctly identify that coupon holders allow installation and replacement of coupons without the requirement to isolate process pressure.",
+      "answer": "The coupon holders are installed through permanently mounted access fittings allowing installation and replacement of coupons without the requirement to isolate process pressure avoiding expensive isolation and shutdowns.",
+      "difficulty": 6,
+      "category": "reasoning"
+    },
+    {
+      "question": "Where is the access fitting normally located on the pipe when using multiple disc coupon holders?",
+      "evaluation_criteria": "Checks the location of the access fitting when using multiple disc coupons. The answer must state that the access fitting is normally located at the top (12 o'clock) of the pipe.",
+      "answer": "The access fitting would normally be located at the top (12o'clock) of the pipe.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What is the maximum pressure rating that the Axess AXHP range of coupon holders can handle?",
+      "evaluation_criteria": "Verifies the pressure rating of the Axess AXHP coupon holders.  Incorrect answers: Values outside the stated pressure rating.  Must mention the correct units (psi).",
+      "answer": "The Axess AXHP range of coupon holders allow the insertion and removal of corrosion coupons in pressurized piping systems up to 10,000psi.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "What are the possible nominal lengths for coupons used with Axess strip coupon holders?",
+      "evaluation_criteria": "Verifies the nominal lengths available for strip coupon holders. Incorrect answers: Omitting the unit of measure (\"). Incorrect answers: Stating lengths other than 3\" or 6\".",
+      "answer": "Strip coupon holders mount a pair of coupons of either 3\" or 6\" nominal length.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What type of coupons are used for Axess ladder coupon holders, and what is their nominal length?",
+      "evaluation_criteria": "Verifies the type and length of ladder coupons. Incorrect answers: Incorrect coupon type (e.g., disc). Incorrect length. Must mention the correct units (\").",
+      "answer": "Ladder coupons are strip coupons with 2\" nominal length.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "According to the document, what are the two main styles of Axess coupon holders, and what additional types are available for specialist monitoring within multiphase lines?",
+      "evaluation_criteria": "Verifies the main coupon holder styles and additional types.  Incorrect answers: Omitting either of the main styles.  Incorrect answers: Listing incorrect additional types or omitting the reference to multiphase lines.",
+      "answer": "The two main styles of coupon holder are 3\" strip and flush disc. Additional coupon holder types including ladder coupons and multidisc are available for specialist monitoring withing multiphase lines.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "How do Axess coupon holders installed through permanently mounted access fittings simplify the process of corrosion monitoring?",
+      "evaluation_criteria": "Verifies the benefit of using coupon holders with access fittings. Incorrect answers: Focus on coupon analysis rather than installation/replacement. Incorrect answers: Missing the aspect of avoiding process isolation and shutdowns.",
+      "answer": "Coupon holders are installed through permanently mounted access fittings allowing installation and replacement of coupons without the requirement to isolate process pressure, avoiding expensive isolation and shutdowns.",
+      "difficulty": 6,
+      "category": "reasoning"
+    },
+    {
+      "question": "Why are Axess multiple disc coupons typically mounted at the top, center, and bottom of a pipe?",
+      "evaluation_criteria": "Verifies the mounting locations and purpose of multiple disc coupons. Incorrect answers: Omitting the multiple mounting locations (top, center, bottom). Incorrect answers: Omitting the purpose of monitoring corrosion rate across multiple phases. Incorrect answers: Omitting the typical access fitting location.",
+      "answer": "Multiple disc coupons are typically mounted at top, center and bottom of a pipe (inner bore diameter permitting) to allow monitoring corrosion rate across multiple fluid / gas phases within the process flow. The access fitting would normally be located at the top (12o'clock) of the pipe.",
+      "difficulty": 7,
+      "category": "reasoning"
+    },
+    {
+      "question": "Where is the access fitting normally located on the pipe when using Axess ladder coupons?",
+      "evaluation_criteria": "Verifies the typical access fitting location for ladder coupons. Incorrect answers: Stating incorrect locations (e.g., bottom, side).",
+      "answer": "The access fitting would normally be located at the top (12o'clock) of the pipe when using ladder coupons.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "Where is the access fitting normally located on the pipe when using Axess multiple disc coupon holders?",
+      "evaluation_criteria": "Verifies the typical access fitting location for multiple disc coupons. Incorrect answers: Stating incorrect locations (e.g., bottom, side).",
+      "answer": "The access fitting would normally be located at the top (12o'clock) of the pipe when using multiple disc coupon holders.",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What length options are available for Axess flush disc coupon holders?",
+      "evaluation_criteria": "Verifies the length options for flush disc coupon holders. Incorrect answers: Omitting either fixed or adjustable length.",
+      "answer": "Flush disc coupon holders are available with fixed length and also with adjustable length.",
+      "difficulty": 3,
+      "category": "factual"
+    }
+  ],
+  "iterations": 6,
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

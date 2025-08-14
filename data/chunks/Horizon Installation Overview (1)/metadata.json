@@ -1,0 +1,17 @@
+{
+  "original_file": "Horizon Installation Overview (1).txt",
+  "source_used": "md",
+  "length_unit": "tokens",
+  "min_length": 900,
+  "max_length": 2200,
+  "segments_detected": 8,
+  "num_chunks": 1,
+  "chunks": [
+    {
+      "id": 1,
+      "filename": "chunk_001.txt",
+      "length": 525,
+      "is_tableish": false
+    }
+  ]
+}

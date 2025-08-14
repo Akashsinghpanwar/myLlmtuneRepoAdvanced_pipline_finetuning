@@ -1,0 +1,14 @@
+{
+  "chunk_id": 3,
+  "chunk_filename": "chunk_003.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [],
+  "raw_response": "[\n  {\n    \"answer\": \"The Axess Data Collection Unit (AXDCUHB) weighs 1.7kg (3.8lb).\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"Correctly states the weight and units: 1.7kg (3.8lb).\",\n    \"question\": \"What is the weight of the Axess Data Collection Unit (AXDCUHB)? Include units.\"\n  },\n  {\n    \"answer\": \"The Axess Data Collection Unit (AXDCUHB) has dimensions of 6.5\\\" x 6.5\\\" x 4.25\\\" (165mm x 165mm x 108mm).\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Correctly states all three dimensions in inches and millimeters: 6.5\\\" x 6.5\\\" x 4.25\\\" (165mm x 165mm x 108mm).\",\n    \"question\": \"What are the dimensions of the Axess Data Collection Unit (AXDCUHB) in inches and millimeters?\"\n  },\n  {\n    \"answer\": \"The part number for the Axess Data Collection Unit is AXDCUHB.\",\n    \"category\": \"factual\",\n    \"difficulty\": 1,\n    \"evaluation_criteria\": \"Correctly identifies the part number: AXDCUHB.\",\n    \"question\": \"What is the part number for the Axess Data Collection Unit?\"\n  },\n  {\n    \"answer\": \"The part number for the 7.2V 5Ah Lithium Battery Pack is AXDCUHBBAT.\",\n    \"category\": \"factual\",\n    \"difficulty\": 2,\n    \"evaluation_criteria\": \"Correctly identifies the part number: AXDCUHBBAT.\",\n    \"question\": \"What is the part number for the 7.2V 5Ah Lithium Battery Pack used with the Axess Data Collection Unit?\"\n  },\n  {\n    \"answer\": \"The part number for the DCU Mounting Bracket Kit is AXDCUBRKT.\",\n    \"category\": \"factual\",\n    \"difficulty\": 1,\n    \"evaluation_criteria\": \"Correctly identifies the part number: AXDCUBRKT.\",\n    \"question\": \"What is the part number for the DCU Mounting Bracket Kit?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}

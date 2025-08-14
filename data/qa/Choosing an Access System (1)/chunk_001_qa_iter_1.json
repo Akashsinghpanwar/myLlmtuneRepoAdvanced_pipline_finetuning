@@ -1,0 +1,71 @@
+{
+  "chunk_id": 1,
+  "chunk_filename": "chunk_001.txt",
+  "model": "google/gemini-2.0-flash-001",
+  "qa_pairs": [
+    {
+      "question": "When selecting an access system, how many potential leak paths do mechanical fittings have compared to hydraulic systems?",
+      "evaluation_criteria": "Counts the number of leak paths for each system type.  Incorrect answers may reverse the numbers or omit the plug.",
+      "answer": "Mechanical fittings have one potential leak path, while hydraulic systems have five (four locking pins and the plug).",
+      "difficulty": 4,
+      "category": "factual"
+    },
+    {
+      "question": "What techniques can be used to eliminate galling on mechanical fittings?",
+      "evaluation_criteria": "Identifies both techniques used to mitigate galling in mechanical fittings.  Incorrect answers may only list one technique or misname the coupon holder.",
+      "answer": "Positive pressure balancing techniques and the Axess ‘Saturn’ coupon holders.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "Where can galling occur in hydraulic access systems?",
+      "evaluation_criteria": "Identifies the location of galling in hydraulic systems.  Incorrect answers may specify the wrong location or omit the number of pins.",
+      "answer": "Galling can occur with the four external locking pins on the hydraulic system.",
+      "difficulty": 5,
+      "category": "factual"
+    },
+    {
+      "question": "What are the advantages of using mechanical equipment in terms of logistics and equipment selection?",
+      "evaluation_criteria": "Lists the advantages of mechanical equipment.  Incorrect answers may omit one or more of the listed advantages.",
+      "answer": "All mechanical equipment available on the market is interchangeable, spares are readily available, and prices are very competitive.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "Why is servicing hydraulic fittings generally a longer process than servicing mechanical systems?",
+      "evaluation_criteria": "Explains why hydraulic fitting servicing takes longer.  Incorrect answers may omit key reasons or misstate the number of interfaces/threads.",
+      "answer": "Servicing hydraulic fittings is generally a longer process due to more leak path interfaces, seals to renew (6 against 2), more mechanical threads to inspect (5 against 3), and the pressurization of the hydraulic action.",
+      "difficulty": 7,
+      "category": "reasoning"
+    },
+    {
+      "question": "What are the pressure ratings for mechanical and hydraulic tools used with access fittings?",
+      "evaluation_criteria": "States the pressure ratings for both mechanical and hydraulic tools.  Incorrect answers may reverse the ratings or omit the units.",
+      "answer": "Mechanical tools are rated to 6000psi, while hydraulic tools can be offered at 10,000psi.",
+      "difficulty": 6,
+      "category": "factual"
+    },
+    {
+      "question": "What is the maximum pressure rating for both mechanical and hydraulic access fittings?",
+      "evaluation_criteria": "States the pressure rating for both mechanical and hydraulic access fittings. Incorrect answers may omit the units.",
+      "answer": "Mechanical and hydraulic access fittings can both be rated to 10’000psi and above.",
+      "difficulty": 3,
+      "category": "factual"
+    },
+    {
+      "question": "What are the causes of galling in mechanical fittings?",
+      "evaluation_criteria": "Lists the causes of galling in mechanical fittings.  Incorrect answers may omit one of the causes.",
+      "answer": "Poor material selection and ingress of sand etc.",
+      "difficulty": 4,
+      "category": "factual"
+    }
+  ],
+  "raw_response": "[\n  {\n    \"answer\": \"Mechanical fittings have one potential leak path, while hydraulic systems have five (four locking pins and the plug).\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Counts the number of leak paths for each system type.  Incorrect answers may reverse the numbers or omit the plug.\",\n    \"question\": \"When selecting an access system, how many potential leak paths do mechanical fittings have compared to hydraulic systems?\"\n  },\n  {\n    \"answer\": \"Positive pressure balancing techniques and the Axess ‘Saturn’ coupon holders.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Identifies both techniques used to mitigate galling in mechanical fittings.  Incorrect answers may only list one technique or misname the coupon holder.\",\n    \"question\": \"What techniques can be used to eliminate galling on mechanical fittings?\"\n  },\n  {\n    \"answer\": \"Galling can occur with the four external locking pins on the hydraulic system.\",\n    \"category\": \"factual\",\n    \"difficulty\": 5,\n    \"evaluation_criteria\": \"Identifies the location of galling in hydraulic systems.  Incorrect answers may specify the wrong location or omit the number of pins.\",\n    \"question\": \"Where can galling occur in hydraulic access systems?\"\n  },\n  {\n    \"answer\": \"All mechanical equipment available on the market is interchangeable, spares are readily available, and prices are very competitive.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"Lists the advantages of mechanical equipment.  Incorrect answers may omit one or more of the listed advantages.\",\n    \"question\": \"What are the advantages of using mechanical equipment in terms of logistics and equipment selection?\"\n  },\n  {\n    \"answer\": \"Servicing hydraulic fittings is generally a longer process due to more leak path interfaces, seals to renew (6 against 2), more mechanical threads to inspect (5 against 3), and the pressurization of the hydraulic action.\",\n    \"category\": \"reasoning\",\n    \"difficulty\": 7,\n    \"evaluation_criteria\": \"Explains why hydraulic fitting servicing takes longer.  Incorrect answers may omit key reasons or misstate the number of interfaces/threads.\",\n    \"question\": \"Why is servicing hydraulic fittings generally a longer process than servicing mechanical systems?\"\n  },\n  {\n    \"answer\": \"Mechanical tools are rated to 6000psi, while hydraulic tools can be offered at 10,000psi.\",\n    \"category\": \"factual\",\n    \"difficulty\": 6,\n    \"evaluation_criteria\": \"States the pressure ratings for both mechanical and hydraulic tools.  Incorrect answers may reverse the ratings or omit the units.\",\n    \"question\": \"What are the pressure ratings for mechanical and hydraulic tools used with access fittings?\"\n  },\n  {\n    \"answer\": \"Mechanical and hydraulic access fittings can both be rated to 10’000psi and above.\",\n    \"category\": \"factual\",\n    \"difficulty\": 3,\n    \"evaluation_criteria\": \"States the pressure rating for both mechanical and hydraulic access fittings. Incorrect answers may omit the units.\",\n    \"question\": \"What is the maximum pressure rating for both mechanical and hydraulic access fittings?\"\n  },\n  {\n    \"answer\": \"Poor material selection and ingress of sand etc.\",\n    \"category\": \"factual\",\n    \"difficulty\": 4,\n    \"evaluation_criteria\": \"Lists the causes of galling in mechanical fittings.  Incorrect answers may omit one of the causes.\",\n    \"question\": \"What are the causes of galling in mechanical fittings?\"\n  }\n]",
+  "parameters": {
+    "temperature": 0.35,
+    "max_tokens": 16384,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05
+  }
+}
